@@ -19,13 +19,7 @@
                 </thead>
                 <tbody>                  
                     <row>
-                        <entry><xref href="../topics/reference/api-res-xmen.dita"/></entry>
-                        <entry>internal</entry>
-                        <entry>software developers</entry>
-                        <entry>technical</entry>
-                    </row>
-                    <row valign="top">
-                        <entry><xref href="../topics/reference/api-res-needles.dita"/></entry>
+                        <entry><xref href="../topics/reference/api-my-rest-api.dita"/></entry>
                         <entry>internal</entry>
                         <entry>software developers</entry>
                         <entry>technical</entry>

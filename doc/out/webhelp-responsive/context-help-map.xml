@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
    <appContext helpID="wpr-api-rest-ref-doc" path="wrapper/wpr-api-rest-ref-doc.html"/>
-   <appContext helpID="api-ref-doc" path="topics/reference/api-ref-doc.html"/>
+   <appContext helpID="my-rest-api" path="topics/reference/api-my-rest-api.html"/>
    <appContext helpID="api-ref-doc-authentication"
                path="topics/reference/api-ref-doc-authentication.html"/>
    <appContext helpID="api-res-xmen" path="topics/reference/api-res-xmen.html"/>
@@ -11,8 +11,8 @@
                path="topics/reference/api-res-xmen.html#api-res-xmen-parameters"/>
    <appContext helpID="api-res-xmen-properties"
                path="topics/reference/api-res-xmen.html#api-res-xmen-properties"/>
-   <appContext helpID="unique_1376375140"
-               path="topics/reference/api-res-xmen.html#unique_1376375140"/>
+   <appContext helpID="unique_1130309779"
+               path="topics/reference/api-res-xmen.html#unique_1130309779"/>
    <appContext helpID="api-res-xmen-response"
                path="topics/reference/api-res-xmen.html#api-res-xmen-response"/>
    <appContext helpID="api-res-needles" path="topics/reference/api-res-needles.html"/>
@@ -20,27 +20,14 @@
                path="topics/reference/api-res-needles.html#api-res-uri"/>
    <appContext helpID="api-res-needles-properties"
                path="topics/reference/api-res-needles.html#api-res-needles-properties"/>
-   <appContext helpID="unique_1622311190"
-               path="topics/reference/api-res-needles.html#unique_1622311190"/>
+   <appContext helpID="unique_1336845071"
+               path="topics/reference/api-res-needles.html#unique_1336845071"/>
    <appContext helpID="api-res-needles-post"
                path="topics/reference/api-res-needles.html#api-res-needles-post"/>
-   <appContext helpID="unique_1503832111"
-               path="topics/reference/api-res-needles.html#unique_1503832111"/>
-   <appContext helpID="unique_723365479"
-               path="topics/reference/api-res-needles.html#unique_723365479"/>
+   <appContext helpID="unique_647036980"
+               path="topics/reference/api-res-needles.html#unique_647036980"/>
+   <appContext helpID="unique_915164297"
+               path="topics/reference/api-res-needles.html#unique_915164297"/>
    <appContext helpID="api-error-responses"
                path="topics/reference/api-error-responses.html"/>
-   <appContext helpID="wpr-chg-mgt-processes" path="wrapper/process-doc.html"/>
-   <appContext helpID="wpr-change-mgt" path="wrapper/wpr-change-mgt.html"/>
-   <appContext helpID="participants" path="wrapper/wpr-change-mgt.html#participants"/>
-   <appContext helpID="roadmap-meetings"
-               path="wrapper/wpr-change-mgt.html#roadmap-meetings"/>
-   <appContext helpID="chg-mgt-partner-onboarding-proc"
-               path="topics/process/chg-mgt-partner-onboarding-intro.html"/>
-   <appContext helpID="chg-mgt-partner-onboarding-process-confirm-reqs"
-               path="topics/process/chg-mgt-partner-onboarding-intro.html#chg-mgt-partner-onboarding-process-confirm-reqs"/>
-   <appContext helpID="chg-mgt-partner-onboarding-proc-sys-init"
-               path="topics/process/chg-mgt-partner-onboarding-intro.html#chg-mgt-partner-onboarding-proc-sys-init"/>
-   <appContext helpID="unique_535029575"
-               path="topics/process/chg-mgt-partner-onboarding-intro.html#unique_535029575"/>
 </map>
