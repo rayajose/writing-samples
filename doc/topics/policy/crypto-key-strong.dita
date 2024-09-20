@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="wpr-encryption">
+    <title>Encryption</title>
+    <body>
+        <p><b>PCI-DSS-V4-3.7.1</b> Key-management policies and procedures are implemented to include
+            generation of strong cryptographic keys used to protect stored account data.</p>
+        <note type="important">Cryptographic keys are classified as SECRET data and must be treated
+            as such.</note>
+        <section>
+            <title>Algorithm</title>
+            <p>Data is encrypted using the AES algorithm and 256-bit keys.</p>
+            <p>Encryption is implemented using a two-tiered architecture. In order to mitigate the
+                risk of any single key becoming lost, broken, or substituted, the system maintains a
+                list of twenty-five, separate keys. </p>
+            <p>Data is encrypted using a random key from the list and is subsequently stored in the
+                database. </p>
+            <p>Microsoft's <codeph>RandomNumberGenerator</codeph> is used to generate random key
+                data.</p>
+        </section>
+    </body>
+</topic>

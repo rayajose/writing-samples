@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="pci-dss-ref">
+    <title>PCI-DSS-V4 Ref</title>
+    <body>
+        <section>
+            <title>3.7 Where cryptography is used to protect stored account data, key
+                management processes and procedures covering all aspects of the key
+                lifecycle are defined and implemented.</title>
+            
+        </section>
+        <table frame="all">
+            <tgroup cols="2">
+                <colspec colnum="1" colname="c1" colwidth="1*"/>
+                <colspec colnum="2" colname="c2" colwidth="8.8*"/>
+                <thead>
+                    <row>
+                        <entry>Reference</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><xref href="crypto-key-strong.dita">3.7.1</xref></entry>
+                        <entry>
+                            <p>Key-management policies and procedures are implemented to include
+                                generation of strong cryptographic keys used to protect stored
+                                account data.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><xref href="crypto-key-secure-distribution.dita">3.7.2</xref></entry>
+                        <entry>
+                            <p>Key-management policies and procedures are implemented to include
+                                secure distribution of cryptographic keys used to protect stored
+                                account data.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>3.7.3</entry>
+                        <entry>
+                            <p>Key-management policies and procedures are implemented to include
+                                secure storage of cryptographic keys used to protect stored account
+                                data.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>3.7.4 </entry>
+                        <entry>
+                            <p>Key management policies and procedures are implemented for
+                                cryptographic key changes for keys that have reached the end of
+                                their cryptoperiod, as defined by the associated application vendor
+                                or key owner, and based on industry best practices and guidelines,
+                                including the following:<ul>
+                                    <li>
+                                        <p>A defined cryptoperiod for each key type in use.</p>
+                                    </li>
+                                    <li>
+                                        <p>A process for key changes at the end of the defined
+                                            cryptoperiod.</p>
+                                    </li>
+                                </ul></p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>3.7.5</entry>
+                        <entry>
+                            <p>Key management policies procedures are implemented to include the
+                                retirement, replacement, or destruction of keys used to protect
+                                stored account data, as deemed necessary when:<ul>
+                                    <li>
+                                        <p>The key has reached the end of its defined
+                                            cryptoperiod.</p>
+                                    </li>
+                                    <li>
+                                        <p>The integrity of the key has been weakened, including
+                                            when personnel with knowledge of a cleartext key
+                                            component leaves the company, or the role for which the
+                                            key component was known.</p>
+                                    </li>
+                                    <li>
+                                        <p>The key is suspected of or known to be compromised.</p>
+                                    </li>
+                                    <li>
+                                        <p>Retired or replaced keys are not used for encryption
+                                            operations.</p>
+                                    </li>
+                                </ul></p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>3.7.6</entry>
+                        <entry>
+                            <p>Where manual cleartext cryptographic key-management operations are
+                                performed by personnel, key-management policies and procedures are
+                                implemented, including managing these operations using split
+                                knowledge and dual control.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>3.7.7</entry>
+                        <entry>
+                            <p>Key management policies and procedures are implemented to include the
+                                prevention of unauthorized substitution of cryptographic keys.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>3.7.8</entry>
+                        <entry>
+                            <p>Key management policies and procedures are implemented to include
+                                that cryptographic key custodians formally acknowledge (in writing
+                                or electronically) that they understand and accept their
+                                key-custodian responsibilities.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>3.7.9</entry>
+                        <entry>
+                            <p>Additional requirement for service providers only: Where a service
+                                provider shares cryptographic keys with its customers for
+                                transmission or storage of account data, guidance on secure
+                                transmission, storage and updating of such keys is documented and
+                                distributed to the service provider’s customers.</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>

@@ -5,21 +5,24 @@
 
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
 
-    <topicref href="wrapper/wpr-info-sec.dita">
-        <topicref href="wrapper/wpr-encryption.dita">
-            <topicref href="topics/policy/infosec-encryption-algorithm.dita"/>
-            <topicref href="topics/policy/infosec-encryption-key-lifecycle.dita"/>
-            <topicref href="tasks/infosec-encryption-key-rotation.dita"/>
-            <topicref href="topics/policy/infosec-encryption-key-storage.dita"/>
-            <topicref href="topics/policy/infosec-encryption-unauth-sub.dita"/>
-        </topicref>
-        <topicref href="topics/policy/infosec-threat-model.dita">
-            <topicref href="topics/policy/infosec-threat-obtain-cc-data.dita"/>
-            <topicref href="topics/policy/infosec-threat-fraudelent-transactions.dita"/>
-            <topicref href="topics/policy/infosec-threat-obtain-pii.dita"/>
-            <topicref href="topics/policy/infosec-threat-access-client-network.dita"/>
-            <topicref href="topics/policy/infosec-threat-denial-of-service.dita"/>
+    <topicref href="topics/policy/infosec-policy.dita" chunk="to-content">
+        <!--<topicref href="topics/policy/pci-dss-ref.dita"/>-->
+        <topicref href="topics/policy/crypto-key-management.dita">
+            <topicref href="topics/policy/crypto-key-strong.dita"/>
+            <topicref href="topics/policy/crypto-key-secure-distribution.dita"/>
+            <!--<topicref href="topics/policy/crypto-key-change-scenarios.dita"/>
+            <topicref href="tasks/crypto-key-rotation.dita"/>
+            <topicref href="topics/policy/crypto-key-storage.dita"/>
+            <topicref href="topics/policy/crypto-key-unauth-sub.dita"/>-->
         </topicref>
     </topicref>
+
+    <!--<topicref href="topics/policy/threat-model.dita">
+            <topicref href="topics/policy/threat-model-obtain-cc-data.dita"/>
+            <topicref href="topics/policy/threat-model-fraudelent-transactions.dita"/>
+            <topicref href="topics/policy/threat-model-obtain-pii.dita"/>
+            <topicref href="topics/policy/threat-model-access-client-network.dita"/>
+            <topicref href="topics/policy/threat-model-denial-of-service.dita"/>
+        </topicref>-->
 
 </map>

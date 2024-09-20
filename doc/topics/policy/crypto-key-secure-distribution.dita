@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="crypto_key_secure_distribution">
+    <title>Secure Key Distribution</title>
+    <body>
+        <p><b>PCI-DSS-V4-3.7.2</b> Key-management policies and procedures are implemented to include
+            secure distribution of cryptographic keys used to protect stored account data.</p>
+
+        <section>
+            <title>Access</title>
+            <note> The Data Encryption Key (DEK) is used to encrypt the data. The Key Encryption Key
+                (KEK) is used to encrypt the DEK. </note>
+            <ul>
+                <li>DEKs must be encrypted with KEKs.</li>
+                <li>Key operations require membership in the ActiveDirectory (AD)
+                        <b>key_custodian</b> security group. </li>
+                <li>Key custodians are required to formally acknowledge that they understand and
+                    accept their responsibilities.</li>
+                <li>Key validation requires AD generated certificates.</li>
+            </ul>
+        </section>
+
+        <section>
+            <title>Storage</title>
+            <ul>
+                <li>Keys are not stored with the data they encrypt.  </li>
+                <li>Key Encryption Keys (KEKs) are stored in the encrypting machines. </li>
+                <li>Data Encryption Keys (DEKs) are stored in Hashicorp Vault. The vault is also
+                    encrypted and locked down through AD account restrictions. </li>
+                <li>Only one key data store per environment. </li>
+            </ul>
+        </section>
+
+    </body>
+</topic>

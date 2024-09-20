@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="infosec-policy">
+    <title>Information Security</title>
+    <body>
+        <!--<table frame="all">
+            <tgroup cols="2">
+                <tbody>
+                    <row>
+                        <entry><b>Version</b></entry>
+                        <entry>1.0</entry>
+                    </row>
+                    <row>
+                        <entry><b>Date</b></entry>
+                        <entry>January 1, 2024</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <section>
+            <title>Change History</title>
+            <table frame="all">
+                <tgroup cols="2">
+                    <tbody>
+                        <row>
+                            <entry><b>Date</b></entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry><b>Changes</b></entry>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>-->
+    </body>
+</topic>

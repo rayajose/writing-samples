@@ -1,71 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>wrapper/wpr-api-rest-ref-doc.html</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
+      <loc>topics/policy/infosec-policy.html</loc>
+      <lastmod>2024-09-20T08:10:54Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
+      <loc>topics/policy/infosec-policy.html#wpr-encryption</loc>
+      <lastmod>2024-09-20T08:10:54Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-ref-doc-authentication.html</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
+      <loc>topics/policy/infosec-policy.html#unique_1260911687</loc>
+      <lastmod>2024-09-20T08:10:54Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-xmen.html</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-res-xmen.html#api-res-uri</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-res-xmen.html#api-res-xmen-parameters</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-res-xmen.html#api-res-xmen-properties</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-res-xmen.html#unique_1130309779</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-res-xmen.html#api-res-xmen-response</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-res-needles.html</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-res-uri_2.html</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-res-needles.html#api-res-needles-properties</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-res-needles.html#unique_1336845071</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-res-needles.html#api-res-needles-post</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-res-needles.html#unique_647036980</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-res-needles.html#unique_915164297</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/api-error-responses.html</loc>
-      <lastmod>2024-09-20T12:34:50Z</lastmod>
+      <loc>topics/policy/infosec-policy.html#crypto_key_secure_distribution</loc>
+      <lastmod>2024-09-20T08:10:54Z</lastmod>
    </url>
 </urlset>

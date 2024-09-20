@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="wpr-api-rest-ref-doc" path="wrapper/wpr-api-rest-ref-doc.html"/>
-   <appContext helpID="my-rest-api" path="topics/reference/api-my-rest-api.html"/>
-   <appContext helpID="api-ref-doc-authentication"
-               path="topics/reference/api-ref-doc-authentication.html"/>
-   <appContext helpID="api-res-xmen" path="topics/reference/api-res-xmen.html"/>
-   <appContext helpID="api-res-uri"
-               path="topics/reference/api-res-xmen.html#api-res-uri"/>
-   <appContext helpID="api-res-xmen-parameters"
-               path="topics/reference/api-res-xmen.html#api-res-xmen-parameters"/>
-   <appContext helpID="api-res-xmen-properties"
-               path="topics/reference/api-res-xmen.html#api-res-xmen-properties"/>
-   <appContext helpID="unique_1130309779"
-               path="topics/reference/api-res-xmen.html#unique_1130309779"/>
-   <appContext helpID="api-res-xmen-response"
-               path="topics/reference/api-res-xmen.html#api-res-xmen-response"/>
-   <appContext helpID="api-res-needles" path="topics/reference/api-res-needles.html"/>
-   <appContext helpID="api-res-uri"
-               path="topics/reference/api-res-needles.html#api-res-uri"/>
-   <appContext helpID="api-res-needles-properties"
-               path="topics/reference/api-res-needles.html#api-res-needles-properties"/>
-   <appContext helpID="unique_1336845071"
-               path="topics/reference/api-res-needles.html#unique_1336845071"/>
-   <appContext helpID="api-res-needles-post"
-               path="topics/reference/api-res-needles.html#api-res-needles-post"/>
-   <appContext helpID="unique_647036980"
-               path="topics/reference/api-res-needles.html#unique_647036980"/>
-   <appContext helpID="unique_915164297"
-               path="topics/reference/api-res-needles.html#unique_915164297"/>
-   <appContext helpID="api-error-responses"
-               path="topics/reference/api-error-responses.html"/>
+   <appContext helpID="infosec-policy" path="topics/policy/infosec-policy.html"/>
+   <appContext helpID="wpr-encryption"
+               path="topics/policy/infosec-policy.html#wpr-encryption"/>
+   <appContext helpID="unique_1260911687"
+               path="topics/policy/infosec-policy.html#unique_1260911687"/>
+   <appContext helpID="crypto_key_secure_distribution"
+               path="topics/policy/infosec-policy.html#crypto_key_secure_distribution"/>
 </map>

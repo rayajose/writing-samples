@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="crypto-key-rotation-process">
+    <title>Key Rotation</title>
+    <shortdesc>This task describes the process for rotating cryptographic keys to ensure security
+        and compliance with Company policies.</shortdesc>
+    <taskbody>
+        <context>
+            <note type="important">Rotation requires split knowledge for creating new keys. The
+                process will require 2 members of the <i>key_custodian</i> security group.</note>
+            <p>Keys are generated with a maximum lifetime of 5 years. However, 5 of the 25 are
+                replaced every six months making their active lifespan roughly 2.5 years. Keys are
+                rotated as follows:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Identify the 5 oldest keys in the set for rotation.</cmd>
+            </step>
+            <step>
+                <cmd>Using the <b>Company Encryption Tool</b>, create 5 new keys.</cmd>
+            </step>
+            <step>
+                <cmd>Update systems to use new keys.</cmd>
+            </step>
+            <step>
+                <cmd>Replace old keys with the newly generated keys in all systems that use
+                    them.</cmd>
+                <info>
+                    <p>Update key configurations in:</p>
+                    <ul>
+                        <li>Encryption libraries</li>
+                        <li>Database encryption settings</li>
+                        <li>SSL/TLS certificate stores</li>
+                        <li>API gateways</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Re-key the data encrypted by the disabled keys.</cmd>
+            </step>
+            <step>
+                <cmd>Ensure that encryption, decryption, and secure communication is as expected
+                    with the new keys.</cmd>
+            </step>
+            <step>
+                <cmd>Disable the oldest 5 keys.</cmd>
+            </step>
+            <step>
+                <cmd>Maintain disabled keys in a <i>decrypt-only</i> state for three and half
+                    years.</cmd>
+            </step>
+            <step>
+                <cmd>Remove the oldest 5 keys from the pool.</cmd>
+            </step>
+            <step>
+                <cmd>Update the key management record on the Company wiki. For each key created and
+                    disabled, the record should include the following:</cmd>
+                <info><ul>
+                        <li>ID</li>
+                        <li>name of the database where it is used</li>
+                        <li>names of custodians who created them</li>
+                        <li>date of rotation</li>
+                    </ul></info>
+            </step>
+            <step>
+                <cmd>Notify <ph conkeyref="gen/dev-lead"/> of the key update.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+
+</task>
