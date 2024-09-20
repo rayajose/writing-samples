@@ -2,10 +2,12 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="crypto-key-rotation-process">
     <title>Key Rotation</title>
-    <shortdesc>This task describes the process for rotating cryptographic keys to ensure security
-        and compliance with Company policies.</shortdesc>
+    <abstract><cite>PCI-DSS-V4-3.7.4, PCI-DSS-V4-3.7.5
+    </cite></abstract>
     <taskbody>
         <context>
+            <p>This task describes the process for rotating cryptographic keys to ensure security
+                and compliance with Company policies.</p>
             <note type="important">Rotation requires split knowledge for creating new keys. The
                 process will require 2 members of the <i>key_custodian</i> security group.</note>
             <p>Keys are generated with a maximum lifetime of 5 years. However, 5 of the 25 are
@@ -17,7 +19,7 @@
                 <cmd>Identify the 5 oldest keys in the set for rotation.</cmd>
             </step>
             <step>
-                <cmd>Using the <b>Company Encryption Tool</b>, create 5 new keys.</cmd>
+                <cmd>Using the <b>Encryption Tool</b>, create 5 new keys.</cmd>
             </step>
             <step>
                 <cmd>Update systems to use new keys.</cmd>

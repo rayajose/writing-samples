@@ -2,7 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="pci-dss-ref">
     <title>PCI-DSS-V4 Ref</title>
-    <body>
+        <body>
         <section>
             <title>3.7 Where cryptography is used to protect stored account data, key
                 management processes and procedures covering all aspects of the key
@@ -37,7 +37,7 @@
                         </entry>
                     </row>
                     <row>
-                        <entry>3.7.3</entry>
+                        <entry>3.7.3 - DONE</entry>
                         <entry>
                             <p>Key-management policies and procedures are implemented to include
                                 secure storage of cryptographic keys used to protect stored account
@@ -45,7 +45,7 @@
                         </entry>
                     </row>
                     <row>
-                        <entry>3.7.4 </entry>
+                        <entry>3.7.4 - DONE</entry>
                         <entry>
                             <p>Key management policies and procedures are implemented for
                                 cryptographic key changes for keys that have reached the end of
@@ -63,7 +63,7 @@
                         </entry>
                     </row>
                     <row>
-                        <entry>3.7.5</entry>
+                        <entry>3.7.5 - DONE</entry>
                         <entry>
                             <p>Key management policies procedures are implemented to include the
                                 retirement, replacement, or destruction of keys used to protect

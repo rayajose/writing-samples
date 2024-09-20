@@ -1,17 +1,17 @@
 <!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-whc_version="26.1">
-    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="Version 1.0 Date January 1, 2024 Change History Date Changes PCI-DSS-V4-3.7.1 Key-management policies and procedures are implemented to include generation of strong cryptographic keys used to protect ..."/><meta name="DC.rights.owner" content="(C) Copyright 2024"/><meta name="copyright" content="(C) Copyright 2024"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="dita"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="infosec-policy"/><title>Information Security</title><!--  Generated with Oxygen version 26.1, build number 2024072909.  --><meta name="wh-path2root" content="../../"/><meta name="wh-toc-id" content="infosec-policy-d166e20"/><meta name="wh-source-relpath" content="topics/policy/infosec-policy.dita"/><meta name="wh-out-relpath" content="topics/policy/infosec-policy.html"/>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content=""/><meta name="DC.rights.owner" content="(C) Copyright 2024"/><meta name="copyright" content="(C) Copyright 2024"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="topic"/><meta name="DC.relation" content="../../topics/policy/crypto-key-management.html"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="infosec-policy"/><title>Information Security</title><!--  Generated with Oxygen version 26.1, build number 2024072909.  --><meta name="wh-path2root" content="../../"/><meta name="wh-toc-id" content="infosec-policy-d196e20"/><meta name="wh-source-relpath" content="topics/policy/infosec-policy.dita"/><meta name="wh-out-relpath" content="topics/policy/infosec-policy.html"/>
 
     <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/commons.css?buildId=2024072909"/>
     <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic.css?buildId=2024072909"/>
 
-    <script src="../../oxygen-webhelp/app/options/properties.js?buildId=20240920161045"></script>
+    <script src="../../oxygen-webhelp/app/options/properties.js?buildId=20240920170939"></script>
     <script src="../../oxygen-webhelp/app/localization/strings.js?buildId=2024072909"></script>
-    <script src="../../oxygen-webhelp/app/search/index/keywords.js?buildId=20240920161045"></script>
+    <script src="../../oxygen-webhelp/app/search/index/keywords.js?buildId=20240920170939"></script>
     <script defer="defer" src="../../oxygen-webhelp/app/commons.js?buildId=2024072909"></script>
     <script defer="defer" src="../../oxygen-webhelp/app/topic.js?buildId=2024072909"></script>
 <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/oxygen.css?buildId=2024072909"/><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/notes.css?buildId=2024072909"/></head>
 
-    <body class="wh_topic_page frmBody">
+    <body id="infosec-policy" class="wh_topic_page frmBody">
         <a href="#wh_topic_body" class="sr-only sr-only-focusable">
             Jump to main content
         </a>
@@ -37,7 +37,7 @@
 
             <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
                 
-                <nav class=" wh_top_menu " aria-label="Menu Container"><ul role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="infosec-policy-d166e20-mi" data-tocid="infosec-policy-d166e20" data-state="not-ready" class=" topicref " data-id="infosec-policy"><span class="title"><a href="../../topics/policy/infosec-policy.html">Information Security</a></span></span></li></ul></nav>
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="infosec-policy-d196e20-mi" data-tocid="infosec-policy-d196e20" data-state="not-ready" class=" topicref " data-id="infosec-policy"><span class="title"><a href="../../topics/policy/infosec-policy.html">Information Security</a></span></span></li></ul></nav>
                 
                 
             </div>
@@ -76,7 +76,9 @@
                         
                         <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
                         
-                        
+                        <button type="button" id="wh_toc_button" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                     </div>
                     
                 </nav>
@@ -88,99 +90,29 @@
             <div class="wh_content_area">
                 <div class="row">
                     
+                        <nav id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-12 d-md-block d-none d-print-none" aria-label="Table of Contents Container">
+                            <div id="wh_publication_toc_content">
+		                        
+                            	<div class=" wh_publication_toc " data-tooltip-position="right"><span class="expand-button-action-labels"><span id="button-expand-action" role="button" aria-label="Expand"></span><span id="button-collapse-action" role="button" aria-label="Collapse"></span><span id="button-pending-action" role="button" aria-label="Pending"></span></span><ul role="tree" aria-label="Table of Contents"><li role="treeitem" aria-expanded="true" class="active"><div data-tocid="infosec-policy-d196e20" class="topicref" data-id="infosec-policy" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action infosec-policy-d196e20-link" class="wh-expand-btn"></span><div class="title"><a href="../../topics/policy/infosec-policy.html" id="infosec-policy-d196e20-link">Information Security</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" aria-expanded="false"><div data-tocid="wpr-encryption-d196e28" class="topicref" data-id="wpr-encryption" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action wpr-encryption-d196e28-link" class="wh-expand-btn"></span><div class="title"><a href="../../topics/policy/crypto-key-management.html" id="wpr-encryption-d196e28-link">Cryptographic Key Management</a></div></div></li></ul></li></ul></div>
+		                        
+                            </div>
+                        </nav>
                     
-                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12" id="wh_topic_body">
-                        
-                        <button id="wh_close_topic_toc_button" class="close-toc-button d-none" aria-label="Toggle topic table of content" aria-controls="wh_topic_toc" aria-expanded="true">
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <button id="wh_close_publication_toc_button" class="close-toc-button d-none" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc" aria-expanded="true">
                             <span class="close-toc-icon-container">
                                 <span class="close-toc-icon"></span>     
                             </span>
                         </button>
                         
-                        <div class=" wh_topic_content body "><main role="main"><article class="" role="article" aria-labelledby="ariaid-title1"><article class="nested0" aria-labelledby="ariaid-title1" id="infosec-policy">
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article class="- topic/topic topic" role="article" aria-labelledby="ariaid-title1">
     <h1 class="- topic/title title topictitle1" id="ariaid-title1">Information Security</h1>
     <div class="- topic/body body">
-        <div class="table-container"><table class="- topic/table table frame-all" data-cols="2"><caption></caption><colgroup><col/><col/></colgroup><tbody class="- topic/tbody tbody">
-                    <tr class="- topic/row">
-                        <td class="- topic/entry entry colsep-0 rowsep-0"><strong class="+ topic/ph hi-d/b ph b">Version</strong></td>
-                        <td class="- topic/entry entry colsep-0 rowsep-0">1.0</td>
-                    </tr>
-                    <tr class="- topic/row">
-                        <td class="- topic/entry entry colsep-0 rowsep-0"><strong class="+ topic/ph hi-d/b ph b">Date</strong></td>
-                        <td class="- topic/entry entry colsep-0 rowsep-0">January 1, 2024</td>
-                    </tr>
-                </tbody></table></div>
-        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Change History</h2>
-            
-            <div class="table-container"><table class="- topic/table table frame-all" data-cols="2"><caption></caption><colgroup><col/><col/></colgroup><tbody class="- topic/tbody tbody">
-                        <tr class="- topic/row">
-                            <td class="- topic/entry entry colsep-0 rowsep-0"><strong class="+ topic/ph hi-d/b ph b">Date</strong></td>
-                            <td class="- topic/entry entry colsep-0 rowsep-0"></td>
-                        </tr>
-                        <tr class="- topic/row">
-                            <td class="- topic/entry entry colsep-0 rowsep-0"><strong class="+ topic/ph hi-d/b ph b">Changes</strong></td>
-                            <td class="- topic/entry entry colsep-0 rowsep-0"></td>
-                        </tr>
-                    </tbody></table></div>
-        </section>
+        
     </div>
-<article class="- topic/topic topic nested1" aria-labelledby="ariaid-title2" id="wpr-encryption">
-    <h2 class="- topic/title title topictitle2" id="ariaid-title2">Cryptographic Key Management</h2>
-    <div class="- topic/body body">
- 
-    </div>
-<article class="- topic/topic topic nested2" aria-labelledby="ariaid-title3" id="unique_1260911687">
-    <h3 class="- topic/title title topictitle3" id="ariaid-title3">Encryption</h3>
-    <div class="- topic/body body">
-        <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">PCI-DSS-V4-3.7.1</strong> Key-management policies and procedures are implemented to include
-            generation of strong cryptographic keys used to protect stored account data.</p>
-        <div class="- topic/note note important note_important"><span class="note__title">Important:</span> Cryptographic keys are classified as SECRET data and must be treated
-            as such.</div>
-        <section class="- topic/section section"><h4 class="- topic/title title sectiontitle">Algorithm</h4>
-            
-            <p class="- topic/p p">Data is encrypted using the AES algorithm and 256-bit keys.</p>
-            <p class="- topic/p p">Encryption is implemented using a two-tiered architecture. In order to mitigate the
-                risk of any single key becoming lost, broken, or substituted, the system maintains a
-                list of twenty-five, separate keys. </p>
-            <p class="- topic/p p">Data is encrypted using a random key from the list and is subsequently stored in the
-                database. </p>
-            <p class="- topic/p p">Microsoft's <code class="+ topic/ph pr-d/codeph ph codeph">RandomNumberGenerator</code> is used to generate random key
-                data.</p>
-        </section>
-    </div>
-</article><article class="- topic/topic topic nested2" aria-labelledby="ariaid-title4" id="crypto_key_secure_distribution">
-    <h3 class="- topic/title title topictitle3" id="ariaid-title4">Secure Key Distribution</h3>
-    <div class="- topic/body body">
-        <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">PCI-DSS-V4-3.7.2</strong> Key-management policies and procedures are implemented to include
-            secure distribution of cryptographic keys used to protect stored account data.</p>
-
-        <section class="- topic/section section"><h4 class="- topic/title title sectiontitle">Access</h4>
-            
-            <div class="- topic/note note note note_note"><span class="note__title">Note:</span>  The Data Encryption Key (DEK) is used to encrypt the data. The Key Encryption Key
-                (KEK) is used to encrypt the DEK. </div>
-            <ul class="- topic/ul ul">
-                <li class="- topic/li li">DEKs must be encrypted with KEKs.</li>
-                <li class="- topic/li li">Key operations require membership in the ActiveDirectory (AD)
-                        <strong class="+ topic/ph hi-d/b ph b">key_custodian</strong> security group. </li>
-                <li class="- topic/li li">Key custodians are required to formally acknowledge that they understand and
-                    accept their responsibilities.</li>
-                <li class="- topic/li li">Key validation requires AD generated certificates.</li>
-            </ul>
-        </section>
-
-        <section class="- topic/section section"><h4 class="- topic/title title sectiontitle">Storage</h4>
-            
-            <ul class="- topic/ul ul">
-                <li class="- topic/li li">Keys are not stored with the data they encrypt.  </li>
-                <li class="- topic/li li">Key Encryption Keys (KEKs) are stored in the encrypting machines. </li>
-                <li class="- topic/li li">Data Encryption Keys (DEKs) are stored in Hashicorp Vault. The vault is also
-                    encrypted and locked down through AD account restrictions. </li>
-                <li class="- topic/li li">Only one key data store per environment. </li>
-            </ul>
-        </section>
-
-    </div>
-</article></article></article></article></main></div>
+</article></main></div>
                         
                         
                         
@@ -188,14 +120,6 @@
                         
                         
                     </div>
-                    
-                        <nav role="navigation" id="wh_topic_toc" aria-label="On this page" class="col-lg-2 d-none d-lg-block navbar d-print-none"> 
-                            <div id="wh_topic_toc_content">
-		                        
-	                            <div class=" wh_topic_toc "><div class="wh_topic_label">On this page</div><ul><li class="topic-item"><a href="#wpr-encryption" data-tocid="wpr-encryption">Cryptographic Key Management</a><ul><li class="topic-item"><a href="#unique_1260911687" data-tocid="unique_1260911687">Encryption</a></li><li class="topic-item"><a href="#crypto_key_secure_distribution" data-tocid="crypto_key_secure_distribution">Secure Key Distribution</a></li></ul></li></ul></div>
-	                        	
-                        	</div>
-                        </nav>
                     
                 </div>
             </div>

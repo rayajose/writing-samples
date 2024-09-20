@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="wpr-encryption">
-    <title>Encryption</title>
+    <title>Strong Encryption</title>
+    <abstract><cite>PCI-DSS-V4-3.7.1</cite></abstract>
     <body>
-        <p><b>PCI-DSS-V4-3.7.1</b> Key-management policies and procedures are implemented to include
-            generation of strong cryptographic keys used to protect stored account data.</p>
         <note type="important">Cryptographic keys are classified as SECRET data and must be treated
             as such.</note>
         <section>

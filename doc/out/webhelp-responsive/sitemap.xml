@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>topics/policy/infosec-policy.html</loc>
-      <lastmod>2024-09-20T08:10:54Z</lastmod>
+      <lastmod>2024-09-20T09:10:01Z</lastmod>
    </url>
    <url>
-      <loc>topics/policy/infosec-policy.html#wpr-encryption</loc>
-      <lastmod>2024-09-20T08:10:54Z</lastmod>
+      <loc>topics/policy/crypto-key-management.html</loc>
+      <lastmod>2024-09-20T09:10:01Z</lastmod>
    </url>
    <url>
-      <loc>topics/policy/infosec-policy.html#unique_1260911687</loc>
-      <lastmod>2024-09-20T08:10:54Z</lastmod>
+      <loc>topics/policy/crypto-key-strong.html</loc>
+      <lastmod>2024-09-20T09:10:01Z</lastmod>
    </url>
    <url>
-      <loc>topics/policy/infosec-policy.html#crypto_key_secure_distribution</loc>
-      <lastmod>2024-09-20T08:10:54Z</lastmod>
+      <loc>topics/policy/crypto-key-secure-distribution.html</loc>
+      <lastmod>2024-09-20T09:10:01Z</lastmod>
+   </url>
+   <url>
+      <loc>tasks/crypto-key-rotation.html</loc>
+      <lastmod>2024-09-20T09:10:01Z</lastmod>
    </url>
 </urlset>

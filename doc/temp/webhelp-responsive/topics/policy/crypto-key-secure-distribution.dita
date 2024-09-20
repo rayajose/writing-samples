@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\pdidd\Git\writing-samples\doc\temp\webhelp-responsive\topics\policy?><?workdir-uri file:/C:/Users/pdidd/Git/writing-samples/doc/temp/webhelp-responsive/topics/policy/?><?path2project ..\..\?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="crypto_key_secure_distribution" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="topic:1;3:44" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="title:1;4:12">Secure Key Distribution</title>
+    <abstract class="- topic/abstract " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="abstract:1;5:15"><cite class="- topic/cite " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="cite:1;5:21">PCI-DSS-V4-3.7.2</cite></abstract>
+    <body class="- topic/body " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="body:1;6:11">
+        <section class="- topic/section " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="section:1;7:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="title:2;8:20">Access</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="p:1;9:16"> The Data Encryption Key (DEK) is used to encrypt the data. The Key Encryption Key
+                (KEK) is used to encrypt the DEK. </p>
+            <ul class="- topic/ul " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="ul:1;11:17">
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="li:1;12:21">DEKs must be encrypted with KEKs.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="li:2;13:21">Key operations require membership in the ActiveDirectory (AD)
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="b:1;14:28">key_custodian</b> security group. </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="li:3;15:21">Key custodians are required to formally acknowledge that they understand and
+                    accept their responsibilities.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="li:4;17:21">Key validation requires AD generated certificates.</li>
+            </ul>
+        </section>
+
+        <section class="- topic/section " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="section:2;21:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="title:3;22:20">Storage</title>
+            <cite class="- topic/cite " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="cite:2;23:19">PCI-DSS-V4-3.7.3</cite>
+            <ul class="- topic/ul " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="ul:2;24:17">
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="li:5;25:21">Keys are not stored with the data they encrypt. </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="li:6;26:21">Key Encryption Keys (KEKs) are stored in the encrypting machines. </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="li:7;27:21">Data Encryption Keys (DEKs) are stored in Hashicorp Vault. The vault is also
+                    encrypted and locked down through AD account restrictions. </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-secure-distribution.dita" xtrc="li:8;29:21">Only one key data store per environment. </li>
+            </ul>
+        </section>
+
+    </body>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool " xtrc="topicref:4;12:81" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-pol.ditamap"><link class="- topic/link " format="dita" href="../../topics/policy/crypto-key-management.dita" mapclass="- map/topicref " role="parent" scope="local" type="topic" xtrc="topicref:2;10:67" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-pol.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Cryptographic Key Management</linktext></link></linkpool></related-links></topic>

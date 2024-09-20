@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
    <appContext helpID="infosec-policy" path="topics/policy/infosec-policy.html"/>
-   <appContext helpID="wpr-encryption"
-               path="topics/policy/infosec-policy.html#wpr-encryption"/>
-   <appContext helpID="unique_1260911687"
-               path="topics/policy/infosec-policy.html#unique_1260911687"/>
+   <appContext helpID="wpr-encryption" path="topics/policy/crypto-key-management.html"/>
+   <appContext helpID="wpr-encryption" path="topics/policy/crypto-key-strong.html"/>
    <appContext helpID="crypto_key_secure_distribution"
-               path="topics/policy/infosec-policy.html#crypto_key_secure_distribution"/>
+               path="topics/policy/crypto-key-secure-distribution.html"/>
+   <appContext helpID="crypto-key-rotation-process"
+               path="tasks/crypto-key-rotation.html"/>
 </map>

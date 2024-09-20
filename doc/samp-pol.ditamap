@@ -5,15 +5,12 @@
 
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
 
-    <topicref href="topics/policy/infosec-policy.dita" chunk="to-content">
+    <topicref href="topics/policy/infosec-policy.dita">
         <!--<topicref href="topics/policy/pci-dss-ref.dita"/>-->
         <topicref href="topics/policy/crypto-key-management.dita">
             <topicref href="topics/policy/crypto-key-strong.dita"/>
             <topicref href="topics/policy/crypto-key-secure-distribution.dita"/>
-            <!--<topicref href="topics/policy/crypto-key-change-scenarios.dita"/>
             <topicref href="tasks/crypto-key-rotation.dita"/>
-            <topicref href="topics/policy/crypto-key-storage.dita"/>
-            <topicref href="topics/policy/crypto-key-unauth-sub.dita"/>-->
         </topicref>
     </topicref>
 
