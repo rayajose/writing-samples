@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="denial-of-service">
+    <title>Access to Client Network</title>
+    <body>
+        <p>Attackers may seek fame or to damage AMEX's brand by defacing or denying access to the Shopping platform.</p>
+        <section>
+            <title><ph conref="../reuse/reuse-content.dita#reuse-content/attack-vectors"/></title>
+            <p><i>In order of risk: </i></p>
+            <ol>
+                <li>Compromise of Shop application (ability to write or delete on the webserver for
+                    defacing) </li>
+                <li>Flooding of network traffic </li>
+            </ol>
+        </section>
+        <section>
+            <title><ph conref="../reuse/reuse-content.dita#reuse-content/counter-measures"/></title>
+            <p>Overall, risk of card data loss is significantly reduced as card data is destroyed after
+            two weeks - only the last four digits remain. </p>
+        <ol>
+            <li>Application functionality, testing, frequent framework patching. </li>
+            <li>Software WAF (MOD Security) implemented to mitigate some intrusion attempts. Third
+                party DDoS protection may be needed: CloudFlare and/or Global Load balancing. </li>
+        </ol>
+        </section>       
+    </body>
+</topic>

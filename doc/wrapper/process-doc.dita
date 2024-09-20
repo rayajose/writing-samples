@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="wpr-chg-mgt-processes">
+    <title>Process Documentation</title>
+    <body>
+        <table frame="all">
+            <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="1.96*" align="left"/>
+                <colspec colname="newCol2" colnum="2" colwidth="1*" align="left"/>
+                <colspec colname="c2" colnum="3" colwidth="1.47*" align="left"/>
+                <colspec colname="c3" colnum="4" colwidth="1.47*" align="left"/>
+                <thead>
+                    <row valign="top">
+                        <entry>Document</entry>
+                        <entry>Use</entry>
+                        <entry>Audience</entry>
+                        <entry>Expertise</entry>
+                    </row>
+                </thead>
+                <tbody>                  
+                    <row>
+                        <entry><xref href="wpr-change-mgt.dita"/></entry>
+                        <entry>internal</entry>
+                        <entry>company employees</entry>
+                        <entry>semi-technical</entry>
+                    </row>
+                    <row valign="top">
+                        <entry><xref href="../topics/process/chg-mgt-partner-onboarding-intro.dita"/></entry>
+                        <entry>internal</entry>
+                        <entry>company employees</entry>
+                        <entry>semi-technical</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body> 
+</topic>

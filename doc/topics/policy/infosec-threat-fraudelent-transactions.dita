@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="fraudelent-transactions">
+    <title>Ability to Make Fraudulent Transactions </title>
+    <body>
+        <p>As a web application that purports to be able to sell merchandise, attackers may
+            attempt to place transactions without burning points, by burning other users'
+            points, or burning points they do not have. </p>
+        <section>
+            <title><ph conref="../reuse/reuse-content.dita#reuse-content/attack-vectors"/></title>
+            <p><i>In order of risk: </i></p>
+            <ol>
+                <li>Application bugs allowing for concurrency in order placement </li>
+                <li>Spoofing MYCA sessions </li>
+                <li>Altering session data to attempt to change point or dollar values at order
+                    placement time </li>
+            </ol>
+        </section>
+        <section>
+            <title><ph conref="../reuse/reuse-content.dita#reuse-content/counter-measures"/></title>
+            <ol>
+                <li>Client-controlled Redemption Processor handles concurrency and controls the
+                    user's points bank </li>
+                <li>Leveraging Client SSO offloads session handling, discrepancies between session
+                    and user data return errors </li>
+                <li>Testing </li>
+            </ol>
+        </section>
+    </body>
+</topic>

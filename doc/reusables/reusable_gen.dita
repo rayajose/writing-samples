@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="reusable_notes">
+    <title>Reusable Components</title>
+    <body>
+        <simpletable frame="all" relcolwidth="1.15* 1.0*">
+            <strow>
+                <stentry><ph id="shop-with-points"><i>Shop with Points</i></ph></stentry>
+                <stentry>program name general</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="shop-with-points-site"><i>Shop with Points site</i></ph></stentry>
+                <stentry>program shopping site name</stentry>
+            </strow>
+            <strow>
+                <stentry/>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><ph id="company">Company</ph></stentry>
+                <stentry>Ekaria</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="client">Client</ph></stentry>
+                <stentry>Amex</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="merchant">partner</ph></stentry>
+                <stentry>merchant</stentry>
+            </strow>
+
+            <strow>
+                <stentry><ph id="pull-req">pull request</ph></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><ph id="ado">ADO</ph></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry/>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><ph id="dev-lead">Development Lead</ph></stentry>
+                <stentry>Andrew</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="test-lead">Test Lead</ph></stentry>
+                <stentry>Ben</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="ops-lead">Operations Lead</ph></stentry>
+                <stentry>Ben</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="engagement-manager">Engagement Manager</ph></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><ph id="project-manager">Program Manager</ph></stentry>
+                <stentry>Ross</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="release-manager">Release Manager</ph></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><ph id="it-director">IT Director</ph></stentry>
+                <stentry>Will</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="marketing-director">Marketing Director</ph></stentry>
+                <stentry>Amber</stentry>
+            </strow>
+            <strow>
+                <stentry/>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><ph id="attack-vectors">Attack Vectors</ph></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><ph id="counter-measures">Counter Measures</ph></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><ph id="resource-base-uri">http://localhost:8080/api/</ph></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><ph id="ecommerce">e-commerce</ph></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><note type="important" id="note-do-to-all-env">Unless instructed otherwise, the code developed for
+                        this work should be completed and deployed to all environments  in the
+                        appropriate sequence: Test, Staging, Production.</note></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><image id="get" href="../images/get.png"/></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><image id="post" href="../images/post.png"/></stentry>
+                <stentry/>
+            </strow>
+        </simpletable>
+    </body>
+</topic>

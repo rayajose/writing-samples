@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="merchant-onboarding">
+    <title>Merchant Partner Integration</title>
+    <taskbody>      
+        <prereq>
+            <note>Merchant partners must have their product data and shopping site reviewed to
+                ensure they meet the minimum requirements to join the program. </note>
+        </prereq>
+        <context>
+           </context>
+        <steps>
+            <step>
+                <cmd><u><ph conkeyref = "gen/engagement-manager"/></u>: Identify and establish communication with the new partner or
+                    affiliate network point(s) of contact.</cmd>
+                <info>
+                    <p>New partners can be identified by the Company, Client or requested through an
+                        affiliate marketing network.</p>
+                </info>
+            </step>
+            <step>
+                <cmd><u>EM</u>: Create the onboarding task tracker in Notion and make accessible to
+                    the team.</cmd>
+                <info> The tracker will contain the complete list of tasks with owner and due dates.
+                    High-level phases of an onboarding project will be completed in Test, Staging,
+                    and Production environments, and include the following:<simpletable frame="all"
+                        relcolwidth="1.0* 1.84*">
+                        <strow>
+                            <stentry>Information Gathering and Research</stentry>
+                            <stentry>
+                                <ul id="ul_ldz_3ks_tcc">
+                                    <li>verify minimum program requirements</li>
+                                    <li>
+                                        <p>collect store contacts, policy information, and art</p>
+                                    </li>
+                                </ul>
+                            </stentry>
+                        </strow>
+                        <strow>
+                            <stentry>Product Data Review</stentry>
+                            <stentry>
+                                <ul id="ul_slb_qks_tcc">
+                                    <li>ensure feed specification requirements through iterative
+                                        review cycle</li>
+                                    <li>
+                                        <p>check that data is complete and in acceptable format and
+                                            structure</p>
+                                    </li>
+                                </ul>
+                            </stentry>
+                        </strow>
+                        <strow>
+                            <stentry>Automated Order Placement Feasibility</stentry>
+                            <stentry>
+                                <ul id="ul_qwy_qls_tcc">
+                                    <li>ensure merchant shopping site or API can be successfully
+                                        integrated with the order placement system</li>
+                                </ul>
+                            </stentry>
+                        </strow>
+                        <strow>
+                            <stentry>System Initialization</stentry>
+                            <stentry>
+                                <ul id="ul_y3g_vls_tcc">
+                                    <li>perform merchant initialization in all internal systems and
+                                        tools</li>
+                                </ul>
+                            </stentry>
+                        </strow>
+                        <strow>
+                            <stentry>Product Data Import</stentry>
+                            <stentry>
+                                <ul id="ul_xvz_xls_tcc">
+                                    <li>ensure delivery method and successful import into the
+                                        system</li>
+                                </ul>
+                            </stentry>
+                        </strow>
+                        <strow>
+                            <stentry>Internal Tools Validation</stentry>
+                            <stentry>
+                                <ul id="ul_gt3_1ms_tcc">
+                                    <li>validate store data has populated internal tools as
+                                        expected</li>
+                                </ul>
+                            </stentry>
+                        </strow>
+                        <strow>
+                            <stentry>Store Branding and Landing Page Setup</stentry>
+                            <stentry>
+                                <ul id="ul_lww_cms_tcc">
+                                    <li>ensure store landing pages, branding, marketing copy, and
+                                        search terms</li>
+                                </ul>
+                            </stentry>
+                        </strow>
+                        <strow>
+                            <stentry>Shopping Site Validation</stentry>
+                            <stentry>
+                                <ul id="ul_blp_3ms_tcc">
+                                    <li>validate all aspects of the store data is displayed as
+                                        expected and pages function properly</li>
+                                </ul>
+                            </stentry>
+                        </strow>
+                        <strow>
+                            <stentry>Test Order</stentry>
+                            <stentry>
+                                <ul id="ul_okz_nms_tcc">
+                                    <li>place test orders for various product configurations to
+                                        ensure acceptance by the merchant system</li>
+                                </ul>
+                            </stentry>
+                        </strow>
+                    </simpletable>
+                </info>
+            </step>
+            <step>
+                <cmd><u>EM</u>: Create ADO
+                    onboarding work items for feed analysis, site analysis and system setup.</cmd>
+                <info>From this point, the Engagement Manager will manage the project through to site launch. </info></step>
+            <step>
+                <cmd>Complete tasks for partner integration in the test environment:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Configure store management tools.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Load product catalog into the database</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Build store branding and landing pages on test site.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Build order placement controller and place a test order.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Validate the integration in the test environment.</cmd>
+            </step>
+            <step>
+                <cmd>Push the integration to the production environment.</cmd>
+            </step>
+            <step>
+                <cmd>Validate the production environment.</cmd>
+            </step>
+            <step>
+                <cmd>Place a test order on the live site.</cmd>
+            </step>
+            <step>
+                <cmd>Engagement Manager notifies the partner/affiliate, business contacts, and
+                    internal team that the integration is completed.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq-program-reqs">
+    <title>Program Requirements</title>
+    <body>
+        <p>To join the <ph conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"
+                />:<table rowsep="1" colsep="1">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="3.26*"/>
+                    <tbody>
+                        <row>
+                            <entry valign="top"><b>Business Requirements</b></entry>
+                            <entry>
+                                <ul>
+                                    <li>
+                                        <p>Accept the The Client Card</p>
+                                    </li>
+                                    <li>
+                                        <p>Have an existing e-commerce web site</p>
+                                    </li>
+                                    <li>
+                                        <p>Pay commission on orders the <ph
+                                                conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"
+                                            /> site</p>
+                                    </li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry valign="top"><b>System Requirements</b></entry>
+                            <entry>
+                                <ul>
+                                    <li>
+                                        <p>Automated delivery of catalog product feed file</p>
+                                    </li>
+                                    <li>
+                                        <p>Controller for automated order placement</p>
+                                    </li>
+                                </ul>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+        
+    </body>
+</topic>

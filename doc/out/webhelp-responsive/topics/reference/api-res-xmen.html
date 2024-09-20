@@ -1,0 +1,310 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-whc_version="26.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="The xmen resource allows you to create, retrieve, update, and delete information about Marvel, X-men characters. localhost:8080/api/ Name Type Data Type Description API-KEY header token The ..."/><meta name="DC.rights.owner" content="(C) Copyright 2024"/><meta name="copyright" content="(C) Copyright 2024"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="dita"/><meta name="DC.relation" content="../../wrapper/wpr-api-rest-ref-doc.html"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="api-res-xmen"/><title>REST Resource: xmen</title><!--  Generated with Oxygen version 26.1, build number 2024072909.  --><meta name="wh-path2root" content="../../"/><meta name="wh-toc-id" content="api-res-xmen-d301e52"/><meta name="wh-source-relpath" content="topics/reference/api-res-xmen.dita"/><meta name="wh-out-relpath" content="topics/reference/api-res-xmen.html"/>
+
+    <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/commons.css?buildId=2024072909"/>
+    <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic.css?buildId=2024072909"/>
+
+    <script src="../../oxygen-webhelp/app/options/properties.js?buildId=20240920081509"></script>
+    <script src="../../oxygen-webhelp/app/localization/strings.js?buildId=2024072909"></script>
+    <script src="../../oxygen-webhelp/app/search/index/keywords.js?buildId=20240920081509"></script>
+    <script defer="defer" src="../../oxygen-webhelp/app/commons.js?buildId=2024072909"></script>
+    <script defer="defer" src="../../oxygen-webhelp/app/topic.js?buildId=2024072909"></script>
+<link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/oxygen.css?buildId=2024072909"/><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/notes.css?buildId=2024072909"/></head>
+
+    <body class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="title">Writing Samples</span></a></div>
+                    
+                </div>
+                
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="wpr-api-rest-ref-doc-d301e28-mi" data-tocid="wpr-api-rest-ref-doc-d301e28" data-state="not-ready" class=" topicref " data-id="wpr-api-rest-ref-doc"><span class="title"><a href="../../wrapper/wpr-api-rest-ref-doc.html">Reference Documentation</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="wpr-chg-mgt-processes-d301e176-mi" data-tocid="wpr-chg-mgt-processes-d301e176" data-state="not-ready" class=" topicref " data-id="wpr-chg-mgt-processes"><span class="title"><a href="../../wrapper/process-doc.html">Process Documentation</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="../../index.html"><span>Home</span></a></span></li><li><div class="topicref" data-id="wpr-api-rest-ref-doc"><div class="title"><a href="../../wrapper/wpr-api-rest-ref-doc.html">Reference Documentation</a></div></div></li><li class="active"><div class="topicref" data-id="api-res-xmen"><div class="title"><a href="../../topics/reference/api-res-xmen.html">REST Resource: xmen</a></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <button type="button" id="wh_toc_button" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-12 d-md-block d-none d-print-none" aria-label="Table of Contents Container">
+                            <div id="wh_publication_toc_content">
+		                        
+                            	<div class=" wh_publication_toc " data-tooltip-position="right"><span class="expand-button-action-labels"><span id="button-expand-action" role="button" aria-label="Expand"></span><span id="button-collapse-action" role="button" aria-label="Collapse"></span><span id="button-pending-action" role="button" aria-label="Pending"></span></span><ul role="tree" aria-label="Table of Contents"><li role="treeitem" aria-expanded="true"><div data-tocid="wpr-api-rest-ref-doc-d301e28" class="topicref" data-id="wpr-api-rest-ref-doc" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action wpr-api-rest-ref-doc-d301e28-link" class="wh-expand-btn"></span><div class="title"><a href="../../wrapper/wpr-api-rest-ref-doc.html" id="wpr-api-rest-ref-doc-d301e28-link">Reference Documentation</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem"><div data-tocid="api-ref-doc-d301e36" class="topicref" data-id="api-ref-doc" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../topics/reference/api-ref-doc.html" id="api-ref-doc-d301e36-link">Overview</a></div></div></li><li role="treeitem"><div data-tocid="api-ref-doc-authentication-d301e44" class="topicref" data-id="api-ref-doc-authentication" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../topics/reference/api-ref-doc-authentication.html" id="api-ref-doc-authentication-d301e44-link">Authentication</a></div></div></li><li role="treeitem" class="active"><div data-tocid="api-res-xmen-d301e52" class="topicref" data-id="api-res-xmen" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../topics/reference/api-res-xmen.html" id="api-res-xmen-d301e52-link">REST Resource: xmen</a></div></div></li><li role="treeitem"><div data-tocid="api-res-needles-d301e101" class="topicref" data-id="api-res-needles" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../topics/reference/api-res-needles.html" id="api-res-needles-d301e101-link">REST Resource: needles</a></div></div></li><li role="treeitem"><div data-tocid="api-error-responses-d301e159" class="topicref" data-id="api-error-responses" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../topics/reference/api-error-responses.html" id="api-error-responses-d301e159-link">Error Responses</a></div></div></li></ul></li></ul></div>
+		                        
+                            </div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-7 col-md-9 col-sm-12" id="wh_topic_body">
+                        <button id="wh_close_publication_toc_button" class="close-toc-button d-none" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        <button id="wh_close_topic_toc_button" class="close-toc-button d-none" aria-label="Toggle topic table of content" aria-controls="wh_topic_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article class="" role="article" aria-labelledby="ariaid-title1"><article class="nested0" aria-labelledby="ariaid-title1" id="api-res-xmen">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">REST Resource: xmen</h1>
+    <div class="- topic/body body">
+        <p class="- topic/p p">The <strong class="+ topic/ph hi-d/b ph b">xmen</strong> resource allows you to create, retrieve, update, and delete information
+            about Marvel, X-men characters. </p>
+    </div>
+<article class="- topic/topic topic nested1" aria-labelledby="ariaid-title2" id="api-res-uri">
+    <h2 class="- topic/title title topictitle2" id="ariaid-title2">URI</h2>
+    <div class="- topic/body body">
+        <section class="- topic/section section">          
+            <div class="- topic/p p"><pre class="+ topic/pre pr-d/codeblock pre codeblock"><code>localhost:8080/api/</code></pre></div>
+        </section>
+    </div>
+</article><article class="- topic/topic topic nested1" aria-labelledby="ariaid-title3" id="api-res-xmen-parameters">
+    <h2 class="- topic/title title topictitle2" id="ariaid-title3">Parameters</h2>
+    <div class="- topic/body body">
+        
+        <div class="table-container"><table class="- topic/table table" data-cols="4"><caption></caption><colgroup><col style="width:25%"/><col style="width:25%"/><col style="width:25%"/><col style="width:25%"/></colgroup><thead class="- topic/thead thead">
+                    <tr class="- topic/row">
+                        <th class="- topic/entry entry align-left colsep-0 rowsep-1" id="api-res-xmen-parameters__entry__1">Name</th>
+                        <th class="- topic/entry entry align-left colsep-0 rowsep-1" id="api-res-xmen-parameters__entry__2">Type</th>
+                        <th class="- topic/entry entry align-left colsep-0 rowsep-1" id="api-res-xmen-parameters__entry__3">Data Type</th>
+                        <th class="- topic/entry entry align-left colsep-0 rowsep-1" id="api-res-xmen-parameters__entry__4">Description</th>
+                    </tr>
+                </thead><tbody class="- topic/tbody tbody">
+                    <tr class="- topic/row valign-top">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__1">API-KEY</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__2">header</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__3">token</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__4">The authentication key.</td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__1">id</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__2">body</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__3">int</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__4">The unique identifier for the character.</td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__1">name</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__2">body</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__3">string</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__4">The character’s real name.</td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__1">heroName</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__2">body</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__3">string</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__4">The character’s hero name.</td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__1">power</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__2">body</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__3">string</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__4">The character’s power(s).</td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__1">debut</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__2">body</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__3">string</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-parameters__entry__4">The comic book title and year of debut.</td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="api-res-xmen-parameters__entry__1">creator</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="api-res-xmen-parameters__entry__2">body</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="api-res-xmen-parameters__entry__3">string</td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="api-res-xmen-parameters__entry__4">The character’s creator(s).</td>
+                    </tr>
+                </tbody></table></div>
+    </div>
+</article><article class="- topic/topic topic nested1" aria-labelledby="ariaid-title4" id="api-res-xmen-properties">
+    <h2 class="- topic/title title topictitle2" id="ariaid-title4">Properties</h2>
+    <div class="- topic/body body">
+        <div class="table-container"><table class="- topic/table table" data-cols="3"><caption></caption><colgroup><col style="width:33.33333333333333%"/><col style="width:33.33333333333333%"/><col style="width:33.33333333333333%"/></colgroup><thead class="- topic/thead thead">
+                    <tr class="- topic/row">
+                        <th class="- topic/entry entry align-left colsep-0 rowsep-1" id="api-res-xmen-properties__entry__1">Property</th>
+                        <th class="- topic/entry entry align-left colsep-0 rowsep-1" id="api-res-xmen-properties__entry__2">Data Type</th>
+                        <th class="- topic/entry entry align-left colsep-0 rowsep-1" id="api-res-xmen-properties__entry__3">Description</th>
+                    </tr>
+                </thead><tbody class="- topic/tbody tbody">
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__1">id</td>
+                        <td class="- topic/entry entry colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__2">Integer</td>
+                        <td class="- topic/entry entry colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__3">The unique identifier for the character.</td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__1">name</td>
+                        <td class="- topic/entry entry colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__2">String</td>
+                        <td class="- topic/entry entry colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__3">The character’s real name.</td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__1">heroName</td>
+                        <td class="- topic/entry entry colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__2">String</td>
+                        <td class="- topic/entry entry colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__3">The character’s hero name.</td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__1">power</td>
+                        <td class="- topic/entry entry colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__2">String</td>
+                        <td class="- topic/entry entry colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__3">The character’s power(s).</td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__1">debut</td>
+                        <td class="- topic/entry entry colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__2">String</td>
+                        <td class="- topic/entry entry colsep-0 rowsep-1" headers="api-res-xmen-properties__entry__3">The comic book title and year of debut.</td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="api-res-xmen-properties__entry__1">creator</td>
+                        <td class="- topic/entry entry colsep-0 rowsep-0" headers="api-res-xmen-properties__entry__2">String</td>
+                        <td class="- topic/entry entry colsep-0 rowsep-0" headers="api-res-xmen-properties__entry__3">The character’s creator(s).</td>
+                    </tr>
+                </tbody></table></div>
+    </div>
+</article><article class="- topic/topic topic nested1" aria-labelledby="ariaid-title5" id="unique_1376375140">
+    <h2 class="- topic/title title topictitle2" id="ariaid-title5"><img class="- topic/image image" src="../../reusables/../images/post.png"/> / xmen</h2>
+    <div class="- topic/body body">
+        <p class="- topic/p p">Create a record in the xmen database.</p>
+        <section class="- topic/section section"><h3 class="- topic/title title sectiontitle">cURL</h3>
+            
+            <div class="- topic/p p">
+                <pre class="+ topic/pre pr-d/codeblock pre codeblock"><code>
+            # REQUEST
+            curl -L 'http://localhost:8080/api/xmen' \
+            -H 'Content-Type: application/json' \
+            -X-API-KEY: '{key}' 
+            -d '{
+            "id": 1,
+            "name": "Hisako Ichiki",
+            "heroName": "Dust",
+            "power": "Sand manipulation",
+            "debut": "New X-Men #133 (2002)",
+            "creator": "Grant Morrison, Ethan Van Sciver"
+            }                  
+        </code></pre>
+            </div>
+        </section>
+    </div>
+</article><article class="- topic/topic topic nested1" aria-labelledby="ariaid-title6" id="api-res-xmen-response">
+    <h2 class="- topic/title title topictitle2" id="ariaid-title6">Response</h2>
+    <div class="- topic/body body">
+        <div class="- topic/p p">
+            <pre class="+ topic/pre pr-d/codeblock pre codeblock"><code>
+                    # RESPONSE
+                    200 OK
+                    
+                    {
+                    "id": 1,
+                    "name": "Hisako Ichiki",
+                    "heroName": "Dust",
+                    "power": "Sand manipulation",
+                    "debut": "New X-Men #133 (2002)",
+                    "creator": "Grant Morrison, Ethan Van Sciver"
+                    }
+                </code></pre>
+        </div>
+    </div>
+</article></article></article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                        <nav role="navigation" id="wh_topic_toc" aria-label="On this page" class="col-lg-2 d-none d-lg-block navbar d-print-none"> 
+                            <div id="wh_topic_toc_content">
+		                        
+	                            <div class=" wh_topic_toc "><div class="wh_topic_label">On this page</div><ul><li class="topic-item"><a href="#api-res-uri" data-tocid="api-res-uri">URI</a></li><li class="topic-item"><a href="#api-res-xmen-parameters" data-tocid="api-res-xmen-parameters">Parameters</a></li><li class="topic-item"><a href="#api-res-xmen-properties" data-tocid="api-res-xmen-properties">Properties</a></li><li class="topic-item"><a href="#unique_1376375140" data-tocid="unique_1376375140"><img class="- topic/image image" src="../../reusables/../images/post.png"/> / xmen</a></li><li class="topic-item"><a href="#api-res-xmen-response" data-tocid="api-res-xmen-response">Response</a></li></ul></div>
+	                        	
+                        	</div>
+                        </nav>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container mx-auto ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank" rel="noopener">&lt;oXygen/&gt; XML WebHelp</a> - Evaluation Version
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="Untitled">
+    <title>Use Or Not Stuff</title>
+    <body>
+        <p></p>
+        <table frame="all" id="table_e1p_lbw_tcc">
+            <title/>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="3.05*"/>
+                <thead>
+                    <row>
+                        <entry>Origin</entry>
+                        <entry>Content</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>roadmap meetings</entry>
+                        <entry>
+                            <p> Items that are approved, are tracked at a high level in these
+                                meetings. Work is tracked more closely through Azure DevOps (<ph conkeyref = "gen/ado"/>). <ph conkeyref = "gen/ado"/> items
+                                are reviewed and assigned by either the <ph conkeyref = "gen/dev-lead"/> or
+                                    <ph conkeyref = "gen/project-manager"/>. If the work is planned to be included as part of a release, all
+                                    <ph conkeyref = "gen/ado"/>s
+                                must be signed off by a tester. After the release, the <ph conkeyref = "gen/ado"/>s are
+                                reviewed in <b>Production</b> and closed. </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry><ul>
+                            <li>
+                                <p>collect store contacts, policy information, and art</p>
+                            </li>
+                        </ul></entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        
+        <section>
+            <title>Request</title>
+            <table rowsep="1">
+                <tgroup cols="1">
+                    <thead>
+                        <row>
+                            <entry align="left">POST / needles</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <p>If the request contains more than five needles, the response will
+                                    return the following:</p>
+                                <p><i>"The maximum number of needles allowed is 5."</i></p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table rowsep="1" colsep="1">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="5.25*"/>
+                    <tbody>
+                        <row>
+                            <entry valign="top"><b>Parameter(s)</b></entry>
+                            <entry valign="top">haystack <p><i>required</i></p></entry>
+                        </row>
+                        <row>
+                            <entry valign="top"/>
+                            <entry valign="top">needles <p><i>required</i></p></entry>
+                        </row>
+                        <row>
+                            <entry valign="top"><b>Message Body</b></entry>
+                            <entry valign="top"><codeph>{"haystack":"Like finding a needle in a
+                                haystack","needles":["finding","needle","a","haystack","needles"]}</codeph>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>
+                <codeblock>
+                    # REQUEST
+                    
+                    curl -L 'http://localhost:8080/api/needles' \
+                    -H 'Content-Type: application/json' \
+                    -X-API-KEY: '{key}' 
+                    -d '{"haystack":"Like finding a needle in a haystack","needles":["finding","needle","a","haystack","needles"]}'
+                </codeblock>
+            </p>
+        </section>
+        <section>
+            <title>Response</title>
+            <p>
+                <codeblock>
+                    # RESPONSE
+                    
+                    200 OK
+                    
+                    {"needles":[
+                    {"count":"1","needle":"finding"},
+                    {"count":"1","needle":"needle"},
+                    {"count":"2","needle":"a"},
+                    {"count":"1","needle":"haystack"},
+                    {"count":"0","needle":"needles"}
+                    ]}
+                    
+                    200 OK
+                    
+                    "The maximum number of needles allowed is 5."
+                </codeblock>
+            </p>
+        </section>
+        
+        
+        
+    </body>
+</topic>

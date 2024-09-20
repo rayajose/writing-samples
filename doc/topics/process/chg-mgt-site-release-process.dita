@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="Untitled">
+    <title>Site Release Process</title>
+    <body>
+        <p><b>Task Owner(s)</b>: <ph conref="../reuse/reuse-content.dita#reuse-content/dev-lead"/>,
+                <ph conref="../reuse/reuse-content.dita#reuse-content/project-manager"/>, <ph
+                conref="../reuse/reuse-content.dita#reuse-content/test-lead"/>, <ph
+                conref="../reuse/reuse-content.dita#reuse-content/release-manager"/></p>
+        <section>
+            <title>Design</title>
+            <ol>
+                <li>
+                    <p>Road Map items are reviewed weekly for discussing high level time line
+                        planning and status.</p>
+                </li>
+                <li>
+                    <p><u><ph conref="../reuse/reuse-content.dita#reuse-content/project-manager"
+                            /></u>: Add work items to release plan and review it with technical
+                        leads and executives regularly for prioritization and placement on the
+                        Roadmap. Manage the overall time line and project method in coordination
+                        with roadmap participants.</p>
+                </li>
+                <li>
+                    <p>Develop work requirements and design.</p><p>Threat modeling is performed on new functionality or updates to existing functionality. Any
+                        mitigations identified are added as requirements for the implementation.</p>
+                </li>
+                <li>
+                    <p>Document work requirements in <ph
+                            conref="../reuse/reuse-content.dita#reuse-content/ado"/> Backlog item.
+                        Store related documents on the shared location.</p>
+                </li>
+                <li>
+                    <p>Meet to discuss design, overall architecture, work breakdown, and task
+                        assignments. Track the work with <ph
+                            conref="../reuse/reuse-content.dita#reuse-content/ado"/> Backlog
+                        items.</p>
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <title>Development</title>
+            <ol>
+                <li>
+                    <p>Complete iterative cycle of the following in the Development and Test
+                        environments:</p><ol>
+                        <li>
+                            <p>Create a <ph
+                                    conref="../reuse/reuse-content.dita#reuse-content/pull-req"/> of
+                                changes to be deployed.</p>
+                        </li>
+                        <li>
+                            <p>Review code. This must be completed by a development team member who
+                                did not author the changes.</p>
+                        </li>
+                        <li>
+                            <p>Deploy to the Test Environment.</p>
+                        </li>
+                        <li>
+                            <p>Regress the build.</p>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <p><u><ph conref="../reuse/reuse-content.dita#reuse-content/dev-lead"/></u>:
+                        Sign off on the build and assign <ph
+                            conref="../reuse/reuse-content.dita#reuse-content/ado"/> to the <ph
+                            conref="../reuse/reuse-content.dita#reuse-content/release-manager"
+                        />.</p>
+                </li>
+            </ol>
+        </section>
+        <section>
+            <title>Test and Regress</title>
+            <ol>
+                <li>
+                    <p><u><ph conref="../reuse/reuse-content.dita#reuse-content/test-lead"/></u>:
+                        Regress the release in the Test Root environment. Perform application
+                        security, performance, and user acceptance testing.</p>
+                </li>
+                <li>
+                    <p><u><ph conref="../reuse/reuse-content.dita#reuse-content/test-lead"/></u>:
+                        Notify the <ph
+                            conref="../reuse/reuse-content.dita#reuse-content/project-manager"/> of
+                        build sign-off, and obtain client approval to launch the release.</p>
+                </li>
+                <li>
+                    <p><u><ph conref="../reuse/reuse-content.dita#reuse-content/test-lead"/></u>:
+                        Create a release <ph conref="../reuse/reuse-content.dita#reuse-content/ado"
+                        />, selecting the <i>Release Rollout</i> project type, and assign it to the
+                            <ph conref="../reuse/reuse-content.dita#reuse-content/release-manager"
+                        />.</p>
+                </li>
+                <li>
+                    <p><u><ph conref="../reuse/reuse-content.dita#reuse-content/release-manager"
+                            /></u>: Copy the build from Test Root to the Code Staging Environment
+                        and assign <ph conref="../reuse/reuse-content.dita#reuse-content/ado"/> to
+                        the <ph conref="../reuse/reuse-content.dita#reuse-content/test-lead"/> for
+                        verification.</p>
+                </li>
+                <li>
+                    <p><u><ph conref="../reuse/reuse-content.dita#reuse-content/release-manager"
+                            /></u>: Copy the build from the Code Staging Environment to the
+                        Production Environment using of the following methods:<ul>
+                            <li>
+                                <p><i>Automatically (EMC Build Tool)</i>: System scripts are run
+                                    automatically to complete code promotion.</p>
+                            </li>
+                            <li>
+                                <p>Automatically (Azure DevOps): System scripts are run
+                                    automatically to complete code promotion.</p>
+                            </li>
+                            <li>
+                                <p><i>Manually</i>: Members of the Release Management Group (RMG)
+                                    manually complete code promotion by interacting with the
+                                    remaining affected folders and database entries.</p>
+                            </li>
+                        </ul></p>
+                </li>
+                <li><u><ph conref="../reuse/reuse-content.dita#reuse-content/release-manager"/></u>:
+                    Deploy the build to production and assign <ph
+                        conref="../reuse/reuse-content.dita#reuse-content/ado"/> to the <ph
+                        conref="../reuse/reuse-content.dita#reuse-content/test-lead"/>. The current
+                    version is backed up. All previous versions are stored in case they need to be
+                    restored. </li>
+                <li>
+                    <p><u><ph conref="../reuse/reuse-content.dita#reuse-content/test-lead"/></u>:
+                        Sign off on the build and assign <ph
+                            conref="../reuse/reuse-content.dita#reuse-content/ado"/> to the <ph
+                            conref="../reuse/reuse-content.dita#reuse-content/release-manager"
+                        />.</p>
+                </li>
+                <li>
+                    <p><u><ph conref="../reuse/reuse-content.dita#reuse-content/release-manager"
+                            /></u>: Copy new code to the web servers in the load balancing pool:</p>
+                    <p>Servers are taken out of the pool and updated in groups</p>
+                    <p>Confirm that the code is working on the first group of servers. If something
+                        goes wrong, the <ph
+                            conref="../reuse/reuse-content.dita#reuse-content/release-manager"/> can
+                        roll back to the most recent version still on the non-updated group.</p>
+                </li>
+                <li>
+                    <p><u><ph conref="../reuse/reuse-content.dita#reuse-content/test-lead"/></u>:
+                        Regress the build in production and assign <ph
+                            conref="../reuse/reuse-content.dita#reuse-content/ado"/> to the <ph
+                            conref="../reuse/reuse-content.dita#reuse-content/project-manager"
+                        />.</p>
+                </li>
+                <li>
+                    <p>Record any bugs or problems with the release and maintain the <ph
+                            conref="../reuse/reuse-content.dita#reuse-content/ado"/> for one
+                            week.<note type="important">If there is an issue (build, technical,
+                            environmental) that causes production to break, an emergency exception
+                            may be initiated. In this case, the roll back the build to the previous
+                            version while the current version is repaired.</note></p>
+                </li>
+                <li>
+                    <p><u><ph conref="../reuse/reuse-content.dita#reuse-content/test-lead"/></u>:
+                        Test the Production Environment during or shortly after the fix has been put
+                        into place.</p>
+                </li>
+                <li>
+                    <p>If required, complete an <i>Incident Report Form</i> for tracking purposes
+                        and to add to Knowledge Base.</p>
+                </li>
+            </ol>
+        </section>
+
+    </body>
+</topic>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq-partner-store-pol">
+    <title>How do we update our store policies?</title>
+    <body>
+        <p>There is no such thing as a test account for <ph
+                conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"/>. You must log
+            on using a actual Client card account that is also eligible for rewards points.</p>
+        <p>The merchant store front pages on <ph
+                conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"/> contain a link
+            to store policies. We initially obtain store policies as part of the onboarding process.
+            However, if at any time the policies need to be updated, simply send us a request to do
+            so via e-mail. The request should contain what the update is and when it should take
+            effect.</p>
+        <note>Once the update has been made in our system, it will appear immediately.</note>
+        <p>Contact: merchants@shopwpoints.com</p>
+    </body>
+</topic>

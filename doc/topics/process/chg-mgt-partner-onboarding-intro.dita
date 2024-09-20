@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="chg-mgt-partner-onboarding-proc">
+    <title>Partner Onboarding</title>
+    <body>
+        <section>
+            <title>Overview</title>
+            <p>This process involves establishing the B2B integration between <ph
+                    conkeyref="gen/merchant"/> and <ph conkeyref="gen/company"/> backend systems.
+                The points of integration with our system include the following:<ul>
+                    <li>
+                        <p>daily import of product catalog data from the <ph
+                                conkeyref="gen/merchant"/> system</p>
+                    </li>
+                    <li>
+                        <p>automated order placement into the <ph conkeyref="gen/merchant"/> system
+                        </p>
+                    </li>
+                </ul></p>
+        </section>
+        <section>
+            <title>Scope</title>
+            <p>Process scope is limited to system integration points covered in the overview.
+                Onboarding will include one <ph conkeyref="gen/merchant"/> per project. If multiple
+                onboardings are scheduled simultaneously, they are managed as separate projects. The
+                    <ph conkeyref="gen/engagement-manager"/> will drive each project to completion.
+                Completion of an onboarding results in the <ph conkeyref="gen/merchant"/> product
+                catalog available on the shopping site for purchase. </p>
+        </section>
+        <section>
+            <title>Stakeholders</title>
+            <p>Members of these groups share a stake in this process and will also own the tasks
+                involved.</p>
+            <simpletable frame="all" relcolwidth="1.0* 5.67*" id="simpletable_fqx_bxw_tcc">
+                <strow>
+                    <stentry><b>Client</b></stentry>
+                    <stentry>business contact</stentry>
+                </strow>
+                <strow>
+                    <stentry><b>Partner</b></stentry>
+                    <stentry>business and technical contacts and/or market affiliate
+                        contact</stentry>
+                </strow>
+                <strow>
+                    <stentry><b>Internal Teams</b></stentry>
+                    <stentry><ph conkeyref="gen/engagement-manager"/> and area leads</stentry>
+                </strow>
+            </simpletable>
+        </section>
+        <section>
+            <title>Timeline</title>
+            <p>Projects are generally planned to take 4 weeks to complete. Launch dates are
+                generally firm. When multiple onboardings occur simultaneously, project schedules
+                should be staggered accordingly.</p>
+        </section>
+    </body>
+</topic>

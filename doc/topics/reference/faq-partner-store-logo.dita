@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq-partner-store-logo">
+    <title>How do we update our logos?</title>
+    <body>
+        <p>The merchant logo is used in various places on <ph
+                conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"/>. We initially
+            obtain the required logos as part of the onboarding process. However, if at any time the
+            logos need to be updated, simply send us a request to do so via e-mail. The request
+            should have the new image files attached. We only use the .PNG format and sizes 120x60,
+            88x31, or 300x100.</p>
+        <note>Once the update has been made in our system, it will appear on the site
+            immediately.</note>
+        <p>Contact: merchants@shopwpoints.com</p>
+    </body>
+</topic>

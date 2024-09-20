@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="access-client-network">
+    <title>Access to Client Network</title>
+    <body>
+         
+        <section>
+            <title>Risk</title>
+            <p>As a white-labeled web property, attackers may think they can breach the Client
+                network through the company production environment.</p>
+        </section>
+        <section>
+            <title><ph conref="../reuse/reuse-content.dita#reuse-content/attack-vectors"/></title>
+            <p><i>In order of risk: </i></p>
+            <ul>
+                <li>Manipulation of data through Shop application (code vulnerability leading to
+                    tampering with session or account data) </li>
+            </ul>
+            <p> Manipulation of data sent through the Client Webservices </p>
+        </section>
+        <section>
+            <title><ph conref="../reuse/reuse-content.dita#reuse-content/counter-measures"/></title>
+            <p>This vector is largely mitigated by design. The list of operations that are allowed
+                through the Web Service Manager is very limited. Each operation requires a session
+                token which implicitly identifies a particular user - you can't just request a web
+                service call for an arbitrary user. The session tokens are created and managed on
+                Client SSO servers, so you can't manipulate their identities or contents. Burning
+                points is not a zero-sum operation - it results in an off-setting credit to the
+                user's account. </p>
+        <p>Points cannot be created - the act of rejecting an order reimburses the user with their
+            points, but also debits the user's account for the value. </p>
+        <ol>
+            <li>Client-managed, session token-based authentication, with robust WSM integration
+                    security requirements, such as encryption and certificate signing </li>
+            <li>Very limited set of functionality exposed </li>
+        </ol>
+        </section>
+        
+    </body>
+</topic>

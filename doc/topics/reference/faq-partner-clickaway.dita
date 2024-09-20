@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq-partner-clickaway">
+    <title>The <ph conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"/> is Not a
+        Click- Away Shopping Site, what does that mean?</title>
+
+    <body>
+        <p>The <ph conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"/> was not
+            designed to ever be a click-away shopping site. In the click-away model, the customer
+            will be redirected to the actual merchant site at some point in the shopping experience. </p>
+        <p>However, customers will remain on the <ph
+                conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"/> site
+            throughout their shopping experience, as they browse the catalog, and add items to their
+            cart. Upon check-out, the order is then placed with the merchant by an automated system,
+            on behalf of the customer. The integration with the merchant is completely transparent
+            from the customer perspective.</p>
+    </body>
+</topic>

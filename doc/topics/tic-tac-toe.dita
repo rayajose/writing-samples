@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="tic-tac-toe">
+    <title>Tic Tac Toe</title>
+    <body>
+
+        <p>To play tic tac toe, you will need two players, a flat surface, and a drawing utensil.
+            The game “board” is a 3 x 3 grid. During the game, each player will take turns drawing
+            an <b>X</b> or an <b>O</b> in the empty squares of the grid. The first player to create
+            a straight line of three X’s or O’s wins the game. If the grid is filled without either
+            player achieving the line of three, the game is a tie.</p>
+        
+        <section>
+            <title>Playing The Game</title>
+            <p>Before you begin, decide who will start the game, who will play using X, and who will
+                play using O. </p>
+            <note>You can only fill one square per turn. </note>
+            <ol>
+                <li>Draw an empty 3 x 3 grid.</li>
+                <li>Player 1: draw an X in any empty square. </li>
+                <li>Player 2: draw a Y in any empty square.</li>
+                <li>Repeat steps 2 and 3 until there is a winner or the game ends in a tie. </li>
+            </ol>
+            <p><image href="../images/clip_image002_-1015807072.jpg" height="109" width="110" placement="break">
+            </image></p>
+        </section>
+        
+        <section>
+            <title>Possible Game Outcomes</title>
+            <p>The line of three can be vertical, horizontal, or diagonal. The line of three can appear
+                in any row, any column or from any corner. </p>
+            
+            <p><i>acceptable line of three directions</i><image href="../images/clip_image004_-1486805474.png"
+                height="94" width="351" placement="break"/></p>
+            <p><i>example X wins</i><image href="../images/clip_image005_-907071857.png" height="98" width="369"
+                placement="break"/></p>
+            <p><i>example O wins</i><image href="../images/clip_image006_2144666110.png" height="93" width="370"
+                placement="break"/></p>
+            <p><i>example of a tie</i><image href="../images/clip_image007_1839336100.jpg" height="90" width="90"
+                placement="break"/></p>
+        </section>
+ 
+
+    </body>
+</topic>

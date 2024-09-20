@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-numbers">
+    <title>Numbers</title>
+    <body>
+        <p>The <b>numbers</b> resource calculates a set of random lottery numbers for the specified
+            game. Send a lottery game type and receive a set of random numbers.</p>
+        <section>
+            <title>Properties</title>
+            <table rowsep="1">
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*" align="left"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Property</entry>
+                            <entry align="left">Type</entry>
+                            <entry align="left">Description</entry>
+                            <entry align="left">Example</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>game</entry>
+                            <entry>String</entry>
+                            <entry>The specific game for which to get the random numbers.</entry>
+                            <entry><codeph>pick4</codeph></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+
+        <section>
+            <title>Request</title>
+            <table rowsep="1">
+                <tgroup cols="1">
+                    <thead>
+                        <row>
+                            <entry align="left">GET / numbers</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>
+                                <note><ul>
+                                        <li>The <i>game</i> parameter can only have one of three
+                                            values: <i>pick4, pick5, lotto</i></li>
+                                        <li>Only one game type can be sent in the request.</li>
+                                    </ul></note>
+                                <p>If the request contains an invalid game, the response will return
+                                    the following:</p>
+                                <p><i>&lt;&lt;game&gt;&gt; is not a valid game type. Value must be
+                                        pick4, pick5, or lotto.</i></p>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table rowsep="1" colsep="1">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="5.25*"/>
+                    <tbody>
+                        <row>
+                            <entry valign="top"><b>Parameter(s)</b></entry>
+                            <entry valign="top"> api_key <p><i>required</i></p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry valign="top"/>
+                            <entry valign="top">game <p><i>required</i></p></entry>
+                        </row>
+                        <row>
+                            <entry valign="top"><b>Message Body</b></entry>
+                            <entry valign="top">Not Applicable</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>
+                <codeblock>
+                    # REQUEST
+                    
+                    curl -L 'http://localhost:8080/api/numbers?<b>api_key</b>={}&amp;<b>game</b>={}'                  
+                </codeblock>
+            </p>
+        </section>
+
+        <section>
+            <title>Response</title>
+            <p>
+                <codeblock>
+                    # RESPONSE
+                    
+                    200 OK
+                    
+                    {"pick4": [3,21,5,15]}
+                    
+                    {"pick5": [17,5,22,40,46]}
+                    
+                    {"lotto": [17,3,19,20,4,43]}
+                    
+                    200 OK
+                    
+                    &lt;&lt;game&gt;&gt; is not a valid game type. Value must be pick4, pick5, or lotto.            
+                </codeblock>
+            </p>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="encryption-key-lifecycle">
+    <title>Change Scenarios</title>
+    <body>
+        <p>Keys are changed in any of the following scenarios:</p>
+        <ul>
+            <li>
+                <p>on a semi-annual basis</p>
+            </li>
+            <li>
+                <p>after a data security incident</p>
+            </li>
+            <li>
+                <p>upon client request</p>
+            </li>
+            <li>
+                <p>when integrity of the key has been weakened for any reason</p>
+            </li>
+            <li>
+                <p>when suspected to be compromised</p>
+            </li>
+        </ul>
+    </body>
+</topic>

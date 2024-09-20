@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Policy Doc</title>
+
+    <keydef keys="gen" href="reusables/reusable_gen.dita"/>
+
+    <topicref href="wrapper/wpr-info-sec.dita">
+        <topicref href="wrapper/wpr-encryption.dita">
+            <topicref href="topics/policy/infosec-encryption-algorithm.dita"/>
+            <topicref href="topics/policy/infosec-encryption-key-lifecycle.dita"/>
+            <topicref href="tasks/infosec-encryption-key-rotation.dita"/>
+            <topicref href="topics/policy/infosec-encryption-key-storage.dita"/>
+            <topicref href="topics/policy/infosec-encryption-unauth-sub.dita"/>
+        </topicref>
+        <topicref href="topics/policy/infosec-threat-model.dita">
+            <topicref href="topics/policy/infosec-threat-obtain-cc-data.dita"/>
+            <topicref href="topics/policy/infosec-threat-fraudelent-transactions.dita"/>
+            <topicref href="topics/policy/infosec-threat-obtain-pii.dita"/>
+            <topicref href="topics/policy/infosec-threat-access-client-network.dita"/>
+            <topicref href="topics/policy/infosec-threat-denial-of-service.dita"/>
+        </topicref>
+    </topicref>
+
+</map>

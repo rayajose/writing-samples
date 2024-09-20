@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="chg-mgt-partner-onboarding-proc">
+    <title>Validation</title>
+    <body>
+        <section>
+            <title>Validate Internal Tools and Shopping Site</title>
+            <p>The <ph conkeyref="gen/merchant"/> product data has been successfully loaded into the
+                system.</p>
+            <ul>
+                <li>
+                    <p>Confirm that the internal product management tools and shopping site display
+                        the data and function as expected.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <title>Setup Store Branding and Landing Page</title>
+            <p>Once the <ph conkeyref="gen/merchant"/> information and product data displays and
+                function as expected on the site, set up the store branding and landing pages.</p>
+        </section>
+
+        <section>
+            <title>Place a Test Order</title>
+            <p>Confirm a successful system integration by placing a test order.</p>
+        </section>
+
+    </body>
+</topic>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-needles-properties">
+    <title>Properties</title>
+    <body>
+        <table rowsep="1">
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*" align="left"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Name</entry>
+                        <entry align="left">Data Type</entry>
+                        <entry align="left">Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>needles</entry>
+                        <entry>string array</entry>
+                        <entry>The set of words along with word count.</entry>
+                    </row>
+                    <row>
+                        <entry>count</entry>
+                        <entry>int</entry>
+                        <entry>The number of matched words found.</entry>
+                    </row>
+                    <row>
+                        <entry>needle</entry>
+                        <entry>string</entry>
+                        <entry>The matched word.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+
+    </body>
+</topic>

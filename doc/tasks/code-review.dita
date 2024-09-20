@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="code_review">
+    <title>Code Review and Release</title>
+    <taskbody>
+        <context>
+            <p>Each <ph conref="../reuse/reuse-content.dita#reuse-content/pull-req"/> must be code
+                reviewed prior to release. </p>
+            <p><b>Task Owner(s)</b>: <ph conref="../reuse/reuse-content.dita#reuse-content/dev-lead"
+                />, <ph conref="../reuse/reuse-content.dita#reuse-content/project-manager"/></p>
+        </context>
+        <steps>
+            <step>
+                <cmd><u><ph conref="../reuse/reuse-content.dita#reuse-content/dev-lead"/></u>:
+                    Verify the code has been built and tested and assign the work to a member of the
+                    development team.</cmd>
+                <info>
+                    <p>Reviewers should be chosen based on expertise and the nature of the changes.
+                        Reviewers could be peers, senior developers, or domain experts. However, the
+                        reviewer should not have written the code.</p>
+                </info></step>
+            <step>
+                <cmd><u>Code Reviewer:</u> Evaluate <ph
+                        conref="../reuse/reuse-content.dita#reuse-content/pull-req"/> for the
+                    following:</cmd>
+                <info>
+                    <ul>
+                        <li> privacy or security implications </li>
+                        <li> performance impacts </li>
+                        <li> design </li>
+                        <li> readability </li>
+                        <li> maintainability </li>
+                        <li>
+                            <p>concerns regarding Open Web Application Security Project (OWASP)</p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd><u><ph conref="../reuse/reuse-content.dita#reuse-content/dev-lead"/></u>: If
+                    applicable, open a new <ph
+                        conref="../reuse/reuse-content.dita#reuse-content/ado"/> work item for each
+                    issue uncovered in the review process.</cmd>
+                <info><ph conref="../reuse/reuse-content.dita#reuse-content/project-manager"/> will
+                    prioritize opened <ph conref="../reuse/reuse-content.dita#reuse-content/ado"/>
+                    items based on severity. .</info>
+            </step>
+            <step>
+                <cmd>Iterate the review process as necessary until approved.</cmd>
+            </step>
+            <step>
+                <cmd>Once the review is complete, merge with the appropriate code base. </cmd>
+                <info>
+                    <note type="important">High priority issues must be resolved before releasing
+                        code to Staging or Production.</note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

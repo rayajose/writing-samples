@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="chg-mgt-partner-onboarding-proc-sys-init">
+    <title>Initialize the System</title>
+    <body>
+        <p>After business and system requirements have been confirmed, the <ph
+                conkeyref="gen/merchant"/> must be initialized into our system. System
+            initialization involves preparing the database and configuring management tools to store
+            and process the partner's general information and product catalog data.</p>
+        <p>
+            <note conkeyref="gen/note-do-to-all-env" id="note_jqc_25x_tcc"/>
+        </p>
+        <section>
+            <title>Import Product Data</title>
+            <p>Product data review cycle is complete and file delivery method is in place.</p>
+            <ul>
+                <li>
+                    <p>Import <ph conkeyref="gen/merchant"/> product data.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <title>Implement the Order Placement Controller</title>
+            <p>The development team has determined the <ph conkeyref="gen/merchant"/> order
+                placement service can be integrated. </p>
+            <ul>
+                <li>
+                    <p>Implement the order placement controller. Enable Add-to-Cart functionality
+                        and order placement up to the Final Submit step.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <title>Run a System Build</title>
+            <p>The <ph conkeyref="gen/merchant"/> product data has been successfully loaded into the
+                system.</p>
+            <ul>
+                <li>
+                    <p>Manually run a system build.</p>
+                </li>
+                <li>
+                    <p>Confirm that the internal product management tools and shopping site display
+                        the data and function as expected.</p>
+                </li>
+            </ul>
+        </section>
+
+    </body>
+</topic>

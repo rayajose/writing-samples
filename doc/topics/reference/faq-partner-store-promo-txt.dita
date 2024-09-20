@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq-partner-store-promo-txt">
+    <title>Can we include promotional text?</title>
+    <body>
+        <p>Shop with Membership Rewards Points® is a comparison shopping portal, and not all
+            merchants have the same offerings. Therefore, inclusion of promotional or
+            merchant-specific text in the data is strictly prohibited, and any products containing
+            such data will not be displayed on the site.</p>
+        <note type="important">Any and all promotional, marketing, branding, or merchant specific
+            content must be omitted from the feed data.</note>
+    </body>
+</topic>

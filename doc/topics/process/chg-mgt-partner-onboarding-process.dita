@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="chg-mgt-partner-onboarding-proc">
+    <title>Onboarding Process</title>
+    <body>
+        <p><b>Task Owner(s)</b>:<ul>
+                <li>
+                    <p><ph conkeyref="gen/engagement-manager"/></p>
+                </li>
+                <li>
+                    <p><ph conkeyref="gen/project-manager"/></p>
+                </li>
+                <li>
+                    <p><ph conkeyref="gen/dev-lead"/></p>
+                </li>
+            </ul>
+        </p>
+
+
+    </body>
+</topic>

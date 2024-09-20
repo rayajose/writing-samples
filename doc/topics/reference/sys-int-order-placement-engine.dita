@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq-order-placement-engine">
+    <title>Automated Order Placement</title>
+    <body>
+        <p>The <ph conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"/>uses an
+            internal shopping cart where customers can add products from various retailers to a
+            single cart. The customer checks out though the site's order placement process. The
+            Order Placement Engine (OPE) will place the order on the retailer e-commerce shopping
+            site(s), on behalf of the customer. The customer will never see the retailer
+            site(s).</p>
+        <section>
+            <title>Using Retailer Shopping Site</title>
+            <p>The OPE is a java program that crawls the retailer site simulating a card member
+                adding products to the cart and checking out. The system uses a controller for each
+                retailer integration and is highly customizable. The controller uses HTTP GET and
+                POST requests along with JavaScript to place orders.</p>
+        </section>
+        <section>
+            <title>Using Web Service or API</title>
+            <p>The OPE can integrate with a web service or API to place orders. This is the
+                preferred method of integration. The integration process takes place during partner
+                onboarding. The partner will provide integration instructions for their service to
+                include authentication instructions and API reference documentation if available.
+                The OPE supports most API technologies:</p><ul>
+                    <li>
+                        <p>REST</p>
+                    </li>
+                    <li>
+                        <p>SOAP/Web Service</p>
+                    </li>
+                    <li>
+                        <p>GraphQL</p>
+                    </li>
+                    <li>
+                        <p>WebSocket</p>
+                    </li>
+                    <li>
+                        <p>Server-Sent Events (SSE)</p>
+                    </li>
+                    <li>
+                        <p>gRPC</p>
+                    </li>
+                    <li>
+                        <p>JSON-RPC / XML-RPC</p>
+                    </li>
+                </ul>
+        </section>
+    </body>
+</topic>

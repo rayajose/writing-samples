@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="roadmap-meetings">
+    <title>Roadmap Meetings</title>
+    <body>
+        <p>The <ph conkeyref = "gen/company"/> roadmap meeting is a
+            strategic planning session where the management team will define and discuss
+            organizational goals. The goal of the meeting is to establish a shared understanding
+            across teams. </p>
+        <p>Discussions will typically cover the following areas: <ul>
+                <li>
+                    <p>prospective work</p>
+                </li>
+                <li>
+                    <p>work in progress</p>
+                </li>
+                <li>
+                    <p>changes to existing processes, systems, applications</p>
+                </li>
+            </ul></p>
+        
+        <p>Meeting agenda typically includes the following actions: <ul>
+            <li>
+                <p>defining objectives</p>
+            </li>
+            <li>
+                <p>setting milestones</p>
+            </li>
+            <li>
+                <p>ensuring alignment</p>
+            </li>
+            <li>
+                <p>discussing strategy</p>
+            </li>
+            <li>
+                <p>getting buy-in and greenlight</p>
+            </li>
+        </ul></p>
+    </body>
+</topic>

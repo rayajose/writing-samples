@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq-product-catalog-feed">
+    <title>Creating the Product Catalog Feed</title>
+    <body>
+        <ol>
+            <li>Send feed specification to partner for review.</li>
+            <li>Partner send sample feed for internal review.</li>
+            <li>Work with partner technical team to ensure the product feed meets specifications.
+                    <note>This process typically requires iterations of review, feedback, and
+                    incorporation of feedback. The review process will be collaborative and the
+                    duration depends on the state of the data relative to requirements and the time
+                    between review cycles.</note></li>
+            <li>Load the feed into the test environment. </li>
+            <li>If feed load is successful, approve feed.</li>
+            <li>Work with partner to implement daily delivery method.</li>
+        </ol>
+    </body>
+</topic>

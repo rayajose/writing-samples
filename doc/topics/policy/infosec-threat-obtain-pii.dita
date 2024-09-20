@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="fraudelent-transactions">
+    <title>Ability to Make Fraudulent Transactions </title>
+    <body>
+        <p>Not as valuable as card account data, but names, contact information and addresses
+            would still be a target for attackers. </p>
+        <section>
+            <title><ph conref="../reuse/reuse-content.dita#reuse-content/attack-vectors"/></title>
+            <p><i>In order of risk: </i></p>
+            <ol>
+                <li>Breach of network through employee workstations (malware, phishing) </li>
+                <li>Breach of network through network attack (unpatched vulnerability, security
+                    misconfiguration) </li>
+                <li>Breach of network through Shop application (data disclosure bug, code vulnerability
+                    leading to compromise) </li>
+                <li>Employee fraud </li>
+            </ol>
+        </section>      
+        <section>
+            <title><ph conref="../reuse/reuse-content.dita#reuse-content/counter-measures"/></title>
+            
+                <ol>
+                    <li>EndPoint security programs, network separation, education, least privilege
+                        principle </li>
+                    <li>Rigorous patch policy, frequent scanning and remediation, logging and
+                        monitoring </li>
+                    <li>Application functionality (sensitive data is encrypted), testing, frequent
+                        framework patching </li>
+                    <li>Principle of least privilege, low turnover </li>
+                </ol>
+        </section>
+    </body>
+</topic>

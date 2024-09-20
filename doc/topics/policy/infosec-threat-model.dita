@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="threat-model">
+    <title>Threat Model</title>
+    <body>
+        <section>
+            <title>Assets</title>
+            <ul>
+                <li>customer primary account data (PAN) credit card data</li>
+                <li>customer personally identifiable information (PII)</li>
+                <li>automated order placement service</li>              
+                <li>client web services</li>
+            </ul>
+        </section>    
+        <section>
+            <title>Risks</title>
+            <p>In order of business risk: </p>
+            <ol>
+                <li><xref href="infosec-threat-obtain-cc-data.dita">Obtain credit card account data</xref></li>
+                <li><xref href="infosec-threat-fraudelent-transactions.dita">Ability to make fraudulent transactions</xref></li>
+                <li><xref href="infosec-threat-obtain-pii.dita">Obtain other sensitive personal information</xref></li>
+                <li><xref href="infosec-threat-access-client-network.dita">Access to client network</xref></li>
+                <li><xref href="infosec-threat-denial-of-service.dita">Denial of service</xref></li>
+            </ol>
+        </section>        
+    </body>
+</topic>

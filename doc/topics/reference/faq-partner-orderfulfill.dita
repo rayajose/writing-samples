@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq-partner-orderfulfill">
+    <title>What is the order fulfillment process?</title>
+    <body>
+        <p><ph conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"/> is not a
+            click-away shopping site. As such, the customer will not be</p>
+        <p> redirected to the merchant site, and his/her order will be placed with the merchant
+            by our automated system. The high-level</p>
+        <p> process for order fulfillment is as follows:</p>
+        <ol>
+            <li>The customer shops and completes the check-out process the <ph
+                conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"> s </ph>
+                site.</li>
+            <li>
+                <p>At this point, the system will have all the information needed to place an
+                    order with the corresponding</p>
+                <p> merchant(s).</p>
+            </li>
+            <li>
+                <p>Then, our automated system will use that information to place the order (on
+                    behalf of the customer), with the</p>
+                <p> corresponding *merchant.</p>
+            </li>
+            <li>The merchant will in turn generate order information and pass it back to our
+                system, where it will successfully be completed or get **rejected.</li>
+        </ol>
+        <p><i>*merchant in this context refers to integration</i></p>
+        <ul>
+            <li>we can integrate with an e-commerce site directly</li>
+            <li>using web services</li>
+            <li>using an API</li>
+        </ul>
+        <p><i>**an order can be rejected for a number of reason, but usually involve data
+            discrepancies arising through the order process</i></p>
+        <ul>
+            <li>item availability</li>
+            <li>item price</li>
+            <li>item shipping, tax, etc.</li>
+        </ul>
+
+    </body>
+</topic>

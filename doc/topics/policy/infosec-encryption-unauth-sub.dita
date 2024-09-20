@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="infosec-encryption-unauth-sub">
+    <title>Protection Against Unauthorized Substitution</title>
+    <body>
+        <ul>
+            <li>DEKs must be encrypted with KEKs.</li>
+            <li>Key operations require membership in ActiveDirectory (AD) security groups. </li>
+            <li>Access to key storage requires membership in AD security groups.</li>
+            <li>Key validation requires AD generated certificates.</li>
+            <li>Cryptographic key custodians required to formally acknowledge that they understand
+                and accept their key- custodian responsibilities. </li>
+        </ul>
+
+
+    </body>
+</topic>

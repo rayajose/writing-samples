@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="participants">
+    <title>Management Team</title>
+    <body>
+        <section>
+            <title>Members</title>
+            <p>The team is made up of management and functional area leads.</p>
+            <ul>
+                <li>
+                    <p>Management</p>
+                    <ul>
+                        <li>
+                            <p><ph conkeyref = "gen/it-director"/></p>
+                        </li>
+                        <li>
+                            <p><ph conkeyref = "gen/marketing-director"/></p>
+                        </li>
+                        <li>
+                            <p><ph conkeyref = "gen/project-manager"/></p>
+                        </li>
+                        <li>
+                            <p><ph conkeyref = "gen/engagement-manager"/></p>
+                        </li>
+                        <li>
+                            <p><ph conkeyref = "gen/release-manager"/></p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Functional Areas</p>
+                    <ul>
+                        <li>
+                            <p><ph conkeyref = "gen/dev-lead"/></p>
+                        </li>
+                        <li>
+                            <p><ph conkeyref = "gen/test-lead"/></p>
+                        </li>
+                        <li>
+                            <p><ph conkeyref = "gen/ops-lead"/></p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <title>Roles</title> 
+            <p>Any team member can make a change request and provide input in the approval process.
+                However, official approval comes from the <ph conkeyref = "gen/client"/> and/or the <ph conkeyref = "gen/it-director"/>. Changes are
+                implemented by functional area team members.</p>
+            <note type="important">The Approver and Implementer of a change request cannot be the
+                same person.</note>
+            <ul id="ul_bxt_1gw_tcc">
+                <li>
+                    <p><u>Approvers</u>: Review a change request to determine if it is ready for
+                        implementation. They consider the change's scope, benefits, and potential
+                        risks. The approver may authorize, reject, or return the request for more
+                        information.</p>
+                </li>
+                <li>
+                    <p><u>Implementers</u>: Execute the approved change, aiming to minimize
+                        disruption. There may be multiple implementers for a single change request,
+                        each with their own assigned tasks.</p>
+                </li>
+            </ul>
+            <table frame="all">
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Participant</entry>
+                            <entry>Requester</entry>
+                            <entry>Approver</entry>
+                            <entry>Implementer</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Customer</entry>
+                            <entry align="center">X</entry>
+                            <entry align="center">X</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>Team Member</entry>
+                            <entry align="center">X</entry>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry><ph conkeyref = "gen/it-director"/></entry>
+                            <entry/>
+                            <entry align="center">X</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>Development Team</entry>
+                            <entry/>
+                            <entry/>
+                            <entry align="center">X</entry>
+                        </row>
+                        <row>
+                            <entry>Operations Team</entry>
+                            <entry/>
+                            <entry/>
+                            <entry align="center">X</entry>
+                        </row>
+                        <row>
+                            <entry>Quality Assurance Team</entry>
+                            <entry/>
+                            <entry/>
+                            <entry align="center">X</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>      
+    </body>
+</topic>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq-partner-prog-req">
+    <title>What are the requirements for joining the program?</title>
+    <body>
+        <p>To become a partner on the <ph
+                conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"/>, the merchant
+            must:</p>
+        <ul>
+            <li>Accept the <ph conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"/>
+                Card</li>
+            <li>Have an existing e-Commerce web site</li>
+            <li>Provide a nightly catalog feed file</li>
+            <li>Pay commission on orders coming from the <ph
+                    conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"/> site </li>
+        </ul>
+    </body>
+</topic>

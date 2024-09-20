@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="writing-samples">
+    <title>Writing Samples</title>
+
+    <keydef keys="gen" href="reusables/reusable_gen.dita"/>
+    
+    <mapref href="samp-ref.ditamap"/>
+    
+    <mapref href="samp-proc.ditamap"/>
+
+    <!--<topicref href="topics/writing-samples/security/wrapper/wpr-how-to.dita">
+        <topicref href="topics/writing-samples/security/topics/tic-tac-toe.dita"/>
+    </topicref>-->
+
+    
+    <!--<topicref href="topics/writing-samples/security/wrapper/wpr-ref-nontech.dita">
+        <topicref href="topics/writing-samples/security/topics/faq-partner.dita">
+            <topicref href="topics/writing-samples/security/topics/faq-partner-prog-req.dita"/>
+            <topicref href="topics/writing-samples/security/topics/faq-partner-clickaway.dita"/>
+            <topicref href="topics/writing-samples/security/topics/faq-partner-orderfulfill.dita"/>
+            <topicref href="topics/writing-samples/security/topics/faq-partner-test-acct.dita"/>
+            <topicref href="topics/writing-samples/security/topics/faq-partner-store-pol.dita"/>
+            <topicref href="topics/writing-samples/security/topics/faq-partner-store-logo.dita"/>
+            <topicref href="topics/writing-samples/security/topics/faq-partner-store-promo-txt.dita"
+            />
+        </topicref>
+    </topicref>-->
+
+</map>
