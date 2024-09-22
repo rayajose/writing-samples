@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="crypto-key-mgt-cryptoperiod">
+    <title>Cryptoperiod</title>
+    <body>
+        <section>
+            <title>Description</title>
+            <p>The cryptoperiod specifies the maximum period during which the key is active.
+                Cryptographic keys used to protect stored account data must have a defined
+                cryptoperiod. In addition, a process for changes at the end of the defined
+                cryptoperiod is required.</p>
+        </section>
+        <section>
+            <title>Implementation</title>
+            <table frame="all">
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>State</entry>
+                            <entry>Usage</entry>
+                            <entry>Cryptoperiod</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>active</entry>
+                            <entry>encrypt and decrypt data</entry>
+                            <entry>1.5 years</entry>
+                        </row>
+                        <row>
+                            <entry>decrypt-only</entry>
+                            <entry>decrypt data</entry>
+                            <entry>1.5 years</entry>
+                        </row>
+                        <row>
+                            <entry>retired</entry>
+                            <entry>no longer usable</entry>
+                            <entry>expired</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>Reference</title>
+            <cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.4</cite>
+        </section>
+    </body>
+
+</topic>

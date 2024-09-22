@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="introduction">
+    <title>Introduction</title>
+    <body>
+        <section>
+            <title>Purpose</title>
+            <p>A brief description of the document's objective.</p>
+        </section>
+        <section>
+            <title>Scope</title>
+            <p>Defines the systems, processes, and areas covered by the document.</p>
+        </section>
+        <section>
+            <title>Audience</title>
+            <p>Specifies the intended readers (e.g., IT staff, management, external auditors).</p>
+        </section>
+    </body>
+</topic>

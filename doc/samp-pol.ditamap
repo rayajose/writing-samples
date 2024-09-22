@@ -5,21 +5,27 @@
 
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
 
+
     <topicref href="topics/policy/infosec-policy.dita">
-        <!--<topicref href="topics/policy/pci-dss-ref.dita"/>-->
-        <topicref href="topics/policy/crypto-key-management.dita">
-            <topicref href="topics/policy/crypto-key-strong.dita"/>
-            <topicref href="topics/policy/crypto-key-secure-distribution.dita"/>
-            <topicref href="tasks/crypto-key-rotation.dita"/>
+        <topicref href="topics/policy/crypto-key-management/crypto-key-mgt.dita">
+            <topicref>
+                <topicref
+                    href="topics/policy/crypto-key-management/crypto-key-mgt-strong-encryption.dita"
+                />
+                <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-secure-distribution.dita"/>
+                <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita"/>
+                <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.dita"/>
+                <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-retirement.dita">
+                    <topicref href="tasks/crypto-key-retire.dita"/>
+                    <topicref href="tasks/crypto-key-disable.dita"/>
+                    <topicref href="tasks/crypto-key-create.dita"/>
+                </topicref>
+            </topicref>
         </topicref>
     </topicref>
 
-    <!--<topicref href="topics/policy/threat-model.dita">
-            <topicref href="topics/policy/threat-model-obtain-cc-data.dita"/>
-            <topicref href="topics/policy/threat-model-fraudelent-transactions.dita"/>
-            <topicref href="topics/policy/threat-model-obtain-pii.dita"/>
-            <topicref href="topics/policy/threat-model-access-client-network.dita"/>
-            <topicref href="topics/policy/threat-model-denial-of-service.dita"/>
-        </topicref>-->
+
+
+
 
 </map>

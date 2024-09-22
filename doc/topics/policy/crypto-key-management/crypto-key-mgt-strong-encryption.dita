@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="wpr-encryption">
+    <title>Strong Encryption</title>
+    <body>
+        <section>
+            <title>Description</title>
+            <!-- what, why -->
+            <p>Use of strong cryptographic keys significantly increases the level of security of
+                encrypted account data. Strong cryptographic keys must be used to protect stored
+                account data.</p>
+        </section>
+        <section>
+            <title>Implementation</title>
+            <!-- how -->
+            <p>Stored account data is encrypted using Advanced Encryption Standard (AES) 256 bit
+                keys.</p>
+        </section>
+        <section>
+            <title>Reference</title>
+            <!-- per -->
+            <cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.1</cite>
+        </section>
+    </body>
+</topic>

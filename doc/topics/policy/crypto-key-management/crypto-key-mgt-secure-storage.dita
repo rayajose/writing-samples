@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="crypto-key-mgt-secure-storage">
+    <title>Secure Storage</title>
+    <body>
+
+        <section>
+            <title>Description</title>
+            <!-- what, why -->
+            <p>Storing keys without proper protection could provide access to unauthorized users and
+                result in the decryption and exposure of account data. Cryptographic keys used to
+                protect stored account data must be securely stored. The secure storage
+                implementation must prevent unauthorized key substitution.</p>
+        </section>
+        <section>
+            <title>Implementation</title>
+            <p>Secure storage of encryption keys is controlled as follows:</p>
+            <ul>
+                <li>
+                    <p>Keys are not stored with the data they encrypt.</p>
+                </li>
+                <li>
+                    <p>Keys that can decrypt data are never be present in source code.</p>
+                </li>
+                <li>
+                    <p>DEKs must be encrypted with KEKs.</p>
+                </li>
+                <li><p>Key Encryption Keys (KEKs) are stored in a Thales Luna HSM (Hardware Security
+                        Module).</p></li>
+                <li><p>Data Encryption Keys (DEKs) are stored in Hashicorp Vault.</p></li>
+                <li><p>Vaults are encrypted and access is restricted through a AD accounts. There is
+                        only one vault per application, per environment (development, preproduction,
+                        and production).</p></li>
+            </ul>
+        </section>
+        <section>
+            <title>Reference</title>
+            <!-- per -->
+            <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.3</cite></p>
+            <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.7</cite></p>
+        </section>
+    </body>
+
+</topic>

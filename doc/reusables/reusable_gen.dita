@@ -13,8 +13,8 @@
                 <stentry>program shopping site name</stentry>
             </strow>
             <strow>
-                <stentry/>
-                <stentry/>
+                <stentry><ph id="pci-ref-prefix">PCI-DSS-V4-</ph></stentry>
+                <stentry>PCI DSS ref prefix</stentry>
             </strow>
             <strow>
                 <stentry><ph id="company">Company</ph></stentry>
@@ -105,6 +105,13 @@
             </strow>
             <strow>
                 <stentry><image id="post" href="../images/post.png"/></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><p id="encryption-tool-op-leadin">The key pool in each environment contains 25 keys. Keys will be rotated five at a time.
+                    Unless overridden by manual selection, the <b>Encryption Tool</b> will automatically
+                    select the appropriate keys for the given operation.</p>
+                    </stentry>
                 <stentry/>
             </strow>
         </simpletable>

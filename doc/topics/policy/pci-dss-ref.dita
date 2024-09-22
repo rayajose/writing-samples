@@ -10,31 +10,54 @@
             
         </section>
         <table frame="all">
-            <tgroup cols="2">
+            <tgroup cols="3">
                 <colspec colnum="1" colname="c1" colwidth="1*"/>
-                <colspec colnum="2" colname="c2" colwidth="8.8*"/>
+                <colspec colnum="2" colname="c2" colwidth="5.32*"/>
+                <colspec colname="newCol3" colnum="3" colwidth="5.32*"/>
                 <thead>
                     <row>
                         <entry>Reference</entry>
                         <entry>Description</entry>
+                        <entry/>
                     </row>
+                    
                 </thead>
+                
                 <tbody>
                     <row>
-                        <entry><xref href="crypto-key-strong.dita">3.7.1</xref></entry>
+                        <entry>3.6.1</entry>
+                        <entry>
+                            <p> Procedures are defined and implemented to protect cryptographic keys
+                                used to protect stored account data against disclosure and misuse
+                                that include:</p>
+                            <p> • Access to keys is restricted to the fewest number of custodians
+                                necessary.</p>
+                            <p> • Key-encrypting keys are at least as strong as the data-encrypting
+                                keys they protect.</p>
+                            <p> • Key-encrypting keys are stored separately from data-encrypting
+                                keys.</p>
+                            <p> • Keys are stored securely in the fewest possible locations and
+                                forms.</p>
+                        </entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>3.7.1- DONE</entry>
                         <entry>
                             <p>Key-management policies and procedures are implemented to include
                                 generation of strong cryptographic keys used to protect stored
                                 account data.</p>
                         </entry>
+                        <entry/>
                     </row>
                     <row>
-                        <entry><xref href="crypto-key-secure-distribution.dita">3.7.2</xref></entry>
+                        <entry>3.7.2- DONE</entry>
                         <entry>
                             <p>Key-management policies and procedures are implemented to include
                                 secure distribution of cryptographic keys used to protect stored
                                 account data.</p>
                         </entry>
+                        <entry/>
                     </row>
                     <row>
                         <entry>3.7.3 - DONE</entry>
@@ -43,6 +66,7 @@
                                 secure storage of cryptographic keys used to protect stored account
                                 data.</p>
                         </entry>
+                        <entry/>
                     </row>
                     <row>
                         <entry>3.7.4 - DONE</entry>
@@ -61,6 +85,7 @@
                                     </li>
                                 </ul></p>
                         </entry>
+                        <entry/>
                     </row>
                     <row>
                         <entry>3.7.5 - DONE</entry>
@@ -87,31 +112,35 @@
                                     </li>
                                 </ul></p>
                         </entry>
+                        <entry/>
                     </row>
                     <row>
-                        <entry>3.7.6</entry>
+                        <entry>3.7.6 - DONE</entry>
                         <entry>
                             <p>Where manual cleartext cryptographic key-management operations are
                                 performed by personnel, key-management policies and procedures are
                                 implemented, including managing these operations using split
                                 knowledge and dual control.</p>
                         </entry>
+                        <entry>key creation task</entry>
                     </row>
                     <row>
-                        <entry>3.7.7</entry>
+                        <entry>3.7.7 - done</entry>
                         <entry>
                             <p>Key management policies and procedures are implemented to include the
                                 prevention of unauthorized substitution of cryptographic keys.</p>
                         </entry>
+                        <entry/>
                     </row>
                     <row>
-                        <entry>3.7.8</entry>
+                        <entry>3.7.8 - done</entry>
                         <entry>
                             <p>Key management policies and procedures are implemented to include
                                 that cryptographic key custodians formally acknowledge (in writing
                                 or electronically) that they understand and accept their
                                 key-custodian responsibilities.</p>
                         </entry>
+                        <entry/>
                     </row>
                     <row>
                         <entry>3.7.9</entry>
@@ -122,6 +151,7 @@
                                 transmission, storage and updating of such keys is documented and
                                 distributed to the service provider’s customers.</p>
                         </entry>
+                        <entry>na</entry>
                     </row>
                 </tbody>
             </tgroup>

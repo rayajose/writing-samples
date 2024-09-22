@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="policy">
+    <title>Policy</title>
+    <body>
+        <section>
+            <title>Policy Statement</title>
+            <!--<p>A high-level overview of the organization’s commitment to security.</p>-->
+        </section>
+        <section>
+            <title>Roles and Responsibilities</title>
+            <!--<p>Details on who is responsible for different aspects of security 
+                (e.g., system administrators, security officers).</p>-->
+        </section>
+        <section>
+            <title>Security Objectives</title>
+            <!--<p>Describes the goals of the organization’s 
+                information security measures.</p>-->
+        </section>
+    </body>
+</topic>

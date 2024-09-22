@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="wpr-encryption">
+    <title>Cryptographic Key Management</title>
+    <body>
+        <p>All phases of the key lifecycle must have management processes and procedures defined and
+            implemented.</p>
+        <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7</cite></p>
+    </body>
+</topic>

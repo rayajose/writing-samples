@@ -5,8 +5,9 @@
     <body>
         <section>
             <title>Context</title>
-            <p>This API reference describes resources I created in a <b>Spring Boot</b> Web services. It
-                is a simple REST API to use as subject matter for this sample document.</p>
+            <p>This API reference describes resources I created in a <b>Spring Boot</b> Web services
+                application. It is a simple REST API to use as subject matter for this sample
+                document.</p>
             <p><b>Note</b>: The environment and code, and the actual reference documentation are works
                 in progress. </p>
         </section>       

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="crypto-key-retire">
+    <title>Retiring Keys</title>
+    <abstract><cite>PCI-DSS-V4-3.7.5 </cite></abstract>
+    <taskbody>
+        <prereq>
+            <ul>
+                <li>
+                    <p>Identify two key custodians.</p>
+                </li>
+                <li>
+                    <p>Identify a member of the development team to help with issues.</p>
+                </li>
+                <li>
+                    <p>Have following information on hand:<ul>
+                            <li>
+                                <p>applicable Vault ID with token</p>
+                            </li>
+                            <li>
+                                <p>applicable Environment ID with token</p>
+                            </li>
+                            <li>
+                                <p><b>Encryption Tool</b> custodian passphrase</p>
+                            </li>
+                            <li>
+                                <p>current AD cert and credentials</p>
+                            </li>
+                        </ul></p>
+                </li>
+                <li>
+                    <p>Ensure access to the applicable environment.</p>
+                </li>
+            </ul>
+        </prereq>
+        <context>
+            <p conkeyref = "gen/encryption-tool-op-leadin"/>
+            <p> Retire keys as follows:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <b>Encryption Tool</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Select the <b>Key Operations</b> tab.</cmd>
+                <stepresult>The <b>Key Operations</b> window will display.</stepresult>
+            </step>
+            <step>
+                <cmd>Select <b>Retire</b> from the <b>Operation</b> drop-down and populate the
+                    remaining fields.</cmd>
+                <info>
+                    <ul>
+                        <li>
+                            <p>Valut ID</p>
+                        </li>
+                        <li>
+                            <p>Vault Token</p>
+                        </li>
+                        <li>
+                            <p>Environment ID</p>
+                        </li>
+                        <li>
+                            <p>Environment Token</p>
+                        </li>
+                        <li>
+                            <p>Path to AD cert</p>
+                        </li>
+                        <li>
+                            <p>Set <b>Key Type</b> to <userinput>DEK</userinput></p>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>To bypass automatic selection of keys by the <b>Encryption Tool</b>, click the
+                        <b>Manually Pick Keys</b> button. Select keys accordingly using the checkbox
+                    next to the key ID.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <b>Submit</b> button.</cmd>
+                <info>Output window activity will begin. Monitor the output.</info>
+                <stepresult><ul>
+                        <li>
+                            <p>If key the operation fails, the output window will display failure
+                                messages. In this case, forward the log information to the developer
+                                on standby and close the <b>Encryption Tool</b>. The process will
+                                need to restart from step one once the issue has been resolved.</p>
+                        </li>
+                        <li>
+                            <p>If the operation is successful, the output window will display the
+                                following message along with the list of new key IDs. </p><p><systemoutput>Five keys &lt;&lt;operation>> successfully.</systemoutput></p>
+                        </li>
+                    </ul></stepresult>
+            </step>
+        </steps>
+    </taskbody>
+
+</task>

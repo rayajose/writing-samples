@@ -1,0 +1,193 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-whc_version="26.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="Description Encryption keys must have a retirement, replacement, or destruction process in place. Retired keys are not used for encryption operations. The retirement process will be accomplished ..."/><meta name="DC.rights.owner" content="(C) Copyright 2024"/><meta name="copyright" content="(C) Copyright 2024"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="topic"/><meta name="DC.relation" content="../../../topics/policy/crypto-key-management/crypto-key-mgt.html"/><meta name="DC.relation" content="../../../tasks/crypto-key-retire.html"/><meta name="DC.relation" content="../../../tasks/crypto-key-disable.html"/><meta name="DC.relation" content="../../../tasks/crypto-key-create.html"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="crypto-key-mgt-retirement"/><title>Retirement</title><!--  Generated with Oxygen version 26.1, build number 2024072909.  --><meta name="wh-path2root" content="../../../"/><meta name="wh-toc-id" content="crypto-key-mgt-retirement-d399e225"/><meta name="wh-source-relpath" content="topics/policy/crypto-key-management/crypto-key-mgt-retirement.dita"/><meta name="wh-out-relpath" content="topics/policy/crypto-key-management/crypto-key-mgt-retirement.html"/>
+
+    <link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/app/commons.css?buildId=2024072909"/>
+    <link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/app/topic.css?buildId=2024072909"/>
+
+    <script src="../../../oxygen-webhelp/app/options/properties.js?buildId=20240922130046"></script>
+    <script src="../../../oxygen-webhelp/app/localization/strings.js?buildId=2024072909"></script>
+    <script src="../../../oxygen-webhelp/app/search/index/keywords.js?buildId=20240922130046"></script>
+    <script defer="defer" src="../../../oxygen-webhelp/app/commons.js?buildId=2024072909"></script>
+    <script defer="defer" src="../../../oxygen-webhelp/app/topic.js?buildId=2024072909"></script>
+<link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/template/oxygen.css?buildId=2024072909"/><link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/template/notes.css?buildId=2024072909"/></head>
+
+    <body id="crypto-key-mgt-retirement" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    
+                    <div class=" wh_publication_title "><a href="../../../index.html"><span class="title">Writing Samples</span></a></div>
+                    
+                </div>
+                
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="wpr-api-rest-ref-doc-d399e28-mi" data-tocid="wpr-api-rest-ref-doc-d399e28" data-state="not-ready" class=" topicref " data-id="wpr-api-rest-ref-doc"><span class="title"><a href="../../../wrapper/wpr-api-rest-ref-doc.html">Reference Documentation</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="infosec-policy-d399e176-mi" data-tocid="infosec-policy-d399e176" data-state="not-ready" class=" topicref " data-id="infosec-policy"><span class="title"><a href="../../../topics/policy/infosec-policy.html">Information Security</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="wpr-chg-mgt-processes-d399e267-mi" data-tocid="wpr-chg-mgt-processes-d399e267" data-state="not-ready" class=" topicref " data-id="wpr-chg-mgt-processes"><span class="title"><a href="../../../wrapper/process-doc.html">Process Documentation</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="../../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="../../../index.html"><span>Home</span></a></span></li><li><div class="topicref" data-id="infosec-policy"><div class="title"><a href="../../../topics/policy/infosec-policy.html">Information Security</a></div></div></li><li><div class="topicref" data-id="wpr-encryption"><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt.html">Cryptographic Key Management</a></div></div></li><li class="active"><div class="topicref" data-id="crypto-key-mgt-retirement"><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt-retirement.html">Retirement</a></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <button type="button" id="wh_toc_button" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-12 d-md-block d-none d-print-none" aria-label="Table of Contents Container">
+                            <div id="wh_publication_toc_content">
+		                        
+                            	<div class=" wh_publication_toc " data-tooltip-position="right"><span class="expand-button-action-labels"><span id="button-expand-action" role="button" aria-label="Expand"></span><span id="button-collapse-action" role="button" aria-label="Collapse"></span><span id="button-pending-action" role="button" aria-label="Pending"></span></span><ul role="tree" aria-label="Table of Contents"><li role="treeitem" aria-expanded="true"><div data-tocid="infosec-policy-d399e176" class="topicref" data-id="infosec-policy" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action infosec-policy-d399e176-link" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/infosec-policy.html" id="infosec-policy-d399e176-link">Information Security</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" aria-expanded="true"><div data-tocid="wpr-encryption-d399e184" class="topicref" data-id="wpr-encryption" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action wpr-encryption-d399e184-link" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt.html" id="wpr-encryption-d399e184-link">Cryptographic Key Management</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem"><div data-tocid="wpr-encryption-d399e193" class="topicref" data-id="wpr-encryption" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt-strong-encryption.html" id="wpr-encryption-d399e193-link">Strong Encryption</a></div></div></li><li role="treeitem"><div data-tocid="crypto_key_secure_distribution-d399e201" class="topicref" data-id="crypto_key_secure_distribution" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt-secure-distribution.html" id="crypto_key_secure_distribution-d399e201-link">Secure Key Distribution</a></div></div></li><li role="treeitem"><div data-tocid="crypto-key-mgt-secure-storage-d399e209" class="topicref" data-id="crypto-key-mgt-secure-storage" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.html" id="crypto-key-mgt-secure-storage-d399e209-link">Secure Storage</a></div></div></li><li role="treeitem"><div data-tocid="crypto-key-mgt-cryptoperiod-d399e217" class="topicref" data-id="crypto-key-mgt-cryptoperiod" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.html" id="crypto-key-mgt-cryptoperiod-d399e217-link">Cryptoperiod</a></div></div></li><li role="treeitem" aria-expanded="true" class="active"><div data-tocid="crypto-key-mgt-retirement-d399e225" class="topicref" data-id="crypto-key-mgt-retirement" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action crypto-key-mgt-retirement-d399e225-link" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt-retirement.html" id="crypto-key-mgt-retirement-d399e225-link">Retirement</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem"><div data-tocid="crypto-key-retire-d399e233" class="topicref" data-id="crypto-key-retire" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../tasks/crypto-key-retire.html" id="crypto-key-retire-d399e233-link">Retiring Keys</a></div></div></li><li role="treeitem"><div data-tocid="crypto-key-disable-d399e241" class="topicref" data-id="crypto-key-disable" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../tasks/crypto-key-disable.html" id="crypto-key-disable-d399e241-link">Disabling Keys</a></div></div></li><li role="treeitem"><div data-tocid="crypto-key-creation-d399e249" class="topicref" data-id="crypto-key-creation" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../tasks/crypto-key-create.html" id="crypto-key-creation-d399e249-link">Creating Keys</a></div></div></li></ul></li></ul></li></ul></li></ul></div>
+		                        
+                            </div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <button id="wh_close_publication_toc_button" class="close-toc-button d-none" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article class="- topic/topic topic" role="article" aria-labelledby="ariaid-title1">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Retirement</h1>
+    <div class="- topic/body body">
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Description</h2>
+            
+            <p class="- topic/p p">Encryption keys must have a retirement, replacement, or destruction process in place.
+                Retired keys are not used for encryption operations. The retirement process will be
+                accomplished through periodic rotation performed by key custodians.</p>
+        </section>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Implementation</h2>
+            
+            <p class="- topic/p p">Keys must be retired in the following situations:</p>
+            <ul class="- topic/ul ul">
+                <li class="- topic/li li">
+                    <p class="- topic/p p">At time of rotation.</p>
+                </li>
+                <li class="- topic/li li">
+                    <p class="- topic/p p">At the end of its defined cryptoperiod.</p>
+                </li>
+                <li class="- topic/li li">
+                    <p class="- topic/p p">If integrity of the key has been weakened.</p>
+                </li>
+                <li class="- topic/li li">
+                    <p class="- topic/p p">If suspected of or known to be compromised.</p>
+                </li>
+                <li class="- topic/li li">
+                    <p class="- topic/p p">When transitioning to a new algorithm.</p>
+                </li>
+            </ul>
+            <p class="- topic/p p">Keys are rotated every 90 days. The following operations are performed at the time of
+                rotation.</p>
+            <ul class="- topic/ul ul">
+                <li class="- topic/li li">
+                    <p class="- topic/p p">five keys are created</p>
+                </li>
+                <li class="- topic/li li">
+                    <p class="- topic/p p">five keys are disabled</p>
+                </li>
+                <li class="- topic/li li">
+                    <p class="- topic/p p">five keys are retired</p>
+                </li>
+            </ul>
+        </section>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Reference</h2>
+            
+            <p class="- topic/p p"><cite class="- topic/cite cite"><span class="- topic/ph ph">PCI-DSS-V4-</span>3.7.5</cite></p>
+        </section>
+    </div>
+
+</article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container mx-auto ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank" rel="noopener">&lt;oXygen/&gt; XML WebHelp</a> - Evaluation Version
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

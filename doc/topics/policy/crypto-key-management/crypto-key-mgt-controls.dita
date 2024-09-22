@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="crypto-key-mgt-controls">
+    <title>Controls</title>
+    <body>
+        <section>
+            <title>Technical Controls</title>
+            <!--<p>Description of controls like firewalls, encryption, access control mechanisms, and
+        intrusion detection systems.</p>-->
+        </section>
+        <section>
+            <title>Administrative Controls</title>
+            <!--<p>Policies and procedures to manage security, such as employee training, incident response
+        plans, and regular audits.</p>-->
+        </section>
+        <section>
+            <title>Physical Controls</title>
+            <!--<p>Security of physical infrastructure, such as access to data centers, surveillance, and
+        locks.</p>-->
+        </section>
+    </body>
+</topic>

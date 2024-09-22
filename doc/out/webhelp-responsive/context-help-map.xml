@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
    <appContext helpID="infosec-policy" path="topics/policy/infosec-policy.html"/>
-   <appContext helpID="wpr-encryption" path="topics/policy/crypto-key-management.html"/>
-   <appContext helpID="wpr-encryption" path="topics/policy/crypto-key-strong.html"/>
+   <appContext helpID="wpr-encryption"
+               path="topics/policy/crypto-key-management/crypto-key-mgt.html"/>
+   <appContext helpID="wpr-encryption"
+               path="topics/policy/crypto-key-management/crypto-key-mgt-strong-encryption.html"/>
    <appContext helpID="crypto_key_secure_distribution"
-               path="topics/policy/crypto-key-secure-distribution.html"/>
-   <appContext helpID="crypto-key-rotation-process"
-               path="tasks/crypto-key-rotation.html"/>
+               path="topics/policy/crypto-key-management/crypto-key-mgt-secure-distribution.html"/>
+   <appContext helpID="crypto-key-mgt-secure-storage"
+               path="topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.html"/>
+   <appContext helpID="crypto-key-mgt-cryptoperiod"
+               path="topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.html"/>
+   <appContext helpID="crypto-key-mgt-retirement"
+               path="topics/policy/crypto-key-management/crypto-key-mgt-retirement.html"/>
+   <appContext helpID="crypto-key-retire" path="tasks/crypto-key-retire.html"/>
+   <appContext helpID="crypto-key-disable" path="tasks/crypto-key-disable.html"/>
+   <appContext helpID="crypto-key-creation" path="tasks/crypto-key-create.html"/>
 </map>

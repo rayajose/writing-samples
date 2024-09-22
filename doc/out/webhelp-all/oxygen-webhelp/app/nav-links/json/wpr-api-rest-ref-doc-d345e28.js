@@ -1,1 +1,0 @@
-oxy_webhelp_navlinks = {"wpr-api-rest-ref-doc-d345e28":{"topics":[{"title":"My REST API","href":"topics\/reference\/api-my-rest-api.html","attributes":{"data-id":"my-rest-api"},"menu":{"hasChildren":true},"tocID":"my-rest-api-d345e36","next":"my-rest-api-d345e36"}]}};

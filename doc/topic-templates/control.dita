@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="control">
+    <title>Control Name</title>
+    <body>       
+        <section>
+            <title>Description</title>
+            <!-- what, why -->
+            <p></p>
+        </section>
+        <section>
+            <title>Implementation</title>
+            <!-- how
+                if top level req. implementation described in sub reqs.
+            -->
+        </section>
+        <section>
+            <title>Reference</title>
+            <!-- per -->
+            <cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.1</cite>
+        </section>
+    </body>
+</topic>
