@@ -3,8 +3,22 @@
 <topic id="wpr-encryption">
     <title>Cryptographic Key Management</title>
     <body>
+
         <p>All phases of the key lifecycle must have management processes and procedures defined and
             implemented.</p>
         <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7</cite></p>
+        <section>
+            <title>Purpose</title>
+            <p>Cryptographic key management is important because it protects sensitive data by
+                ensuring that cryptographic keys are handled securely.</p>
+        </section>
+        <section>
+            <title>Scope</title>
+            <!--<p>Defines the systems, processes, and areas covered by the document.</p>-->
+        </section>
+        <section>
+            <title>Audience</title>
+            <!--<p>Specifies the intended readers (e.g., IT staff, management, external auditors).</p>-->
+        </section>
     </body>
 </topic>

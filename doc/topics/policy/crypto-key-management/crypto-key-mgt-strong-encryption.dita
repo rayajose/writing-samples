@@ -4,20 +4,41 @@
     <title>Strong Encryption</title>
     <body>
         <section>
-            <title>Description</title>
+            <title><ph conkeyref="gen/pol-desc"/></title>
             <!-- what, why -->
-            <p>Use of strong cryptographic keys significantly increases the level of security of
-                encrypted account data. Strong cryptographic keys must be used to protect stored
-                account data.</p>
+            <p>Keys used to protect stored account data must use strong encryption. Strong keys will
+                protect data from unauthorized access. Strong encryption is also important for the
+                following reasons: <ul id="ul_rfx_1y1_vcc">
+                    <li>
+                        <p>It prevents unauthorized access to data, protecting user privacy and
+                            preventing sensitive data from being intercepted.</p>
+                    </li>
+                    <li>
+                        <p>It helps prevent data breaches and protects data in transit or at rest.
+                        </p>
+                    </li>
+                    <li>
+                        <p>It ensures that the data received by the recipient is the same as the
+                            data that was sent, and that it hasn't been tampered with.</p>
+                    </li>
+                    <li>
+                        <p>It helps avert financial and/or legal consequences. A data breach can
+                            have serious financial and legal consequences for a business, including
+                            fines, customer loss, lawsuits, and even bankruptcy.</p>
+                    </li>
+                    <li>
+                        <p>For compliance with industry and government regulations.</p>
+                    </li>
+                </ul></p>
         </section>
         <section>
-            <title>Implementation</title>
+            <title><ph conkeyref="gen/pol-cont"/></title>
             <!-- how -->
-            <p>Stored account data is encrypted using Advanced Encryption Standard (AES) 256 bit
-                keys.</p>
+            <p>Stored account data is encrypted using AES-256 encryption. AES-256 encryption uses
+                the 256-bit key length to encrypt as well as decrypt a block of messages.</p>
         </section>
         <section>
-            <title>Reference</title>
+            <title><ph conkeyref="gen/pol-ref"/></title>
             <!-- per -->
             <cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.1</cite>
         </section>

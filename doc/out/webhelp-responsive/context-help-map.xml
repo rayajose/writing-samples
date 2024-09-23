@@ -11,9 +11,6 @@
                path="topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.html"/>
    <appContext helpID="crypto-key-mgt-cryptoperiod"
                path="topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.html"/>
-   <appContext helpID="crypto-key-mgt-retirement"
-               path="topics/policy/crypto-key-management/crypto-key-mgt-retirement.html"/>
-   <appContext helpID="crypto-key-retire" path="tasks/crypto-key-retire.html"/>
-   <appContext helpID="crypto-key-disable" path="tasks/crypto-key-disable.html"/>
-   <appContext helpID="crypto-key-creation" path="tasks/crypto-key-create.html"/>
+   <appContext helpID="crypto-key-mgt-rotation"
+               path="topics/policy/crypto-key-management/crypto-key-mgt-rotation.html"/>
 </map>

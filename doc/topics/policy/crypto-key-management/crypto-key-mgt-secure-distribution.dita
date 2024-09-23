@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="crypto_key_secure_distribution">
-    <title>Secure Key Distribution</title>
+    <title>Secure Distribution</title>
     <body>
 
         <section>
-            <title>Description</title>
+            <title><ph conkeyref="gen/pol-desc"/></title>
             <!-- what, why -->
-            <p>Keys used to protect stored account data must be securely distributed. Key
-                distribution must be strictly limited to authorized key custodians. The secure
-                distribution implementation must prevent unauthorized key substitution.</p>
+            <p>Keys used to protect stored account data must be securely distributed. Secure key
+                distribution is important for data security because it ensures that only authorized
+                parties receive the correct keys, and that encrypted data is not compromised. Secure
+                distribution is also important for the following reasons: </p>
+            <ul>
+                <li>
+                    <p>It provides secrecy and authentication for communication</p>
+                </li>
+                <li>
+                    <p>It protects against vulnerability as interception is possible during the
+                        exchange.</p>
+                </li>
+                <li>
+                    <p>It ensures that keys used for encryption and decryption are not compromised,
+                        stolen, or tampered with.</p>
+                </li>
+                <li>
+                    <p>It prevents unauthorized key substitution.</p>
+                </li>
+                <li>
+                    <p>For compliance with industry and government regulations.</p>
+                </li>
+            </ul>
         </section>
         <section>
-            <title>Implementation</title>
+            <title><ph conkeyref="gen/pol-cont"/></title>
             <p>Secure distribution of encryption keys is controlled as follows:</p>
             <ul>
                 <li>
@@ -42,7 +62,7 @@
             </ul>
         </section>
         <section>
-            <title>Reference</title>
+            <title><ph conkeyref="gen/pol-ref"/></title>
             <!-- per -->
             <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.2</cite></p>
             <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.6</cite></p>

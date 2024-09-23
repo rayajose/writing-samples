@@ -2,42 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>topics/policy/infosec-policy.html</loc>
-      <lastmod>2024-09-22T04:54:27Z</lastmod>
+      <lastmod>2024-09-23T05:16:58Z</lastmod>
    </url>
    <url>
       <loc>topics/policy/crypto-key-management/crypto-key-mgt.html</loc>
-      <lastmod>2024-09-22T04:54:27Z</lastmod>
+      <lastmod>2024-09-23T05:16:58Z</lastmod>
    </url>
    <url>
       <loc>topics/policy/crypto-key-management/crypto-key-mgt-strong-encryption.html</loc>
-      <lastmod>2024-09-22T04:54:27Z</lastmod>
+      <lastmod>2024-09-23T05:16:58Z</lastmod>
    </url>
    <url>
       <loc>topics/policy/crypto-key-management/crypto-key-mgt-secure-distribution.html</loc>
-      <lastmod>2024-09-22T04:54:27Z</lastmod>
+      <lastmod>2024-09-23T05:16:58Z</lastmod>
    </url>
    <url>
       <loc>topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.html</loc>
-      <lastmod>2024-09-22T04:54:27Z</lastmod>
+      <lastmod>2024-09-23T05:16:58Z</lastmod>
    </url>
    <url>
       <loc>topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.html</loc>
-      <lastmod>2024-09-22T04:54:27Z</lastmod>
+      <lastmod>2024-09-23T05:16:58Z</lastmod>
    </url>
    <url>
-      <loc>topics/policy/crypto-key-management/crypto-key-mgt-retirement.html</loc>
-      <lastmod>2024-09-22T04:54:27Z</lastmod>
-   </url>
-   <url>
-      <loc>tasks/crypto-key-retire.html</loc>
-      <lastmod>2024-09-22T04:54:27Z</lastmod>
-   </url>
-   <url>
-      <loc>tasks/crypto-key-disable.html</loc>
-      <lastmod>2024-09-22T04:54:27Z</lastmod>
-   </url>
-   <url>
-      <loc>tasks/crypto-key-create.html</loc>
-      <lastmod>2024-09-22T04:54:27Z</lastmod>
+      <loc>topics/policy/crypto-key-management/crypto-key-mgt-rotation.html</loc>
+      <lastmod>2024-09-23T05:16:58Z</lastmod>
    </url>
 </urlset>

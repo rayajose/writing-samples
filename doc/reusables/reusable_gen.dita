@@ -114,6 +114,18 @@
                     </stentry>
                 <stentry/>
             </strow>
+            <strow>
+                <stentry><ph id="pol-desc">Policy</ph></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><ph id="pol-cont">Controls</ph></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><ph id="pol-ref">Reference</ph></stentry>
+                <stentry/>
+            </strow>
         </simpletable>
     </body>
 </topic>

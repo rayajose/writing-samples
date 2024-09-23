@@ -5,15 +5,32 @@
     <body>
 
         <section>
-            <title>Description</title>
+            <title><ph conkeyref="gen/pol-desc"/></title>
             <!-- what, why -->
-            <p>Storing keys without proper protection could provide access to unauthorized users and
-                result in the decryption and exposure of account data. Cryptographic keys used to
-                protect stored account data must be securely stored. The secure storage
-                implementation must prevent unauthorized key substitution.</p>
+            <p>Keys used to protect stored account data must be securely stored. Secure key storage
+                is important because it protects cryptographic keys from unauthorized access, which
+                helps maintain the integrity and confidentiality of data. Without secure key
+                storage, keys can be vulnerable to attacks that extract them from a device's storage
+                or application. Secure storage is also important for the following reasons:</p>
+            <ul>
+                <li>
+                    <p>It prevents attackers from accessing and downloading a device's flash to
+                        extract keys.  </p>
+                </li>
+                <li>
+                    <p>It prevents attackers from taking control of a user's application or
+                        privileges to access keys.</p>
+                </li>
+                <li>
+                    <p>It reduces the chance that they will be compromised.</p>
+                </li>
+                <li>
+                    <p>For compliance with industry and government regulations.</p>
+                </li>
+            </ul>
         </section>
         <section>
-            <title>Implementation</title>
+            <title><ph conkeyref="gen/pol-cont"/></title>
             <p>Secure storage of encryption keys is controlled as follows:</p>
             <ul>
                 <li>
@@ -34,7 +51,7 @@
             </ul>
         </section>
         <section>
-            <title>Reference</title>
+            <title><ph conkeyref="gen/pol-ref"/></title>
             <!-- per -->
             <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.3</cite></p>
             <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.7</cite></p>

@@ -4,14 +4,30 @@
     <title>Cryptoperiod</title>
     <body>
         <section>
-            <title>Description</title>
-            <p>The cryptoperiod specifies the maximum period during which the key is active.
-                Cryptographic keys used to protect stored account data must have a defined
-                cryptoperiod. In addition, a process for changes at the end of the defined
-                cryptoperiod is required.</p>
+            <title><ph conkeyref="gen/pol-desc"/></title>
+            <p>Keys used to protect stored account data must have a defined cryptoperiod. A
+                cryptoperiod is the time frame during which a cryptographic key is authorized for
+                use. It's also known as key lifetime or validity period. Cryptoperiods are important
+                for the following reasons:</p>
+            <ul>
+                <li>
+                    <p>They limit the amount of exploitable information that could be obtained
+                        through cryptanalysis after a key change</p>
+                </li>
+                <li>
+                    <p> They make cryptographic algorithms less susceptible to cryptanalysis.</p>
+                </li>
+                <li>
+                    <p>They make keys less susceptible it is to attack, reducing data risk.</p>
+                </li>
+                <li>
+                    <p>For compliance with industry and government regulations.</p>
+                </li>
+            </ul>
         </section>
         <section>
-            <title>Implementation</title>
+            <title><ph conkeyref="gen/pol-cont"/></title>
+            <p>Keys are destroyed when their <b>retired</b> cryptoperiod has expired.</p>
             <table frame="all">
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -27,25 +43,20 @@
                     <tbody>
                         <row>
                             <entry>active</entry>
-                            <entry>encrypt and decrypt data</entry>
-                            <entry>1.5 years</entry>
-                        </row>
-                        <row>
-                            <entry>decrypt-only</entry>
-                            <entry>decrypt data</entry>
-                            <entry>1.5 years</entry>
+                            <entry>encryption and decryption</entry>
+                            <entry>one year</entry>
                         </row>
                         <row>
                             <entry>retired</entry>
-                            <entry>no longer usable</entry>
-                            <entry>expired</entry>
+                            <entry>decryption only</entry>
+                            <entry>one year</entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
         </section>
         <section>
-            <title>Reference</title>
+            <title><ph conkeyref="gen/pol-ref"/></title>
             <cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.4</cite>
         </section>
     </body>

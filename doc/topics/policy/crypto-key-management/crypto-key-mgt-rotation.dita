@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="crypto-key-mgt-rotation">
+    <title>Rotation</title>
+    <body>
+        <section>
+            <title><ph conkeyref="gen/pol-desc"/></title>
+            <p>Keys used to protect stored account data must be rotated at the end of the
+                cryptoperiod (replaced, retired, and destroyed). Keys rotation is important for the
+                following reasons:</p>
+            <ul>
+                <li>
+                    <p>It limits the amount of data that is encrypted with the same key, which
+                        reduces the impact if that key is compromised.</p>
+                </li>
+                <li>
+                    <p>It prevents sustained access making it harder for unauthorized users to gain
+                        access to sensitive data for extended periods of time.</p>
+                </li>
+                <li>
+                    <p>It helps systems recover more quickly after security lapses.</p>
+                </li>
+            </ul>
+            <p>
+                <ul id="ul_fsw_vdb_vcc">
+                    <li> It prevents cracking by making any progress made on cracking a key
+                        obsolete.</li>
+                    <li> For compliance with industry and government regulations.</li>
+                </ul>
+            </p>
+        </section>
+        <section>
+            <title><ph conkeyref="gen/pol-cont"/></title>
+            <p>Keys will be rotated upon occurrence of the following:</p>
+            <ul>
+                <li>
+                    <p>At the end of its cryptoperiod.</p>
+                </li>
+                <li>
+                    <p>If integrity of the key has been weakened.</p>
+                </li>
+                <li>
+                    <p>If suspected of or known to be compromised.</p>
+                </li>
+                <li>
+                    <p>When transitioning to a new algorithm.</p>
+                </li>
+            </ul>
+            <p>Keys are rotated every 90 days. The following operations are performed at the time of
+                rotation.</p>
+            <ul>
+                <li>
+                    <p>keys are generated</p>
+                </li>
+                <li>
+                    <p>keys are retired</p>
+                </li>
+                <li>
+                    <p>keys are destroyed</p>
+                </li>
+            </ul>
+            <p>Key rotations must be documented for tracking purposes and historical record.</p>
+        </section>
+        <section>
+            <title><ph conkeyref="gen/pol-ref"/></title>
+            <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.5</cite></p>
+        </section>
+    </body>
+
+</topic>
