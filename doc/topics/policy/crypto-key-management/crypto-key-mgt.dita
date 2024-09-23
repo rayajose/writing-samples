@@ -4,21 +4,46 @@
     <title>Cryptographic Key Management</title>
     <body>
 
-        <p>All phases of the key lifecycle must have management processes and procedures defined and
-            implemented.</p>
-        <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7</cite></p>
+        <p>Cryptographic Key management refers to the comprehensive processes and infrastructure required to
+            control cryptographic keys throughout their lifecycle.</p>
         <section>
             <title>Purpose</title>
-            <p>Cryptographic key management is important because it protects sensitive data by
-                ensuring that cryptographic keys are handled securely.</p>
+            <p>This policy outlines the requirements for protecting cryptographic keys under the
+                control of individuals within the <ph conkeyref="gen/company"/>. These requirements
+                are designed to prevent unauthorized disclosure and subsequent fraudulent use. The
+                protection methods outlined will include the following operational and technical
+                controls:</p>
+            <ul>
+                <li>
+                    <p>Strong Encryption </p>
+                </li>
+                <li>
+                    <p>Secure Distribution </p>
+                </li>
+                <li>
+                    <p>Secure Storage </p>
+                </li>
+                <li>
+                    <p>Cryptoperiod </p>
+                </li>
+                <li>
+                    <p>Cryptoperiod Rotation</p>
+                </li>
+            </ul>
         </section>
         <section>
             <title>Scope</title>
-            <!--<p>Defines the systems, processes, and areas covered by the document.</p>-->
+            <p>This policy applies to the entire <ph conkeyref="gen/company"/>, but particularly to
+                individuals involved in any aspect of cryptographic key management.</p>
         </section>
         <section>
             <title>Audience</title>
-            <!--<p>Specifies the intended readers (e.g., IT staff, management, external auditors).</p>-->
+            <p>This policy is targeted specifically to IT staff, development teams, management,
+                external auditors or any other relevant party.</p>
+        </section>
+        <section>
+            <title><ph conkeyref = "gen/pol-ref"/></title>
+            <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7</cite></p>
         </section>
     </body>
 </topic>

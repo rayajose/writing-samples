@@ -31,7 +31,7 @@
         </section>
         <section>
             <title><ph conkeyref="gen/pol-cont"/></title>
-            <p>Keys will be rotated upon occurrence of the following:</p>
+            <p>Keys are rotated upon occurrence of the following:</p>
             <ul>
                 <li>
                     <p>At the end of its cryptoperiod.</p>
@@ -59,7 +59,7 @@
                     <p>keys are destroyed</p>
                 </li>
             </ul>
-            <p>Key rotations must be documented for tracking purposes and historical record.</p>
+            <p>Key rotations are documented for tracking purposes and historical record.</p>
         </section>
         <section>
             <title><ph conkeyref="gen/pol-ref"/></title>

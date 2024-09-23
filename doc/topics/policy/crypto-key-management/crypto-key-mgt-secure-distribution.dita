@@ -36,7 +36,7 @@
             <p>Secure distribution of encryption keys is controlled as follows:</p>
             <ul>
                 <li>
-                    <p>Key access managed through HashiCorp Vault.</p>
+                    <p>Key access is managed through HashiCorp Vault.</p>
                 </li>
                 <li>
                     <p>Vaults are encrypted and access is restricted through a AD accounts.</p>
@@ -46,7 +46,7 @@
                             <codeph>key_custodian</codeph> security group.</p>
                 </li>
                 <li>
-                    <p>Key operations involving cleartext secrets requires split knowledge from two
+                    <p>Key operations involving cleartext secrets require split knowledge from two
                         key custodians.</p>
                 </li>
                 <li>
