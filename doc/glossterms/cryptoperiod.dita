@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry id="cryptoperiod">
+    <glossterm>cryptoperiod</glossterm>
+    <glossdef>A cryptoperiod is the time frame during which a cryptographic key is authorized for
+        use. It's also known as key lifetime or validity period.</glossdef>
+</glossentry>

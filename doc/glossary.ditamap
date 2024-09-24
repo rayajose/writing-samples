@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Glossary</title>
+    
+    <glossref href="glossterms/key-encrypting-key.dita" keys="gl-kek"/>
+    <glossref href="glossterms/data-encrypting-key.dita" keys="gl-dek"/>
+    <glossref href="glossterms/cryptoperiod.dita" keys="gl-cryptoperiod"/>
+    <glossref href="glossterms/aes-256.dita" keys="gl-aes256"/>
+   
+</map>

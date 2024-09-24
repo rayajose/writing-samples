@@ -34,8 +34,7 @@
         <section>
             <title><ph conkeyref="gen/pol-cont"/></title>
             <!-- how -->
-            <p>Stored account data is encrypted using AES-256 encryption. AES-256 encryption uses
-                the 256-bit key length to encrypt as well as decrypt a block of messages.</p>
+            <p>Stored account data is encrypted using <term keyref="gl-aes256"/> encryption. </p>
         </section>
         <section>
             <title><ph conkeyref="gen/pol-ref"/></title>

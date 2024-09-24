@@ -30,7 +30,7 @@
             </ul>
         </section>
         <section>
-            <title><ph conkeyref="gen/pol-cont"/></title>
+            <title><ph conkeyref="gen/pol-cont"/> </title>
             <p>Secure storage of encryption keys is controlled as follows:</p>
             <ul>
                 <li>
@@ -40,7 +40,7 @@
                     <p>Keys that can decrypt data are never be present in source code.</p>
                 </li>
                 <li>
-                    <p>DEKs are encrypted with KEKs.</p>
+                    <p><term keyref="gl-dek"/>s are encrypted with <term keyref="gl-kek"/>s.</p>
                 </li>
                 <li><p>Key Encryption Keys (KEKs) are stored in a Thales Luna HSM (Hardware Security
                         Module).</p></li>

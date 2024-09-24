@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry id="aes-256">
+    <glossterm>AES-256</glossterm>
+    <glossdef>Advanced Encryption Standard. The AES encryption algorithm, also known as the Rijndael
+        algorithm, is a type of symmetric block cipher that works with 128-bit blocks of data.
+        AES-256 encryption uses the 256-bit key length to encrypt as well as decrypt a block of
+        messages.</glossdef>
+</glossentry>

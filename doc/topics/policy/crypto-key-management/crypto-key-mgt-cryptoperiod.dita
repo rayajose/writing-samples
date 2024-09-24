@@ -5,10 +5,8 @@
     <body>
         <section>
             <title><ph conkeyref="gen/pol-desc"/></title>
-            <p>Keys used to protect stored account data must have a defined cryptoperiod. A
-                cryptoperiod is the time frame during which a cryptographic key is authorized for
-                use. It's also known as key lifetime or validity period. Cryptoperiods are important
-                for the following reasons:</p>
+            <p>Keys used to protect stored account data must have a defined <term keyref="gl-cryptoperiod"/>.
+                Cryptoperiods are important for the following reasons:</p>
             <ul>
                 <li>
                     <p>They limit the amount of exploitable information that could be obtained

@@ -4,4 +4,5 @@
     <title>Project</title>
     <!--<topicref href="topics/welcome.dita"/>-->
     <topicref href="reusables/reusable_content.ditamap" format="ditamap" processing-role="resource-only"/>
+    <mapref href="glossary.ditamap" processing-role="resource-only"/>
 </map>
