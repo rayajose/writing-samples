@@ -114,31 +114,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>samp-all.ditamap</String>
+                                    <String>topics/reference/xmen/api-res-xmen-post-parameters.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map WebHelp Responsive - myWay - ALL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>project.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Project to  PDF - based on HTML5 &amp; CSS</String>
+                                        <String>Project to WebHelp Responsive</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -179,6 +159,46 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>DITA Map WebHelp Responsive - myWay - POLICY</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samp-all.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map WebHelp Responsive - myWay - ALL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>project.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Project to  PDF - based on HTML5 &amp; CSS</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

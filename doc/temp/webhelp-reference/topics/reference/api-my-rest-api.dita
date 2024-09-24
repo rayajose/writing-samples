@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\pdidd\Git\writing-samples\doc\temp\webhelp-reference\topics\reference?><?workdir-uri file:/C:/Users/pdidd/Git/writing-samples/doc/temp/webhelp-reference/topics/reference/?><?path2project ..\..\?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="my-rest-api" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="topic:1;3:25" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="title:1;4:12">My REST API</title>
+    <body class="- topic/body " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="body:1;5:11">
+        <section class="- topic/section " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="section:1;6:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="title:2;7:20">Context</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="p:1;8:16">This API reference describes resources I created in a <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="b:1;8:73">Spring Boot</b> Web services
+                application. It is a simple REST API to use as subject matter for this sample
+                document.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="p:2;11:16"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="b:2;11:19">Note</b>: The environment and code, and the actual reference documentation are works
+                in progress. </p>
+        </section>       
+        <section class="- topic/section " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="section:2;14:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="title:3;15:20">About the API</title>
+            <ul class="- topic/ul " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="ul:1;16:17">
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="li:1;17:21">uses resource URIs and standard HTTP requests</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="li:2;18:21">the resources are simple operations using ideas found on the web</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="li:3;19:21">is a Java Spring Boot project on the backend (I created the server and wrote the
+                    Java code)</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="li:4;21:21">uses working Java methods </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="li:5;22:21">Postman and cURL used to test the requests and confirm the expected
+                    responses</li>
+            </ul>
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="section:3;26:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="title:4;27:20">About the Documentation</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/api-my-rest-api.dita" xtrc="p:3;28:16">The documentation design is based on various public API References. While reviewing
+                the public API references, the primary aspects considered were content and
+                format.</p>
+        </section>
+    </body>
+</topic>

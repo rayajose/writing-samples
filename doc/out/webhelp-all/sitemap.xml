@@ -1,155 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>wrapper/wpr-api-rest-ref-doc.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
-   </url>
-   <url>
       <loc>topics/reference/api-my-rest-api.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>topics/reference/api-ref-doc-authentication.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-xmen.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen.html</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-xmen.html#api-res-uri</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/api-res-uri.html</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-xmen.html#api-res-xmen-parameters</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-properties.html</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-xmen.html#api-res-xmen-properties</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-endpoints.html</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-xmen.html#unique_1377750736</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-post.html</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-xmen.html#api-res-xmen-response</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-post-parameters</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-needles.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-post-request</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-uri_2.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-response</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-needles.html#api-res-needles-properties</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get.html</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-needles.html#unique_247251934</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-get-parameters</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-needles.html#api-res-needles-post</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-get-request</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-needles.html#unique_357667310</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-post-response</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-res-needles.html#unique_126293801</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-id.html</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-id-parameters</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-request</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-id-response</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/xmen/api-res-xmen-put-id.html</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-put-id-parameters</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-post-request</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-put-id-response</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/xmen/api-res-xmen-delete-id.html</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-get-id-parameters</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-get-request</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-delete-id-response</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>topics/reference/api-error-responses.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
-   </url>
-   <url>
-      <loc>glossterms/key-encrypting-key.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
-   </url>
-   <url>
-      <loc>glossterms/data-encrypting-key.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
-   </url>
-   <url>
-      <loc>glossterms/cryptoperiod.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
-   </url>
-   <url>
-      <loc>glossterms/aes-256.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
-   </url>
-   <url>
-      <loc>glossterms/pci-dss.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>topics/policy/infosec-policy.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>topics/policy/crypto-key-management/crypto-key-mgt.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>topics/policy/crypto-key-management/crypto-key-mgt-strong-encryption.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>topics/policy/crypto-key-management/crypto-key-mgt-secure-distribution.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>topics/policy/crypto-key-management/crypto-key-mgt-rotation.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>tasks/crypto-key-rotate-hashicorp-java.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>wrapper/process-doc.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>wrapper/wpr-change-mgt.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>wrapper/wpr-change-mgt.html#participants</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>wrapper/wpr-change-mgt.html#roadmap-meetings</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>topics/process/chg-mgt-partner-onboarding-intro.html</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>topics/process/chg-mgt-partner-onboarding-intro.html#chg-mgt-partner-onboarding-process-confirm-reqs</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
       <loc>topics/process/chg-mgt-partner-onboarding-intro.html#chg-mgt-partner-onboarding-proc-sys-init</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
    <url>
-      <loc>topics/process/chg-mgt-partner-onboarding-intro.html#unique_1889386811</loc>
-      <lastmod>2024-09-24T02:19:15Z</lastmod>
+      <loc>topics/process/chg-mgt-partner-onboarding-intro.html#unique_868921526</loc>
+      <lastmod>2024-09-24T10:36:31Z</lastmod>
    </url>
 </urlset>

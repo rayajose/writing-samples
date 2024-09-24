@@ -109,6 +109,14 @@
                 <stentry/>
             </strow>
             <strow>
+                <stentry><image id="put" href="../images/put.png"/></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><image id="del" href="../images/delete.png"/></stentry>
+                <stentry/>
+            </strow>
+            <strow>
                 <stentry><p id="encryption-tool-op-leadin">The key pool in each environment contains
                         25 keys. Keys will be rotated five at a time. Unless overridden by manual
                         selection, the <b>Encryption Tool</b> will automatically select the

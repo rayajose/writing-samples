@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\pdidd\Git\writing-samples\doc\temp\webhelp-reference\reusables?><?workdir-uri file:/C:/Users/pdidd/Git/writing-samples/doc/temp/webhelp-reference/reusables/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="reusable_notes" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="topic:1;3:28" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="title:1;4:12">Reusable Components</title>
+    <body class="- topic/body " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="body:1;5:11">
+        <simpletable frame="all" relcolwidth="1.15* 1.0*" class="- topic/simpletable " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="simpletable:1;6:59">
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:1;7:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:1;8:26"><ph id="shop-with-points" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:1;8:52"><i class="+ topic/ph hi-d/i " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="i:1;8:55">Shop with Points</i></ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:2;9:26">program name general</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:2;11:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:3;12:26"><ph id="shop-with-points-site" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:2;12:57"><i class="+ topic/ph hi-d/i " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="i:2;12:60">Shop with Points site</i></ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:4;13:26">program shopping site name</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:3;15:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:5;16:26"><ph id="pci-ref-prefix" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:3;16:50">PCI-DSS-V4-</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:6;17:26">PCI DSS ref prefix</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:4;19:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:7;20:26"><ph id="company" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:4;20:43">Company</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:8;21:26">Ekaria</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:5;23:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:9;24:26"><ph id="client" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:5;24:42">Client</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:10;25:26">Amex</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:6;27:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:11;28:26"><ph id="merchant" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:6;28:44">partner</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:12;29:26">merchant</stentry>
+            </strow>
+
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:7;32:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:13;33:26"><ph id="pull-req" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:7;33:44">pull request</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:14;34:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:8;36:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:15;37:26"><ph id="ado" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:8;37:39">ADO</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:16;38:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:9;40:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:17;41:27"/>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:18;42:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:10;44:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:19;45:26"><ph id="dev-lead" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:9;45:44">Development Lead</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:20;46:26">Andrew</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:11;48:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:21;49:26"><ph id="test-lead" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:10;49:45">Test Lead</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:22;50:26">Ben</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:12;52:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:23;53:26"><ph id="ops-lead" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:11;53:44">Operations Lead</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:24;54:26">Ben</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:13;56:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:25;57:26"><ph id="engagement-manager" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:12;57:54">Engagement Manager</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:26;58:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:14;60:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:27;61:26"><ph id="project-manager" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:13;61:51">Program Manager</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:28;62:26">Ross</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:15;64:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:29;65:26"><ph id="release-manager" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:14;65:51">Release Manager</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:30;66:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:16;68:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:31;69:26"><ph id="it-director" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:15;69:47">IT Director</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:32;70:26">Will</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:17;72:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:33;73:26"><ph id="marketing-director" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:16;73:54">Marketing Director</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:34;74:26">Amber</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:18;76:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:35;77:27"/>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:36;78:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:19;80:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:37;81:26"><ph id="attack-vectors" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:17;81:50">Attack Vectors</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:38;82:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:20;84:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:39;85:26"><ph id="counter-measures" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:18;85:52">Counter Measures</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:40;86:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:21;88:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:41;89:26"><ph id="resource-base-uri" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:19;89:53">http://localhost:8080/api/</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:42;90:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:22;92:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:43;93:26"><ph id="ecommerce" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:20;93:45">e-commerce</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:44;94:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:23;96:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:45;97:26"><note type="important" id="note-do-to-all-env" class="- topic/note " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="note:1;97:73">Unless instructed otherwise,
+                        the code developed for this work should be completed and deployed to all
+                        environments in the appropriate sequence: Test, Staging,
+                    Production.</note></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:46;101:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:24;103:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:47;104:26"><image id="get" href="../images/get.png" placement="inline" class="- topic/image " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="image:1;104:68"/></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:48;105:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:25;107:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:49;108:26"><image id="post" href="../images/post.png" placement="inline" class="- topic/image " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="image:2;108:70"/></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:50;109:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:26;111:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:51;112:26"><image id="put" href="../images/put.png" placement="inline" class="- topic/image " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="image:3;112:68"/></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:52;113:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:27;115:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:53;116:26"><image id="del" href="../images/delete.png" placement="inline" class="- topic/image " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="image:4;116:71"/></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:54;117:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:28;119:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:55;120:26"><p id="encryption-tool-op-leadin" class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="p:1;120:60">The key pool in each environment contains
+                        25 keys. Keys will be rotated five at a time. Unless overridden by manual
+                        selection, the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="b:1;122:43">Encryption Tool</b> will automatically select the
+                        appropriate keys for the given operation.</p>
+                </stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:56;125:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:29;127:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:57;128:26"><ph id="pol-desc" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:21;128:44">Policy</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:58;129:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:30;131:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:59;132:26"><ph id="pol-cont" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:22;132:44">Control and Implementation</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:60;133:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:31;135:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:61;136:26"><ph id="pol-ref" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:23;136:43">Compliance</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:62;137:27"/>
+            </strow>
+            <strow class="- topic/strow " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="strow:32;139:20">
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:63;140:26"><ph id="comp-req" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="ph:24;140:44">For compliance with applicable <term keyref="gl-pci-dss" class="- topic/term " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="term:1;141:27" href="../glossterms/pci-dss.dita" linking="none"/> requirements.</ph></stentry>
+                <stentry class="- topic/stentry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/reusables/reusable_gen.dita" xtrc="stentry:64;142:27"/>
+            </strow>
+        </simpletable>
+    </body>
+</topic>

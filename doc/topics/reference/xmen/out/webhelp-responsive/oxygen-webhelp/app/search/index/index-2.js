@@ -1,0 +1,2 @@
+// Auto generated index for searching.
+var index2 = {"creators":"0*0*2q","data":"0*11*-1$4$11","debut":"0*1*20$28","delimit":"0*0*2o","description":"0*11*-1$6$13","entity":"0*10*-1$v","firstname":"0*0*1h","format":"0*1*1f$29","header":"0*18*-1$2","help":"1*20*2","hero":"0*0*1o","heroname":"0*0*1k","id":"0*0*14","identifier":"0*0*17","int":"0*0*15","issue":"0*0*25","issuenumber":"0*0*2d","json":"0*20*-1$-1$e$p","key":"0*20*-1$-1$h$k","lastname":"0*0*1j","men":"0*10*-1$u","multiple":"0*0*2p"};

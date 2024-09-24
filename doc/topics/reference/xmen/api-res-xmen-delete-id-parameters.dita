@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-xmen-get-id-parameters">
+    <title>Parameters</title>
+    <body>
+        <section>
+            <title>Path</title>
+            <table rowsep="1">
+                <tgroup cols="3" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="4cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="3cm" align="left"/>
+                    <colspec colname="c4" colnum="3" colwidth="10cm" align="left"/>
+                    <thead>
+                        <row>
+                            <entry>Name</entry>
+                            <entry align="left">Data Type</entry>
+                            <entry align="left">Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>id</entry>
+                            <entry>int</entry>
+                            <entry>The unique identifier for the character.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>Query</title>
+            <table rowsep="1">
+                <tgroup cols="3" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="4cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="3cm" align="left"/>
+                    <colspec colname="c4" colnum="3" colwidth="10cm" align="left"/>
+                    <thead>
+                        <row>
+                            <entry>Name</entry>
+                            <entry align="left">Data Type</entry>
+                            <entry align="left">Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row valign="top">
+                            <entry>api_key</entry>
+                            <entry>token</entry>
+                            <entry>The authentication key.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </body>
+</topic>

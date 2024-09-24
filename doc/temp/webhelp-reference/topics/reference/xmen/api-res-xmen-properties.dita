@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\pdidd\Git\writing-samples\doc\temp\webhelp-reference\topics\reference\xmen?><?workdir-uri file:/C:/Users/pdidd/Git/writing-samples/doc/temp/webhelp-reference/topics/reference/xmen/?><?path2project ..\..\..\?><?path2project-uri ../../../?><?path2rootmap-uri ../../../?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="api-res-xmen-properties" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="topic:1;3:37" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="title:1;4:12">Properties</title>
+    <body class="- topic/body " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="body:1;5:11">
+        <table rowsep="1" class="- topic/table " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="table:1;6:27">
+            <tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="tgroup:1;7:30">
+                <colspec colname="c1" colnum="1" colwidth="4cm" align="left" class="- topic/colspec " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="colspec:1;8:79"/>
+                <colspec colname="c2" colnum="2" colwidth="3cm" class="- topic/colspec " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="colspec:2;9:66"/>
+                <colspec colname="c3" colnum="3" colwidth="10cm" class="- topic/colspec " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="colspec:3;10:67"/>
+                <thead class="- topic/thead " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="thead:1;11:24">
+                    <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="row:1;12:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:1;13:32">Property</entry>
+                        <entry align="left" class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:2;14:45">Data Type</entry>
+                        <entry align="left" class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:3;15:45">Description</entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="tbody:1;18:24">
+                    <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="row:2;19:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:4;20:32">id</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:5;21:32">int</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:6;22:32">The unique identifier for the character.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="row:3;24:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:7;25:32">name</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:8;26:32">string</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:9;27:32">The character’s real name.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="row:4;29:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:10;30:32">heroName</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:11;31:32">string</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:12;32:32">The character’s hero name.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="row:5;34:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:13;35:32">power</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:14;36:32">string</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:15;37:32">The character’s power(s).</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="row:6;39:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:16;40:32">debut</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:17;41:32">string</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:18;42:32">The comic book title and year of debut.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="row:7;44:26">
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:19;45:32">creator</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:20;46:32">string</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-properties.dita" xtrc="entry:21;47:32">The character’s creator(s).</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>

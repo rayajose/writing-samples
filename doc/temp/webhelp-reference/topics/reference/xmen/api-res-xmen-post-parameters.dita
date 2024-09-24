@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\pdidd\Git\writing-samples\doc\temp\webhelp-reference\topics\reference\xmen?><?workdir-uri file:/C:/Users/pdidd/Git/writing-samples/doc/temp/webhelp-reference/topics/reference/xmen/?><?path2project ..\..\..\?><?path2project-uri ../../../?><?path2rootmap-uri ../../../?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="api-res-xmen-post-parameters" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="topic:1;3:42" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="title:1;4:12">Parameters</title>
+    <body class="- topic/body " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="body:1;5:11">
+        <section class="- topic/section " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="section:1;6:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="title:2;7:20">Header</title>
+            <table rowsep="1" class="- topic/table " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="table:1;8:31">
+                <tgroup cols="3" align="left" class="- topic/tgroup " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="tgroup:1;9:47">
+                    <colspec colname="c1" colnum="1" colwidth="4cm" align="left" class="- topic/colspec " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="colspec:1;10:83"/>
+                    <colspec colname="c3" colnum="2" colwidth="3cm" align="left" class="- topic/colspec " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="colspec:2;11:83"/>
+                    <colspec colname="c4" colnum="3" colwidth="10cm" align="left" class="- topic/colspec " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="colspec:3;12:84"/>
+                    <thead class="- topic/thead " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="thead:1;13:28">
+                        <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="row:1;14:30">
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:1;15:36">Name</entry>
+                            <entry align="left" class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:2;16:49">Data Type</entry>
+                            <entry align="left" class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:3;17:49">Description</entry>
+                        </row>
+                    </thead>
+                    <tbody class="- topic/tbody " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="tbody:1;20:28">
+                        <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="row:2;21:30">
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:4;22:36">Content-Type</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:5;23:36">string</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:6;24:36">Use <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="codeph:1;24:48">application/json</codeph></entry>
+                        </row>
+                        <row valign="top" class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="row:3;26:43">
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:7;27:36">API-KEY</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:8;28:36">token</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:9;29:36">The authentication key.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="section:2;35:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="title:3;36:20">Body</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="p:1;37:16">The request body will contain A JSON object representing the new X-Men entity.</p>
+            <table rowsep="1" class="- topic/table " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="table:2;38:31">
+                <tgroup cols="3" align="left" class="- topic/tgroup " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="tgroup:2;39:47">
+                    <colspec colname="c1" colnum="1" colwidth="4cm" align="left" class="- topic/colspec " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="colspec:4;40:83"/>
+                    <colspec colname="c3" colnum="2" colwidth="3cm" align="left" class="- topic/colspec " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="colspec:5;41:83"/>
+                    <colspec colname="c4" colnum="3" colwidth="10cm" align="left" class="- topic/colspec " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="colspec:6;42:84"/>
+                    <thead class="- topic/thead " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="thead:2;43:28">
+                        <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="row:4;44:30">
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:10;45:36">Name</entry>
+                            <entry align="left" class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:11;46:49">Data Type</entry>
+                            <entry align="left" class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:12;47:49">Description</entry>
+                        </row>
+                    </thead>
+                    <tbody class="- topic/tbody " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="tbody:2;50:28">
+                        <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="row:5;51:30">
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:13;52:36">id</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:14;53:36">int</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:15;54:36">The unique identifier for the character.</entry>
+                        </row>
+                        <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="row:6;56:30">
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:16;57:36">name</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:17;58:36">string</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:18;59:36">
+                                <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="p:2;60:36">The character’s real name.</p>
+                                <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="p:3;61:36">Format: <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="codeph:2;61:52">&lt;&lt;firstName&gt;&gt;
+                                        &lt;&lt;lastName&gt;&gt;</codeph></p>
+                            </entry>
+                        </row>
+                        <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="row:7;65:30">
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:19;66:36">heroName</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:20;67:36">string</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:21;68:36">The character’s hero name.</entry>
+                        </row>
+                        <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="row:8;70:30">
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:22;71:36">power</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:23;72:36">string</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:24;73:36">The character’s power(s).</entry>
+                        </row>
+                        <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="row:9;75:30">
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:25;76:36">debut</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:26;77:36">string</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:27;78:36">
+                                <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="p:4;79:36">The comic book title, issue number and year of debut.</p>
+                                <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="p:5;80:36">Format: <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="codeph:3;80:52">&lt;&lt;title&gt;&gt; &lt;&lt;issueNumber&gt;&gt;
+                                        (&lt;&lt;year&gt;&gt;)</codeph></p>
+                            </entry>
+                        </row>
+                        <row class="- topic/row " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="row:10;84:30">
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:28;85:36">creator</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:29;86:36">string</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-post-parameters.dita" xtrc="entry:30;87:36">The character’s creator(s). Use comma to delimit multiple
+                                creators.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+
+    </body>
+</topic>

@@ -1,0 +1,1 @@
+var htmlFileInfoList = ["api-res-xmen-post-parameters.html@@@Parameters@@@Header Name Data Type Description Content-Type string Use application/json API-KEY token The authentication key. Body The request body will contain A JSON object representing the new X-Men entity...","cshelp.html@@@Context Sensitive Help@@@..."];

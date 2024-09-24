@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-xmen-get-id">
+    <title><image conkeyref="gen/get"/> / xmen / {id}</title>
+    <body>
+        <p>Retrieves a specific X-Men entity by its ID.</p>
+ 
+    </body>
+</topic>

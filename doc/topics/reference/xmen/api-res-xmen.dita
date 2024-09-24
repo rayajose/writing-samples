@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-xmen">
+    <title>REST Resource: xmen</title>
+    <body>
+        <p>The <b>xmen</b> resource allows you to manage records in the X-Men repository. It
+            provides endpoints for performing HTTP CRUD operations on X-Men records.</p>
+    </body>
+</topic>

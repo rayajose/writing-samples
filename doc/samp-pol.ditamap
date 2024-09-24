@@ -4,7 +4,7 @@
     <title>Policy Doc</title>
 
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
-    <mapref href="glossary.ditamap"/>
+    <mapref href="glossary.ditamap" processing-role="resource-only"/>
     
 
     <topicref href="topics/policy/infosec-policy.dita">

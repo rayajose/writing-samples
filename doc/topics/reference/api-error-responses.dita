@@ -15,8 +15,8 @@
             <p>The request cannot be filled due to bad syntax.</p>
             <table rowsep="1">
                 <tgroup cols="2">
-                    <colspec colname="c1" colnum="1" colwidth="1*" align="left"/>
-                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c1" colnum="1" colwidth="4cm" align="left"/>
+                    <colspec colname="c2" colnum="2" colwidth="10cm"/>
                     <thead>
                         <row>
                             <entry align="left">Field</entry>
@@ -63,8 +63,8 @@
                 Subsequent requests by the client are permissible.</p>
             <table rowsep="1">
                 <tgroup cols="2">
-                    <colspec colname="c1" colnum="1" colwidth="1*" align="left"/>
-                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c1" colnum="1" colwidth="4cm" align="left"/>
+                    <colspec colname="c2" colnum="2" colwidth="10cm"/>
                     <thead>
                         <row>
                             <entry align="left">Field</entry>
@@ -113,8 +113,8 @@
             <p>“Missing API Key or Secret”</p>
             <table rowsep="1">
                 <tgroup cols="2">
-                    <colspec colname="c1" colnum="1" colwidth="1*" align="left"/>
-                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c1" colnum="1" colwidth="4cm" align="left"/>
+                    <colspec colname="c2" colnum="2" colwidth="10cm"/>
                     <thead>
                         <row>
                             <entry align="left">Field</entry>

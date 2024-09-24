@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-xmen-post-response">
+    <title>Response</title>
+    <body>
+       
+       <section>
+           <title>200</title>
+           <p>
+               <codeblock># RESPONSE
+200 OK                   
+[
+{
+    "id": 1,
+    "name": "Hisako Ichiki",
+    "heroName": "Dust",
+    "power": "Sand manipulation",
+    "debut": "New X-Men #133 (2002)",
+    "creator": "Grant Morrison, Ethan Van Sciver"
+},
+{
+    "id": 2,
+    "name": "Anna Marie",
+    "heroName": "Rogue",
+    "power": "Power absorption through touch",
+    "debut": "Avengers Annual #10 (1981)",
+    "creator": "Chris Claremont, Michael Golden"
+},
+{
+    "id": 3,
+    "name": "Jean Grey",
+    "heroName": "Phoenix",
+    "power": "Telepathy, telekinesis, Phoenix Force",
+    "debut": "X-Men #1 (1963)",
+    "creator": "Stan Lee, Jack Kirby"
+}
+]           </codeblock>
+           </p>
+       </section>
+        
+    </body>
+</topic>

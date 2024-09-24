@@ -4,7 +4,7 @@
     <title>URI</title>
     <body>
         <section>          
-            <p><codeblock>localhost:8080/api/</codeblock></p>
+            <p><codeph><ph conkeyref = "gen/resource-base-uri"/></codeph></p>
         </section>
     </body>
 </topic>

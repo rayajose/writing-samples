@@ -1,0 +1,2 @@
+// Auto generated index for searching.
+var index1 = {"<<firstname>>":"0*0*1g","<<issuenumber>>":"0*0*2c","<<lastname>>":"0*0*1i","<<title>>":"0*0*2a","<<year>>":"0*0*2e","api":"0*10*-1$g","api-key":"0*10*-1$f","application":"0*10*-1$d","application/json":"0*10*-1$c","authentication":"0*10*-1$j","body":"0*28*-1$-1$l$n","book":"0*0*23","character":"0*4*18$1c$1n$1t$2j","character’s":"0*3*1b$1m$1s$2i","comic":"0*0*22","comma":"0*0*2n","contain":"0*10*-1$o","content":"0*10*-1$8","content-type":"0*10*-1$7","context":"1*20*0","creator":"0*1*2g$2l","creator(s":"0*0*2k"};

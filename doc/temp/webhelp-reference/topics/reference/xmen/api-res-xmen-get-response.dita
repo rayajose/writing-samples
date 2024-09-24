@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\pdidd\Git\writing-samples\doc\temp\webhelp-reference\topics\reference\xmen?><?workdir-uri file:/C:/Users/pdidd/Git/writing-samples/doc/temp/webhelp-reference/topics/reference/xmen/?><?path2project ..\..\..\?><?path2project-uri ../../../?><?path2rootmap-uri ../../../?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="api-res-xmen-post-response" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-get-response.dita" xtrc="topic:1;3:40" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-get-response.dita" xtrc="title:1;4:12">Response</title>
+    <body class="- topic/body " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-get-response.dita" xtrc="body:1;5:11">
+       
+       <section class="- topic/section " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-get-response.dita" xtrc="section:1;7:17">
+           <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-get-response.dita" xtrc="title:2;8:19">200</title>
+           <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-get-response.dita" xtrc="p:1;9:15">
+               <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-get-response.dita" xtrc="codeblock:1;10:27"># RESPONSE
+200 OK                   
+[
+{
+    "id": 1,
+    "name": "Hisako Ichiki",
+    "heroName": "Dust",
+    "power": "Sand manipulation",
+    "debut": "New X-Men #133 (2002)",
+    "creator": "Grant Morrison, Ethan Van Sciver"
+},
+{
+    "id": 2,
+    "name": "Anna Marie",
+    "heroName": "Rogue",
+    "power": "Power absorption through touch",
+    "debut": "Avengers Annual #10 (1981)",
+    "creator": "Chris Claremont, Michael Golden"
+},
+{
+    "id": 3,
+    "name": "Jean Grey",
+    "heroName": "Phoenix",
+    "power": "Telepathy, telekinesis, Phoenix Force",
+    "debut": "X-Men #1 (1963)",
+    "creator": "Stan Lee, Jack Kirby"
+}
+]           </codeblock>
+           </p>
+       </section>
+        
+    </body>
+</topic>

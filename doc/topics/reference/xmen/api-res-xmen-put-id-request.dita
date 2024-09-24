@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-xmen-post-request">
+    <title>Request</title>
+    <body>
+       <section>
+           <title>cURL</title>
+           
+           <p>
+               <codeblock>curl -L -X PUT 'http://localhost:8080/api/xmen/4' \
+-H 'Content-Type: application/json' \
+-X-API-KEY: '{key}' 
+-d '{
+    "name": "Hisako Ichiki",
+    "heroName": "Armor",
+    "power": "Psionic exoskeleton armor",
+    "debut": "Astonishing X-Men #4 (2004)",
+    "creator": "Joss Whedon, John Cassaday"
+}'</codeblock>
+           </p>
+       </section>
+        
+    </body>
+</topic>
+
+<!-- 
+
+-->

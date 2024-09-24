@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-xmen-put-id-response">
+    <title>Response</title>
+    <body>
+       
+       <section>
+           <title>200</title>
+           
+           <p>
+               <codeblock># RESPONSE
+200 OK                   
+{
+    "id": 4"
+    "name": "Hisako Ichiki",
+    "heroName": "Armor",
+    "power": "Psionic exoskeleton armor",
+    "debut": "Astonishing X-Men #4 (2004)",
+    "creator": "Joss Whedon, John Cassaday"
+}            </codeblock>
+           </p>
+       </section>
+        
+    </body>
+</topic>

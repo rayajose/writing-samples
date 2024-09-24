@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-xmen-get-id-response">
+    <title>Response</title>
+    <body>
+       
+       <section>
+           <title>200</title>
+           <p>
+               <codeblock># RESPONSE
+200 OK                   
+{
+    "id": 3,
+    "name": "Jean Grey",
+    "heroName": "Phoenix",
+    "power": "Telepathy, telekinesis, Phoenix Force",
+    "debut": "X-Men #1 (1963)",
+    "creator": "Stan Lee, Jack Kirby"
+}</codeblock>
+           </p>
+       </section>
+        
+    </body>
+</topic>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\pdidd\Git\writing-samples\doc\temp\webhelp-reference?><?workdir-uri file:/C:/Users/pdidd/Git/writing-samples/doc/temp/webhelp-reference/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Map//EN?><?doctype-system map.dtd?><map xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" specializations="@props/deliveryTarget" xtrc="map:1;3:6" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap">
+    <title class="- topic/title " xtrc="title:1;4:12" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap">Reference Doc</title>
+
+    <keydef href="reusables/reusable_gen.dita" class="+ map/topicref mapgroup-d/keydef " processing-role="resource-only" keys="gen" xtrc="keydef:1;6:60" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+    <submap class="+ map/topicref mapgroup-d/topicgroup ditaot-d/submap " dita-ot:orig-class="+ map/topicref mapgroup-d/mapref " dita-ot:orig-format="ditamap" dita-ot:orig-href="glossary.ditamap" dita-ot:submap-DITAArchVersion="1.3" dita-ot:submap-cascade="merge" dita-ot:submap-class="- map/map " dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;3:6" dita-ot:submap-xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/glossary.ditamap" processing-role="resource-only" xtrc="mapref:1;7:70" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"><submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta "><submap-title class="+ topic/navtitle ditaot-d/submap-title " dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;4:12" dita-ot:submap-xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/glossary.ditamap">Glossary</submap-title></submap-topicmeta><glossref href="glossterms/key-encrypting-key.dita" class="+ map/topicref glossref-d/glossref " linking="none" toc="no" print="no" search="no" keys="gl-kek" xtrc="glossref:1;6:72" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/glossary.ditamap"/><glossref href="glossterms/data-encrypting-key.dita" class="+ map/topicref glossref-d/glossref " linking="none" toc="no" print="no" search="no" keys="gl-dek" xtrc="glossref:2;7:73" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/glossary.ditamap"/><glossref href="glossterms/cryptoperiod.dita" class="+ map/topicref glossref-d/glossref " linking="none" toc="no" print="no" search="no" keys="gl-cryptoperiod" xtrc="glossref:3;8:75" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/glossary.ditamap"/><glossref href="glossterms/aes-256.dita" class="+ map/topicref glossref-d/glossref " linking="none" toc="no" print="no" search="no" keys="gl-aes256" xtrc="glossref:4;9:64" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/glossary.ditamap"/><glossref href="glossterms/pci-dss.dita" class="+ map/topicref glossref-d/glossref " linking="none" toc="no" print="no" search="no" keys="gl-pci-dss" xtrc="glossref:5;10:64" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/glossary.ditamap"/></submap>
+
+    <topicref href="wrapper/wpr-api-rest-ref-doc.dita" class="- map/topicref " xtrc="topicref:1;9:56" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap">
+        <topicref href="topics/reference/api-my-rest-api.dita" class="- map/topicref " xtrc="topicref:2;10:64" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap">
+            
+            <topicref href="topics/reference/api-ref-doc-authentication.dita" class="- map/topicref " xtrc="topicref:3;12:80" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+
+            
+            <topicref href="topics/reference/xmen/api-res-xmen.dita" class="- map/topicref " xtrc="topicref:4;15:70" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap">
+                <topicref href="topics/reference/api-res-uri.dita" class="- map/topicref " xtrc="topicref:5;16:69" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+                <topicref href="topics/reference/xmen/api-res-xmen-properties.dita" class="- map/topicref " xtrc="topicref:6;17:86" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+                <topicref href="topics/reference/xmen/api-res-xmen-endpoints.dita" class="- map/topicref " xtrc="topicref:7;18:84" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap">
+                    <topicref href="topics/reference/xmen/api-res-xmen-post.dita" class="- map/topicref " xtrc="topicref:8;19:83" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap">
+                        <topicref href="topics/reference/xmen/api-res-xmen-post-parameters.dita" class="- map/topicref " xtrc="topicref:9;20:99" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+                        <topicref href="topics/reference/xmen/api-res-xmen-post-request.dita" class="- map/topicref " xtrc="topicref:10;21:96" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+                        <topicref href="topics/reference/xmen/api-res-xmen-response.dita" class="- map/topicref " xtrc="topicref:11;22:92" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+                    </topicref>
+                    <topicref href="topics/reference/xmen/api-res-xmen-get.dita" class="- map/topicref " xtrc="topicref:12;24:82" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap">
+                        <topicref href="topics/reference/xmen/api-res-xmen-get-parameters.dita" class="- map/topicref " xtrc="topicref:13;25:98" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+                        <topicref href="topics/reference/xmen/api-res-xmen-get-request.dita" class="- map/topicref " xtrc="topicref:14;26:95" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+                        <topicref href="topics/reference/xmen/api-res-xmen-get-response.dita" class="- map/topicref " xtrc="topicref:15;27:96" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+                    </topicref>
+                    <topicref href="topics/reference/xmen/api-res-xmen-get-id.dita" class="- map/topicref " xtrc="topicref:16;29:85" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap">
+                        <topicref href="topics/reference/xmen/api-res-xmen-get-id-parameters.dita" class="- map/topicref " xtrc="topicref:17;30:101" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+                        <topicref href="topics/reference/xmen/api-res-xmen-get-id-request.dita" class="- map/topicref " xtrc="topicref:18;31:98" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+                        <topicref href="topics/reference/xmen/api-res-xmen-get-id-response.dita" class="- map/topicref " xtrc="topicref:19;32:99" xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/samp-ref.ditamap"/>
+                    </topicref>
+                </topicref>
+
+            </topicref>
+            
+
+            
+            
+            
+            
+        </topicref>
+    </topicref>
+
+</map>

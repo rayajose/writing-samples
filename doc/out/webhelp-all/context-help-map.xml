@@ -1,40 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="wpr-api-rest-ref-doc" path="wrapper/wpr-api-rest-ref-doc.html"/>
    <appContext helpID="my-rest-api" path="topics/reference/api-my-rest-api.html"/>
    <appContext helpID="api-ref-doc-authentication"
                path="topics/reference/api-ref-doc-authentication.html"/>
-   <appContext helpID="api-res-xmen" path="topics/reference/api-res-xmen.html"/>
-   <appContext helpID="api-res-uri"
-               path="topics/reference/api-res-xmen.html#api-res-uri"/>
-   <appContext helpID="api-res-xmen-parameters"
-               path="topics/reference/api-res-xmen.html#api-res-xmen-parameters"/>
+   <appContext helpID="api-res-xmen" path="topics/reference/xmen/api-res-xmen.html"/>
+   <appContext helpID="api-res-uri" path="topics/reference/api-res-uri.html"/>
    <appContext helpID="api-res-xmen-properties"
-               path="topics/reference/api-res-xmen.html#api-res-xmen-properties"/>
-   <appContext helpID="unique_1377750736"
-               path="topics/reference/api-res-xmen.html#unique_1377750736"/>
+               path="topics/reference/xmen/api-res-xmen-properties.html"/>
+   <appContext helpID="api-res-xmen-endpoints"
+               path="topics/reference/xmen/api-res-xmen-endpoints.html"/>
+   <appContext helpID="api-res-xmen-post"
+               path="topics/reference/xmen/api-res-xmen-post.html"/>
+   <appContext helpID="api-res-xmen-post-parameters"
+               path="topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-post-parameters"/>
+   <appContext helpID="api-res-xmen-post-request"
+               path="topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-post-request"/>
    <appContext helpID="api-res-xmen-response"
-               path="topics/reference/api-res-xmen.html#api-res-xmen-response"/>
-   <appContext helpID="api-res-needles" path="topics/reference/api-res-needles.html"/>
-   <appContext helpID="api-res-uri"
-               path="topics/reference/api-res-needles.html#api-res-uri"/>
-   <appContext helpID="api-res-needles-properties"
-               path="topics/reference/api-res-needles.html#api-res-needles-properties"/>
-   <appContext helpID="unique_247251934"
-               path="topics/reference/api-res-needles.html#unique_247251934"/>
-   <appContext helpID="api-res-needles-post"
-               path="topics/reference/api-res-needles.html#api-res-needles-post"/>
-   <appContext helpID="unique_357667310"
-               path="topics/reference/api-res-needles.html#unique_357667310"/>
-   <appContext helpID="unique_126293801"
-               path="topics/reference/api-res-needles.html#unique_126293801"/>
+               path="topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-response"/>
+   <appContext helpID="api-res-xmen-get"
+               path="topics/reference/xmen/api-res-xmen-get.html"/>
+   <appContext helpID="api-res-xmen-get-parameters"
+               path="topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-get-parameters"/>
+   <appContext helpID="api-res-xmen-get-request"
+               path="topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-get-request"/>
+   <appContext helpID="api-res-xmen-post-response"
+               path="topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-post-response"/>
+   <appContext helpID="api-res-xmen-get-id"
+               path="topics/reference/xmen/api-res-xmen-get-id.html"/>
+   <appContext helpID="api-res-xmen-get-id-parameters"
+               path="topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-id-parameters"/>
+   <appContext helpID="api-res-xmen-get-request"
+               path="topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-request"/>
+   <appContext helpID="api-res-xmen-get-id-response"
+               path="topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-id-response"/>
+   <appContext helpID="api-res-xmen-put-id"
+               path="topics/reference/xmen/api-res-xmen-put-id.html"/>
+   <appContext helpID="api-res-xmen-put-id-parameters"
+               path="topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-put-id-parameters"/>
+   <appContext helpID="api-res-xmen-post-request"
+               path="topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-post-request"/>
+   <appContext helpID="api-res-xmen-put-id-response"
+               path="topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-put-id-response"/>
+   <appContext helpID="api-res-xmen-delete-id"
+               path="topics/reference/xmen/api-res-xmen-delete-id.html"/>
+   <appContext helpID="api-res-xmen-get-id-parameters"
+               path="topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-get-id-parameters"/>
+   <appContext helpID="api-res-xmen-get-request"
+               path="topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-get-request"/>
+   <appContext helpID="api-res-xmen-delete-id-response"
+               path="topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-delete-id-response"/>
    <appContext helpID="api-error-responses"
                path="topics/reference/api-error-responses.html"/>
-   <appContext helpID="kek" path="glossterms/key-encrypting-key.html"/>
-   <appContext helpID="dek" path="glossterms/data-encrypting-key.html"/>
-   <appContext helpID="cryptoperiod" path="glossterms/cryptoperiod.html"/>
-   <appContext helpID="aes-256" path="glossterms/aes-256.html"/>
-   <appContext helpID="pci-dss" path="glossterms/pci-dss.html"/>
    <appContext helpID="infosec-policy" path="topics/policy/infosec-policy.html"/>
    <appContext helpID="wpr-encryption"
                path="topics/policy/crypto-key-management/crypto-key-mgt.html"/>
@@ -61,6 +77,6 @@
                path="topics/process/chg-mgt-partner-onboarding-intro.html#chg-mgt-partner-onboarding-process-confirm-reqs"/>
    <appContext helpID="chg-mgt-partner-onboarding-proc-sys-init"
                path="topics/process/chg-mgt-partner-onboarding-intro.html#chg-mgt-partner-onboarding-proc-sys-init"/>
-   <appContext helpID="unique_1889386811"
-               path="topics/process/chg-mgt-partner-onboarding-intro.html#unique_1889386811"/>
+   <appContext helpID="unique_868921526"
+               path="topics/process/chg-mgt-partner-onboarding-intro.html#unique_868921526"/>
 </map>
