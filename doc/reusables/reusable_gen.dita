@@ -94,9 +94,10 @@
                 <stentry/>
             </strow>
             <strow>
-                <stentry><note type="important" id="note-do-to-all-env">Unless instructed otherwise, the code developed for
-                        this work should be completed and deployed to all environments  in the
-                        appropriate sequence: Test, Staging, Production.</note></stentry>
+                <stentry><note type="important" id="note-do-to-all-env">Unless instructed otherwise,
+                        the code developed for this work should be completed and deployed to all
+                        environments in the appropriate sequence: Test, Staging,
+                    Production.</note></stentry>
                 <stentry/>
             </strow>
             <strow>
@@ -108,10 +109,11 @@
                 <stentry/>
             </strow>
             <strow>
-                <stentry><p id="encryption-tool-op-leadin">The key pool in each environment contains 25 keys. Keys will be rotated five at a time.
-                    Unless overridden by manual selection, the <b>Encryption Tool</b> will automatically
-                    select the appropriate keys for the given operation.</p>
-                    </stentry>
+                <stentry><p id="encryption-tool-op-leadin">The key pool in each environment contains
+                        25 keys. Keys will be rotated five at a time. Unless overridden by manual
+                        selection, the <b>Encryption Tool</b> will automatically select the
+                        appropriate keys for the given operation.</p>
+                </stentry>
                 <stentry/>
             </strow>
             <strow>
@@ -124,6 +126,11 @@
             </strow>
             <strow>
                 <stentry><ph id="pol-ref">Compliance</ph></stentry>
+                <stentry/>
+            </strow>
+            <strow>
+                <stentry><ph id="comp-req">For compliance with applicable <term keyref="gl-pci-dss"
+                        /> requirements.</ph></stentry>
                 <stentry/>
             </strow>
         </simpletable>

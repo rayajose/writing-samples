@@ -19,7 +19,7 @@
                     <p>They make keys less susceptible it is to attack, reducing data risk.</p>
                 </li>
                 <li>
-                    <p>For compliance with industry and government regulations.</p>
+                    <p><ph conkeyref="gen/comp-req"/></p>
                 </li>
             </ul>
         </section>
@@ -42,7 +42,7 @@
                         <row>
                             <entry>active</entry>
                             <entry>encryption and decryption</entry>
-                            <entry>one year</entry>
+                            <entry>two years</entry>
                         </row>
                         <row>
                             <entry>retired</entry>

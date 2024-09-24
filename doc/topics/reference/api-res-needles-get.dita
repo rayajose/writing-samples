@@ -6,9 +6,7 @@
         <section>
             <title>cURL</title>
             <p>
-                <codeblock>
-                    http://localhost:8080/api/needles?api_key={}&amp;haystack=Like%20finding%20a%20needle%20in%20a%20&amp;needles=finding,needle,a,haystack,needles
-                </codeblock>
+                <codeblock>http://localhost:8080/api/needles?api_key={}&amp;haystack=Like%20finding%20a%20needle%20in%20a%20&amp;needles=finding,needle,a,haystack,needles               </codeblock>
             </p>
         </section>
     </body>

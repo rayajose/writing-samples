@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="wpr-api-rest-ref-doc" path="wrapper/wpr-api-rest-ref-doc.html"/>
+   <appContext helpID="my-rest-api" path="topics/reference/api-my-rest-api.html"/>
+   <appContext helpID="api-ref-doc-authentication"
+               path="topics/reference/api-ref-doc-authentication.html"/>
+   <appContext helpID="api-res-xmen" path="topics/reference/api-res-xmen.html"/>
+   <appContext helpID="api-res-uri"
+               path="topics/reference/api-res-xmen.html#api-res-uri"/>
+   <appContext helpID="api-res-xmen-parameters"
+               path="topics/reference/api-res-xmen.html#api-res-xmen-parameters"/>
+   <appContext helpID="api-res-xmen-properties"
+               path="topics/reference/api-res-xmen.html#api-res-xmen-properties"/>
+   <appContext helpID="unique_1872588042"
+               path="topics/reference/api-res-xmen.html#unique_1872588042"/>
+   <appContext helpID="api-res-xmen-response"
+               path="topics/reference/api-res-xmen.html#api-res-xmen-response"/>
+   <appContext helpID="api-res-needles" path="topics/reference/api-res-needles.html"/>
+   <appContext helpID="api-res-uri"
+               path="topics/reference/api-res-needles.html#api-res-uri"/>
+   <appContext helpID="api-res-needles-properties"
+               path="topics/reference/api-res-needles.html#api-res-needles-properties"/>
+   <appContext helpID="unique_130540661"
+               path="topics/reference/api-res-needles.html#unique_130540661"/>
+   <appContext helpID="api-res-needles-post"
+               path="topics/reference/api-res-needles.html#api-res-needles-post"/>
+   <appContext helpID="unique_1504336119"
+               path="topics/reference/api-res-needles.html#unique_1504336119"/>
+   <appContext helpID="unique_1727577984"
+               path="topics/reference/api-res-needles.html#unique_1727577984"/>
+   <appContext helpID="api-error-responses"
+               path="topics/reference/api-error-responses.html"/>
+</map>

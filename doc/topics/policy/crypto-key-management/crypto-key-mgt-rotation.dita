@@ -6,8 +6,7 @@
         <section>
             <title><ph conkeyref="gen/pol-desc"/></title>
             <p>Keys used to protect stored account data must be rotated at the end of the
-                cryptoperiod (replaced, retired, and destroyed). Keys rotation is important for the
-                following reasons:</p>
+                cryptoperiod. Keys rotation is important for the following reasons:</p>
             <ul>
                 <li>
                     <p>It limits the amount of data that is encrypted with the same key, which
@@ -25,7 +24,8 @@
                 <ul id="ul_fsw_vdb_vcc">
                     <li> It prevents cracking by making any progress made on cracking a key
                         obsolete.</li>
-                    <li> For compliance with industry and government regulations.</li>
+                    <li>
+                        <ph conkeyref="gen/comp-req"/></li>
                 </ul>
             </p>
         </section>

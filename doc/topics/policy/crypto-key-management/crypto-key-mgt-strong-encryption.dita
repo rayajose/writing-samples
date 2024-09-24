@@ -27,7 +27,7 @@
                             fines, customer loss, lawsuits, and even bankruptcy.</p>
                     </li>
                     <li>
-                        <p>For compliance with industry and government regulations.</p>
+                        <p><ph conkeyref="gen/comp-req"/></p>
                     </li>
                 </ul></p>
         </section>

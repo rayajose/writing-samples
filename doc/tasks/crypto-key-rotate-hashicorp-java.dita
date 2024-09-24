@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="crypto-key-rotate-hashicorp-java">
+    <title>Rotating Keys</title>
+    <abstract><cite>PCI-DSS-V4-3.7.5 </cite></abstract>
+    <taskbody>
+        <prereq>
+            <p>Identify three key custodians to apply split knowledge 3-share threshold.</p>
+        </prereq>
+        <context>
+            <p>Using Vault, rotate keys as follows:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Ensure split knowledge has been setup for Vault Unsealing. Otherwise, setup
+                    split knowledge as follows: </cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Use the <codeph>vault operator init</codeph> command to initial
+                            Vault.</cmd>
+                        <info>
+                            <p>
+                                <codeblock>vault operator init -key-shares=5 -key-threshold=3                           </codeblock>
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>Set <codeph>-key-shares=5</codeph>: This splits the master
+                                        key into 5 parts (key shares). </p>
+                                </li>
+                                <li>
+                                    <p>Set <codeph>-key-threshold=3</codeph>: At least 3 key shares
+                                        are required to unseal Vault.</p>
+                                </li>
+                            </ul>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Use the <codeph>vault operator unseal</codeph> command to unseal
+                            Vault.</cmd>
+                        <info>
+                            <p>
+                                <codeblock>vault operator unseal &lt;unseal_key_1&gt;
+vault operator unseal &lt;unseal_key_2&gt;
+vault operator unseal &lt;unseal_key_3&gt;                     </codeblock>
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>Set <codeph>-key-shares=5</codeph>: This splits the master
+                                        key into 5 parts (key shares). </p>
+                                </li>
+                                <li>
+                                    <p>Set <codeph>-key-threshold=3</codeph>: At least 3 key shares
+                                        are required to unseal Vault.</p>
+                                </li>
+                            </ul>
+                            <p>When Vault is sealed, key holders must collaborate to unseal it. In
+                                this case, three out of the five key shares will be needed to unseal
+                                Vault.</p>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Initialize the Vault client to interact with the Vault server. Set the Vault
+                    server URL and authentication token.</cmd>
+                <info>
+                    <codeblock>import com.bettercloud.vault.Vault;
+import com.bettercloud.vault.VaultConfig;
+
+public class VaultKeyRotation {
+    public static void main(String[] args) throws Exception {
+    
+    // Vault Configuration
+    VaultConfig config = new VaultConfig()
+    .address("https://127.0.0.1:8200")  // Vault URL
+    .token("s.xxxxxxxx")  // Vault token
+    .build();
+                        
+    Vault vault = new Vault(config);
+    }
+}                 </codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Use the <codeph>vault write</codeph> command to generate the keys.</cmd>
+                <info>
+                    <codeblock>vault write keymgmt/keys/my-new-key type="aes256"             </codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Split the keys into five parts with a 3-share threshold.</cmd>
+                <info>
+                    <codeblock>SecretShare splitKey = new SecretShare(3, 5);
+List&lt;SecretShare.ShareInfo> shares = splitKey.split(secretKey);               </codeblock>
+                </info>
+                <stepresult>This will provide five parts of the key, and any three parts can be used
+                    to reconstruct it.</stepresult>
+            </step>
+            <step>
+                <cmd>Rotate the existing keys.</cmd>
+                <info>
+                    <codeblock>vault.logical()
+.write("keymgmt/keys/my-new-key/rotate", null);                 </codeblock>
+                </info>
+                <stepresult>The keys are rotated with new version.</stepresult>
+            </step>
+            <step>
+                <cmd>Update the key consumers.</cmd>
+                <info><codeblock>vault.logical()
+// Retrieve latest key details for updating services
+LogicalResponse readKeyResponse = vault.logical()
+.read("keymgmt/keys/my-new-key");
+                    
+System.out.println("Key details: " + readKeyResponse.getData());             </codeblock><p>Ensure
+                        that all consumers or services using the key are updated to use the latest
+                        version</p></info>
+            </step>
+            <step>
+                <cmd>Reconstruct the keys.</cmd>
+                <info><codeblock>vault.logical()
+// Reconstruct the key from 3 shares
+SecretShare.CombineOutput result = splitKey.combine(share1, share2, share3);
+byte[] reconstructedKey = result.getSecret();            </codeblock></info>
+            </step>
+            <step>
+                <cmd>Backup, Archive, and Audit key shares.</cmd>
+                <info>
+                    <codeblock>// Enable and access audit logs
+vault.audit().enable("file", "file_path=/var/log/vault_audit.log");          </codeblock>
+                    <p>Ensure secure storage and auditing of key shares. Track who holds which key
+                        share. </p>
+                </info>
+            </step>
+            <step>
+                <cmd> Retire keys.</cmd>
+                <info>
+                    <codeblock>// Retire the old key
+vault.logical()
+.write("keymgmt/keys/my-new-key/retire", null);              </codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Destroy keys.</cmd>
+                <info>
+                    <codeblock>// Delete key from Vault
+vault.logical()
+.delete("keymgmt/keys/my-new-key");                                         </codeblock>
+                    <p>When a key is no longer needed, or if it has been compromised, destroy it and
+                        its shares. In Vault, keys can be deleted permanently.</p>
+                </info>
+            </step>
+
+        </steps>
+    </taskbody>
+
+</task>

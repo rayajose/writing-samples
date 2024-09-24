@@ -7,5 +7,6 @@
     <glossref href="glossterms/data-encrypting-key.dita" keys="gl-dek"/>
     <glossref href="glossterms/cryptoperiod.dita" keys="gl-cryptoperiod"/>
     <glossref href="glossterms/aes-256.dita" keys="gl-aes256"/>
+    <glossref href="glossterms/pci-dss.dita" keys="gl-pci-dss"></glossref>
    
 </map>

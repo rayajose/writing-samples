@@ -27,7 +27,7 @@
                     <p>It prevents unauthorized key substitution.</p>
                 </li>
                 <li>
-                    <p>For compliance with industry and government regulations.</p>
+                    <p><ph conkeyref="gen/comp-req"/></p>
                 </li>
             </ul>
         </section>
@@ -36,7 +36,7 @@
             <p>Secure distribution of encryption keys is controlled as follows:</p>
             <ul>
                 <li>
-                    <p>Key access is managed through HashiCorp Vault.</p>
+                    <p>Key access is managed through <b>HashiCorp Vault</b>.</p>
                 </li>
                 <li>
                     <p>Vaults are encrypted and access is restricted through a AD accounts.</p>

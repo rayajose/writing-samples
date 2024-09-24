@@ -7,20 +7,18 @@
         <section>
             <title>cURL</title>
             <p>
-                <codeblock>
-            # REQUEST
-            curl -L 'http://localhost:8080/api/xmen' \
-            -H 'Content-Type: application/json' \
-            -X-API-KEY: '{key}' 
-            -d '{
-            "id": 1,
-            "name": "Hisako Ichiki",
-            "heroName": "Dust",
-            "power": "Sand manipulation",
-            "debut": "New X-Men #133 (2002)",
-            "creator": "Grant Morrison, Ethan Van Sciver"
-            }                  
-        </codeblock>
+                <codeblock># REQUEST
+curl -L 'http://localhost:8080/api/xmen' \
+-H 'Content-Type: application/json' \
+-X-API-KEY: '{key}' 
+-d '{
+    "id": 1,
+    "name": "Hisako Ichiki",
+    "heroName": "Dust",
+    "power": "Sand manipulation",
+    "debut": "New X-Men #133 (2002)",
+    "creator": "Grant Morrison, Ethan Van Sciver"
+}                         </codeblock>
             </p>
         </section>
     </body>

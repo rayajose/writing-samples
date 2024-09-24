@@ -25,12 +25,13 @@
                     <p>It reduces the chance that they will be compromised.</p>
                 </li>
                 <li>
-                    <p>For compliance with industry and government regulations.</p>
+                    <p><ph conkeyref="gen/comp-req"/></p>
                 </li>
             </ul>
         </section>
         <section>
-            <title><ph conkeyref="gen/pol-cont"/> </title>
+            <title><ph conkeyref="gen/pol-cont"/>
+            </title>
             <p>Secure storage of encryption keys is controlled as follows:</p>
             <ul>
                 <li>
@@ -42,9 +43,8 @@
                 <li>
                     <p><term keyref="gl-dek"/>s are encrypted with <term keyref="gl-kek"/>s.</p>
                 </li>
-                <li><p>Key Encryption Keys (KEKs) are stored in a Thales Luna HSM (Hardware Security
-                        Module).</p></li>
-                <li><p>Data Encryption Keys (DEKs) are stored in Hashicorp Vault.</p></li>
+                <li><p>Key Encryption Keys (KEKs) are stored in a <b>Thales Luna HSM</b> (Hardware Security Module).</p></li>
+                <li><p>Data Encryption Keys (DEKs) are stored in <b>Hashicorp Vault</b>.</p></li>
                 <li><p>Vaults are encrypted and access is restricted through a AD accounts. There is
                         only one vault per application, per environment (development, preproduction,
                         and production).</p></li>

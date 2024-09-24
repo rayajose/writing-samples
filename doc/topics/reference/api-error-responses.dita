@@ -45,17 +45,15 @@
                 </tgroup>
             </table>
             <p>
-                <codeblock>
-                 # RESPONSE
+                <codeblock># RESPONSE
                  
-                 400 Bad Request
-                 {
-                 "timestamp": "2024-08-15T00:03:04.554+00:00",
-                 "status": 400,
-                 "error": "Bad Request",
-                 "path": "/api/numbers"
-                 }
-             </codeblock>
+400 Bad Request
+{
+    "timestamp": "2024-08-15T00:03:04.554+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "path": "/api/numbers"
+}          </codeblock>
             </p>
         </section>
         
@@ -95,18 +93,16 @@
                 </tgroup>
             </table>
             <p>
-                <codeblock>
-                    # RESPONSE
+                <codeblock># RESPONSE
                     
-                    404 Not Found
-                    {
-                    "timestamp": "2024-08-16T12:24:11.041+00:00",
-                    "status": 404,
-                    "error": "Not Found",
-                    "message": "No static resource .",
-                    "path": "/"
-                    }                  
-                </codeblock>
+404 Not Found
+{
+    "timestamp": "2024-08-16T12:24:11.041+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "message": "No static resource .",
+    "path": "/"
+}                                </codeblock>
             </p>
         </section>
         
@@ -147,18 +143,16 @@
                 </tgroup>
             </table>
             <p>
-                <codeblock>
-                    # RESPONSE
+                <codeblock># RESPONSE
                     
-                    500 Internal Server Error
-                    {
-                    "timestamp": "2024-08-16T13:18:45.511+00:00",
-                    "status": 500,
-                    "error": "Internal Server Error",
-                    "message": "Missing API Key or Secret",
-                    "path": "/api/data"
-                    }
-                </codeblock>
+500 Internal Server Error
+{
+    "timestamp": "2024-08-16T13:18:45.511+00:00",
+    "status": 500,
+    "error": "Internal Server Error",
+    "message": "Missing API Key or Secret",
+    "path": "/api/data"
+}          </codeblock>
             </p>
         </section>
 

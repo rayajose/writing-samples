@@ -4,23 +4,19 @@
     <title>Response</title>
     <body>
         <p>
-            <codeblock>
-                    # RESPONSE
+            <codeblock># RESPONSE                 
+200 OK
                     
-                    200 OK
-                    
-                    {"needles":[
-                    {"count":"1","needle":"finding"},
-                    {"count":"1","needle":"needle"},
-                    {"count":"2","needle":"a"},
-                    {"count":"1","needle":"haystack"},
-                    {"count":"0","needle":"needles"}
-                    ]}
-                    
-                    200 OK
-                    
-                    "The maximum number of needles allowed is 5."
-                </codeblock>
+{"needles":[
+    {"count":"1","needle":"finding"},
+    {"count":"1","needle":"needle"},
+    {"count":"2","needle":"a"},
+    {"count":"1","needle":"haystack"},
+    {"count":"0","needle":"needles"}
+]}
+
+200 OK                   
+"The maximum number of needles allowed is 5."        </codeblock>
         </p>
     </body>
 </topic>

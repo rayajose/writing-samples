@@ -6,14 +6,12 @@
         <section>
             <title>cURL</title>
             <p>
-                <codeblock>
-                    # REQUEST
+                <codeblock># REQUEST
                     
-                    curl -L 'http://localhost:8080/api/needles' \
-                    -H 'Content-Type: application/json' \
-                    -X-API-KEY: '{key}' 
-                    -d '{"haystack":"Like finding a needle in a haystack","needles":["finding","needle","a","haystack","needles"]}'
-                </codeblock>
+curl -L 'http://localhost:8080/api/needles' \
+-H 'Content-Type: application/json' \
+-X-API-KEY: '{key}' 
+-d '{"haystack":"Like finding a needle in a haystack","needles":["finding","needle","a","haystack","needles"]}'            </codeblock>
             </p>
         </section>
     </body>

@@ -4,19 +4,16 @@
     <title>Response</title>
     <body>
         <p>
-            <codeblock>
-                    # RESPONSE
-                    200 OK
-                    
-                    {
-                    "id": 1,
-                    "name": "Hisako Ichiki",
-                    "heroName": "Dust",
-                    "power": "Sand manipulation",
-                    "debut": "New X-Men #133 (2002)",
-                    "creator": "Grant Morrison, Ethan Van Sciver"
-                    }
-                </codeblock>
+            <codeblock># RESPONSE
+200 OK                   
+{
+    "id": 1,
+    "name": "Hisako Ichiki",
+    "heroName": "Dust",
+    "power": "Sand manipulation",
+    "debut": "New X-Men #133 (2002)",
+    "creator": "Grant Morrison, Ethan Van Sciver"
+}            </codeblock>
         </p>
     </body>
 </topic>

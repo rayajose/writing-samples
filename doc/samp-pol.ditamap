@@ -18,11 +18,8 @@
                     href="topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita"/>
                 <topicref
                     href="topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.dita"/>
-                <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-rotation.dita">
-                    <!--<topicref href="tasks/crypto-key-retire.dita"/>
-                    <topicref href="tasks/crypto-key-disable.dita"/>
-                    <topicref href="tasks/crypto-key-create.dita"/>-->
-                </topicref>
+                <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-rotation.dita"/>
+                <topicref href="tasks/crypto-key-rotate-hashicorp-java.dita"/>              
             </topicref>
         </topicref>
     </topicref>
