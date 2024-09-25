@@ -3,7 +3,8 @@
 <topic id="api-res-uri">
     <title>URI</title>
     <body>
-        <section>          
+        <section>
+            <p>My API web service was installed and configured locally.</p>
             <p><codeph><ph conkeyref = "gen/resource-base-uri"/></codeph></p>
         </section>
     </body>

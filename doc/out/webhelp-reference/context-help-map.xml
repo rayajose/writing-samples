@@ -1,54 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="my-rest-api" path="topics/reference/api-my-rest-api.html"/>
-   <appContext helpID="api-ref-doc-authentication"
-               path="topics/reference/api-ref-doc-authentication.html"/>
-   <appContext helpID="api-res-xmen" path="topics/reference/xmen/api-res-xmen.html"/>
-   <appContext helpID="api-res-uri" path="topics/reference/api-res-uri.html"/>
-   <appContext helpID="api-res-xmen-properties"
-               path="topics/reference/xmen/api-res-xmen-properties.html"/>
-   <appContext helpID="api-res-xmen-endpoints"
-               path="topics/reference/xmen/api-res-xmen-endpoints.html"/>
-   <appContext helpID="api-res-xmen-post"
-               path="topics/reference/xmen/api-res-xmen-post.html"/>
-   <appContext helpID="api-res-xmen-post-parameters"
-               path="topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-post-parameters"/>
-   <appContext helpID="api-res-xmen-post-request"
-               path="topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-post-request"/>
-   <appContext helpID="api-res-xmen-response"
-               path="topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-response"/>
-   <appContext helpID="api-res-xmen-get"
-               path="topics/reference/xmen/api-res-xmen-get.html"/>
-   <appContext helpID="api-res-xmen-get-parameters"
-               path="topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-get-parameters"/>
-   <appContext helpID="api-res-xmen-get-request"
-               path="topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-get-request"/>
-   <appContext helpID="api-res-xmen-post-response"
-               path="topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-post-response"/>
-   <appContext helpID="api-res-xmen-get-id"
-               path="topics/reference/xmen/api-res-xmen-get-id.html"/>
-   <appContext helpID="api-res-xmen-get-id-parameters"
-               path="topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-id-parameters"/>
-   <appContext helpID="api-res-xmen-get-request"
-               path="topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-request"/>
-   <appContext helpID="api-res-xmen-get-id-response"
-               path="topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-id-response"/>
-   <appContext helpID="api-res-xmen-put-id"
-               path="topics/reference/xmen/api-res-xmen-put-id.html"/>
-   <appContext helpID="api-res-xmen-put-id-parameters"
-               path="topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-put-id-parameters"/>
-   <appContext helpID="api-res-xmen-post-request"
-               path="topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-post-request"/>
-   <appContext helpID="api-res-xmen-put-id-response"
-               path="topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-put-id-response"/>
-   <appContext helpID="api-res-xmen-delete-id"
-               path="topics/reference/xmen/api-res-xmen-delete-id.html"/>
-   <appContext helpID="api-res-xmen-get-id-parameters"
-               path="topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-get-id-parameters"/>
-   <appContext helpID="api-res-xmen-get-request"
-               path="topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-get-request"/>
-   <appContext helpID="api-res-xmen-delete-id-response"
-               path="topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-delete-id-response"/>
-   <appContext helpID="api-error-responses"
-               path="topics/reference/api-error-responses.html"/>
+   <appContext helpID="sdk-xmen" path="topics/reference/sdk/sdk-xmen.html"/>
+   <appContext helpID="sdk-xmen-classes"
+               path="topics/reference/sdk/sdk-xmen-classes.html"/>
+   <appContext helpID="sdk-xmen-classes-xmenController"
+               path="topics/reference/sdk/sdk-xmen-classes-xmenController.html"/>
 </map>

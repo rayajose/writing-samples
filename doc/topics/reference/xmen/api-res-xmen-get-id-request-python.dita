@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-xmen-get-request-python">
+    <title>Python</title>
+    <body>
+        <p>
+            <codeblock>import requests
+                
+url = "http://localhost:8080/api/xmen/{id}?api_key={}"
+                
+payload = {}
+headers = {}
+                
+response = requests.request("GET", url, headers=headers, data=payload)
+                
+print(response.text)          </codeblock>
+        </p>
+    </body>
+</topic>

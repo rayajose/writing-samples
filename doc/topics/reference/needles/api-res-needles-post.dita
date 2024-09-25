@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-needles-post">
+    <title><image conkeyref = "gen/post"/> / needles</title>
+    <body>
+ <!--       <section>
+            <title>cURL</title>
+            <p>
+                <codeblock># REQUEST
+                    
+curl -L 'http://localhost:8080/api/needles' \
+-H 'Content-Type: application/json' \
+-X-API-KEY: '{key}' 
+-d '{"haystack":"Like finding a needle in a haystack","needles":["finding","needle","a","haystack","needles"]}'            </codeblock>
+            </p>
+        </section>-->
+    </body>
+</topic>

@@ -107,14 +107,14 @@
                     </entry>
                     <entry>
                         <String>keys.context</String>
-                        <String>${pdu}/samp-pol.ditamap</String>
+                        <String>${pdu}/samp-ref.ditamap</String>
                     </entry>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>topics/reference/xmen/api-res-xmen-post-parameters.dita</String>
+                                    <String>topics/reference/sdk/sdk-xmen-classes-xmenController.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -139,6 +139,26 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>DITA Map WebHelp Responsive - myWay - REFERENCE</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>topics/reference/xmen/api-res-xmen-post-parameters.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Project to WebHelp Responsive</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

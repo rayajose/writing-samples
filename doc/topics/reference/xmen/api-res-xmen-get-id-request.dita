@@ -2,8 +2,11 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-get-request">
     <title>Request</title>
-    <body>
-       
+    <body/>   
+</topic>
+<!-- 
+
+      
        <section>
            <title>cURL</title>
            <p>
@@ -11,5 +14,5 @@
            </p>
        </section>
         
-    </body>
-</topic>
+
+-->

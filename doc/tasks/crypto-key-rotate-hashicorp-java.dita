@@ -5,7 +5,8 @@
     <abstract><cite>PCI-DSS-V4-3.7.5 </cite></abstract>
     <taskbody>
         <prereq>
-            <p>Identify three key custodians to apply split knowledge 3-share threshold.</p>
+            <p>Identify three key custodians to apply the split knowledge 3-share threshold. Three
+                key custodians will be required to complete the rotation.</p>
         </prereq>
         <context>
             <p>Using Vault, rotate keys as follows:</p>

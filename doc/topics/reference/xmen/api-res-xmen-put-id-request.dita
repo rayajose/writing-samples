@@ -7,10 +7,11 @@
            <title>cURL</title>
            
            <p>
-               <codeblock>curl -L -X PUT 'http://localhost:8080/api/xmen/4' \
+               <codeblock>curl -L -X PUT 'http://localhost:8080/api/xmen/{id}' \
 -H 'Content-Type: application/json' \
 -X-API-KEY: '{key}' 
 -d '{
+    "id": 4,
     "name": "Hisako Ichiki",
     "heroName": "Armor",
     "power": "Psionic exoskeleton armor",

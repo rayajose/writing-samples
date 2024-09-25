@@ -2,14 +2,16 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-post-request">
     <title>Request</title>
-    <body>
-       
+    <body/>   
+</topic>
+<!-- 
+
        <section>
            <title>cURL</title>
            <p>
                <codeblock>curl -L 'http://localhost:8080/api/xmen' \
 -H 'Content-Type: application/json' \
--X-API-KEY: '{key}' 
+-X-API-KEY: '{myApikey}' 
 -d '{
     "id": 4,
     "name": "Hisako Ichiki",
@@ -20,6 +22,62 @@
 }'</codeblock>
            </p>
        </section>
+        <section>
+            <title>NodeJs</title>
+            <p>
+                <codeblock>var request = require('request');
+var options = {
+'method': 'POST',
+'url': 'http://localhost:8080/api/xmen',
+'headers': {
+'API-KEY': '{myApikey}',
+'Content-Type': 'application/json'
+},
+body: JSON.stringify({
+"id": 4,
+"name": "Hisako Ichiki",
+"heroName": "Dust",
+"power": "Sand manipulation",
+"debut": "New X-Men #133 (2002)",
+"creator": "Grant Morrison, Ethan Van Sciver"
+})
+                    
+};
+request(options, function (error, response) {
+if (error) throw new Error(error);
+console.log(response.body);
+});             </codeblock>
+            </p>
+        </section>
+        <section>
+            <title>Python</title>
+            <p>
+                <codeblock>import requests
+import json
+                    
+url = "http://localhost:8080/api/xmen"
+                    
+payload = json.dumps({
+"id": 4,
+"name": "Hisako Ichiki",
+"heroName": "Dust",
+"power": "Sand manipulation",
+"debut": "New X-Men #133 (2002)",
+"creator": "Grant Morrison, Ethan Van Sciver"
+})
+headers = {
+'API-KEY': '{myApikey}',
+'Content-Type': 'application/json'
+}
+                    
+response = requests.request("POST", url, headers=headers, data=payload)
+                    
+print(response.text)             </codeblock>
+            </p>
+        </section>
         
-    </body>
-</topic>
+        
+  
+
+
+-->

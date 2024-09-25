@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-needles-get-request-nodejs">
+    <title>NodeJs</title>
+    <body>
+        <p>
+<codeblock>var request = require('request');
+var options = {
+    'method': 'GET',
+    'url': 'http://localhost:8080/api/needles?api_key={}&amp;haystack=Like%20finding%20a%20needle%20in%20a%20&amp;needles=finding%2Cneedle%2Ca%2Chaystack%2Cneedles',
+    'headers': {
+    }
+};
+request(options, function (error, response) {
+    if (error) throw new Error(error);
+    console.log(response.body);
+});</codeblock>
+        </p>
+    </body>
+</topic>

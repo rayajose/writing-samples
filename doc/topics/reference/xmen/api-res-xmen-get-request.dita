@@ -2,14 +2,13 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-get-request">
     <title>Request</title>
-    <body>
-       
-       <section>
+    <body/>      
+</topic>
+
+<!--      <section>
            <title>cURL</title>
            <p>
                <codeblock>curl -L http://localhost:8080/api/xmen?api_key={}           </codeblock>
            </p>
        </section>
-        
-    </body>
-</topic>
+        -->

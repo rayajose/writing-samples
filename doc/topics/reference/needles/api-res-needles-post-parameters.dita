@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-res-needles-get-properties">
+    <title>Parameters</title>
+    <body>
+        <section>
+            <title>Header</title>
+            <table rowsep="1">
+                <tgroup cols="3" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="4cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="3cm" align="left"/>
+                    <colspec colname="c4" colnum="3" colwidth="10cm" align="left"/>
+                    <thead>
+                        <row>
+                            <entry>Name</entry>
+                            <entry align="left">Data Type</entry>
+                            <entry align="left">Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Content-Type</entry>
+                            <entry>string</entry>
+                            <entry>Use <codeph>application/json</codeph></entry>
+                        </row>
+                        <row valign="top">
+                            <entry>API-KEY</entry>
+                            <entry>token</entry>
+                            <entry>The authentication key.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>Body</title>
+            <table rowsep="1">
+                <tgroup cols="3" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="4cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="3cm" align="left"/>
+                    <colspec colname="c4" colnum="3" colwidth="10cm" align="left"/>
+                    <thead>
+                        <row>
+                            <entry>Name</entry>
+                            <entry align="left">Data Type</entry>
+                            <entry align="left">Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>haystack</entry>
+                            <entry>string</entry>
+                            <entry>The text block to search for word matches.</entry>
+                        </row>
+                        <row>
+                            <entry>needles</entry>
+                            <entry>string array</entry>
+                            <entry>The word(s) to match.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </body>
+</topic>

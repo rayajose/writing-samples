@@ -1,0 +1,1 @@
+var htmlFileInfoList = ["cshelp.html@@@Context Sensitive Help@@@...","sdk-xmen-classes-xmenController.html@@@XmenController@@@Method Summary Modifier and Type Method Description public List&lt;Xmen&gt; getAllXmen() Returns a list of all X-Men entities stored in the database. public Xmen createXmen(Xmen xMen) Creates a new X-Men..."];

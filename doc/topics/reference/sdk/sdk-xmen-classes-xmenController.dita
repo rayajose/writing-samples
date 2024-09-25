@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sdk-xmen-classes-xmenController">
+    <title>XmenController</title>
+    <body>
+        <section>
+            <title>Method Summary</title>
+            <table rowsep="1">
+                <tgroup cols="3" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="6cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="8cm" align="left"/>
+                    <colspec colname="c4" colnum="3" colwidth="10cm" align="left"/>
+                    <thead>
+                        <row>
+                            <entry>Modifier and Type</entry>
+                            <entry align="left">Method</entry>
+                            <entry align="left">Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>public List&lt;Xmen></entry>
+                            <entry>getAllXmen()</entry>
+                            <entry>Returns a list of all X-Men entities stored in the
+                                database.</entry>
+                        </row>
+                        <row>
+                            <entry>public Xmen </entry>
+                            <entry>createXmen(Xmen xMen)</entry>
+                            <entry>Creates a new X-Men entity and saves it to the
+                                repository.</entry>
+                        </row>
+                        <row>
+                            <entry>public ResponseEntity&lt;Xmen></entry>
+                            <entry>getXmenById(Short id)</entry>
+                            <entry>Fetches a specific X-Men entity based on its ID. </entry>
+                        </row>
+                        <row>
+                            <entry>public ResponseEntity&lt;Xmen></entry>
+                            <entry><codeph>updateXmen(Short id, Xmen xMenDetails)</codeph></entry>
+                            <entry>Update an existing X-Men record.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </body>
+</topic>
