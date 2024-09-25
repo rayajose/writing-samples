@@ -3,6 +3,24 @@
 <topic id="sdk-xmen-classes-xmenController">
     <title>XmenController</title>
     <body>
+        <p>
+            <codeblock>package marvel.heros;               
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;               
+import java.util.List;
+                
+@RestController
+@RequestMapping("api/xmen")
+public class XmenController {
+                
+    @Autowired
+    private XmenRepository xMenRepository;
+                
+    //methods broken out below
+                
+}</codeblock>
+        </p>
         <section>
             <title>Method Summary</title>
             <table rowsep="1">
@@ -50,20 +68,7 @@
             </table>
         </section>
         
-        <p>
-            <codeblock>package marvel.heros;               
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;               
-import java.util.List;
-             
-@RestController
-@RequestMapping("api/xmen")
-    public class XmenController {
-                
-            @Autowired
-            private XmenRepository xMenRepository;          </codeblock>
-        </p>
+ 
         
         <p>
             <codeblock>@GetMapping
@@ -104,8 +109,7 @@ public ResponseEntity&lt;?&gt; deleteXmen(@PathVariable Short id) {
     .map(user -> {
         xMenRepository.delete(user);
         return ResponseEntity.ok().build();
-        }).orElse(ResponseEntity.notFound().build());
-    }
+     }).orElse(ResponseEntity.notFound().build());
 }</codeblock>
         </p>
         
