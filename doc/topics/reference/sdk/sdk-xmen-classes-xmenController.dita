@@ -19,7 +19,7 @@
                     </thead>
                     <tbody>
                         <row>
-                            <entry>public List&lt;Xmen></entry>
+                            <entry>public List</entry>
                             <entry>getAllXmen()</entry>
                             <entry>Returns a list of all X-Men entities stored in the
                                 database.</entry>
@@ -31,18 +31,83 @@
                                 repository.</entry>
                         </row>
                         <row>
-                            <entry>public ResponseEntity&lt;Xmen></entry>
+                            <entry>public ResponseEntity</entry>
                             <entry>getXmenById(Short id)</entry>
                             <entry>Fetches a specific X-Men entity based on its ID. </entry>
                         </row>
                         <row>
-                            <entry>public ResponseEntity&lt;Xmen></entry>
+                            <entry>public ResponseEntity</entry>
                             <entry><codeph>updateXmen(Short id, Xmen xMenDetails)</codeph></entry>
                             <entry>Update an existing X-Men record.</entry>
+                        </row>
+                        <row>
+                            <entry>public ResponseEntity</entry>
+                            <entry>deleteXmen(Short id)</entry>
+                            <entry>Deletes an X-Men entity by its ID.</entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
         </section>
+        
+        <p>
+            <codeblock>package marvel.heros;               
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;               
+import java.util.List;
+             
+@RestController
+@RequestMapping("api/xmen")
+    public class XmenController {
+                
+            @Autowired
+            private XmenRepository xMenRepository;          </codeblock>
+        </p>
+        
+        <p>
+            <codeblock>@GetMapping
+public List&lt;Xmen&gt; getAllXmen() {
+    return xMenRepository.findAll();
+}                       </codeblock>
+        </p>
+        <p>
+<codeblock>@PostMapping
+public Xmen createXmen(@RequestBody Xmen xMen) {
+    return xMenRepository.save(xMen);
+}                        </codeblock>
+        </p>
+        <p>
+            <codeblock>@GetMapping("/{id}")
+public ResponseEntity&lt;Xmen&gt; getXmenById(@PathVariable Short id) {
+    return xMenRepository.findById(id)
+    .map(xMen -> ResponseEntity.ok().body(xMen))
+    .orElse(ResponseEntity.notFound().build());
+}                  </codeblock>
+        </p>
+        <p>
+            <codeblock>@PutMapping("/{id}")                      
+public ResponseEntity&lt;Xmen&gt; updateXmen(@PathVariable Short id, @RequestBody Xmen xMenDetails) {
+    return xMenRepository.findById(id)
+    .map(xMen -> {
+        xMen.setName(xMenDetails.getName());
+        xMen.setHeroName(xMenDetails.getHeroName());
+        Xmen updatedXmen = xMenRepository.save(xMen);
+        return ResponseEntity.ok().body(updatedXmen);
+    }).orElse(ResponseEntity.notFound().build());
+}                           </codeblock>
+        </p>
+        <p>
+            <codeblock>@DeleteMapping("/{id}")
+public ResponseEntity&lt;?&gt; deleteXmen(@PathVariable Short id) {
+    return xMenRepository.findById(id)
+    .map(user -> {
+        xMenRepository.delete(user);
+        return ResponseEntity.ok().build();
+        }).orElse(ResponseEntity.notFound().build());
+    }
+}</codeblock>
+        </p>
+        
     </body>
 </topic>
