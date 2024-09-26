@@ -4,38 +4,109 @@
     <title>Method Details</title>
     <body>
         <section>
-            <title>public List&lt;Xmen&gt; getAllXmen()</title>
+            <title>getAllXmen()</title>           
             <p>
-                <codeblock>@GetMapping
+                <codeblock>@GetMapping //maps method to GET request
 public List&lt;Xmen&gt; getAllXmen() {
     return xMenRepository.findAll();
 }                       </codeblock>
             </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top"><ph
+                                conref="sdk-xmen-classes-xmenController-methodSummary.dita#sdk-xmen-classes-xmenController-methodSummary/desc-getAllXmen"
+                            /></entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">none</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top"><codeph>List&lt;Xmen&gt;</codeph> - A list of all
+                                X-Men entities.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </section>
         <section>
-            <title>public Xmen createXmen(Xmen xMen)</title>
+            <title>createXmen(Xmen xMen)</title>
             <p>
-                <codeblock>@PostMapping
+                <codeblock>@PostMapping //maps method to POST request
 public Xmen createXmen(@RequestBody Xmen xMen) {
     return xMenRepository.save(xMen);
 }                        </codeblock>
             </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top"><ph
+                                conref="sdk-xmen-classes-xmenController-methodSummary.dita#sdk-xmen-classes-xmenController-methodSummary/desc-createXmen"
+                            /></entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top"><codeph>xMen</codeph> - <codeph>Xmen</codeph> object
+                                value</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top"><codeph>Xmen</codeph> - The newly created X-Men
+                                entity.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </section>
         <section>
-            <title>public ResponseEntity&lt;Xmen&gt; getXmenById(Short id)</title>
+            <title>getXmenById(Short id)</title>
             <p>
-                <codeblock>@GetMapping("/{id}")
+                <codeblock>@GetMapping("/{id}") //maps method to GET request
 public ResponseEntity&lt;Xmen&gt; getXmenById(@PathVariable Short id) {
     return xMenRepository.findById(id)
     .map(xMen -> ResponseEntity.ok().body(xMen))
     .orElse(ResponseEntity.notFound().build());
 }                  </codeblock>
             </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top"><ph
+                                conref="sdk-xmen-classes-xmenController-methodSummary.dita#sdk-xmen-classes-xmenController-methodSummary/desc-getXmenById"
+                            /></entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top"><codeph>id </codeph>- <codeph>Short</codeph>
+                                value</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top"><codeph>ResponseEntity&lt;Xmen&gt;</codeph> - The retrieved X-Men entity
+                                or 404 if not found.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </section>
         <section>
-            <title>public ResponseEntity&lt;Xmen&gt; updateXmen(Short id, Xmen xMenDetails)</title>
+            <title>updateXmen(Short id, Xmen xMenDetails)</title>
             <p>
-                <codeblock>@PutMapping("/{id}")                      
+                <codeblock>@PutMapping("/{id}") //maps method to PUT request                      
 public ResponseEntity&lt;Xmen&gt; updateXmen(@PathVariable Short id, @RequestBody Xmen xMenDetails) {
     return xMenRepository.findById(id)
     .map(xMen -> {
@@ -46,11 +117,36 @@ public ResponseEntity&lt;Xmen&gt; updateXmen(@PathVariable Short id, @RequestBod
     }).orElse(ResponseEntity.notFound().build());
 }                           </codeblock>
             </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top"><ph
+                                conref="sdk-xmen-classes-xmenController-methodSummary.dita#sdk-xmen-classes-xmenController-methodSummary/desc-updateXmen"
+                            /></entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top"><codeph>id</codeph> - <codeph>Short</codeph> value,
+                                    <codeph>xMenDetails</codeph> - <codeph>ResponseEntity</codeph>
+                                value</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top"><codeph>ResponseEntity&lt;Xmen&gt;</codeph> - The updated X-Men entity
+                                or 404 if not found.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </section>
         <section>
-            <title>public ResponseEntity&lt;?&gt; deleteXmen(Short id)</title>
+            <title>deleteXmen(Short id)</title>
             <p>
-                <codeblock>@DeleteMapping("/{id}")
+                <codeblock>@DeleteMapping("/{id}") //maps method to DELETE request
 public ResponseEntity&lt;?&gt; deleteXmen(@PathVariable Short id) {
     return xMenRepository.findById(id)
     .map(user -> {
@@ -59,6 +155,30 @@ public ResponseEntity&lt;?&gt; deleteXmen(@PathVariable Short id) {
     }).orElse(ResponseEntity.notFound().build());
 }</codeblock>
             </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top"><ph
+                                conref="sdk-xmen-classes-xmenController-methodSummary.dita#sdk-xmen-classes-xmenController-methodSummary/desc-deleteXmen"
+                            /></entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top"><codeph>id</codeph> - <codeph>Short</codeph>
+                                value</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">200 OK on successful deletion or 404 if not
+                                found.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
         </section>     
     </body>
 </topic>

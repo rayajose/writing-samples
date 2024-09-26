@@ -2,22 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>topics/reference/sdk/sdk-xmen.html</loc>
-      <lastmod>2024-09-26T12:08:04Z</lastmod>
+      <lastmod>2024-09-26T02:48:29Z</lastmod>
    </url>
    <url>
       <loc>topics/reference/sdk/sdk-xmen-classes.html</loc>
-      <lastmod>2024-09-26T12:08:04Z</lastmod>
+      <lastmod>2024-09-26T02:48:29Z</lastmod>
    </url>
    <url>
       <loc>topics/reference/sdk/sdk-xmen-classes-xmenController.html</loc>
-      <lastmod>2024-09-26T12:08:04Z</lastmod>
+      <lastmod>2024-09-26T02:48:29Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/sdk/sdk-xmen-classes-xmenController-methodSummary.html</loc>
-      <lastmod>2024-09-26T12:08:04Z</lastmod>
+      <loc>topics/reference/sdk/sdk-xmen-classes-xmenController.html#sdk-xmen-classes-xmenController-methodSummary</loc>
+      <lastmod>2024-09-26T02:48:29Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/sdk/sdk-xmen-classes-xmenController-methodDetails.html</loc>
-      <lastmod>2024-09-26T12:08:04Z</lastmod>
+      <loc>topics/reference/sdk/sdk-xmen-classes-xmenController.html#sdk-xmen-classes-xmenController-methodDetails</loc>
+      <lastmod>2024-09-26T02:48:29Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/sdk/sdk-xmen-classes-xmen.html</loc>
+      <lastmod>2024-09-26T02:48:29Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/sdk/sdk-xmen-classes-xmen.html#unique_1368131495</loc>
+      <lastmod>2024-09-26T02:48:29Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/sdk/sdk-xmen-classes-xmen.html#sdk-xmen-classes-xmen-methodSummary</loc>
+      <lastmod>2024-09-26T02:48:29Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/sdk/sdk-xmen-classes-xmen.html#sdk-xmen-classes-xmen-methodDetails</loc>
+      <lastmod>2024-09-26T02:48:29Z</lastmod>
    </url>
 </urlset>

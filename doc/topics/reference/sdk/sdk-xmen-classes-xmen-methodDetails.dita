@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sdk-xmen-classes-xmen-methodDetails">
+    <title>Method Details</title>
+    <body>
+        <section>
+            <title>setId(Short id)</title>           
+            <p>
+                <codeblock>public void setId(Short id) {
+        this.id = id;
+    }                      </codeblock>
+            </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">
+                                <p>Returns the unique identifier (id) of the X-men entity.</p>
+                            </entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top"><codeph>id</codeph> - <codeph>Short</codeph>
+                                value</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">does not return a value</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>getId()</title>
+            <p>
+                <codeblock>public Short getId() {
+        return id;
+    }                       </codeblock>
+            </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Returns the unique identifier (<codeph>id</codeph>) of the X-men
+                                entity.</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">none</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top"><codeph>id</codeph> - The X-Men entity ID.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>setName(String name)</title>
+            <p>
+                <codeblock>public void setName(String name) {
+        this.name = name;
+    }                 </codeblock>
+            </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Sets the real name (<codeph>name</codeph>) of the X-men
+                                entity.</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top"><codeph>name</codeph> - <codeph>String</codeph>
+                                value</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">does not return a value</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>getName()</title>
+            <p>
+                <codeblock>    public String getName() {
+        return name;
+    }                     </codeblock>
+            </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Returns the real name (<codeph>name</codeph>) of the X-men
+                                entity.</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">none</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top"><codeph>String</codeph> - The X-Men entity's real
+                                name.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>setHeroName(String heroName)</title>
+            <p>
+                <codeblock>public void setHeroName(String heroName) {
+        this.heroName = heroName;
+    }</codeblock>
+            </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Sets the hero name (<codeph>heroName</codeph>) of the X-men
+                                entity.</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top"><codeph>heroName</codeph> - <codeph>String</codeph>
+                                value</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">does not return a value</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>getHeroName()</title>
+            <p>
+                <codeblock>public String getHeroName() {
+        return heroName;
+    }</codeblock>
+            </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Returns the hero name (<codeph>heroName</codeph>) of the X-men
+                                entity.</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">none</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top"><codeph>String</codeph> - The X-Men entity's hero
+                                name.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>setPower(String power)</title>
+            <p>
+                <codeblock>public void setPower(String power) {
+        this.power = power;
+    }</codeblock>
+            </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Sets the power (<codeph>power</codeph>) of the X-men entity.</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top"><codeph>power</codeph> - <codeph>String</codeph>
+                                value</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">does not return a value</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>getPower()</title>
+            <p>
+                <codeblock>public String getPower() {
+        return power;
+    }</codeblock>
+            </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Returns the power (<codeph>power</codeph>) of the X-men
+                                entity.</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">none</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top"><codeph>String</codeph> - The X-Men entity's super
+                                power.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>setDebut(String debut)</title>
+            <p>
+                <codeblock>public void setDebut(String debut) {
+        this.debut = debut;
+    }</codeblock>
+            </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Sets the debut issue or first appearance
+                                (<codeph>debut</codeph>).</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top"><codeph>debut</codeph> - <codeph>String</codeph>
+                                value</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">does not return a value</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>getDebut()</title>
+            <p>
+                <codeblock>public String getDebut() {
+        return debut;
+    }</codeblock>
+            </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Returns the debut issue or first appearance
+                                (<codeph>debut</codeph>).</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">none</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top"><codeph>String</codeph> - The X-Men entity's comic
+                                book debut.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>setCreator(String creator)</title>
+            <p>
+                <codeblock>public void setCreator(String creator) {
+        this.creator = creator;
+    }</codeblock>
+            </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Sets the creator (<codeph>creator</codeph>) of the X-men
+                                entity.</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top"><codeph>creator</codeph> - <codeph>String</codeph>
+                                value</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">does not return a value</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>getCreator()</title>
+            <p>
+                <codeblock>public String getCreator() {
+        return creator;
+    }</codeblock>
+            </p>
+            <table frame="none" colsep="0" rowsep="0">
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1.5cm" align="left"/>
+                    <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                    <tbody>
+                        <row valign="top">
+                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Returns the creator (<codeph>creator</codeph>) of the X-men
+                                entity.</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">none</entry>
+                        </row>
+                        <row valign="top">
+                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top"><codeph>String</codeph> - The X-Men entity's
+                                creator(s).</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </body>
+</topic>

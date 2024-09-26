@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sdk-xmen-classes-xmen-methodSummary">
+    <title>Method Summary</title>
+    <body>       
+        <table rowsep="1">
+            <tgroup cols="3" align="left">
+                <colspec colname="c1" colnum="1" colwidth="6cm" align="left"/>
+                <colspec colname="c3" colnum="2" colwidth="8cm" align="left"/>
+                <colspec colname="c4" colnum="3" colwidth="10cm" align="left"/>
+                <thead>
+                    <row>
+                        <entry>Modifier and Type</entry>
+                        <entry>Method</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><codeph>public void</codeph></entry>
+                        <entry><codeph>setId(Short id)</codeph></entry>
+                        <entry>Sets the unique identifier (<codeph>id</codeph>) for the X-men
+                            entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>public Short</codeph></entry>
+                        <entry><codeph>getId()</codeph></entry>
+                        <entry>Returns the unique identifier (<codeph>id</codeph>) of the X-men
+                            entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>public void</codeph></entry>
+                        <entry><codeph>setName(String name)</codeph></entry>
+                        <entry>Sets the real name (<codeph>name</codeph>) of the X-men
+                            entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>public String</codeph></entry>
+                        <entry><codeph>getName()</codeph></entry>
+                        <entry>Returns the real name (<codeph>name</codeph>) of the X-men
+                            entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>public void</codeph></entry>
+                        <entry><codeph>setHeroName(String heroName)</codeph></entry>
+                        <entry>Sets the hero name (<codeph>heroName</codeph>) of the X-men
+                            entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>public String</codeph></entry>
+                        <entry><codeph>getHeroName()</codeph></entry>
+                        <entry>Returns the hero name (<codeph>heroName</codeph>) of the X-men
+                            entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>public void</codeph></entry>
+                        <entry><codeph>setPower(String power)</codeph></entry>
+                        <entry>Sets the power (<codeph>power</codeph>) of the X-men entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>public String</codeph></entry>
+                        <entry><codeph>getPower()</codeph></entry>
+                        <entry>Returns the power (<codeph>power</codeph>) of the X-men
+                            entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>public void</codeph></entry>
+                        <entry><codeph>setDebut(String debut)</codeph></entry>
+                        <entry>Sets the debut issue or first appearance
+                            (<codeph>debut</codeph>).</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>public String</codeph></entry>
+                        <entry><codeph>getDebut()</codeph></entry>
+                        <entry>Returns the debut issue or first appearance
+                            (<codeph>debut</codeph>).</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>public void</codeph></entry>
+                        <entry><codeph>setCreator(String creator)</codeph></entry>
+                        <entry>Sets the creator (<codeph>creator</codeph>) of the X-men
+                            entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>public String</codeph></entry>
+                        <entry><codeph>getCreator()</codeph></entry>
+                        <entry>Returns the creator (<codeph>creator</codeph>) of the X-men
+                            entity.</entry>
+                    </row>                   
+                </tbody>
+            </tgroup>
+        </table>
+
+    </body>
+</topic>

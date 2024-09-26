@@ -6,7 +6,15 @@
    <appContext helpID="sdk-xmen-classes-xmenController"
                path="topics/reference/sdk/sdk-xmen-classes-xmenController.html"/>
    <appContext helpID="sdk-xmen-classes-xmenController-methodSummary"
-               path="topics/reference/sdk/sdk-xmen-classes-xmenController-methodSummary.html"/>
+               path="topics/reference/sdk/sdk-xmen-classes-xmenController.html#sdk-xmen-classes-xmenController-methodSummary"/>
    <appContext helpID="sdk-xmen-classes-xmenController-methodDetails"
-               path="topics/reference/sdk/sdk-xmen-classes-xmenController-methodDetails.html"/>
+               path="topics/reference/sdk/sdk-xmen-classes-xmenController.html#sdk-xmen-classes-xmenController-methodDetails"/>
+   <appContext helpID="sdk-xmen-classes-xmen"
+               path="topics/reference/sdk/sdk-xmen-classes-xmen.html"/>
+   <appContext helpID="unique_1368131495"
+               path="topics/reference/sdk/sdk-xmen-classes-xmen.html#unique_1368131495"/>
+   <appContext helpID="sdk-xmen-classes-xmen-methodSummary"
+               path="topics/reference/sdk/sdk-xmen-classes-xmen.html#sdk-xmen-classes-xmen-methodSummary"/>
+   <appContext helpID="sdk-xmen-classes-xmen-methodDetails"
+               path="topics/reference/sdk/sdk-xmen-classes-xmen.html#sdk-xmen-classes-xmen-methodDetails"/>
 </map>

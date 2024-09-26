@@ -19,28 +19,28 @@
                     <row>
                         <entry><codeph>public List</codeph></entry>
                         <entry><codeph>getAllXmen()</codeph></entry>
-                        <entry>Returns a list of all X-Men entities stored in the database.</entry>
+                        <entry><ph id="desc-getAllXmen">Retrieves all X-Men records from the repository.</ph></entry>
                     </row>
                     <row>
                         <entry><codeph>public Xmen</codeph>
                         </entry>
                         <entry><codeph>createXmen(Xmen xMen)</codeph></entry>
-                        <entry>Creates a new X-Men entity and saves it to the repository.</entry>
+                        <entry><ph id="desc-createXmen">Creates a new X-Men entity and saves it to the repository.</ph></entry>
                     </row>
                     <row>
                         <entry><codeph>public ResponseEntity</codeph></entry>
                         <entry><codeph>getXmenById(Short id)</codeph></entry>
-                        <entry>Fetches a specific X-Men entity based on its ID. </entry>
+                        <entry><ph id="desc-getXmenById">Retrieves an X-Men entity by its ID.</ph></entry>
                     </row>
                     <row>
                         <entry><codeph>public ResponseEntity</codeph></entry>
                         <entry><codeph>updateXmen(Short id, Xmen xMenDetails)</codeph></entry>
-                        <entry>Update an existing X-Men record.</entry>
+                        <entry><ph id="desc-updateXmen">Updates an existing X-Men entity.</ph></entry>
                     </row>
                     <row>
                         <entry><codeph>public ResponseEntity</codeph></entry>
                         <entry><codeph>deleteXmen(Short id)</codeph></entry>
-                        <entry>Deletes an X-Men entity by its ID.</entry>
+                        <entry><ph id="desc-deleteXmen">Deletes an X-Men entity by its ID.</ph></entry>
                     </row>
                 </tbody>
             </tgroup>

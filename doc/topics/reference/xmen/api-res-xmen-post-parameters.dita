@@ -20,7 +20,7 @@
                     <tbody>
                         <row>
                             <entry>Content-Type</entry>
-                            <entry>string</entry>
+                            <entry>String</entry>
                             <entry>Use <codeph>application/json</codeph></entry>
                         </row>
                         <row valign="top">
@@ -55,7 +55,7 @@
                         </row>
                         <row>
                             <entry>name</entry>
-                            <entry>string</entry>
+                            <entry>String</entry>
                             <entry>
                                 <p>The character’s real name.</p>
                                 <p>Format: <codeph>&lt;&lt;firstName&gt;&gt;
@@ -64,17 +64,17 @@
                         </row>
                         <row>
                             <entry>heroName</entry>
-                            <entry>string</entry>
+                            <entry>String</entry>
                             <entry>The character’s hero name.</entry>
                         </row>
                         <row>
                             <entry>power</entry>
-                            <entry>string</entry>
+                            <entry>String</entry>
                             <entry>The character’s power(s).</entry>
                         </row>
                         <row>
                             <entry>debut</entry>
-                            <entry>string</entry>
+                            <entry>String</entry>
                             <entry>
                                 <p>The comic book title, issue number and year of debut.</p>
                                 <p>Format: <codeph>&lt;&lt;title&gt;&gt; &lt;&lt;issueNumber&gt;&gt;
@@ -83,7 +83,7 @@
                         </row>
                         <row>
                             <entry>creator</entry>
-                            <entry>string</entry>
+                            <entry>String</entry>
                             <entry>The character’s creator(s). Use comma to delimit multiple
                                 creators.</entry>
                         </row>

@@ -1,0 +1,1 @@
+var htmlFileInfoList = ["cshelp.html@@@Context Sensitive Help@@@...","sdk-xmen-classes-xmenController.html@@@XmenController@@@The XmenController class is a RESTful API controller in the marvel.heros package. It provides endpoints for managing X-Men entities, such as creating, updating, retrieving, and deleting X-Men records..."];

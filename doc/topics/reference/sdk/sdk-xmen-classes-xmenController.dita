@@ -24,7 +24,7 @@ public class XmenController {
     @Autowired
     private XmenRepository xMenRepository;
                 
-    //methods broken out below
+    ...
                 
 }</codeblock>
         </p>

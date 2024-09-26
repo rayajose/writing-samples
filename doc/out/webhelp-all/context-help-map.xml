@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
+   <appContext helpID="sdk-xmen" path="topics/reference/sdk/sdk-xmen.html"/>
+   <appContext helpID="sdk-xmen-classes"
+               path="topics/reference/sdk/sdk-xmen-classes.html"/>
+   <appContext helpID="sdk-xmen-classes-xmenController"
+               path="topics/reference/sdk/sdk-xmen-classes-xmenController.html"/>
+   <appContext helpID="sdk-xmen-classes-xmenController-methodSummary"
+               path="topics/reference/sdk/sdk-xmen-classes-xmenController.html#sdk-xmen-classes-xmenController-methodSummary"/>
+   <appContext helpID="sdk-xmen-classes-xmenController-methodDetails"
+               path="topics/reference/sdk/sdk-xmen-classes-xmenController.html#sdk-xmen-classes-xmenController-methodDetails"/>
+   <appContext helpID="sdk-xmen-classes-xmen"
+               path="topics/reference/sdk/sdk-xmen-classes-xmen.html"/>
+   <appContext helpID="unique_475341680"
+               path="topics/reference/sdk/sdk-xmen-classes-xmen.html#unique_475341680"/>
+   <appContext helpID="sdk-xmen-classes-xmen-methodSummary"
+               path="topics/reference/sdk/sdk-xmen-classes-xmen.html#sdk-xmen-classes-xmen-methodSummary"/>
+   <appContext helpID="sdk-xmen-classes-xmen-methodDetails"
+               path="topics/reference/sdk/sdk-xmen-classes-xmen.html#sdk-xmen-classes-xmen-methodDetails"/>
    <appContext helpID="my-rest-api" path="topics/reference/api-my-rest-api.html"/>
    <appContext helpID="api-ref-doc-authentication"
                path="topics/reference/api-ref-doc-authentication.html"/>
-   <appContext helpID="api-res-xmen" path="topics/reference/xmen/api-res-xmen.html"/>
    <appContext helpID="api-res-uri" path="topics/reference/api-res-uri.html"/>
+   <appContext helpID="api-res-xmen" path="topics/reference/xmen/api-res-xmen.html"/>
    <appContext helpID="api-res-xmen-properties"
                path="topics/reference/xmen/api-res-xmen-properties.html"/>
    <appContext helpID="api-res-xmen-endpoints"
@@ -15,6 +32,12 @@
                path="topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-post-parameters"/>
    <appContext helpID="api-res-xmen-post-request"
                path="topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-post-request"/>
+   <appContext helpID="api-res-xmen-post-request-curl"
+               path="topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-post-request-curl"/>
+   <appContext helpID="api-res-xmen-post-request-nodejs"
+               path="topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-post-request-nodejs"/>
+   <appContext helpID="api-res-xmen-post-request-python"
+               path="topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-post-request-python"/>
    <appContext helpID="api-res-xmen-response"
                path="topics/reference/xmen/api-res-xmen-post.html#api-res-xmen-response"/>
    <appContext helpID="api-res-xmen-get"
@@ -23,6 +46,12 @@
                path="topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-get-parameters"/>
    <appContext helpID="api-res-xmen-get-request"
                path="topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-get-request"/>
+   <appContext helpID="api-res-xmen-get-request-curl"
+               path="topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-get-request-curl"/>
+   <appContext helpID="api-res-xmen-get-request-nodejs"
+               path="topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-get-request-nodejs"/>
+   <appContext helpID="api-res-xmen-get-request-python"
+               path="topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-get-request-python"/>
    <appContext helpID="api-res-xmen-post-response"
                path="topics/reference/xmen/api-res-xmen-get.html#api-res-xmen-post-response"/>
    <appContext helpID="api-res-xmen-get-id"
@@ -31,6 +60,12 @@
                path="topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-id-parameters"/>
    <appContext helpID="api-res-xmen-get-request"
                path="topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-request"/>
+   <appContext helpID="api-res-xmen-get-request-curl"
+               path="topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-request-curl"/>
+   <appContext helpID="api-res-xmen-get-request-nodejs"
+               path="topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-request-nodejs"/>
+   <appContext helpID="api-res-xmen-get-request-python"
+               path="topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-request-python"/>
    <appContext helpID="api-res-xmen-get-id-response"
                path="topics/reference/xmen/api-res-xmen-get-id.html#api-res-xmen-get-id-response"/>
    <appContext helpID="api-res-xmen-put-id"
@@ -39,6 +74,12 @@
                path="topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-put-id-parameters"/>
    <appContext helpID="api-res-xmen-post-request"
                path="topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-post-request"/>
+   <appContext helpID="api-res-xmen-post-request-curl"
+               path="topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-post-request-curl"/>
+   <appContext helpID="api-res-xmen-post-request-nodejs"
+               path="topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-post-request-nodejs"/>
+   <appContext helpID="api-res-xmen-post-request-python"
+               path="topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-post-request-python"/>
    <appContext helpID="api-res-xmen-put-id-response"
                path="topics/reference/xmen/api-res-xmen-put-id.html#api-res-xmen-put-id-response"/>
    <appContext helpID="api-res-xmen-delete-id"
@@ -47,8 +88,46 @@
                path="topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-get-id-parameters"/>
    <appContext helpID="api-res-xmen-get-request"
                path="topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-get-request"/>
+   <appContext helpID="api-res-xmen-get-request-curl"
+               path="topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-get-request-curl"/>
+   <appContext helpID="api-res-xmen-get-request-nodejs"
+               path="topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-get-request-nodejs"/>
+   <appContext helpID="api-res-xmen-get-request-python"
+               path="topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-get-request-python"/>
    <appContext helpID="api-res-xmen-delete-id-response"
                path="topics/reference/xmen/api-res-xmen-delete-id.html#api-res-xmen-delete-id-response"/>
+   <appContext helpID="api-res-needles"
+               path="topics/reference/needles/api-res-needles.html"/>
+   <appContext helpID="api-res-needles-properties"
+               path="topics/reference/needles/api-res-needles-properties.html"/>
+   <appContext helpID="api-res-xmen-endpoints"
+               path="topics/reference/needles/api-res-needles-endpoints.html"/>
+   <appContext helpID="api-res-needles-post"
+               path="topics/reference/needles/api-res-needles-get.html"/>
+   <appContext helpID="api-res-needles-get-properties"
+               path="topics/reference/needles/api-res-needles-get.html#api-res-needles-get-properties"/>
+   <appContext helpID="api-res-needles-get-request"
+               path="topics/reference/needles/api-res-needles-get.html#api-res-needles-get-request"/>
+   <appContext helpID="api-res-needles-get-request-curl"
+               path="topics/reference/needles/api-res-needles-get.html#api-res-needles-get-request-curl"/>
+   <appContext helpID="api-res-needles-get-request-nodejs"
+               path="topics/reference/needles/api-res-needles-get.html#api-res-needles-get-request-nodejs"/>
+   <appContext helpID="api-res-needles-get-request-python"
+               path="topics/reference/needles/api-res-needles-get.html#api-res-needles-get-request-python"/>
+   <appContext helpID="api-res-needles-post"
+               path="topics/reference/needles/api-res-needles-post.html"/>
+   <appContext helpID="api-res-needles-get-properties"
+               path="topics/reference/needles/api-res-needles-post.html#api-res-needles-get-properties"/>
+   <appContext helpID="api-res-needles-post-request"
+               path="topics/reference/needles/api-res-needles-post.html#api-res-needles-post-request"/>
+   <appContext helpID="api-res-needles-post-request-curl"
+               path="topics/reference/needles/api-res-needles-post.html#api-res-needles-post-request-curl"/>
+   <appContext helpID="api-res-needles-post-request-nodejs"
+               path="topics/reference/needles/api-res-needles-post.html#api-res-needles-post-request-nodejs"/>
+   <appContext helpID="api-res-needles-post-request-python"
+               path="topics/reference/needles/api-res-needles-post.html#api-res-needles-post-request-python"/>
+   <appContext helpID="api-res-needles-post"
+               path="topics/reference/needles/api-res-needles-response.html"/>
    <appContext helpID="api-error-responses"
                path="topics/reference/api-error-responses.html"/>
    <appContext helpID="infosec-policy" path="topics/policy/infosec-policy.html"/>
@@ -77,6 +156,6 @@
                path="topics/process/chg-mgt-partner-onboarding-intro.html#chg-mgt-partner-onboarding-process-confirm-reqs"/>
    <appContext helpID="chg-mgt-partner-onboarding-proc-sys-init"
                path="topics/process/chg-mgt-partner-onboarding-intro.html#chg-mgt-partner-onboarding-proc-sys-init"/>
-   <appContext helpID="unique_868921526"
-               path="topics/process/chg-mgt-partner-onboarding-intro.html#unique_868921526"/>
+   <appContext helpID="unique_48713014"
+               path="topics/process/chg-mgt-partner-onboarding-intro.html#unique_48713014"/>
 </map>

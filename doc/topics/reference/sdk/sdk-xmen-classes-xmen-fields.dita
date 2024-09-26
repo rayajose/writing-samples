@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sdk-xmen-classes-xmen">
+    <title>Fields</title>
+    <body>
+        <table rowsep="1">
+            <tgroup cols="3" align="left">
+                <colspec colname="c1" colnum="1" colwidth="4cm" align="left"/>
+                <colspec colname="c3" colnum="2" colwidth="3cm" align="left"/>
+                <colspec colname="c4" colnum="3" colwidth="10cm" align="left"/>
+                <thead>
+                    <row>
+                        <entry>Field</entry>
+                        <entry>Type</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><codeph>id</codeph></entry>
+                        <entry><codeph>Short</codeph></entry>
+                        <entry>Unique identifier for the X-men entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>name</codeph></entry>
+                        <entry><codeph>String</codeph></entry>
+                        <entry>Real name of the X-men entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>heroName</codeph></entry>
+                        <entry><codeph>String</codeph></entry>
+                        <entry>Hero name or alias of the X-men entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>power</codeph></entry>
+                        <entry><codeph>String</codeph></entry>
+                        <entry>Superpower or abilities of the entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>debut</codeph></entry>
+                        <entry><codeph>String</codeph></entry>
+                        <entry>First appearance or debut issue of the entity.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>creator</codeph></entry>
+                        <entry><codeph>String</codeph></entry>
+                        <entry>Name of the creator(s) of the X-men entity.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        
+    </body>
+</topic>
