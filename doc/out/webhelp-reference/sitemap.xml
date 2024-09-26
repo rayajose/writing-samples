@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>topics/reference/sdk/sdk-xmen.html</loc>
-      <lastmod>2024-09-25T06:35:03Z</lastmod>
+      <lastmod>2024-09-26T12:08:04Z</lastmod>
    </url>
    <url>
       <loc>topics/reference/sdk/sdk-xmen-classes.html</loc>
-      <lastmod>2024-09-25T06:35:03Z</lastmod>
+      <lastmod>2024-09-26T12:08:04Z</lastmod>
    </url>
    <url>
       <loc>topics/reference/sdk/sdk-xmen-classes-xmenController.html</loc>
-      <lastmod>2024-09-25T06:35:03Z</lastmod>
+      <lastmod>2024-09-26T12:08:04Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/sdk/sdk-xmen-classes-xmenController-methodSummary.html</loc>
+      <lastmod>2024-09-26T12:08:04Z</lastmod>
+   </url>
+   <url>
+      <loc>topics/reference/sdk/sdk-xmen-classes-xmenController-methodDetails.html</loc>
+      <lastmod>2024-09-26T12:08:04Z</lastmod>
    </url>
 </urlset>

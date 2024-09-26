@@ -3,6 +3,13 @@
 <topic id="sdk-xmen-classes-xmenController">
     <title>XmenController</title>
     <body>
+        <p>The XmenController class is a RESTful API controller in the marvel.heros package. It
+            provides endpoints for managing X-Men entities, such as creating, updating, retrieving,
+            and deleting X-Men records. This controller is designed to interact with the
+            XmenRepository to perform CRUD operations on the X-Men data. </p>
+        <p>The class uses Spring Framework annotations to define REST endpoints and inject
+            dependencies. It follows standard RESTful practices with methods for handling HTTP
+            requests such as GET, POST, PUT, and DELETE.</p>
         <p>
             <codeblock>package marvel.heros;               
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,97 +28,7 @@ public class XmenController {
                 
 }</codeblock>
         </p>
-        <section>
-            <title>Method Summary</title>
-            <table rowsep="1">
-                <tgroup cols="3" align="left">
-                    <colspec colname="c1" colnum="1" colwidth="6cm" align="left"/>
-                    <colspec colname="c3" colnum="2" colwidth="8cm" align="left"/>
-                    <colspec colname="c4" colnum="3" colwidth="10cm" align="left"/>
-                    <thead>
-                        <row>
-                            <entry>Modifier and Type</entry>
-                            <entry align="left">Method</entry>
-                            <entry align="left">Description</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry>public List</entry>
-                            <entry>getAllXmen()</entry>
-                            <entry>Returns a list of all X-Men entities stored in the
-                                database.</entry>
-                        </row>
-                        <row>
-                            <entry>public Xmen </entry>
-                            <entry>createXmen(Xmen xMen)</entry>
-                            <entry>Creates a new X-Men entity and saves it to the
-                                repository.</entry>
-                        </row>
-                        <row>
-                            <entry>public ResponseEntity</entry>
-                            <entry>getXmenById(Short id)</entry>
-                            <entry>Fetches a specific X-Men entity based on its ID. </entry>
-                        </row>
-                        <row>
-                            <entry>public ResponseEntity</entry>
-                            <entry><codeph>updateXmen(Short id, Xmen xMenDetails)</codeph></entry>
-                            <entry>Update an existing X-Men record.</entry>
-                        </row>
-                        <row>
-                            <entry>public ResponseEntity</entry>
-                            <entry>deleteXmen(Short id)</entry>
-                            <entry>Deletes an X-Men entity by its ID.</entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </section>
-        
- 
-        
-        <p>
-            <codeblock>@GetMapping
-public List&lt;Xmen&gt; getAllXmen() {
-    return xMenRepository.findAll();
-}                       </codeblock>
-        </p>
-        <p>
-<codeblock>@PostMapping
-public Xmen createXmen(@RequestBody Xmen xMen) {
-    return xMenRepository.save(xMen);
-}                        </codeblock>
-        </p>
-        <p>
-            <codeblock>@GetMapping("/{id}")
-public ResponseEntity&lt;Xmen&gt; getXmenById(@PathVariable Short id) {
-    return xMenRepository.findById(id)
-    .map(xMen -> ResponseEntity.ok().body(xMen))
-    .orElse(ResponseEntity.notFound().build());
-}                  </codeblock>
-        </p>
-        <p>
-            <codeblock>@PutMapping("/{id}")                      
-public ResponseEntity&lt;Xmen&gt; updateXmen(@PathVariable Short id, @RequestBody Xmen xMenDetails) {
-    return xMenRepository.findById(id)
-    .map(xMen -> {
-        xMen.setName(xMenDetails.getName());
-        xMen.setHeroName(xMenDetails.getHeroName());
-        Xmen updatedXmen = xMenRepository.save(xMen);
-        return ResponseEntity.ok().body(updatedXmen);
-    }).orElse(ResponseEntity.notFound().build());
-}                           </codeblock>
-        </p>
-        <p>
-            <codeblock>@DeleteMapping("/{id}")
-public ResponseEntity&lt;?&gt; deleteXmen(@PathVariable Short id) {
-    return xMenRepository.findById(id)
-    .map(user -> {
-        xMenRepository.delete(user);
-        return ResponseEntity.ok().build();
-     }).orElse(ResponseEntity.notFound().build());
-}</codeblock>
-        </p>
-        
+
+
     </body>
 </topic>

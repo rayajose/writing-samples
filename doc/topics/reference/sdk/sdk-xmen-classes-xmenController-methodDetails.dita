@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sdk-xmen-classes-xmenController-methodDetails">
+    <title>Method Details</title>
+    <body>
+        <section>
+            <title>public List&lt;Xmen&gt; getAllXmen()</title>
+            <p>
+                <codeblock>@GetMapping
+public List&lt;Xmen&gt; getAllXmen() {
+    return xMenRepository.findAll();
+}                       </codeblock>
+            </p>
+        </section>
+        <section>
+            <title>public Xmen createXmen(Xmen xMen)</title>
+            <p>
+                <codeblock>@PostMapping
+public Xmen createXmen(@RequestBody Xmen xMen) {
+    return xMenRepository.save(xMen);
+}                        </codeblock>
+            </p>
+        </section>
+        <section>
+            <title>public ResponseEntity&lt;Xmen&gt; getXmenById(Short id)</title>
+            <p>
+                <codeblock>@GetMapping("/{id}")
+public ResponseEntity&lt;Xmen&gt; getXmenById(@PathVariable Short id) {
+    return xMenRepository.findById(id)
+    .map(xMen -> ResponseEntity.ok().body(xMen))
+    .orElse(ResponseEntity.notFound().build());
+}                  </codeblock>
+            </p>
+        </section>
+        <section>
+            <title>public ResponseEntity&lt;Xmen&gt; updateXmen(Short id, Xmen xMenDetails)</title>
+            <p>
+                <codeblock>@PutMapping("/{id}")                      
+public ResponseEntity&lt;Xmen&gt; updateXmen(@PathVariable Short id, @RequestBody Xmen xMenDetails) {
+    return xMenRepository.findById(id)
+    .map(xMen -> {
+        xMen.setName(xMenDetails.getName());
+        xMen.setHeroName(xMenDetails.getHeroName());
+        Xmen updatedXmen = xMenRepository.save(xMen);
+        return ResponseEntity.ok().body(updatedXmen);
+    }).orElse(ResponseEntity.notFound().build());
+}                           </codeblock>
+            </p>
+        </section>
+        <section>
+            <title>public ResponseEntity&lt;?&gt; deleteXmen(Short id)</title>
+            <p>
+                <codeblock>@DeleteMapping("/{id}")
+public ResponseEntity&lt;?&gt; deleteXmen(@PathVariable Short id) {
+    return xMenRepository.findById(id)
+    .map(user -> {
+        xMenRepository.delete(user);
+        return ResponseEntity.ok().build();
+    }).orElse(ResponseEntity.notFound().build());
+}</codeblock>
+            </p>
+        </section>     
+    </body>
+</topic>

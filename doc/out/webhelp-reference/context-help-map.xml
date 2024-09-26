@@ -5,4 +5,8 @@
                path="topics/reference/sdk/sdk-xmen-classes.html"/>
    <appContext helpID="sdk-xmen-classes-xmenController"
                path="topics/reference/sdk/sdk-xmen-classes-xmenController.html"/>
+   <appContext helpID="sdk-xmen-classes-xmenController-methodSummary"
+               path="topics/reference/sdk/sdk-xmen-classes-xmenController-methodSummary.html"/>
+   <appContext helpID="sdk-xmen-classes-xmenController-methodDetails"
+               path="topics/reference/sdk/sdk-xmen-classes-xmenController-methodDetails.html"/>
 </map>

@@ -1,1 +1,0 @@
-oxy_webhelp_navlinks = {"sdk-xmen-classes-d207e70":{"topics":[{"title":"XmenController","href":"topics\/reference\/sdk\/sdk-xmen-classes-xmenController.html","attributes":{"data-id":"sdk-xmen-classes-xmenController"},"menu":{"hasChildren":false},"tocID":"sdk-xmen-classes-xmenController-d207e78","topics":[]}]}};

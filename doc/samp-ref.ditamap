@@ -8,7 +8,10 @@
     
     <topicref href="topics/reference/sdk/sdk-xmen.dita">
         <topicref href="topics/reference/sdk/sdk-xmen-classes.dita">
-            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController.dita"/>
+            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController.dita">
+                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController-methodSummary.dita"/>
+                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController-methodDetails.dita"/>
+            </topicref>
         </topicref>
     </topicref>
 
