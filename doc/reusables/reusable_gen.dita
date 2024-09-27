@@ -5,7 +5,7 @@
     <body>
         <simpletable frame="all" relcolwidth="1.15* 1.0*">
             <strow>
-                <stentry><ph id="shop-with-points"><i>Shop with Points</i></ph></stentry>
+                <stentry><ph id="shop-with-points">Shop with Points</ph></stentry>
                 <stentry>program name general</stentry>
             </strow>
             <strow>

@@ -5,34 +5,14 @@
 
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
     <mapref href="glossary.ditamap" processing-role="resource-only"/>
-
-    <topicref href="topics/reference/sdk/sdk-xmen.dita">
-        <topicref href="topics/reference/sdk/sdk-xmen-classes.dita">
-            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController.dita"
-                chunk="to-content">
-                <topicref
-                    href="topics/reference/sdk/sdk-xmen-classes-xmenController-methodSummary.dita"/>
-                <topicref
-                    href="topics/reference/sdk/sdk-xmen-classes-xmenController-methodDetails.dita"/>
-            </topicref>
-            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen.dita" chunk="to-content">
-                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-fields.dita"/>
-                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-methodSummary.dita"/>
-                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-methodDetails.dita"/>
-            </topicref>
-        </topicref>
-    </topicref>
-
-    <topicref href="topics/reference/api-my-rest-api.dita">
-
-        <topicref href="topics/reference/api-ref-doc-authentication.dita"/>
-
-        <topicref href="topics/reference/api-res-uri.dita"/>
-
+    
+    <topicref href="topics/reference/api-my-rest-api.dita" chunk="to-content">       
+        <topicref href="topics/reference/api-ref-doc-authentication.dita"/>       
+        <topicref href="topics/reference/api-res-uri.dita"/>      
         <topicref href="topics/reference/xmen/api-res-xmen.dita">
             <topicref href="topics/reference/xmen/api-res-xmen-properties.dita"/>
             <topicref href="topics/reference/xmen/api-res-xmen-endpoints.dita">
-                <topicref href="topics/reference/xmen/api-res-xmen-post.dita" chunk="to-content">
+                <topicref href="topics/reference/xmen/api-res-xmen-post.dita">
                     <topicref href="topics/reference/xmen/api-res-xmen-post-parameters.dita"/>
                     <topicref href="topics/reference/xmen/api-res-xmen-post-request.dita">
                         <topicref href="topics/reference/xmen/api-res-xmen-post-request-curl.dita"/>
@@ -42,7 +22,7 @@
                     </topicref>
                     <topicref href="topics/reference/xmen/api-res-xmen-response.dita"/>
                 </topicref>
-                <topicref href="topics/reference/xmen/api-res-xmen-get.dita" chunk="to-content">
+                <topicref href="topics/reference/xmen/api-res-xmen-get.dita">
                     <topicref href="topics/reference/xmen/api-res-xmen-get-parameters.dita"/>
                     <topicref href="topics/reference/xmen/api-res-xmen-get-request.dita">
                         <topicref href="topics/reference/xmen/api-res-xmen-get-request-curl.dita"/>
@@ -52,7 +32,7 @@
                     </topicref>
                     <topicref href="topics/reference/xmen/api-res-xmen-get-response.dita"/>
                 </topicref>
-                <topicref href="topics/reference/xmen/api-res-xmen-get-id.dita" chunk="to-content">
+                <topicref href="topics/reference/xmen/api-res-xmen-get-id.dita">
                     <topicref href="topics/reference/xmen/api-res-xmen-get-id-parameters.dita"/>
                     <topicref href="topics/reference/xmen/api-res-xmen-get-id-request.dita">
                         <topicref href="topics/reference/xmen/api-res-xmen-get-id-request-curl.dita"/>
@@ -63,7 +43,7 @@
                     </topicref>
                     <topicref href="topics/reference/xmen/api-res-xmen-get-id-response.dita"/>
                 </topicref>
-                <topicref href="topics/reference/xmen/api-res-xmen-put-id.dita" chunk="to-content">
+                <topicref href="topics/reference/xmen/api-res-xmen-put-id.dita">
                     <topicref href="topics/reference/xmen/api-res-xmen-put-id-parameters.dita"/>
                     <topicref href="topics/reference/xmen/api-res-xmen-put-id-request.dita">
                         <topicref href="topics/reference/xmen/api-res-xmen-put-id-request-curl.dita"/>
@@ -74,8 +54,7 @@
                     </topicref>
                     <topicref href="topics/reference/xmen/api-res-xmen-put-id-response.dita"/>
                 </topicref>
-                <topicref href="topics/reference/xmen/api-res-xmen-delete-id.dita"
-                    chunk="to-content">
+                <topicref href="topics/reference/xmen/api-res-xmen-delete-id.dita">
                     <topicref href="topics/reference/xmen/api-res-xmen-delete-id-parameters.dita"/>
                     <topicref href="topics/reference/xmen/api-res-xmen-delete-id-request.dita">
                         <topicref
@@ -90,12 +69,11 @@
                 </topicref>
             </topicref>
         </topicref>
-
+        
         <topicref href="topics/reference/needles/api-res-needles.dita">
             <topicref href="topics/reference/needles/api-res-needles-properties.dita"/>
             <topicref href="topics/reference/needles/api-res-needles-endpoints.dita">
-                <topicref href="topics/reference/needles/api-res-needles-get.dita"
-                    chunk="to-content">
+                <topicref href="topics/reference/needles/api-res-needles-get.dita">
                     <topicref href="topics/reference/needles/api-res-needles-get-parameters.dita"/>
                     <topicref href="topics/reference/needles/api-res-needles-get-request.dita">
                         <topicref
@@ -107,8 +85,7 @@
                         />
                     </topicref>
                 </topicref>
-                <topicref href="topics/reference/needles/api-res-needles-post.dita"
-                    chunk="to-content">
+                <topicref href="topics/reference/needles/api-res-needles-post.dita">
                     <topicref href="topics/reference/needles/api-res-needles-post-parameters.dita"/>
                     <topicref href="topics/reference/needles/api-res-needles-post-request.dita">
                         <topicref
@@ -123,12 +100,32 @@
             </topicref>
             <topicref href="topics/reference/needles/api-res-needles-response.dita"/>
         </topicref>
-
-
-
+        
+        
+        
         <topicref href="topics/reference/api-error-responses.dita"/>
-
+        
     </topicref>
+
+    <topicref href="topics/reference/sdk/sdk-xmen.dita" chunk="to-content">
+        <!--<topicref href="topics/reference/sdk/sdk-xmen-classes.dita">-->
+            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController.dita">
+                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController-fields.dita"/>
+                <topicref
+                    href="topics/reference/sdk/sdk-xmen-classes-xmenController-methodSummary.dita"/>
+                <topicref
+                    href="topics/reference/sdk/sdk-xmen-classes-xmenController-methodDetails.dita"/>
+            </topicref>
+            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen.dita">
+                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-fields.dita"/>
+                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-methodSummary.dita"/>
+                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-methodDetails.dita"/>
+                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-usage-example.dita"/>
+            </topicref>
+        <!--</topicref>-->
+    </topicref>
+
+    
 
 
 </map>

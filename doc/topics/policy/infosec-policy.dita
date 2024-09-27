@@ -2,6 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="infosec-policy">
     <title>Information Security</title>
+    <shortdesc>Policy and Procedure</shortdesc>
     <body>
         <section>
             <title>Purpose</title>
@@ -19,36 +20,5 @@
             <title><ph conkeyref="gen/pol-ref"/></title>
             <p><ph conkeyref="gen/comp-req"/></p>
         </section>
-        <!--<table frame="all">
-            <tgroup cols="2">
-                <tbody>
-                    <row>
-                        <entry><b>Version</b></entry>
-                        <entry>1.0</entry>
-                    </row>
-                    <row>
-                        <entry><b>Date</b></entry>
-                        <entry>January 1, 2024</entry>
-                    </row>
-                </tbody>
-            </tgroup>
-        </table>
-        <section>
-            <title>Change History</title>
-            <table frame="all">
-                <tgroup cols="2">
-                    <tbody>
-                        <row>
-                            <entry><b>Date</b></entry>
-                            <entry/>
-                        </row>
-                        <row>
-                            <entry><b>Changes</b></entry>
-                            <entry/>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </section>-->
     </body>
 </topic>

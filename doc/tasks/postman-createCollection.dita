@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="postman-settingUpWorkspace">
+    <title>Creating a Collection</title>
+    <taskbody>
+        <prereq>
+            <ul>
+                <li>
+                    <p>Create a <b>Postman</b> workspace.</p>
+                </li>
+            </ul>
+        </prereq>
+        <context/>
+        <steps>
+            <step>
+                <cmd>Go to the <b>Postman</b> website.</cmd>
+            </step>
+            <step>
+                <cmd>Select <b>Collections</b> in the sidebar, then select <b>+ > REST API
+                    basics</b>.</cmd>              
+                <stepresult>A new collection with <b>GET</b>, <b>POST</b>, <b>PUT</b>, and
+                    <b>DELETE</b> requests will appear.<p><image
+                        href="../images/pm-restApiBasics.png" scalefit="yes"
+                        format="png"/></p></stepresult></step>
+            <step>
+                <cmd>To rename your collection, open the drop-down menu and select <b>Rename</b>.
+                    Rename the collection using your REST API resource name.</cmd>
+                <info><image href="../images/pm-collection-rename.png"/></info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

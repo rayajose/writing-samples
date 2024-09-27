@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="postman-testingPostRequest">
+    <title>Testing the POST Request</title>
+    <taskbody>
+        <prereq>
+            <ul>
+                <li>
+                    <p>Create a <b>Postman</b> workspace.</p>
+                </li>
+                <li>
+                    <p>Create a <b>REST API basics</b> collection.</p>
+                </li>
+            </ul>
+        </prereq>
+        <context/>
+        <steps>
+            <step>
+                <cmd>Click the <b>POST Post data</b> request in the collection.</cmd>
+            <info>The <b>POST</b> request type will be pre-selected.</info></step>
+            <step>
+                <cmd>Enter the resource URI in the field next to the request type.</cmd>
+                <stepresult></stepresult>
+            </step>
+            <step>
+                <cmd>Click the <b>Headers</b> tab.</cmd>
+                <info/>
+            </step>
+            <step>
+                <cmd>Populate the Key and Value fields with the API key header information.</cmd>
+                <info/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

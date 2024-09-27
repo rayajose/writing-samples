@@ -5,19 +5,6 @@
 
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
 
-    <topicref href="wrapper/process-doc.dita">
-
-        <topicref href="wrapper/wpr-change-mgt.dita" chunk="to-content">
-            <topichead navtitle="Planning">
-                <topicref href="topics/process/chg-mgt-participants.dita"/>
-                <topicref href="topics/process/chg-mgt-roadmap-meetings.dita"/>
-            </topichead>
-            <!--<topicref href="topics/chg-mgt-site-release-process.dita"
-                chunk="to-content">
-                <topicref href="tasks/code-review.dita"/>
-                <topicref href="tasks/code-review-followup.dita"/>
-            </topicref>-->
-        </topicref>
 
         <topicref href="topics/process/chg-mgt-partner-onboarding-intro.dita" chunk="to-content">
             <topicref href="topics/process/chg-mgt-partner-onboarding-process-confirm-reqs.dita"/>
@@ -25,6 +12,5 @@
             <topicref href="topics/process/chg-mgt-partner-onboarding-process-validation.dita"/>
         </topicref>
 
-    </topicref>
 
 </map>

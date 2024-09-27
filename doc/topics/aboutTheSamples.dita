@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="wpr-chg-mgt-processes">
+    <title>About the Samples</title>
+    <body>
+        <table frame="all">
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="5cm" align="left"/>
+                <colspec colname="c2" colnum="2" colwidth="12cm" align="left"/>
+                <colspec colname="c3" colnum="3" colwidth="8cm" align="left"/>
+                <thead>
+                    <row valign="top">
+                        <entry>Document</entry>
+                        <entry>About</entry>
+                        <entry>Audience</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row valign="top">
+                        <entry><xref href="../topics/process/chg-mgt-partner-onboarding-intro.dita"
+                            /></entry>
+                        <entry>My previous employer was an e-commerce services firm. One of our
+                            clients was a financial institution. As a service, we hosted their
+                            points redemption shopping site. The site was a marketplace with various
+                            retail store partners. This is the partner onboarding process.</entry>
+                        <entry>internal employees, semi-technical</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body> 
+</topic>

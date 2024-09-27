@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="sdk-xmen-classes-xmen">
-    <title>Xmen</title>
+    <title>Xmen Class</title>
     <body>
-        <p>This class represents the Xmen entity in the database using Java Persistence API (JPA)
-            annotations. It includes details about an X-men character such as their real name, hero
-            name, powers, debut, and creator. The <codeph>Xmen</codeph> class is mapped to a database table, with
-            fields representing attributes of the X-men character.</p>
+        <p>The <codeph>Xmen</codeph> class represents Xmen entities in a
+                <codeph>JpaRepository</codeph> using Java Persistence API (JPA). The class is mapped
+            to the <codeph>XmenRepository</codeph> database table, with fields representing details
+            such as the character's real name, hero name, powers, debut, and creator. </p>
         <p>
             <codeblock>package marvel.heros;
                 

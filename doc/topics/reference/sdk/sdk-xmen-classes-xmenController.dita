@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="sdk-xmen-classes-xmenController">
-    <title>XmenController</title>
+    <title>XmenController Class</title>
     <body>
         <p>The XmenController class is a RESTful API controller in the marvel.heros package. It
             provides endpoints for managing X-Men entities, such as creating, updating, retrieving,

@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="my-rest-api">
-    <title>My REST API</title>
+    <title>My REST Web Service</title>
+    <shortdesc>Reference</shortdesc>
     <body>
         <section>
             <title>Context</title>
             <p>This API reference describes resources I created in a <b>Spring Boot</b> Web services
                 application. It is a simple REST API to use as subject matter for this sample
                 document.</p>
-            <p><b>Note</b>: The environment and code, and the actual reference documentation are works
-                in progress. </p>
+            <p><b>Note</b>: The environment, code, and reference documentation are works in
+                progress. </p>
         </section>       
         <section>
             <title>About the API</title>
             <ul>
-                <li>uses resource URIs and standard HTTP requests</li>
-                <li>the resources are simple operations using ideas found on the web</li>
-                <li>is a Java Spring Boot project on the backend (I created the server and wrote the
-                    Java code)</li>
-                <li>uses working Java methods </li>
-                <li>Postman and cURL used to test the requests and confirm the expected
-                    responses</li>
+                <li>resource URIs and standard HTTP requests</li>
+                <li>simple operations using ideas found on the web</li>
+                <li>Java Spring Boot project on the backend</li>
+                <li>uses working Java code (For more information, see  the <xref
+                        href="sdk/sdk-xmen.dita"/>.) </li>
+                <li>Postman and cURL used to test the requests and confirm the responses</li>
             </ul>
         </section>
         <section>
             <title>About the Documentation</title>
-            <p>The documentation design is based on various public API References. While reviewing
-                the public API references, the primary aspects considered were content and
-                format.</p>
+            <p>The document design is based on various public API References. While reviewing the
+                public API references, the primary aspects considered were content and format.</p>
         </section>
     </body>
 

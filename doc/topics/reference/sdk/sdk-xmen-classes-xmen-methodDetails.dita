@@ -4,7 +4,7 @@
     <title>Method Details</title>
     <body>
         <section>
-            <title>setId(Short id)</title>           
+            <title>setId(Short id)</title>
             <p>
                 <codeblock>public void setId(Short id) {
         this.id = id;
@@ -16,18 +16,17 @@
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
-                            <entry valign="top">
-                                <p>Returns the unique identifier (id) of the X-men entity.</p>
-                            </entry>
+                            <entry valign="top">Description:</entry>
+                            <entry valign="top">Returns the unique identifier (id) of the X-men
+                                entity. </entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top"><codeph>id</codeph> - <codeph>Short</codeph>
                                 value</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top">does not return a value</entry>
                         </row>
                     </tbody>
@@ -47,16 +46,16 @@
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
-                            <entry valign="top">Returns the unique identifier (<codeph>id</codeph>) of the X-men
-                                entity.</entry>
+                            <entry valign="top">Description:</entry>
+                            <entry valign="top">Returns the unique identifier (<codeph>id</codeph>)
+                                of the X-men entity.</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top">none</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top"><codeph>id</codeph> - The X-Men entity ID.</entry>
                         </row>
                     </tbody>
@@ -76,17 +75,17 @@
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
-                            <entry valign="top">Sets the real name (<codeph>name</codeph>) of the X-men
-                                entity.</entry>
+                            <entry valign="top">Description:</entry>
+                            <entry valign="top">Sets the real name (<codeph>name</codeph>) of the
+                                X-men entity.</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top"><codeph>name</codeph> - <codeph>String</codeph>
                                 value</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top">does not return a value</entry>
                         </row>
                     </tbody>
@@ -106,16 +105,16 @@
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
-                            <entry valign="top">Returns the real name (<codeph>name</codeph>) of the X-men
-                                entity.</entry>
+                            <entry valign="top">Description:</entry>
+                            <entry valign="top">Returns the real name (<codeph>name</codeph>) of the
+                                X-men entity.</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top">none</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top"><codeph>String</codeph> - The X-Men entity's real
                                 name.</entry>
                         </row>
@@ -136,17 +135,17 @@
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
-                            <entry valign="top">Sets the hero name (<codeph>heroName</codeph>) of the X-men
-                                entity.</entry>
+                            <entry valign="top">Description:</entry>
+                            <entry valign="top">Sets the hero name (<codeph>heroName</codeph>) of
+                                the X-men entity.</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top"><codeph>heroName</codeph> - <codeph>String</codeph>
                                 value</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top">does not return a value</entry>
                         </row>
                     </tbody>
@@ -166,16 +165,16 @@
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
-                            <entry valign="top">Returns the hero name (<codeph>heroName</codeph>) of the X-men
-                                entity.</entry>
+                            <entry valign="top">Description:</entry>
+                            <entry valign="top">Returns the hero name (<codeph>heroName</codeph>) of
+                                the X-men entity.</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top">none</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top"><codeph>String</codeph> - The X-Men entity's hero
                                 name.</entry>
                         </row>
@@ -196,16 +195,17 @@
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
-                            <entry valign="top">Sets the power (<codeph>power</codeph>) of the X-men entity.</entry>
+                            <entry valign="top">Description:</entry>
+                            <entry valign="top">Sets the power (<codeph>power</codeph>) of the X-men
+                                entity.</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top"><codeph>power</codeph> - <codeph>String</codeph>
                                 value</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top">does not return a value</entry>
                         </row>
                     </tbody>
@@ -225,16 +225,16 @@
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
-                            <entry valign="top">Returns the power (<codeph>power</codeph>) of the X-men
-                                entity.</entry>
+                            <entry valign="top">Description:</entry>
+                            <entry valign="top">Returns the power (<codeph>power</codeph>) of the
+                                X-men entity.</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top">none</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top"><codeph>String</codeph> - The X-Men entity's super
                                 power.</entry>
                         </row>
@@ -255,17 +255,17 @@
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Description:</entry>
                             <entry valign="top">Sets the debut issue or first appearance
-                                (<codeph>debut</codeph>).</entry>
+                                    (<codeph>debut</codeph>).</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top"><codeph>debut</codeph> - <codeph>String</codeph>
                                 value</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top">does not return a value</entry>
                         </row>
                     </tbody>
@@ -285,16 +285,16 @@
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Description:</entry>
                             <entry valign="top">Returns the debut issue or first appearance
-                                (<codeph>debut</codeph>).</entry>
+                                    (<codeph>debut</codeph>).</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top">none</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top"><codeph>String</codeph> - The X-Men entity's comic
                                 book debut.</entry>
                         </row>
@@ -315,17 +315,17 @@
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
-                            <entry valign="top">Sets the creator (<codeph>creator</codeph>) of the X-men
-                                entity.</entry>
+                            <entry valign="top">Description:</entry>
+                            <entry valign="top">Sets the creator (<codeph>creator</codeph>) of the
+                                X-men entity.</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top"><codeph>creator</codeph> - <codeph>String</codeph>
                                 value</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top">does not return a value</entry>
                         </row>
                     </tbody>
@@ -345,16 +345,16 @@
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
-                            <entry valign="top">Returns the creator (<codeph>creator</codeph>) of the X-men
-                                entity.</entry>
+                            <entry valign="top">Description:</entry>
+                            <entry valign="top">Returns the creator (<codeph>creator</codeph>) of
+                                the X-men entity.</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top">none</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top"><codeph>String</codeph> - The X-Men entity's
                                 creator(s).</entry>
                         </row>

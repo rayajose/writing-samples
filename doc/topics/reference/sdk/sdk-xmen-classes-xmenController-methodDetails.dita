@@ -17,17 +17,17 @@ public List&lt;Xmen&gt; getAllXmen() {
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Description:</entry>
                             <entry valign="top"><ph
                                 conref="sdk-xmen-classes-xmenController-methodSummary.dita#sdk-xmen-classes-xmenController-methodSummary/desc-getAllXmen"
                             /></entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top">none</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top"><codeph>List&lt;Xmen&gt;</codeph> - A list of all
                                 X-Men entities.</entry>
                         </row>
@@ -49,18 +49,18 @@ public Xmen createXmen(@RequestBody Xmen xMen) {
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Description:</entry>
                             <entry valign="top"><ph
                                 conref="sdk-xmen-classes-xmenController-methodSummary.dita#sdk-xmen-classes-xmenController-methodSummary/desc-createXmen"
                             /></entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top"><codeph>xMen</codeph> - <codeph>Xmen</codeph> object
                                 value</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top"><codeph>Xmen</codeph> - The newly created X-Men
                                 entity.</entry>
                         </row>
@@ -84,18 +84,18 @@ public ResponseEntity&lt;Xmen&gt; getXmenById(@PathVariable Short id) {
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Description:</entry>
                             <entry valign="top"><ph
                                 conref="sdk-xmen-classes-xmenController-methodSummary.dita#sdk-xmen-classes-xmenController-methodSummary/desc-getXmenById"
                             /></entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top"><codeph>id </codeph>- <codeph>Short</codeph>
                                 value</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top"><codeph>ResponseEntity&lt;Xmen&gt;</codeph> - The retrieved X-Men entity
                                 or 404 if not found.</entry>
                         </row>
@@ -123,19 +123,19 @@ public ResponseEntity&lt;Xmen&gt; updateXmen(@PathVariable Short id, @RequestBod
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Description:</entry>
                             <entry valign="top"><ph
                                 conref="sdk-xmen-classes-xmenController-methodSummary.dita#sdk-xmen-classes-xmenController-methodSummary/desc-updateXmen"
                             /></entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top"><codeph>id</codeph> - <codeph>Short</codeph> value,
                                     <codeph>xMenDetails</codeph> - <codeph>ResponseEntity</codeph>
                                 value</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top"><codeph>ResponseEntity&lt;Xmen&gt;</codeph> - The updated X-Men entity
                                 or 404 if not found.</entry>
                         </row>
@@ -161,18 +161,18 @@ public ResponseEntity&lt;?&gt; deleteXmen(@PathVariable Short id) {
                     <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
                     <tbody>
                         <row valign="top">
-                            <entry valign="top"><b>Description:</b></entry>
+                            <entry valign="top">Description:</entry>
                             <entry valign="top"><ph
                                 conref="sdk-xmen-classes-xmenController-methodSummary.dita#sdk-xmen-classes-xmenController-methodSummary/desc-deleteXmen"
                             /></entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Parameters:</b></entry>
+                            <entry valign="top">Parameters:</entry>
                             <entry valign="top"><codeph>id</codeph> - <codeph>Short</codeph>
                                 value</entry>
                         </row>
                         <row valign="top">
-                            <entry valign="top"><b>Returns:</b></entry>
+                            <entry valign="top">Returns:</entry>
                             <entry valign="top">200 OK on successful deletion or 404 if not
                                 found.</entry>
                         </row>

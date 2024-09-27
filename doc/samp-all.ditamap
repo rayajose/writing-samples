@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map id="writing-samples">
-    <title>Writing Samples</title>
+    <title>RJOSE Technical Writing Samples</title>
 
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
+
+    <topicref href="topics/myBio.dita"/>
     
+    <topicref href="topics/aboutTheSamples.dita"/>
+
     <mapref href="samp-ref.ditamap"/>
+    
+    <topichead navtitle="Testing API with Postman">
+        <topicref href="tasks/postman-createCollection.dita"/>
+        <topicref href="tasks/postman-testingPostRequest.dita"/>
+    </topichead>
+    
     <mapref href="samp-pol.ditamap"/>
+    
     <mapref href="samp-proc.ditamap"/>
 
     <!--<topicref href="topics/writing-samples/security/wrapper/wpr-how-to.dita">
         <topicref href="topics/writing-samples/security/topics/tic-tac-toe.dita"/>
     </topicref>-->
 
-    
+
     <!--<topicref href="topics/writing-samples/security/wrapper/wpr-ref-nontech.dita">
         <topicref href="topics/writing-samples/security/topics/faq-partner.dita">
             <topicref href="topics/writing-samples/security/topics/faq-partner-prog-req.dita"/>

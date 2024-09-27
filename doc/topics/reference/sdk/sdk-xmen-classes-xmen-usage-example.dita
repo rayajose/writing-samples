@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sdk-xmen-classes-xmen-usage-example">
+    <title>Usage Example</title>
+    <body>
+        <p>
+            <codeblock>Xmen wolverine = new Xmen();
+
+wolverine.setName("Logan");
+wolverine.setHeroName("Wolverine");
+wolverine.setPower("Regenerative healing, enhanced senses, adamantium claws");
+wolverine.setDebut("The Incredible Hulk #180 (1974)");
+wolverine.setCreator("Roy Thomas, Len Wein, John Romita Sr.");
+                
+System.out.println("X-Men Name: " + wolverine.getName());
+System.out.println("Hero Name: " + wolverine.getHeroName());                           </codeblock>
+        </p>    
+    </body>
+</topic>
