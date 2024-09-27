@@ -3,13 +3,18 @@
 <topic id="wpr-chg-mgt-processes">
     <title>About the Samples</title>
     <body>
+        <note>On the homepage, the expand/collapse arrows next to the document titles render as
+                <b>q</b> and <b>p</b> in GitHub HTML preview mode. Click on <b>q</b> to expand and
+                <b>p</b> to collapse the document sections. Researching a fix in the
+            meantime.</note>
         <ul>
             <li>
                 <p>All samples created using Oxygen XML Editor and the DITA OT.</p>
             </li>
             <li>
-                <p>All my past work has been sensitive. So I don't have samples to share from previous work projects.
-                    These samples were all written entirely by me from scratch.</p>
+                <p>All my past work has been sensitive. So I don't have samples to share from
+                    previous work projects. These samples were all written entirely by me from
+                    scratch.</p>
             </li>
         </ul>
         <table frame="all" colsep="1" rowsep="1">
