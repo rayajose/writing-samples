@@ -46,7 +46,7 @@
                         <row>
                             <entry>Content-Type</entry>
                             <entry>String</entry>
-                            <entry>Use <codeph>application/json</codeph></entry>
+                            <entry>Use <codeph>application/json</codeph>.</entry>
                         </row>
                         <row valign="top">
                             <entry>API-KEY</entry>
@@ -59,10 +59,7 @@
         </section>
         <section>
             <title>Body</title>
-            <p>The request body will contain a JSON object containing the updated X-Men details. The
-                request should include all parameters, with the correct values, even if they have
-                not changed. Each parameter not included in the request will result in a
-                    <systemoutput>null</systemoutput> value in the repository.</p>
+            <p>The request body will contain a JSON object with the updated X-Men details. </p>
             <table rowsep="1">
                 <tgroup cols="3" align="left">
                     <colspec colname="c1" colnum="1" colwidth="4cm" align="left"/>

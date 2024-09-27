@@ -3,30 +3,83 @@
 <topic id="wpr-chg-mgt-processes">
     <title>About the Samples</title>
     <body>
-        <table frame="all">
-            <tgroup cols="3">
+        <ul>
+            <li>
+                <p>All samples created using Oxygen XML Editor and the DITA OT.</p>
+            </li>
+            <li>
+                <p>All my past work has been sensitive. So I don't have samples to share from previous work projects.
+                    These samples were all written entirely by me from scratch.</p>
+            </li>
+        </ul>
+        <table frame="all" colsep="1" rowsep="1">
+            <tgroup cols="3" align="left">
                 <colspec colname="c1" colnum="1" colwidth="5cm" align="left"/>
                 <colspec colname="c2" colnum="2" colwidth="12cm" align="left"/>
                 <colspec colname="c3" colnum="3" colwidth="8cm" align="left"/>
                 <thead>
                     <row valign="top">
-                        <entry>Document</entry>
-                        <entry>About</entry>
-                        <entry>Audience</entry>
+                        <entry align="left" valign="top">Document</entry>
+                        <entry align="left" valign="top">About</entry>
+                        <entry align="left" valign="top">Intended Audience</entry>
                     </row>
                 </thead>
                 <tbody>
                     <row valign="top">
-                        <entry><xref href="../topics/process/chg-mgt-partner-onboarding-intro.dita"
+                        <entry align="left" valign="top">
+                            <xref href="reference/api-my-rest-api.dita"/>
+                        </entry>
+                        <entry align="left" valign="top">This API reference describes resources in
+                            My REST API application. It is a simple application I built to use as
+                            subject matter for writing sample API reference documentation.</entry>
+                        <entry align="left" valign="top">internal/customer facing: technical</entry>
+                    </row>
+                    <row valign="top">
+                        <entry align="left" valign="top"><xref href="reference/sdk/sdk-xmen.dita"
                             /></entry>
-                        <entry>My previous employer was an e-commerce services firm. One of our
-                            clients was a financial institution. As a service, we hosted their
-                            points redemption shopping site. The site was a marketplace with various
-                            retail store partners. This is the partner onboarding process.</entry>
-                        <entry>internal employees, semi-technical</entry>
+                        <entry align="left" valign="top">This SDK reference describes some of the
+                            Java classes in My REST API application.</entry>
+                        <entry align="left" valign="top">internal/customer facing: technical</entry>
+                    </row>
+                    <row valign="top">
+                        <entry align="left" valign="top"><xref href="api-testing-postman.dita"
+                            /></entry>
+                        <entry align="left" valign="top">This How-To describes how I set up and
+                            tested the requests in My REST API application.</entry>
+                        <entry align="left" valign="top">internal: technical</entry>
+                    </row>
+                    <row valign="top">
+                        <entry align="left" valign="top"><xref
+                                href="policy/crypto-key-management/crypto-key-mgt.dita"/></entry>
+                        <entry morerows="1" align="left" valign="top">
+                            <p>My previous employer was an e-commerce services firm. One of our
+                                clients was a major financial institution. We hosted the client's
+                                points redemption shopping site. The site was a marketplace with
+                                various retail store partners. Card members used points to buy
+                                products from the retail partners. </p>
+                            <p>Two of my primary documentation responsibilities was Information
+                                Security Policy and Procedure and Change Management Processes.</p>
+                            <p>The Information Security Policies were used as part of annual,
+                                third-party audits for Payment Card Industry Data Security Standard
+                                compliance (PCI DSS). The sample provided is a Cryptographic Key
+                                Management Policy written to the PCI DSS framework.</p>
+                            <p>The process document describes retail partner B2B system integration
+                                to the shopping site.</p>
+                            <p>The samples provided are not from actual internal documents. They are
+                                documents based on experience and recent research for the sole
+                                purpose of creating the samples.</p>
+                        </entry>
+                        <entry align="left" valign="top">internal developers, external auditors:
+                            technical</entry>
+                    </row>
+                    <row valign="top">
+                        <entry align="left" valign="top"><xref
+                                href="../topics/process/chg-mgt-partner-onboarding-intro.dita"
+                            /></entry>
+                        <entry align="left" valign="top">internal employees: semi-technical</entry>
                     </row>
                 </tbody>
             </tgroup>
         </table>
-    </body> 
+    </body>
 </topic>

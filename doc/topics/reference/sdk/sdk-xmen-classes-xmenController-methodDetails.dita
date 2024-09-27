@@ -112,6 +112,9 @@ public ResponseEntity&lt;Xmen&gt; updateXmen(@PathVariable Short id, @RequestBod
     .map(xMen -> {
         xMen.setName(xMenDetails.getName());
         xMen.setHeroName(xMenDetails.getHeroName());
+        xMen.setPower(xMenDetails.getPower());
+        xMen.setDebut(xMenDetails.getDebut());
+        xMen.setCreator(xMenDetails.getCreator());
         Xmen updatedXmen = xMenRepository.save(xMen);
         return ResponseEntity.ok().body(updatedXmen);
     }).orElse(ResponseEntity.notFound().build());

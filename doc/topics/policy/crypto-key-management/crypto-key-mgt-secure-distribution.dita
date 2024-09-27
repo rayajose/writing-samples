@@ -38,9 +38,9 @@
                 <li>
                     <p>Key access is managed through <b>HashiCorp Vault</b>.</p>
                 </li>
-                <li>
+                <!--<li>
                     <p>Vaults are encrypted and access is restricted through a AD accounts.</p>
-                </li>
+                </li>-->
                 <li>
                     <p>Key operations require membership in the ActiveDirectory (AD)
                             <codeph>key_custodian</codeph> security group.</p>

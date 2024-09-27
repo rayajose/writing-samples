@@ -7,7 +7,7 @@
             provides endpoints for managing X-Men entities, such as creating, updating, retrieving,
             and deleting X-Men records. This controller is designed to interact with the
             XmenRepository to perform CRUD operations on the X-Men data. </p>
-        <p>The class uses Spring Framework annotations to define REST endpoints and inject
+        <p>The class uses <b>Spring Framework</b> annotations to define REST endpoints and inject
             dependencies. It follows standard RESTful practices with methods for handling HTTP
             requests such as GET, POST, PUT, and DELETE.</p>
         <p>

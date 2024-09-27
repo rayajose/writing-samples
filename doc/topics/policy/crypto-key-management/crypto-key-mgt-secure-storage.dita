@@ -43,8 +43,8 @@
                 <li>
                     <p><term keyref="gl-dek"/>s are encrypted with <term keyref="gl-kek"/>s.</p>
                 </li>
-                <li><p>Key Encryption Keys (KEKs) are stored in a <b>Thales Luna HSM</b> (Hardware Security Module).</p></li>
-                <li><p>Data Encryption Keys (DEKs) are stored in <b>Hashicorp Vault</b>.</p></li>
+                <li><p>DEKs are stored in <b>Hashicorp Vault</b>.</p></li>
+                <li><p>KEKs are stored in a <b>Thales Luna HSM</b> (Hardware Security Module).</p></li>                
                 <li><p>Vaults are encrypted and access is restricted through a AD accounts. There is
                         only one vault per application, per environment (development, preproduction,
                         and production).</p></li>
@@ -52,7 +52,6 @@
         </section>
         <section>
             <title><ph conkeyref="gen/pol-ref"/></title>
-            <!-- per -->
             <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.3</cite></p>
             <p><cite><ph conkeyref="gen/pci-ref-prefix"/>3.7.7</cite></p>
         </section>

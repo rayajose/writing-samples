@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="postman-testingPostRequest">
-    <title>Testing the POST Request</title>
+    <title>Testing POST Request</title>
     <taskbody>
         <prereq>
-            <ul>
-                <li>
-                    <p>Create a <b>Postman</b> workspace.</p>
-                </li>
-                <li>
-                    <p>Create a <b>REST API basics</b> collection.</p>
-                </li>
-                <li>
-                    <p>Enure the web services application is running.</p>
-                </li>
-            </ul>
+            <p
+                conref="../reusables/reusable_larger-content-pieces.dita#reusable-larger-content/pm-test-prereq"
+            />
         </prereq>
-        <context/>
+        <context>
+            <p>This task describes how to test a POST request in <b>Postman</b>.</p>
+            <p>To test a POST request follow these steps:</p>
+        </context>
         <steps>
             <step>
-                <cmd>In the <b>xmen</b> collection, select <b>POST</b> Post data.</cmd>
+                <cmd>In the <b>xmen</b> collection, select <b>POST <i>Post data</i></b> request
+                    type.</cmd>
                 <info>
                     <p><image href="../images/pm-selectPostRequest.png"/></p>
                 </info>
-                <stepresult>The <b>POST</b> request type will be pre-selected. <p><image
-                            href="../images/pm-postRequest.png"/></p>
-                </stepresult>
+                <stepresult>The <b>POST</b> request builder will be displayed. <p><image
+                            href="../images/pm-postRequest.png"/></p></stepresult>
             </step>
             <step>
-                <cmd>Enter the following in the <b>{{base_url}}/info</b> field.</cmd>
+                <cmd>Enter the following in the <b>URL</b> field.</cmd>
                 <info><codeph>http://localhost:8080/api/xmen</codeph></info>
             </step>
             <step>
                 <cmd>Click <b>Headers</b> and populate the <b>Key </b>and <b>Value</b> fields.</cmd>
-                <info>
-                    <ph conkeyref="gen/ref-leadin"/> xmen POST <xref
-                        href="../topics/reference/xmen/api-res-xmen-post-parameters.dita"/>
-                </info>
             </step>
             <step>
                 <cmd>Click <b>Body</b> and enter the parameters to create a new X-men
                     character.</cmd>
-                <info>
-                    <ph conkeyref="gen/ref-leadin"/> xmen POST <xref
-                        href="../topics/reference/xmen/api-res-xmen-post-parameters.dita"/>
-                </info>
             </step>
+            <stepsection>
+                <p><ph conkeyref="gen/ref-leadin"/> xmen POST/id:<ul>
+                    <li>
+                        <p><xref
+                            href="../topics/reference/xmen/api-res-xmen-post-parameters.dita"/></p>
+                    </li>
+                    <li>
+                        <p><xref
+                            href="../topics/reference/xmen/api-res-xmen-post-request.dita"
+                        /></p>
+                    </li>
+                </ul></p>
+            </stepsection>
             <step>
                 <cmd>Click <b>Send</b>.</cmd>
                 <stepresult>A successful response will show the details for the X-men character sent
                     in the request body.<p><ph conkeyref="gen/ref-leadin"/> xmen POST <xref
                             href="../topics/reference/xmen/api-res-xmen-post-response.dita"
-                            /></p><p><image href="../images/pm-postRequestAndResponse.png"
+                            />.</p><p><image href="../images/pm-postRequestAndResponse.png"
                     /></p></stepresult>
             </step>
         </steps>

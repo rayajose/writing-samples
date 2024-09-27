@@ -5,16 +5,15 @@
 
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
 
-    <topicref href="topics/myBio.dita"/>
+    <!--<topicref href="topics/myBio.dita"/>-->
+    
+    <topicref navtitle="Ray Jose's Resume" href="resume/rjose-resume.pdf" format="pdf"/>
     
     <topicref href="topics/aboutTheSamples.dita"/>
 
     <mapref href="samp-ref.ditamap"/>
     
-    <topichead navtitle="Testing API with Postman">
-        <topicref href="tasks/postman-createCollection.dita"/>
-        <topicref href="tasks/postman-testingPostRequest.dita"/>
-    </topichead>
+    <mapref href="samp-howto.ditamap"/>
     
     <mapref href="samp-pol.ditamap"/>
     

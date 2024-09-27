@@ -57,7 +57,7 @@
             </p>
         </section>
         
-        <section>
+        <section id="api-error-response-404">
             <title>404</title>
             <p>The requested resource could not be found but may be available again in the future.
                 Subsequent requests by the client are permissible.</p>

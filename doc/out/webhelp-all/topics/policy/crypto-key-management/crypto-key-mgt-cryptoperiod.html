@@ -1,0 +1,195 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-whc_version="26.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="Policy Keys used to protect stored account data must have a defined cryptoperiod . Cryptoperiods are important for the following reasons: They limit the amount of exploitable information that could be ..."/><meta name="DC.rights.owner" content="(C) Copyright 2024"/><meta name="copyright" content="(C) Copyright 2024"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="topic"/><meta name="DC.relation" content="../../../topics/policy/crypto-key-management/crypto-key-mgt.html"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="crypto-key-mgt-cryptoperiod"/><title>Cryptoperiod</title><!--  Generated with Oxygen version 26.1, build number 2024072909.  --><meta name="wh-path2root" content="../../../"/><meta name="wh-toc-id" content="crypto-key-mgt-cryptoperiod-d655e951"/><meta name="wh-source-relpath" content="topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.dita"/><meta name="wh-out-relpath" content="topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.html"/>
+
+    <link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/app/commons.css?buildId=2024072909"/>
+    <link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/app/topic.css?buildId=2024072909"/>
+
+    <script src="../../../oxygen-webhelp/app/options/properties.js?buildId=20240927172015"></script>
+    <script src="../../../oxygen-webhelp/app/localization/strings.js?buildId=2024072909"></script>
+    <script src="../../../oxygen-webhelp/app/search/index/keywords.js?buildId=20240927172015"></script>
+    <script defer="defer" src="../../../oxygen-webhelp/app/commons.js?buildId=2024072909"></script>
+    <script defer="defer" src="../../../oxygen-webhelp/app/topic.js?buildId=2024072909"></script>
+<link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/template/oxygen-gray.css?buildId=2024072909"/><link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/template/notes.css?buildId=2024072909"/><link rel="stylesheet" type="text/css" href="../../../webhelp.css"/></head>
+
+    <body id="crypto-key-mgt-cryptoperiod" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    
+                    <div class=" wh_publication_title "><a href="../../../index.html"><span class="title">RJOSE Technical Writing Samples</span></a></div>
+                    
+                </div>
+                
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul role="menubar" aria-label="Menu"><li role="menuitem"><span id="tocId-d655e20-mi" data-tocid="tocId-d655e20" data-state="leaf" class=" topicref "><span class="title"><a href="../../../resume/rjose-resume.pdf">Ray Jose's Resume</a></span></span></li><li role="menuitem"><span id="wpr-chg-mgt-processes-d655e28-mi" data-tocid="wpr-chg-mgt-processes-d655e28" data-state="leaf" class=" topicref " data-id="wpr-chg-mgt-processes"><span class="title"><a href="../../../topics/aboutTheSamples.html">About the Samples</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="my-rest-api-d655e94-mi" data-tocid="my-rest-api-d655e94" data-state="not-ready" class=" topicref " data-id="my-rest-api"><span class="title"><a href="../../../topics/reference/api-my-rest-api.html">My REST API</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="sdk-xmen-d655e658-mi" data-tocid="sdk-xmen-d655e658" data-state="not-ready" class=" topicref " data-id="sdk-xmen"><span class="title"><a href="../../../topics/reference/sdk/sdk-xmen.html">My Java Class Library</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="api-testing-postman-d655e799-mi" data-tocid="api-testing-postman-d655e799" data-state="not-ready" class=" topicref " data-id="api-testing-postman"><span class="title"><a href="../../../topics/api-testing-postman.html">API Testing with Postman</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="wpr-encryption-d655e916-mi" data-tocid="wpr-encryption-d655e916" data-state="not-ready" class=" topicref " data-id="wpr-encryption"><span class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt.html">Cryptographic Key Management</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="chg-mgt-partner-onboarding-proc-d655e984-mi" data-tocid="chg-mgt-partner-onboarding-proc-d655e984" data-state="not-ready" class=" topicref " data-id="chg-mgt-partner-onboarding-proc"><span class="title"><a href="../../../topics/process/chg-mgt-partner-onboarding-intro.html"><span class="ph">Shop with Points</span> Partner Onboarding</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="../../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="../../../index.html"><span>Home</span></a></span></li><li><div class="topicref" data-id="wpr-encryption"><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt.html">Cryptographic Key Management</a><div class="wh-tooltip"><p class="shortdesc">Information Security Policy</p></div></div></div></li><li class="active"><div class="topicref" data-id="crypto-key-mgt-cryptoperiod"><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.html">Cryptoperiod</a></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <button type="button" id="wh_toc_button" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-12 d-md-block d-none d-print-none" aria-label="Table of Contents Container">
+                            <div id="wh_publication_toc_content">
+		                        
+                            	<div class=" wh_publication_toc " data-tooltip-position="right"><span class="expand-button-action-labels"><span id="button-expand-action" role="button" aria-label="Expand"></span><span id="button-collapse-action" role="button" aria-label="Collapse"></span><span id="button-pending-action" role="button" aria-label="Pending"></span></span><ul role="tree" aria-label="Table of Contents"><li role="treeitem" aria-expanded="true"><div data-tocid="wpr-encryption-d655e916" class="topicref" data-id="wpr-encryption" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action wpr-encryption-d655e916-link" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt.html" id="wpr-encryption-d655e916-link">Cryptographic Key Management</a><div class="wh-tooltip"><p class="shortdesc">Information Security Policy</p></div></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem"><div data-tocid="wpr-encryption-d655e927" class="topicref" data-id="wpr-encryption" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt-strong-encryption.html" id="wpr-encryption-d655e927-link">Strong Encryption</a></div></div></li><li role="treeitem"><div data-tocid="crypto_key_secure_distribution-d655e935" class="topicref" data-id="crypto_key_secure_distribution" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt-secure-distribution.html" id="crypto_key_secure_distribution-d655e935-link">Secure Distribution</a></div></div></li><li role="treeitem"><div data-tocid="crypto-key-mgt-secure-storage-d655e943" class="topicref" data-id="crypto-key-mgt-secure-storage" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.html" id="crypto-key-mgt-secure-storage-d655e943-link">Secure Storage</a></div></div></li><li role="treeitem" class="active"><div data-tocid="crypto-key-mgt-cryptoperiod-d655e951" class="topicref" data-id="crypto-key-mgt-cryptoperiod" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.html" id="crypto-key-mgt-cryptoperiod-d655e951-link">Cryptoperiod</a></div></div></li><li role="treeitem"><div data-tocid="crypto-key-mgt-rotation-d655e959" class="topicref" data-id="crypto-key-mgt-rotation" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../topics/policy/crypto-key-management/crypto-key-mgt-rotation.html" id="crypto-key-mgt-rotation-d655e959-link">Rotation</a></div></div></li><li role="treeitem"><div data-tocid="crypto-key-rotate-hashicorp-java-d655e967" class="topicref" data-id="crypto-key-rotate-hashicorp-java" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../tasks/crypto-key-rotate-hashicorp-java.html" id="crypto-key-rotate-hashicorp-java-d655e967-link">Rotating Keys</a></div></div></li></ul></li></ul></div>
+		                        
+                            </div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <button id="wh_close_publication_toc_button" class="close-toc-button d-none" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article class="- topic/topic topic" role="article" aria-labelledby="ariaid-title1">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Cryptoperiod</h1>
+    <div class="- topic/body body">
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle"><span class="- topic/ph ph">Policy</span></h2>
+            
+            <p class="- topic/p p">Keys used to protect stored account data must have a defined <a href="../../../glossterms/cryptoperiod.html" title="A cryptoperiod is the time frame during which a cryptographic key is authorized for use. It's also known as key lifetime or validity period."><dfn class="- topic/term term">cryptoperiod</dfn></a>.
+                Cryptoperiods are important for the following reasons:</p>
+            <ul class="- topic/ul ul">
+                <li class="- topic/li li">
+                    <p class="- topic/p p">They limit the amount of exploitable information that could be obtained
+                        through <a href="../../../glossterms/cryptanalysis.html" title="Cryptanalysis refers to the process of analyzing information systems in order to understand hidden aspects of the systems. Cryptanalysis is used to breach cryptographic security systems and gain access to the contents of encrypted messages, even if the cryptographic key is unknown."><dfn class="- topic/term term">Cryptanalysis</dfn></a> after a key change</p>
+                </li>
+                <li class="- topic/li li">
+                    <p class="- topic/p p"> They make cryptographic algorithms less susceptible to cryptanalysis.</p>
+                </li>
+                <li class="- topic/li li">
+                    <p class="- topic/p p">They make keys less susceptible to attack, reducing data risk.</p>
+                </li>
+                <li class="- topic/li li">
+                    <p class="- topic/p p"><span class="- topic/ph ph">For compliance with applicable <a href="../../../reusables/../glossterms/pci-dss.html" title="Payment Card Industry Data Security Standard (PCI DSS)"><dfn class="- topic/term term">Payment Card Industry Data Security Standard (PCI DSS)</dfn></a> requirements.</span></p>
+                </li>
+            </ul>
+        </section>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle"><span class="- topic/ph ph">Control and Implementation</span></h2>
+            
+            <p class="- topic/p p">Keys are destroyed when their <strong class="+ topic/ph hi-d/b ph b">retired</strong> cryptoperiod has expired.</p>
+            <div class="table-container"><table class="- topic/table table frame-all" data-cols="3"><caption></caption><colgroup><col style="width:33.33333333333333%"/><col style="width:33.33333333333333%"/><col style="width:33.33333333333333%"/></colgroup><thead class="- topic/thead thead">
+                        <tr class="- topic/row">
+                            <th class="- topic/entry entry colsep-0 rowsep-0" id="crypto-key-mgt-cryptoperiod__entry__1">State</th>
+                            <th class="- topic/entry entry colsep-0 rowsep-0" id="crypto-key-mgt-cryptoperiod__entry__2">Usage</th>
+                            <th class="- topic/entry entry colsep-0 rowsep-0" id="crypto-key-mgt-cryptoperiod__entry__3">Cryptoperiod</th>
+                        </tr>
+                    </thead><tbody class="- topic/tbody tbody">
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="crypto-key-mgt-cryptoperiod__entry__1">active</td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="crypto-key-mgt-cryptoperiod__entry__2">encryption and decryption</td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="crypto-key-mgt-cryptoperiod__entry__3">two years</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="crypto-key-mgt-cryptoperiod__entry__1">retired</td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="crypto-key-mgt-cryptoperiod__entry__2">decryption only</td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="crypto-key-mgt-cryptoperiod__entry__3">one year</td>
+                        </tr>
+                    </tbody></table></div>
+        </section>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle"><span class="- topic/ph ph">Compliance</span></h2>
+            
+            <cite class="- topic/cite cite"><span class="- topic/ph ph">PCI-DSS-V4-</span>3.7.4</cite>
+        </section>
+    </div>
+
+</article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container mx-auto ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank" rel="noopener">&lt;oXygen/&gt; XML WebHelp</a> - Evaluation Version
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

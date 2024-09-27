@@ -1,36 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="postman-settingUpWorkspace">
-    <title>Creating a Collection</title>
+    <title>Creating a Postman Collection</title>
     <taskbody>
         <prereq>
+            <p><b>Prerequisites:</b></p>
             <ul>
+                <li>
+                    <p>Install <b>Postman</b> desktop application.</p>
+                </li>
+                <li>
+                    <p>Sign in to <b>Postman</b> account.</p>
+                </li>
                 <li>
                     <p>Create a <b>Postman</b> workspace.</p>
                 </li>
             </ul>
         </prereq>
-        <context/>
+        <context>
+            <p>A collection in <b>Postman</b> is a set of API requests that can be configured for
+                testing purposes. This task describes how to create a <b>Postman</b> collection
+                using the <b>REST API basics</b> template.</p>
+            <p>To create a collection follow these steps:</p>
+        </context>
         <steps>
-            <step>
-                <cmd>Go to the <b>Postman</b> website.</cmd>
-            </step>
             <step>
                 <cmd>Select <b>Collections</b> in the sidebar, then select <b>+ > REST API
                         basics</b>.</cmd>
                 <info><p><image href="../images/pm-restApiBasicsSelect.png"/></p></info>
-                <stepresult>A new collection will appear with <b>GET</b>, <b>POST</b>, <b>PUT</b>,
-                    and <b>DELETE</b> requests types included. <p><image
-                        href="../images/pm-restApiBasics.png"/></p></stepresult>
+                <stepresult>A new collection will appear with pre-built <b>GET</b>, <b>POST</b>,
+                        <b>PUT</b>, and <b>DELETE</b> request testers. <p><image
+                            href="../images/pm-restApiBasics.png"/></p></stepresult>
             </step>
             <step>
                 <cmd>Rename the collection using your REST API resource name. To rename your
                     collection, open the drop-down menu and select <b>Rename</b>. </cmd>
                 <info>
                     <p><image href="../images/pm-collection-rename.png"/></p>
+                    <p>This example uses the <b>xmen</b> resource from My REST API.</p>
                     <p><image href="../images/pm-collection-rename2.png"/></p>
                 </info>
             </step>
-        </steps>
+            <step>
+                <cmd>Configure and run tests accordingly.</cmd>
+                </step>
+        </steps><postreq>See the following tasks:<ul>
+            <li>
+                <p>
+                    <xref href="postman-testingGetRequest.dita"/>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <xref href="postman-testingGetIdRequest.dita"/>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <xref href="postman-testingPostRequest.dita"/>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <xref href="postman-testingPutRequest.dita"/>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <xref href="postman-testingDeleteIdRequest.dita"/>
+                </p>
+            </li>
+        </ul></postreq>
     </taskbody>
 </task>

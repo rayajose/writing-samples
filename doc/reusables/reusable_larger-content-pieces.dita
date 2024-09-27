@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="reusable-larger-content">
+    <title>Reusable Components</title>
+    <body>
+        <p id="pm-test-prereq"><ul>
+                <li>
+                    <p><b>Prerequisites:</b></p>
+                    <ul>
+                        <li>
+                            <p>Install <b>Postman</b> desktop application.</p>
+                        </li>
+                        <li>
+                            <p>Sign in to <b>Postman</b> account.</p>
+                        </li>
+                        <li>
+                            <p>Create a <b>Postman</b> workspace.</p>
+                        </li>
+                        <li>
+                            <p>Create a <b>Postman</b> collection using the <b>REST API basics</b>
+                                template.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul></p>
+    </body>
+</topic>

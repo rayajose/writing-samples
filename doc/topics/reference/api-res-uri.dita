@@ -4,7 +4,7 @@
     <title>URI</title>
     <body>
         <section>
-            <p>My API web service was installed and configured locally.</p>
+            <p>My REST API application was installed and configured as a local host.</p>
             <p><codeph><ph conkeyref = "gen/resource-base-uri"/></codeph></p>
         </section>
     </body>

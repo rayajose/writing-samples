@@ -5,24 +5,15 @@
 
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
     <mapref href="glossary.ditamap" processing-role="resource-only"/>
-    
 
-    <topicref href="topics/policy/infosec-policy.dita" chunk="to-content">
-        <topicref href="topics/policy/crypto-key-management/crypto-key-mgt.dita">
-            <topicref>
-                <topicref
-                    href="topics/policy/crypto-key-management/crypto-key-mgt-strong-encryption.dita"/>
-                <topicref
-                    href="topics/policy/crypto-key-management/crypto-key-mgt-secure-distribution.dita"/>
-                <topicref
-                    href="topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita"/>
-                <topicref
-                    href="topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.dita"/>
-                <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-rotation.dita"/>
-                <topicref href="tasks/crypto-key-rotate-hashicorp-java.dita"/>              
-            </topicref>
-        </topicref>
+    <topicref href="topics/policy/crypto-key-management/crypto-key-mgt.dita">
+        <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-strong-encryption.dita"/>
+        <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-secure-distribution.dita"/>
+        <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita"/>
+        <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-cryptoperiod.dita"/>
+        <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-rotation.dita"/>
+        <topicref href="tasks/crypto-key-rotate-hashicorp-java.dita"/>
     </topicref>
 
-    
+
 </map>

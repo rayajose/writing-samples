@@ -27,7 +27,7 @@
                 Onboarding will include one <ph conkeyref="gen/merchant"/> per project. If multiple
                 onboardings are scheduled simultaneously, they are managed as separate projects. The
                     <ph conkeyref="gen/engagement-manager"/> will drive each project to completion.
-                Completion of an onboarding results in the <ph conkeyref="gen/merchant"/> product
+                Completion of an onboarding results in the <ph conkeyref="gen/merchant"/>'s product
                 catalog available on the shopping site for purchase. </p>
         </section>
         <section>

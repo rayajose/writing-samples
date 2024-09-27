@@ -25,8 +25,8 @@
                 placement service can be integrated. </p>
             <ul>
                 <li>
-                    <p>Implement the order placement controller. Enable Add-to-Cart functionality
-                        and order placement up to the Final Submit step.</p>
+                    <p>Implement the order placement controller. Enable <b>Add-to-Cart</b>
+                        functionality and order placement up to the <b>Final Submit</b> step.</p>
                 </li>
             </ul>
         </section>

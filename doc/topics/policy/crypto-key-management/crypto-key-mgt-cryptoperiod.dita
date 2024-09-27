@@ -10,13 +10,13 @@
             <ul>
                 <li>
                     <p>They limit the amount of exploitable information that could be obtained
-                        through cryptanalysis after a key change</p>
+                        through <term keyref="gl-cryptanalysis"/> after a key change</p>
                 </li>
                 <li>
                     <p> They make cryptographic algorithms less susceptible to cryptanalysis.</p>
                 </li>
                 <li>
-                    <p>They make keys less susceptible it is to attack, reducing data risk.</p>
+                    <p>They make keys less susceptible to attack, reducing data risk.</p>
                 </li>
                 <li>
                     <p><ph conkeyref="gen/comp-req"/></p>
