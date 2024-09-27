@@ -17,15 +17,19 @@
             </step>
             <step>
                 <cmd>Select <b>Collections</b> in the sidebar, then select <b>+ > REST API
-                    basics</b>.</cmd>              
-                <stepresult>A new collection with <b>GET</b>, <b>POST</b>, <b>PUT</b>, and
-                    <b>DELETE</b> requests will appear.<p><image
-                        href="../images/pm-restApiBasics.png" scalefit="yes"
-                        format="png"/></p></stepresult></step>
+                        basics</b>.</cmd>
+                <info><p><image href="../images/pm-restApiBasicsSelect.png"/></p></info>
+                <stepresult>A new collection will appear with <b>GET</b>, <b>POST</b>, <b>PUT</b>,
+                    and <b>DELETE</b> requests types included. <p><image
+                        href="../images/pm-restApiBasics.png"/></p></stepresult>
+            </step>
             <step>
-                <cmd>To rename your collection, open the drop-down menu and select <b>Rename</b>.
-                    Rename the collection using your REST API resource name.</cmd>
-                <info><image href="../images/pm-collection-rename.png"/></info>
+                <cmd>Rename the collection using your REST API resource name. To rename your
+                    collection, open the drop-down menu and select <b>Rename</b>. </cmd>
+                <info>
+                    <p><image href="../images/pm-collection-rename.png"/></p>
+                    <p><image href="../images/pm-collection-rename2.png"/></p>
+                </info>
             </step>
         </steps>
     </taskbody>

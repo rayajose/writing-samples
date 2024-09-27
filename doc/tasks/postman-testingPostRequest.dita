@@ -11,24 +11,48 @@
                 <li>
                     <p>Create a <b>REST API basics</b> collection.</p>
                 </li>
+                <li>
+                    <p>Enure the web services application is running.</p>
+                </li>
             </ul>
         </prereq>
         <context/>
         <steps>
             <step>
-                <cmd>Click the <b>POST Post data</b> request in the collection.</cmd>
-            <info>The <b>POST</b> request type will be pre-selected.</info></step>
-            <step>
-                <cmd>Enter the resource URI in the field next to the request type.</cmd>
-                <stepresult></stepresult>
+                <cmd>In the <b>xmen</b> collection, select <b>POST</b> Post data.</cmd>
+                <info>
+                    <p><image href="../images/pm-selectPostRequest.png"/></p>
+                </info>
+                <stepresult>The <b>POST</b> request type will be pre-selected. <p><image
+                            href="../images/pm-postRequest.png"/></p>
+                </stepresult>
             </step>
             <step>
-                <cmd>Click the <b>Headers</b> tab.</cmd>
-                <info/>
+                <cmd>Enter the following in the <b>{{base_url}}/info</b> field.</cmd>
+                <info><codeph>http://localhost:8080/api/xmen</codeph></info>
             </step>
             <step>
-                <cmd>Populate the Key and Value fields with the API key header information.</cmd>
-                <info/>
+                <cmd>Click <b>Headers</b> and populate the <b>Key </b>and <b>Value</b> fields.</cmd>
+                <info>
+                    <ph conkeyref="gen/ref-leadin"/> xmen POST <xref
+                        href="../topics/reference/xmen/api-res-xmen-post-parameters.dita"/>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <b>Body</b> and enter the parameters to create a new X-men
+                    character.</cmd>
+                <info>
+                    <ph conkeyref="gen/ref-leadin"/> xmen POST <xref
+                        href="../topics/reference/xmen/api-res-xmen-post-parameters.dita"/>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <b>Send</b>.</cmd>
+                <stepresult>A successful response will show the details for the X-men character sent
+                    in the request body.<p><ph conkeyref="gen/ref-leadin"/> xmen POST <xref
+                            href="../topics/reference/xmen/api-res-xmen-post-response.dita"
+                            /></p><p><image href="../images/pm-postRequestAndResponse.png"
+                    /></p></stepresult>
             </step>
         </steps>
     </taskbody>

@@ -4,15 +4,3 @@
     <title>Request</title>
     <body/>   
 </topic>
-<!-- 
-
-      
-       <section>
-           <title>cURL</title>
-           <p>
-               <codeblock>curl -L http://localhost:8080/api/xmen/{id}?api_key={}           </codeblock>
-           </p>
-       </section>
-        
-
--->

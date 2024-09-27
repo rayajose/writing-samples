@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>tasks/postman-createCollection.html</loc>
+      <lastmod>2024-09-27T03:09:44Z</lastmod>
+   </url>
+   <url>
+      <loc>tasks/postman-testingPostRequest.html</loc>
+      <lastmod>2024-09-27T03:09:44Z</lastmod>
+   </url>
+   <url>
+      <loc>tasks/postman-testingGetRequest.html</loc>
+      <lastmod>2024-09-27T03:09:44Z</lastmod>
+   </url>
+   <url>
+      <loc>tasks/postman-testingGetIdRequest.html</loc>
+      <lastmod>2024-09-27T03:09:44Z</lastmod>
+   </url>
+   <url>
+      <loc>tasks/postman-testingPutRequest.html</loc>
+      <lastmod>2024-09-27T03:09:44Z</lastmod>
+   </url>
+   <url>
+      <loc>tasks/postman-testingDeleteIdRequest.html</loc>
+      <lastmod>2024-09-27T03:09:44Z</lastmod>
+   </url>
+</urlset>

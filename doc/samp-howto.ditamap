@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Reference Doc</title>
+
+    <keydef keys="gen" href="reusables/reusable_gen.dita"/>
+    <mapref href="glossary.ditamap" processing-role="resource-only"/>
+
+
+    <topicref href="tasks/postman-createCollection.dita"/>
+    <topicref href="tasks/postman-testingPostRequest.dita"/>
+    <topicref href="tasks/postman-testingGetRequest.dita"/>
+    <topicref href="tasks/postman-testingGetIdRequest.dita"/>
+    <topicref href="tasks/postman-testingPutRequest.dita"/>
+    <topicref href="tasks/postman-testingDeleteIdRequest.dita"/>
+
+
+
+
+</map>

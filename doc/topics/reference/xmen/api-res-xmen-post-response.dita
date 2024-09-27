@@ -2,13 +2,13 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-post-response">
     <title>Response</title>
+    <shortdesc>These are possible responses for the <b>xmen</b> POST request.</shortdesc>
     <body>
        
        <section>
            <title>200</title>
            <p>
-               <codeblock>
-# RESPONSE
+               <codeblock># RESPONSE
 200 OK                   
 {
     "id": 4,

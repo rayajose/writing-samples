@@ -2,6 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-post-parameters">
     <title>Parameters</title>
+    <shortdesc>These are the parameters for the <b>xmen</b> POST request.</shortdesc>
     <body>
         <section>
             <title>Header</title>
@@ -32,7 +33,7 @@
                 </tgroup>
             </table>
         </section>
-        <section>
+        <section id="xmen-post-body-parameters">
             <title>Body</title>
             <p>The request body will contain a JSON object representing the new X-Men entity.</p>
             <table rowsep="1">

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="postman-testingDeleteIdRequest">
+    <title>Testing the DELETE/id Request</title>
+    <taskbody>
+        <prereq>
+            <ul>
+                <li>
+                    <p>Create a <b>Postman</b> workspace.</p>
+                </li>
+                <li>
+                    <p>Create a <b>REST API basics</b> collection.</p>
+                </li>
+                <li>
+                    <p>Enure the web services application is running.</p>
+                </li>
+            </ul>
+        </prereq>
+        <context/>
+        <steps>
+            <step>
+                <cmd>In the <b>xmen</b> collection, select <b>DEL</b> Delete data.</cmd>
+                <info>
+                    <p><image href="../images/pm-selectDeleteRequest.png"/></p>
+                </info>
+                <stepresult>The <b>DELETE</b> request type will be pre-selected. <p><image
+                            href="../images/pm-deleteRequest.png"/></p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Enter the following in the <b>{{base_url}}/info</b> field. Include the
+                        <codeph>id</codeph> of the X-men character to retrieve.</cmd>
+                <info><codeph>http://localhost:8080/api/xmen</codeph></info>
+            </step>
+            <step>
+                <cmd>Append the following parameters to the URL. </cmd>
+                <info>
+                    <p><codeph>/{id}?api_key={}</codeph></p>
+                    <p><ph conkeyref="gen/ref-leadin"/> xmen DELETE/id <xref
+                            href="../topics/reference/xmen/api-res-xmen-delete-id-parameters.dita"
+                        /></p>
+                </info>
+            </step>
+            <!--<step>
+                <cmd>Click <b>Body</b> and enter the parameters to create a new X-men
+                    character.</cmd>
+                <info>
+                    <ph conkeyref="gen/ref-leadin"/> xmen POST <xref
+                        href="../topics/reference/xmen/api-res-xmen-post-parameters.dita"/>
+                </info>
+            </step>-->
+            <step>
+                <cmd>Click <b>Send</b>.</cmd>
+                <stepresult>If successful, a 200 response with an empty body will be displayed.
+                    Confirm deletion with a GET request.<p><ph conkeyref="gen/ref-leadin"/> xmen
+                        DELETE/id <xref
+                            href="../topics/reference/xmen/api-res-xmen-get-id-response.dita"
+                            /></p><p><image href="../images/pm-deleteRequestAndResponse.png"
+                    /></p></stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

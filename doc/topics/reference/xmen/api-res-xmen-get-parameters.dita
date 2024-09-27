@@ -2,6 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-get-parameters">
     <title>Parameters</title>
+    <shortdesc>These are the parameters for the <b>xmen</b> GET request.</shortdesc>
     <body>
         <section>
             <title>Path</title>

@@ -17,10 +17,10 @@
             <ul>
                 <li>resource URIs and standard HTTP requests</li>
                 <li>simple operations using ideas found on the web</li>
-                <li>Java Spring Boot project on the backend</li>
-                <li>uses working Java code (For more information, see  the <xref
+                <li>Java <b>Spring Boot</b> project on the backend</li>
+                <li>uses working Java code (<ph conkeyref = "gen/ref-leadin"/> <xref
                         href="sdk/sdk-xmen.dita"/>.) </li>
-                <li>Postman and cURL used to test the requests and confirm the responses</li>
+                <li><b>Postman</b> used to test the requests and confirm the responses</li>
             </ul>
         </section>
         <section>

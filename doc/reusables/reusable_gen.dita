@@ -145,6 +145,10 @@
                 <stentry><ph id="apikey">tHs1zasAmplapIk3yn0tr3alatA1l</ph></stentry>
                 <stentry/>
             </strow>
+            <strow>
+                <stentry><ph id="ref-leadin">For more information, see </ph></stentry>
+                <stentry>reference lead in</stentry>
+            </strow>
         </simpletable>
     </body>
 </topic>
