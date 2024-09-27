@@ -16,6 +16,21 @@
                     previous work projects. These samples were all written entirely by me from
                     scratch.</p>
             </li>
+            <li>
+                <p>Link to GitHub writing sample repo: <xref
+                        href="https://github.com/rayajose/writing-samples" format="html"
+                        scope="external"/></p>
+            </li>
+            <li>
+                <p>Link to resume: <xref
+                        href="https://github.com/rayajose/writing-samples/blob/main/doc/resume/rjose-resume.pdf"
+                        format="pdf" scope="external"/></p>
+            </li>
+            <li>
+                <p>Link to DITA project: <xref
+                        href="https://github.com/rayajose/writing-samples/tree/main/doc"
+                        format="html" scope="external"/></p>
+            </li>
         </ul>
         <table frame="all" colsep="1" rowsep="1">
             <tgroup cols="3" align="left">

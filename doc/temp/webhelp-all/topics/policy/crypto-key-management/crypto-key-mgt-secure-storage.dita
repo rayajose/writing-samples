@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\pdidd\Git\writing-samples\doc\temp\webhelp-all\topics\policy\crypto-key-management?><?workdir-uri file:/C:/Users/pdidd/Git/writing-samples/doc/temp/webhelp-all/topics/policy/crypto-key-management/?><?path2project ..\..\..\?><?path2project-uri ../../../?><?path2rootmap-uri ../../../?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="crypto-key-mgt-secure-storage" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="topic:1;3:43" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="title:1;4:12">Secure Storage</title>
+    <body class="- topic/body " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="body:1;5:11">
+
+        <section class="- topic/section " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="section:1;7:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="title:2;8:20"><ph conkeyref="gen/pol-desc" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="ph:1;8:50"/></title>
+            
+            <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:1;10:16">Keys used to protect stored account data must be securely stored. Secure key storage
+                is important because it protects cryptographic keys from unauthorized access, which
+                helps maintain the integrity and confidentiality of data. Without secure key
+                storage, keys can be vulnerable to attacks that extract them from a device's storage
+                or application. Secure storage is also important for the following reasons:</p>
+            <ul class="- topic/ul " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="ul:1;15:17">
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="li:1;16:21">
+                    <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:2;17:24">It prevents attackers from accessing and downloading a device's flash to
+                        extract keys.  </p>
+                </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="li:2;20:21">
+                    <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:3;21:24">It prevents attackers from taking control of a user's application or
+                        privileges to access keys.</p>
+                </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="li:3;24:21">
+                    <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:4;25:24">It reduces the chance that they will be compromised.</p>
+                </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="li:4;27:21">
+                    <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:5;28:24"><ph conkeyref="gen/comp-req" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="ph:2;28:54"/></p>
+                </li>
+            </ul>
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="section:2;32:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="title:3;33:20"><ph conkeyref="gen/pol-cont" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="ph:3;33:50"/>
+            </title>
+            <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:6;35:16">Secure storage of encryption keys is controlled as follows:</p>
+            <ul class="- topic/ul " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="ul:2;36:17">
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="li:5;37:21">
+                    <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:7;38:24">Keys are not stored with the data they encrypt.</p>
+                </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="li:6;40:21">
+                    <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:8;41:24">Keys that can decrypt data are never be present in source code.</p>
+                </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="li:7;43:21">
+                    <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:9;44:24"><term keyref="gl-dek" class="- topic/term " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="term:1;44:47"/>s are encrypted with <term keyref="gl-kek" class="- topic/term " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="term:2;44:91"/>s.</p>
+                </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="li:8;46:21"><p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:10;46:24">DEKs are stored in <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="b:1;46:46">Hashicorp Vault</b>.</p></li>
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="li:9;47:21"><p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:11;47:24">KEKs are stored in a <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="b:2;47:48">Thales Luna HSM</b> (Hardware Security Module).</p></li>                
+                <li class="- topic/li " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="li:10;48:21"><p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:12;48:24">Vaults are encrypted and access is restricted through a AD accounts. There is
+                        only one vault per application, per environment (development, preproduction,
+                        and production).</p></li>
+            </ul>
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="section:3;53:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="title:4;54:20"><ph conkeyref="gen/pol-ref" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="ph:4;54:49"/></title>
+            <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:13;55:16"><cite class="- topic/cite " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="cite:1;55:22"><ph conkeyref="gen/pci-ref-prefix" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="ph:5;55:58"/>3.7.3</cite></p>
+            <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="p:14;56:16"><cite class="- topic/cite " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="cite:2;56:22"><ph conkeyref="gen/pci-ref-prefix" class="- topic/ph " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita" xtrc="ph:6;56:58"/>3.7.7</cite></p>
+        </section>
+    </body>
+
+</topic>

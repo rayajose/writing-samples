@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\pdidd\Git\writing-samples\doc\temp\webhelp-all\topics\reference\xmen?><?workdir-uri file:/C:/Users/pdidd/Git/writing-samples/doc/temp/webhelp-all/topics/reference/xmen/?><?path2project ..\..\..\?><?path2project-uri ../../../?><?path2rootmap-uri ../../../?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="api-res-xmen-post-request-nodejs" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-put-id-request-nodejs.dita" xtrc="topic:1;3:46" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-put-id-request-nodejs.dita" xtrc="title:1;4:12">NodeJs</title>
+    <body class="- topic/body " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-put-id-request-nodejs.dita" xtrc="body:1;5:11">
+           <p class="- topic/p " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-put-id-request-nodejs.dita" xtrc="p:1;6:15">
+               <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/pdidd/Git/writing-samples/doc/topics/reference/xmen/api-res-xmen-put-id-request-nodejs.dita" xtrc="codeblock:1;7:27">var request = require('request');
+var options = {
+'method': 'POST',
+'url': 'http://localhost:8080/api/xmen',
+'headers': {
+    'API-KEY': '{myApikey}',
+    'Content-Type': 'application/json'
+},
+body: JSON.stringify({
+    "id": 4,
+    "name": "Hisako Ichiki",
+    "heroName": "Armor",
+    "power": "Psionic exoskeleton armor",
+    "debut": "Astonishing X-Men #4 (2004)",
+    "creator": "Joss Whedon, John Cassaday"
+    })                 
+};
+request(options, function (error, response) {
+    if (error) throw new Error(error);
+    console.log(response.body);
+});                            </codeblock>
+           </p>
+        
+    </body>
+</topic>

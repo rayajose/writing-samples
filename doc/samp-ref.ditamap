@@ -108,7 +108,7 @@
     </topicref>
 
     <topicref href="topics/reference/sdk/sdk-xmen.dita" chunk="to-content">
-        <!--<topicref href="topics/reference/sdk/sdk-xmen-classes.dita">-->
+       
             <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController.dita">
                 <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController-fields.dita"/>
                 <topicref
@@ -122,7 +122,7 @@
                 <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-methodDetails.dita"/>
                 <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-usage-example.dita"/>
             </topicref>
-        <!--</topicref>-->
+       
     </topicref>
 
     
