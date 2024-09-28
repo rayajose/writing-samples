@@ -2,7 +2,6 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-post-request">
     <title><ph conkeyref="gen/ex-req-api"/></title>
-    <shortdesc><ph conkeyref="gen/ex-req-api-leadin"/>
-        <b>xmen</b> POST requests.</shortdesc>
+    <shortdesc><ph conkeyref="gen/ex-req-api-leadin"/> xmen POST requests.</shortdesc>
     <body/>   
 </topic>

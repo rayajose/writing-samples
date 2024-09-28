@@ -2,8 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-get-parameters">
     <title><ph conkeyref="gen/req-params"/></title>
-    <shortdesc><ph conkeyref="gen/api-params-leadin"/>
-        <b>xmen</b> GET request.</shortdesc>
+    <shortdesc><ph conkeyref="gen/api-params-leadin"/> xmen GET request.</shortdesc>
     <body>
         <section>
             <title>Path</title>

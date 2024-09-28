@@ -23,7 +23,7 @@
         </context>
         <steps>
             <step>
-                <cmd>In the <b>xmen</b> collection, select <b>PUT <i>Update data</i></b> request
+                <cmd>In the xmen collection, select <b>PUT <i>Update data</i></b> request
                     type.</cmd>
                 <info>
                     <p><image href="../images/pm-selectPutRequest.png"/></p>
@@ -38,21 +38,6 @@
             <step>
                 <cmd><ph conkeyref = "gen/step-set-req-parameters"/></cmd>
             </step>
-            <stepsection>
-                <p><ph conkeyref="gen/ref-leadin"/>
-                    <b>xmen</b> PUT:<ul>
-                        <li>
-                            <p><xref
-                                    href="../topics/reference/xmen/api-res-xmen-put-id-parameters.dita"
-                                /></p>
-                        </li>
-                        <li>
-                            <p><xref
-                                    href="../topics/reference/xmen/api-res-xmen-put-id-request.dita"
-                                /></p>
-                        </li>
-                    </ul></p>
-            </stepsection>
             <step>
                 <cmd>Click <b>Send</b>.</cmd>
                 <stepresult>If successful, the response will reflect the X-men entity updates sent

@@ -3,7 +3,7 @@
 <topic id="api-res-xmen">
     <title>REST Resource: xmen</title>
     <body>
-        <p>The <b>xmen</b> resource allows you to manage records in the X-Men repository. It
-            provides endpoints for performing HTTP CRUD operations on X-Men records.</p>
+        <p>The xmen resource allows you to manage records in the X-Men repository. It provides
+            endpoints for performing HTTP CRUD operations on X-Men records.</p>
     </body>
 </topic>

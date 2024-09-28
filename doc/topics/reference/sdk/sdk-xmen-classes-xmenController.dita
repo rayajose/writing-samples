@@ -5,7 +5,7 @@
     <body>
         <p>The <codeph>XmenController</codeph> class implements methods to perform operations on
             database entities through the <codeph>XmenRepository</codeph> interface. The methods in
-            this class all map to HTTP methods in the REST API <b>xmen</b> resource.</p>
+            this class all map to HTTP methods in the REST API xmen resource.</p>
         <p>
             <codeblock>package marvel.heros;               
 import org.springframework.beans.factory.annotation.Autowired;

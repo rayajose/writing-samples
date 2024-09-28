@@ -3,7 +3,7 @@
 <topic id="api-res-needles">
     <title>REST Resource: needles</title>
     <body>
-        <p>The <b>needles</b> resource matches the specified words in a block of text. Send up to
+        <p>The needles resource matches the specified words in a block of text. Send up to
             five different words (needles) and a single text block (haystack). Find the needles in
             the haystack.</p>
         

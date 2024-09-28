@@ -14,7 +14,7 @@
         </context>
         <steps>
             <step>
-                <cmd>In the <b>xmen</b> collection, select <b>DEL <i>Delete data</i></b> request
+                <cmd>In the xmen collection, select <b>DEL <i>Delete data</i></b> request
                     type.</cmd>
                 <info>
                     <p><image href="../images/pm-selectDeleteRequest.png"/></p>

@@ -3,8 +3,7 @@
 <topic id="api-res-needles-post">
     <title><ph conkeyref="gen/ex-res-api"/></title>
     <body>
-        <p><ph conkeyref="gen/ex-res-api-leadin"/>
-            <b>needles</b> GET and POST requests.</p>
+        <p><ph conkeyref="gen/ex-res-api-leadin"/> needles GET and POST requests.</p>
         <section>
             <title><codeph>200 OK</codeph></title>
             <p>

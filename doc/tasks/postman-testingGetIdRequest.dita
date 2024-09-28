@@ -22,7 +22,7 @@
         </context>
         <steps>
             <step>
-                <cmd>In the <b>xmen</b> collection, select <b>GET <i>Get data</i>
+                <cmd>In the xmen collection, select <b>GET <i>Get data</i>
                     </b> request type.</cmd>
                 <info>
                     <p><image href="../images/pm-selectGetRequest.png"/></p>

@@ -37,7 +37,7 @@
                     collection, open the drop-down menu and select <b>Rename</b>. </cmd>
                 <info>
                     <p><image href="../images/pm-collection-rename.png"/></p>
-                    <p>This example uses the <b>xmen</b> resource from My REST API.</p>
+                    <p>This example uses the xmen resource from My REST API.</p>
                     <p><image href="../images/pm-collection-rename2.png"/></p>
                 </info>
             </step>
