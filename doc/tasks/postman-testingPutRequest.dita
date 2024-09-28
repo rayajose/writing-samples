@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="postman-testingPutRequest">
-    <title>Testing PUT/id Request</title>
+    <title>Testing PUT/{id} Request</title>
     <taskbody>
         <prereq>
             <p
-                conref="../reusables/reusable_larger-content-pieces.dita#reusable-larger-content/pm-test-prereq"
-            />
+                conref="../reusables/reusable_larger-content-pieces.dita#reusable-larger-content/pm-test-prereq"/>
+            <ul>
+                <li>
+                    <p><b>Additional Prerequisites:</b></p>
+                    <ul>
+                        <li>
+                            <p>The X-men entities to update must exist in the database.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </prereq>
         <context>
-            <p>This task describes how to test a PUT request in <b>Postman</b>.</p>
+            <p>This task describes how to test a PUT request in Postman.</p>
             <p>To test a PUT request follow these steps:</p>
         </context>
         <steps>
@@ -24,21 +33,10 @@
                 </stepresult>
             </step>
             <step>
-                <cmd>Enter the following in the <b>URL</b> field.</cmd>
-                <info><codeph>http://localhost:8080/api/xmen</codeph></info>
+                <cmd><ph conkeyref = "gen/step-enter-base-url"/></cmd>
             </step>
             <step>
-                <cmd>Append the following parameters to the URL. </cmd>
-                <info>
-                    <p><codeph>/{id}?api_key={}</codeph></p>
-                </info>
-            </step>
-            <step>
-                <cmd>Click <b>Headers</b> and populate the <b>Key </b>and <b>Value</b> fields.</cmd>
-            </step>
-            <step>
-                <cmd>Click <b>Body</b> and enter the parameters to create a new X-men
-                    character.</cmd>
+                <cmd><ph conkeyref = "gen/step-set-req-parameters"/></cmd>
             </step>
             <stepsection>
                 <p><ph conkeyref="gen/ref-leadin"/>
@@ -57,12 +55,26 @@
             </stepsection>
             <step>
                 <cmd>Click <b>Send</b>.</cmd>
-                <stepresult>A successful response will show the details for the X-men character sent
-                    in the request body.<p><ph conkeyref="gen/ref-leadin"/> xmen <b>PUT</b>
-                        <xref href="../topics/reference/xmen/api-res-xmen-put-id-response.dita"
-                        />.</p><p><image href="../images/pm-putRequestAndResponse.png"
+                <stepresult>If successful, the response will reflect the X-men entity updates sent
+                    in the request.<p><image href="../images/pm-putRequestAndResponse.png"
                     /></p></stepresult>
             </step>
         </steps>
+        <postreq><p><ph conkeyref="gen/related-links-leadin"/></p>
+            <ul>
+                <li>
+                    <p>xmen PUT/{id}: <xref
+                        href="../topics/reference/xmen/api-res-xmen-put-id-parameters.dita"/></p>
+                </li>
+                <li>
+                    <p>xmen PUT/{id}: <xref
+                        href="../topics/reference/xmen/api-res-xmen-put-id-request.dita"/></p>
+                </li>
+                <li>
+                    <p>xmen PUT/{id}: <xref
+                        href="../topics/reference/xmen/api-res-xmen-put-id-response.dita"/></p>
+                </li>
+            </ul>
+        </postreq>
     </taskbody>
 </task>

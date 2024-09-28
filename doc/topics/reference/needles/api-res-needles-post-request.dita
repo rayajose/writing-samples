@@ -2,9 +2,9 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-needles-post-request">
     <title>Request</title>
+    <shortdesc><ph conkeyref="gen/ex-req-api-leadin"/>
+        <b>needles</b> POST request.</shortdesc>
     <body>
-        <p>This endpoint is better suited for long blocks of text. Returns the match count for each
-            specified word in a block of text. Up to five words can be specified in the request. </p>
         <!--       <section>
             <title>cURL</title>
             <p>

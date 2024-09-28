@@ -3,6 +3,8 @@
 <topic id="api-res-needles-post">
     <title><image conkeyref = "gen/post"/> / needles</title>
     <body>
+        <p>This endpoint is better suited for long blocks of text. Returns the match count for each
+            specified word in a block of text. Up to five words can be specified in the request. </p>
  <!--       <section>
             <title>cURL</title>
             <p>

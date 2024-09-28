@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-get-response">
-    <title>Response</title>
-    <shortdesc>These are possible responses to the <b>xmen</b> GET request.</shortdesc>
+    <title><ph conkeyref="gen/ex-res-api"/></title>
+    <shortdesc><ph conkeyref="gen/ex-res-api-leadin"/>
+        <b>xmen</b> GET request.</shortdesc>
     <body>      
        <section>
-           <title>200</title>
+           <title><codeph>200 OK</codeph></title>
            <p>
-               <codeblock># RESPONSE
-200 OK                   
-[
-{
-    "id": 1,
-    "name": "Hisako Ichiki",
-    "heroName": "Dust",
-    "power": "Sand manipulation",
-    "debut": "New X-Men #133 (2002)",
-    "creator": "Grant Morrison, Ethan Van Sciver"
-},
-{
-    "id": 2,
-    "name": "Anna Marie",
-    "heroName": "Rogue",
-    "power": "Power absorption through touch",
-    "debut": "Avengers Annual #10 (1981)",
-    "creator": "Chris Claremont, Michael Golden"
-},
-{
-    "id": 3,
-    "name": "Jean Grey",
-    "heroName": "Phoenix",
-    "power": "Telepathy, telekinesis, Phoenix Force",
-    "debut": "X-Men #1 (1963)",
-    "creator": "Stan Lee, Jack Kirby"
-}
+               <codeblock>[
+    {
+        "id": 1,
+        "name": "Hisako Ichiki",
+        "heroName": "Armor",
+        "power": "Psionic exoskeleton armor",
+        "debut": "Astonishing X-Men #4 (2004)",
+        "creator": "Joss Whedon, John Cassaday"
+    },
+    {
+        "id": 2,
+        "name": "Anna Marie",
+        "heroName": "Rogue",
+        "power": "Power absorption through touch",
+        "debut": "Avengers Annual #10 (1981)",
+        "creator": "Chris Claremont, Michael Golden"
+    },
+    {
+        "id": 3,
+        "name": "Jean Grey",
+        "heroName": "Phoenix",
+        "power": "Telepathy, telekinesis, Phoenix Force",
+        "debut": "X-Men #1 (1963)",
+        "creator": "Stan Lee, Jack Kirby"
+    }
 ]           </codeblock>
            </p>
        </section>

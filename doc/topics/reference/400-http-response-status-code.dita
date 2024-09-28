@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sc-400">
+    <title><codeph>400 Bad Request</codeph></title>
+    <body>
+        <p>The request cannot be filled due to bad syntax.</p>
+        <!--<table rowsep="1">
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="4cm" align="left"/>
+                <colspec colname="c2" colnum="2" colwidth="10cm"/>
+                <thead>
+                    <row>
+                        <entry align="left">Field</entry>
+                        <entry align="left">Example</entry>
+                        
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>timestamp</entry>
+                        <entry><codeph>YYYY-MM-DDT00:00:00.000+00:00</codeph></entry>
+                    </row>
+                    <row>
+                        <entry>status</entry>
+                        <entry><codeph>400</codeph></entry>
+                    </row>
+                    <row>
+                        <entry>error</entry>
+                        <entry><codeph>Bad Request</codeph></entry>
+                    </row>
+                    <row>
+                        <entry>path</entry>
+                        <entry><codeph>/api/example</codeph></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>
+            <codeblock>{
+    "timestamp": "2024-08-15T00:03:04.554+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "path": "/api/numbers"
+}          </codeblock>
+        </p>-->
+    </body>
+</topic>

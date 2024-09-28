@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sc-200">
+    <title><codeph>200 OK</codeph></title>
+    <body>
+        <p>This is the standard response for a successful HTTP request. The actual message will
+            depend on the specific request. Refer to the applicable resource section for specific
+                <codeph>200</codeph> status code.</p>
+    </body>
+</topic>

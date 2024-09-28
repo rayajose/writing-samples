@@ -2,278 +2,250 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>topics/reference/api-my-rest-api.html</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-ref-doc-authentication</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/api-ref-doc-authentication.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-uri</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/api-res-uri.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-properties</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-properties.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-endpoints</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-endpoints.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-post</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-post.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-post-parameters</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-post-parameters.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-post-request</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-post-request.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-post-request-curl</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-post-request.html#api-res-xmen-post-request-curl</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-post-request-nodejs</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-post-request.html#api-res-xmen-post-request-nodejs</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-post-request-python</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-post-request.html#api-res-xmen-post-request-python</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-response</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-post-response.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-get</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-get-parameters</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-parameters.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-get-request</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-request.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-get-request-curl</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-request.html#api-res-xmen-get-request-curl</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-get-request-nodejs</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-request.html#api-res-xmen-get-request-nodejs</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-get-request-python</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-request.html#api-res-xmen-get-request-python</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-post-response</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-response.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-get-id</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-id.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-get-id-parameters</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-id-parameters.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_40880408</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-id-request.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_482414242</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-id-request.html#api-res-xmen-get-request-curl</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_1137128318</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-id-request.html#api-res-xmen-get-request-nodejs</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_863881435</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-id-request.html#api-res-xmen-get-request-python</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-get-id-response</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-get-id-response.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-put-id</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-put-id.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-put-id-parameters</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-put-id-parameters.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_978234181</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-put-id-request.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_1904817176</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-put-id-request.html#api-res-xmen-post-request-curl</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_1686599613</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-put-id-request.html#api-res-xmen-post-request-nodejs</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_1401143257</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-put-id-request.html#api-res-xmen-post-request-python</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-put-id-response</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-put-id-response.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-delete-id</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-delete-id.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_1858934670</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-delete-id-parameters.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_13396855</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-delete-id-request.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_1811865732</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-delete-id-request.html#api-res-xmen-get-request-curl</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_1455446426</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-delete-id-request.html#api-res-xmen-get-request-nodejs</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_1967556627</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-delete-id-request.html#api-res-xmen-get-request-python</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-xmen-delete-id-response</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/xmen/api-res-xmen-delete-id-response.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-needles</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-needles-properties</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-properties.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_458164763</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-endpoints.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-needles-post</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-get.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-needles-get-properties</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-get-parameters.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-needles-get-request</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-get-request.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-needles-get-request-curl</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-get-request.html#api-res-needles-get-request-curl</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-needles-get-request-nodejs</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-get-request.html#api-res-needles-get-request-nodejs</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-needles-get-request-python</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-get-request.html#api-res-needles-get-request-python</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_499214688</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-post.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_16181701</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-post-parameters.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-needles-post-request</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-post-request.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-needles-post-request-curl</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-post-request.html#api-res-needles-post-request-curl</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-needles-post-request-nodejs</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-post-request.html#api-res-needles-post-request-nodejs</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-res-needles-post-request-python</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-post-request.html#api-res-needles-post-request-python</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#unique_721450282</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/needles/api-res-needles-response.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/api-my-rest-api.html#api-error-responses</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/api-error-responses.html</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/sdk/sdk-xmen.html</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/api-error-responses.html#sc-200</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/sdk/sdk-xmen.html#sdk-xmen-classes</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/api-error-responses.html#sc-400</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/sdk/sdk-xmen.html#sdk-xmen-classes-xmenController</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/api-error-responses.html#sc-404</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
    <url>
-      <loc>topics/reference/sdk/sdk-xmen.html#sdk-xmen-classes-xmenContoller-fields</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/sdk/sdk-xmen.html#sdk-xmen-classes-xmenController-methodSummary</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/sdk/sdk-xmen.html#sdk-xmen-classes-xmenController-methodDetails</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/sdk/sdk-xmen.html#sdk-xmen-classes-xmen</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/sdk/sdk-xmen.html#unique_1663477909</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/sdk/sdk-xmen.html#sdk-xmen-classes-xmen-methodSummary</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/sdk/sdk-xmen.html#sdk-xmen-classes-xmen-methodDetails</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/reference/sdk/sdk-xmen.html#sdk-xmen-classes-xmen-usage-example</loc>
-      <lastmod>2024-09-26T04:46:44Z</lastmod>
+      <loc>topics/reference/api-error-responses.html#sc-500</loc>
+      <lastmod>2024-09-28T06:14:51Z</lastmod>
    </url>
 </urlset>

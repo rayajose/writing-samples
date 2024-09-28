@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-uri">
-    <title>URI</title>
+    <title>Base URI</title>
     <body>
         <section>
             <p>My REST API application was installed and configured as a local host.</p>

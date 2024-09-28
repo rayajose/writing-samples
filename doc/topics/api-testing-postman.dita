@@ -5,6 +5,6 @@
     <shortdesc>How-To</shortdesc>
     <body>
         <p>This is a how-to document describing how I configured and tested the requests in My REST
-            API using <b>Postman</b>.</p>
+            API using Postman.</p>
     </body>
 </topic>

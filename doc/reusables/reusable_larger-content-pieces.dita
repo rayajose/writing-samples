@@ -5,19 +5,19 @@
     <body>
         <p id="pm-test-prereq"><ul>
                 <li>
-                    <p><b>Prerequisites:</b></p>
+                    <p><b>Common Prerequisites:</b></p>
                     <ul>
                         <li>
-                            <p>Install <b>Postman</b> desktop application.</p>
+                            <p>Install Postman desktop application.</p>
                         </li>
                         <li>
-                            <p>Sign in to <b>Postman</b> account.</p>
+                            <p>Sign in to Postman account.</p>
                         </li>
                         <li>
-                            <p>Create a <b>Postman</b> workspace.</p>
+                            <p>Create a Postman workspace.</p>
                         </li>
                         <li>
-                            <p>Create a <b>Postman</b> collection using the <b>REST API basics</b>
+                            <p>Create a Postman collection using the <b>REST API basics</b>
                                 template.</p>
                         </li>
                     </ul>

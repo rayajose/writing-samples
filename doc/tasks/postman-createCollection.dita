@@ -7,20 +7,20 @@
             <p><b>Prerequisites:</b></p>
             <ul>
                 <li>
-                    <p>Install <b>Postman</b> desktop application.</p>
+                    <p>Install Postman desktop application.</p>
                 </li>
                 <li>
-                    <p>Sign in to <b>Postman</b> account.</p>
+                    <p>Sign in to Postman account.</p>
                 </li>
                 <li>
-                    <p>Create a <b>Postman</b> workspace.</p>
+                    <p>Create a Postman workspace.</p>
                 </li>
             </ul>
         </prereq>
         <context>
-            <p>A collection in <b>Postman</b> is a set of API requests that can be configured for
-                testing purposes. This task describes how to create a <b>Postman</b> collection
-                using the <b>REST API basics</b> template.</p>
+            <p>A collection in Postman is a set of API requests that can be configured for testing
+                purposes. This task describes how to create a Postman collection using the <b>REST
+                    API basics</b> template.</p>
             <p>To create a collection follow these steps:</p>
         </context>
         <steps>
@@ -44,7 +44,7 @@
             <step>
                 <cmd>Configure and run tests accordingly.</cmd>
                 </step>
-        </steps><postreq>See the following tasks:<ul>
+        </steps><postreq><p><ph conkeyref = "gen/related-links-leadin"/></p><ul>
             <li>
                 <p>
                     <xref href="postman-testingGetRequest.dita"/>

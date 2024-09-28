@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sc-404">
+    <title><codeph>404 Not Found</codeph></title>
+    <body>
+        <p>The requested resource could not be found but may be available again in the future.
+            Subsequent requests by the client are permissible.</p>
+        <!--<table rowsep="1">
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="4cm" align="left"/>
+                <colspec colname="c2" colnum="2" colwidth="10cm"/>
+                <thead>
+                    <row>
+                        <entry align="left">Field</entry>
+                        <entry align="left">Example</entry>
+                        
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>timestamp</entry>
+                        <entry><codeph>YYYY-MM-DDT00:00:00.000+00:00</codeph></entry>
+                    </row>
+                    <row>
+                        <entry>status</entry>
+                        <entry><codeph>404</codeph></entry>
+                    </row>
+                    <row>
+                        <entry>error</entry>
+                        <entry><codeph>Not Found</codeph></entry>
+                    </row>
+                    <row>
+                        <entry>path</entry>
+                        <entry><codeph>/</codeph></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>
+            <codeblock>
+{
+    "timestamp": "2024-08-16T12:24:11.041+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "message": "No static resource .",
+    "path": "/"
+}                                </codeblock>
+        </p>   -->    
+    </body>
+</topic>

@@ -10,12 +10,12 @@
     
     <topicref href="tasks/postman-createCollection.dita"/>
     
+    <topicref href="tasks/postman-testingPostRequest.dita"/>
+    
     <topicref href="tasks/postman-testingGetRequest.dita"/>
     
     <topicref href="tasks/postman-testingGetIdRequest.dita"/>
-    
-    <topicref href="tasks/postman-testingPostRequest.dita"/>
-    
+       
     <topicref href="tasks/postman-testingPutRequest.dita"/>
     
     <topicref href="tasks/postman-testingDeleteIdRequest.dita"/>

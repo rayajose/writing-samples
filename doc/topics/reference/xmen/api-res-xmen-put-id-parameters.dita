@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-put-id-parameters">
-    <title>Parameters</title>
-    <shortdesc>These are the parameters for the <b>xmen</b> PUT request.</shortdesc>
+    <title><ph conkeyref="gen/req-params"/></title>
+    <shortdesc><ph conkeyref="gen/api-params-leadin"/>
+        <b>xmen</b> PUT/{id} request.</shortdesc>
     <body>
         <section>
             <title>Path</title>

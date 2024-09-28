@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-get-id-response">
-    <title>Response</title>
-    <shortdesc>These are possible responses to the <b>xmen</b> GET/id request.</shortdesc>
+    <title><ph conkeyref="gen/ex-res-api"/></title>
+    <shortdesc><ph conkeyref="gen/ex-res-api-leadin"/>
+        <b>xmen</b> GET/{id} request.</shortdesc>
     <body>
 
         <section>
-            <title>200</title>
+            <title><codeph>200 OK</codeph></title>
             <p>
-                <codeblock># RESPONSE
-200 OK                   
-{
+                <codeblock>{
     "id": 3,
     "name": "Jean Grey",
     "heroName": "Phoenix",
@@ -19,10 +18,6 @@
     "creator": "Stan Lee, Jack Kirby"
 }</codeblock>
             </p>
-        </section>
-        <section conref="../api-error-responses.dita#api-error-responses/api-error-response-404">
-            <title/>
-            <p/>
         </section>
     </body>
 </topic>

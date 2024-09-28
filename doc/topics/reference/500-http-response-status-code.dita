@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sc-500">
+    <title><codeph>500 Internal Server Error</codeph></title>
+    <body>
+        <p>A generic error message given when no more specific message is suitable. For an
+            authentication error, the application will return the following message: <codeph>Missing
+                API Key or Secret</codeph></p>
+        <!--<table rowsep="1">
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="4cm" align="left"/>
+                <colspec colname="c2" colnum="2" colwidth="10cm"/>
+                <thead>
+                    <row>
+                        <entry align="left">Field</entry>
+                        <entry align="left">Example</entry>
+
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>timestamp</entry>
+                        <entry><codeph>YYYY-MM-DDT00:00:00.000+00:00</codeph></entry>
+                    </row>
+                    <row>
+                        <entry>status</entry>
+                        <entry><codeph>500</codeph></entry>
+                    </row>
+                    <row>
+                        <entry>error</entry>
+                        <entry><codeph>Missing API Key or Secret</codeph></entry>
+                    </row>
+                    <row>
+                        <entry>path</entry>
+                        <entry><codeph>/api/example</codeph></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>
+            <codeblock>{
+    "timestamp": "2024-08-16T13:18:45.511+00:00",
+    "status": 500,
+    "error": "Internal Server Error",
+    "message": "Missing API Key or Secret",
+    "path": "/api/data"
+}          </codeblock>
+        </p>-->
+    </body>
+</topic>

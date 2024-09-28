@@ -9,16 +9,16 @@
                 key custodians will be required to complete the rotation.</p>
         </prereq>
         <context>
-            <p>Using <b>Vault</b>, rotate keys as follows:</p>
+            <p>Using Vault, rotate keys as follows:</p>
         </context>
         <steps>
             <step>
-                <cmd>Ensure split knowledge has been setup for <b>Vault</b> Unsealing. Otherwise,
-                    setup split knowledge as follows: </cmd>
+                <cmd>Ensure split knowledge has been setup for Vault Unsealing. Otherwise, setup
+                    split knowledge as follows: </cmd>
                 <substeps>
                     <substep>
                         <cmd>Use the <codeph>vault operator init</codeph> command to initial
-                                <b>Vault</b>.</cmd>
+                            Vault.</cmd>
                         <info>
                             <p>
                                 <codeblock>vault operator init -key-shares=5 -key-threshold=3                           </codeblock>
@@ -30,14 +30,14 @@
                                 </li>
                                 <li>
                                     <p>Set <codeph>-key-threshold=3</codeph>: At least 3 key shares
-                                        are required to unseal <b>Vault</b>.</p>
+                                        are required to unseal Vault.</p>
                                 </li>
                             </ul>
                         </info>
                     </substep>
                     <substep>
                         <cmd>Use the <codeph>vault operator unseal</codeph> command to unseal
-                                <b>Vault</b>.</cmd>
+                            Vault.</cmd>
                         <info>
                             <p>
                                 <codeblock>vault operator unseal &lt;unseal_key_1&gt;
@@ -51,19 +51,19 @@ vault operator unseal &lt;unseal_key_3&gt;                     </codeblock>
                                 </li>
                                 <li>
                                     <p>Set <codeph>-key-threshold=3</codeph>: At least 3 key shares
-                                        are required to unseal <b>Vault</b>.</p>
+                                        are required to unseal Vault.</p>
                                 </li>
                             </ul>
-                            <p>When <b>Vault</b> is sealed, key custodians must collaborate to
-                                unseal it. In this case, three out of the five key shares will be
-                                needed to unseal <b>Vault</b>.</p>
+                            <p>When Vault is sealed, key custodians must collaborate to unseal it.
+                                In this case, three out of the five key shares will be needed to
+                                unseal Vault.</p>
                         </info>
                     </substep>
                 </substeps>
             </step>
             <step>
-                <cmd>Initialize the <b>Vault</b> client to interact with the <b>Vault</b> server.
-                    Set the <b>Vault</b> server URL and authentication token.</cmd>
+                <cmd>Initialize the Vault client to interact with the Vault server. Set the Vault
+                    server URL and authentication token.</cmd>
                 <info>
                     <codeblock>import com.bettercloud.vault.Vault;
 import com.bettercloud.vault.VaultConfig;
@@ -147,7 +147,7 @@ vault.logical()
 vault.logical()
 .delete("keymgmt/keys/my-new-key");                                         </codeblock>
                     <p>When a key is no longer needed or has been compromised, destroy it and its
-                        shares. In <b>Vault</b>, keys can be deleted permanently.</p>
+                        shares. In Vault, keys can be deleted permanently.</p>
                 </info>
             </step>
 

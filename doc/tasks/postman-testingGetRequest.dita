@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="postman-testingPostRequest">
+<task id="postman-testingGetRequest">
     <title>Testing GET Request</title>
     <taskbody>
         <prereq>
             <p
-                conref="../reusables/reusable_larger-content-pieces.dita#reusable-larger-content/pm-test-prereq"
-            />
-        </prereq>
+                conref="../reusables/reusable_larger-content-pieces.dita#reusable-larger-content/pm-test-prereq"/>
+            <ul>
+                <li>
+                    <p><b>Additional Prerequisites:</b></p>
+                    <ul>
+                        <li>
+                            <p>Add entities to the database using the POST request.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul></prereq>
         <context>
-            <p>This task describes how to test a GET request in <b>Postman</b>.</p>
+            <p>This task describes how to test a GET request in Postman.</p>
             <p>To test a GET request follow these steps:</p>
         </context>
         <steps>
             <step>
-                <cmd>In the <b>xmen</b> collection, select <b>GET <i>Get data</i></b>  request
+                <cmd>In the <b>xmen</b> collection, select <b>GET <i>Get data</i></b> request
                     type.</cmd>
                 <info>
                     <p><image href="../images/pm-selectGetRequest.png"/></p>
@@ -23,33 +31,33 @@
                             href="../images/pm-getRequest.png"/></p></stepresult>
             </step>
             <step>
-                <cmd>Enter the following in the <b>URL</b> field.</cmd>
-                <info><codeph>http://localhost:8080/api/xmen?api_key={}</codeph>
-                </info>
+                <cmd><ph conkeyref="gen/step-enter-base-url"/></cmd>
             </step>
-            <stepsection>
-                <p><ph conkeyref="gen/ref-leadin"/>
-                    <b>xmen</b> GET:<ul>
-                        <li>
-                            <p><xref
-                                    href="../topics/reference/xmen/api-res-xmen-get-parameters.dita"
-                                /></p>
-                        </li>
-                        <li>
-                            <p><xref href="../topics/reference/xmen/api-res-xmen-get-request.dita"
-                                /></p>
-                        </li>
-                    </ul></p>
-            </stepsection>
+            <step>
+                <cmd><ph conkeyref="gen/step-set-req-parameters"/></cmd>
+            </step>
             <step>
                 <cmd>Click <b>Send</b>.</cmd>
-                <stepresult>A successful response will show the details for the X-men character sent
-                    in the request body.<p><ph conkeyref="gen/ref-leadin"/>
-                        <b>xmen</b> GET <xref
-                            href="../topics/reference/xmen/api-res-xmen-get-response.dita"
-                            />.</p><p><image href="../images/pm-getRequestAndResponse.png"
+                <stepresult>If successful, the response will show the details for all the X-men
+                            entities.<p><image href="../images/pm-getRequestAndResponse.png"
                     /></p></stepresult>
             </step>
         </steps>
+        <postreq><p><ph conkeyref="gen/related-links-leadin"/></p>
+            <ul>
+                <li>
+                    <p>xmen GET: <xref
+                            href="../topics/reference/xmen/api-res-xmen-get-parameters.dita"/></p>
+                </li>
+                <li>
+                    <p>xmen GET: <xref href="../topics/reference/xmen/api-res-xmen-get-request.dita"
+                        /></p>
+                </li>
+                <li>
+                    <p>xmen GET: <xref href="../topics/reference/xmen/api-res-xmen-get-response.dita"
+                        /></p>
+                </li>
+            </ul>
+        </postreq>
     </taskbody>
 </task>

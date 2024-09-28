@@ -149,6 +149,44 @@
                 <stentry><ph id="ref-leadin">For more information, see </ph></stentry>
                 <stentry>reference lead in</stentry>
             </strow>
+            <strow>
+                <stentry><ph id="ex-req-api">Example Request(s)</ph></stentry>
+                <stentry>resource: example request heading</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="ex-res-api">Example Response(s)</ph></stentry>
+                <stentry>resource: example response heading</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="req-params">Required Parameter(s)</ph></stentry>
+                <stentry>resource: required parameters</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="ex-res-api-leadin">Example response(s) for the</ph></stentry>
+                <stentry>api general response lead in</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="api-params-leadin">Required parameter(s) for the</ph></stentry>
+                <stentry>api parameters lead in</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="ex-req-api-leadin">Example(s) for the</ph></stentry>
+                <stentry>api example request lead in</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="step-enter-base-url">Enter the base URL in the <b>URL</b> field: <codeph>http://localhost:8080/api/xmen</codeph></ph></stentry>
+                <stentry>step: enter base URL</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="step-set-req-parameters">Use the <b>URL</b> field, the
+                            <b>Params</b> tab, the <b>Headers</b> tab, and the <b>Body</b> tab, as
+                        needed to set the request parameters.</ph></stentry>
+                <stentry>step: enter req. parameters</stentry>
+            </strow>
+            <strow>
+                <stentry><ph id="related-links-leadin">Related topics</ph></stentry>
+                <stentry>related links lead in</stentry>
+            </strow>
         </simpletable>
     </body>
 </topic>

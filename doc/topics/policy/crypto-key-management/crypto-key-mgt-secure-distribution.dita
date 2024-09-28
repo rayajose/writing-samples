@@ -36,7 +36,7 @@
             <p>Secure distribution of encryption keys is controlled as follows:</p>
             <ul>
                 <li>
-                    <p>Key access is managed through <b>HashiCorp Vault</b>.</p>
+                    <p>Key access is managed through HashiCorp Vault.</p>
                 </li>
                 <!--<li>
                     <p>Vaults are encrypted and access is restricted through a AD accounts.</p>

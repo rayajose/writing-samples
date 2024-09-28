@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="postman-testingDeleteIdRequest">
-    <title>Testing DELETE Request</title>
+    <title>Testing DELETE/{id} Request</title>
     <taskbody>
         <prereq>
             <p
@@ -9,7 +9,7 @@
             />
         </prereq>
         <context>
-            <p>This task describes how to test a DELETE request in <b>Postman</b>.</p>
+            <p>This task describes how to test a DELETE request in Postman.</p>
             <p>To test a DELETE request follow these steps:</p>
         </context>
         <steps>
@@ -23,39 +23,36 @@
                             href="../images/pm-deleteRequest.png"/></p></stepresult>
             </step>
             <step>
-                <cmd>Enter the following in the <b>URL</b> field. </cmd>
-                <info><codeph>http://localhost:8080/api/xmen</codeph></info>
+                <cmd><ph conkeyref="gen/step-enter-base-url"/></cmd>
             </step>
             <step>
-                <cmd>Append the following parameters to the URL. </cmd>
-                <info>
-                    <p><codeph>/{id}?api_key={}</codeph></p>
-                </info>
+                <cmd><ph conkeyref="gen/step-set-req-parameters"/></cmd>
             </step>
-            <stepsection>
-                <p><ph conkeyref="gen/ref-leadin"/>
-                    <b>xmen</b> DELETE:<ul>
-                        <li>
-                            <p><xref
-                                    href="../topics/reference/xmen/api-res-xmen-delete-id-parameters.dita"
-                                /></p>
-                        </li>
-                        <li>
-                            <p><xref
-                                    href="../topics/reference/xmen/api-res-xmen-delete-id-request.dita"
-                                /></p>
-                        </li>
-                    </ul></p>
-            </stepsection>
             <step>
                 <cmd>Click <b>Send</b>.</cmd>
                 <stepresult>If successful, a 200 response with an empty body will be displayed.
-                    Confirm deletion with a GET request.<p><ph conkeyref="gen/ref-leadin"/>
-                        <b>xmen</b> DELETE/id <xref
-                            href="../topics/reference/xmen/api-res-xmen-delete-id-response.dita"
-                        />.</p><p><image href="../images/pm-deleteRequestAndResponse.png"
-                    /></p></stepresult>
+                    Confirm deletion with a GET request.<p><image
+                            href="../images/pm-deleteRequestAndResponse.png"/></p></stepresult>
             </step>
         </steps>
+        <postreq><p><ph conkeyref="gen/related-links-leadin"/></p>
+            <ul>
+                <li>
+                    <p>xmen DELETE/{id}: <xref
+                            href="../topics/reference/xmen/api-res-xmen-delete-id-parameters.dita"
+                        /></p>
+                </li>
+                <li>
+                    <p>xmen DELETE/{id}: <xref
+                            href="../topics/reference/xmen/api-res-xmen-delete-id-request.dita"
+                        /></p>
+                </li>
+                <li>
+                    <p>xmen DELETE/{id}: <xref
+                            href="../topics/reference/xmen/api-res-xmen-delete-id-response.dita"
+                        /></p>
+                </li>
+            </ul>
+        </postreq>
     </taskbody>
 </task>

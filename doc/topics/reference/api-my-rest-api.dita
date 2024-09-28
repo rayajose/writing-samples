@@ -6,8 +6,8 @@
     <body>
         <section>
             <title>Context</title>
-            <p>This API reference describes resources I created in a <b>Spring Boot</b> application.
-                It is a simple REST API to use as subject matter for this sample document.</p>
+            <p>This API reference describes resources I created in a Spring Boot application. It is
+                a simple REST API to use as subject matter for this sample document.</p>
             <p><b>Note</b>: The environment, code, and reference documentation are works in
                 progress. </p>
         </section>       
@@ -16,10 +16,10 @@
             <ul>
                 <li>resource URIs and standard HTTP requests</li>
                 <li>simple operations using ideas found on the web</li>
-                <li>Java <b>Spring Boot</b> project on the backend</li>
+                <li>Java Spring Boot project on the backend</li>
                 <li>uses working Java code (<ph conkeyref = "gen/ref-leadin"/> <xref
                         href="sdk/sdk-xmen.dita"/>.) </li>
-                <li><b>Postman</b> used to test the requests and confirm the responses (<ph
+                <li>Postman used to test the requests and confirm the responses (<ph
                         conkeyref="gen/ref-leadin"/>
                     <xref href="../api-testing-postman.dita"/>.) </li>
             </ul>

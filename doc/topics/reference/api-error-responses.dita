@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-error-responses">
-    <title>Error Responses</title>
+    <title>HTTP Response Status Codes</title>
     <body>
-        <section>
-            <title>200</title>
-            <p>Standard response for a successful HTTP request. The actual response will depend on
-                the request method used. Refer to the applicable resource section for specific 200
-                response message.</p>
+        
+   <!--     <section>
+            <title><codeph>200 OK</codeph></title>
+            <p>This is the standard response for a successful HTTP request. The actual message will
+                depend on the request method used. Refer to the applicable resource section for
+                specific <codeph>200</codeph> status code.</p>
         </section>
 
         <section>
@@ -155,6 +156,6 @@
 }          </codeblock>
             </p>
         </section>
-
+-->
     </body>
 </topic>
