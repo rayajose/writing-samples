@@ -5,10 +5,10 @@
 
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
     <mapref href="glossary.ditamap" processing-role="resource-only"/>
-    
-    <topicref href="topics/reference/api-my-rest-api.dita" chunk="to-content">       
-        <topicref href="topics/reference/api-ref-doc-authentication.dita"/>       
-        <topicref href="topics/reference/api-res-uri.dita"/>      
+
+    <topicref href="topics/reference/api-my-rest-api.dita" chunk="to-content">
+        <topicref href="topics/reference/api-ref-doc-authentication.dita"/>
+        <topicref href="topics/reference/api-res-uri.dita"/>
         <topicref href="topics/reference/xmen/api-res-xmen.dita">
             <topicref href="topics/reference/xmen/api-res-xmen-properties.dita"/>
             <topicref href="topics/reference/xmen/api-res-xmen-endpoints.dita">
@@ -69,7 +69,7 @@
                 </topicref>
             </topicref>
         </topicref>
-        
+
         <topicref href="topics/reference/needles/api-res-needles.dita">
             <topicref href="topics/reference/needles/api-res-needles-properties.dita"/>
             <topicref href="topics/reference/needles/api-res-needles-endpoints.dita">
@@ -100,32 +100,31 @@
             </topicref>
             <topicref href="topics/reference/needles/api-res-needles-response.dita"/>
         </topicref>
-        
-        
-        
+
+
+
         <topicref href="topics/reference/api-error-responses.dita"/>
-        
+
     </topicref>
 
     <topicref href="topics/reference/sdk/sdk-xmen.dita" chunk="to-content">
-       
-            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController.dita">
-                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController-fields.dita"/>
-                <topicref
-                    href="topics/reference/sdk/sdk-xmen-classes-xmenController-methodSummary.dita"/>
-                <topicref
-                    href="topics/reference/sdk/sdk-xmen-classes-xmenController-methodDetails.dita"/>
-            </topicref>
-            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen.dita">
-                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-fields.dita"/>
-                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-methodSummary.dita"/>
-                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-methodDetails.dita"/>
-                <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-usage-example.dita"/>
-            </topicref>
-       
+        <topicref href="topics/reference/sdk/sdk-xmen-classes-herosApplication.dita"/>
+        <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen.dita">
+            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-fields.dita"/>
+            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-methodSummary.dita"/>
+            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-methodDetails.dita"/>
+            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmen-usage-example.dita"/>
+        </topicref>
+        <topicref href="topics/reference/sdk/sdk-xmen-interface-xmenRepository.dita"/>
+        <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController.dita">
+            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController-fields.dita"/>
+            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController-methodSummary.dita"/>
+            <topicref href="topics/reference/sdk/sdk-xmen-classes-xmenController-methodDetails.dita"
+            />
+        </topicref>       
     </topicref>
 
-    
+
 
 
 </map>

@@ -3,10 +3,28 @@
 <topic id="sdk-xmen-classes-xmen">
     <title>Xmen Class</title>
     <body>
-        <p>The <codeph>Xmen</codeph> class represents Xmen entities in a
-                <codeph>JpaRepository</codeph> using Java Persistence API (JPA). The class is mapped
-            to the <codeph>XmenRepository</codeph> database table, with fields representing details
-            such as the character's real name, hero name, powers, debut, and creator. </p>
+        <p>The <codeph>Xmen</codeph> class provides methods for creating X-men entities in the
+            database. An X-men entity has following properties:</p>
+        <ul>
+            <li>
+                <p><codeph>id</codeph></p>
+            </li>
+            <li>
+                <p><codeph>name</codeph></p>
+            </li>
+            <li>
+                <p><codeph>heroName</codeph></p>
+            </li>
+            <li>
+                <p><codeph>power</codeph></p>
+            </li>
+            <li>
+                <p><codeph>debut</codeph></p>
+            </li>
+            <li>
+                <p><codeph>creator</codeph></p>
+            </li>
+        </ul>
         <p>
             <codeblock>package marvel.heros;
                 

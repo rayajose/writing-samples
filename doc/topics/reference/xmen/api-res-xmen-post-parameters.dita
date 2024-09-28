@@ -22,7 +22,8 @@
                         <row>
                             <entry>Content-Type</entry>
                             <entry>String</entry>
-                            <entry>Use <codeph>application/json</codeph>.</entry>
+                            <entry>The media type of the resource sent in the HTTP message body. Use
+                                    <codeph>application/json</codeph>.</entry>
                         </row>
                         <row valign="top">
                             <entry>API-KEY</entry>

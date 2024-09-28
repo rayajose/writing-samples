@@ -20,7 +20,7 @@
                         <entry><codeph>xMenRepository</codeph></entry>
                         <entry><codeph>XmenRepository</codeph></entry>
                         <entry>Manages the interaction with the data source for X-Men
-                            records.</entry>
+                            entities.</entry>
                     </row>
                 </tbody>
             </tgroup>

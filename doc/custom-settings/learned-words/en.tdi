@@ -2,9 +2,12 @@ ActiveDirectory
 Cryptoperiods
 DevOps
 HashiCorp
+IllegalArgumentException
 NodeJs
 Onboarding
 RESTful
+XmenController
+XmenRepository
 backend
 cURL
 checkbox
@@ -12,6 +15,7 @@ cleartext
 combobox
 crypto-enabled
 cryptoperiod
+heroName
 lifecycle
 onboardings
 passphrase

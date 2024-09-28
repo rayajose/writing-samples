@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sdk-xmen-interface-xmenRepository">
+    <title>XmenRepository Interface</title>
+    <body>
+        <p>The <codeph>XmenRepository</codeph> interface provides a way to interact with the
+            database. As it extends the <codeph>JpaRepository</codeph>, it offers a set of built-in
+            methods for common database operations, such as saving, updating, deleting, and finding
+            entities.</p>
+        <p>
+            <codeblock>package marvel.heros;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+    public interface XmenRepository extends JpaRepository&lt;Xmen, Short> {
+}          </codeblock>
+        </p>
+
+        <p>Methods inherited from <codeph>JpaRepository</codeph> in use by <codeph><xref
+                    href="sdk-xmen-classes-xmenController.dita">XmenController</xref></codeph>.</p>
+
+        <table rowsep="1">
+            <tgroup cols="6" align="left">
+                <colspec colname="c1" colnum="1" colwidth="6cm" align="left"/>
+                <colspec colname="c2" colnum="2" colwidth="6cm" align="left"/>
+                <colspec colname="c3" colnum="3" colwidth="6cm" align="left"/>
+                <colspec colname="c4" colnum="4" colwidth="8cm" align="left"/>
+                <colspec colname="c5" colnum="5" colwidth="8cm" align="left"/>
+                <colspec colname="c6" colnum="6" colwidth="8cm" align="left"/>
+                <thead>
+                    <row>
+                        <entry>Modifier and Type</entry>
+                        <entry>Method</entry>
+                        <entry>Parameters</entry>
+                        <entry>Returns</entry>
+                        <entry>Throws</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><codeph>List&lt;T&gt;</codeph></entry>
+                        <entry><codeph>findAll()</codeph></entry>
+                        <entry>none</entry>
+                        <entry>all entities</entry>
+                        <entry>not applicable</entry>
+                        <entry>Returns all instances of the type.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>Optional&lt;T&gt;</codeph></entry>
+                        <entry><codeph>findById(ID id)</codeph></entry>
+                        <entry><codeph>id</codeph> - must not be null.</entry>
+                        <entry>the entity with the given <codeph>id</codeph></entry>
+                        <entry>IllegalArgumentException - if <codeph>id</codeph> is null.</entry>
+                        <entry>Retrieves an entity by its <codeph>id</codeph>.</entry>
+                    </row>
+                    <row>
+                        <entry><codeph>&lt;S extends T&gt; S</codeph></entry>
+                        <entry><codeph>save(S entity)</codeph></entry>
+                        <entry><codeph>entity</codeph> - must not be null.</entry>
+                        <entry>the saved entity; will never be null.</entry>
+                        <entry>IllegalArgumentException - in case the given entity is null.</entry>
+                        <entry>Saves a given entity. </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+
+    </body>
+</topic>
