@@ -1,0 +1,1 @@
+var htmlFileInfoList = ["cshelp.html@@@Context Sensitive Help@@@...","product-data-basic.html@@@Basic product data@@@The product information you submit using these attributes is the foundation for creating successful ads and free listings for your products. Make sure everything you submit is of the quality you&apos;d..."];

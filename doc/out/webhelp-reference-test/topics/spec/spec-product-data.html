@@ -1,0 +1,465 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-whc_version="26.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="Use this specification to format product catalog data for the Shop with Points® shopping site. The Shop with Points® system will import this data for display and order placement on the site. Card ..."/><meta name="DC.rights.owner" content="(C) Copyright 2024"/><meta name="copyright" content="(C) Copyright 2024"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="dita"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="spec-product-data"/><title>Product data specification</title><!--  Generated with Oxygen version 26.1, build number 2024072909.  --><meta name="wh-path2root" content="../../"/><meta name="wh-toc-id" content="spec-product-data-d220e70"/><meta name="wh-source-relpath" content="topics/spec/spec-product-data.dita"/><meta name="wh-out-relpath" content="topics/spec/spec-product-data.html"/>
+
+    <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/commons.css?buildId=2024072909"/>
+    <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic.css?buildId=2024072909"/>
+
+    <script src="../../oxygen-webhelp/app/options/properties.js?buildId=20240929152611"></script>
+    <script src="../../oxygen-webhelp/app/localization/strings.js?buildId=2024072909"></script>
+    <script src="../../oxygen-webhelp/app/search/index/keywords.js?buildId=20240929152611"></script>
+    <script defer="defer" src="../../oxygen-webhelp/app/commons.js?buildId=2024072909"></script>
+    <script defer="defer" src="../../oxygen-webhelp/app/topic.js?buildId=2024072909"></script>
+<link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/oxygen.css?buildId=2024072909"/><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/notes.css?buildId=2024072909"/><link rel="stylesheet" type="text/css" href="../../webhelp.css"/></head>
+
+    <body class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="title">Policy Doc</span></a></div>
+                    
+                </div>
+                
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="spec-product-data-d220e70-mi" data-tocid="spec-product-data-d220e70" data-state="not-ready" class=" topicref " data-id="spec-product-data"><span class="title"><a href="../../topics/spec/spec-product-data.html">Product data specification</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="../../index.html"><span>Home</span></a></span></li><li class="active"><div class="topicref" data-id="spec-product-data"><div class="title"><a href="../../topics/spec/spec-product-data.html">Product data specification</a></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                    
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12" id="wh_topic_body">
+                        
+                        <button id="wh_close_topic_toc_button" class="close-toc-button d-none" aria-label="Toggle topic table of content" aria-controls="wh_topic_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article class="" role="article" aria-labelledby="ariaid-title1"><article class="nested0" aria-labelledby="ariaid-title1" id="spec-product-data">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Product data specification</h1>
+    <div class="- topic/body body">
+        <p class="- topic/p p">Use this specification to format product catalog data for the <span class="- topic/ph ph">Shop with Points®</span> shopping site. The <span class="- topic/ph ph">Shop with Points®</span> system will import this data for display and
+            order placement on the site. Card members will directly interact with this data to make
+            purchase decisions.</p>
+    </div>
+<article class="- topic/topic topic nested1" aria-labelledby="ariaid-title2" id="data-product-basic">
+    <h2 class="- topic/title title topictitle2" id="ariaid-title2">Product data</h2>
+    <div class="- topic/body body">
+
+        <p class="- topic/p p">This is the primary information for product display and order placement on the site. </p>
+        <div class="table-container"><table class="- topic/table table frame-all" data-cols="3"><caption></caption><colgroup><col style="width:5cm"/><col style="width:10cm"/><col style="width:10cm"/></colgroup><thead class="- topic/thead thead">
+                    <tr class="- topic/row">
+                        <th class="- topic/entry entry align-left colsep-1 rowsep-1" id="data-product-basic__entry__1">Field</th>
+                        <th class="- topic/entry entry align-left colsep-1 rowsep-1" id="data-product-basic__entry__2">Format</th>
+                        <th class="- topic/entry entry align-left colsep-0 rowsep-1" id="data-product-basic__entry__3">Description</th>
+                    </tr>
+                </thead><tbody class="- topic/tbody tbody">
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__1"><p class="- topic/p p">id</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__2">
+                            <p class="- topic/p p required">Required</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Max 50 characters</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">GC001</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-product-basic__entry__3"><p class="- topic/p p">The product unique product identifier</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__1"><p class="- topic/p p">title</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__2">
+                            <p class="- topic/p p required">Required</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Max 50 characters</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">Good Clean Skin Care Lotion</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-product-basic__entry__3"><p class="- topic/p p">The product name</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__1"><p class="- topic/p p">description</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__2">
+                            <p class="- topic/p p required">Required</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Plain Text. Max 5000 characters</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <div class="- topic/p p"><pre class="+ topic/pre pr-d/codeblock pre codeblock"><code>Certified organic &amp; water-based 
+lotion is pH-balanced
+while helping you enhance your 
+skin's health. Made with aloe
+vera and infused with lemon 
+and vanilla. 1.5FL OZ</code></pre></div>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-product-basic__entry__3"><p class="- topic/p p">The product's description</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__1"><p class="- topic/p p">formatted description</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__2">
+                            <p class="- topic/p p optional">Optional</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Plain Text. Max 5000 characters</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <div class="- topic/p p"><pre class="+ topic/pre pr-d/codeblock pre codeblock"><code>&lt;p&gt;Certified organic &amp; water-based 
+lotion is pH-balanced 
+while helping you enhance your 
+skin's health. Made
+with aloe vera and infused with 
+lemon and vanilla.&lt;/p&gt;
+&lt;p&gt;1.5FL OZ&lt;/p&gt;</code></pre></div>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-product-basic__entry__3"><p class="- topic/p p">The formatted product description</p><p class="- topic/p p">This is the preferred format if it can be provided in the feed. It will help our product pages
+                                mirror partner product pages more closely.</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__1"><p class="- topic/p p">product url</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__2">
+                            <p class="- topic/p p required">Required</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">http://www.example.com/products/id</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-product-basic__entry__3"><p class="- topic/p p">The URL to the website product details page</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__1"><p class="- topic/p p">image url</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__2">
+                            <p class="- topic/p p required">Required</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">http:// www.example.com/images/image-main.jpg</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-product-basic__entry__3"><p class="- topic/p p">The URL to the main product image</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__1"><p class="- topic/p p">additional image url</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__2">
+                            <p class="- topic/p p optional">Optional</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">http://
+                                    www.example.com/images/image-additional-01.jpg</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-product-basic__entry__3"><p class="- topic/p p">The URL to additional product images</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__1"><p class="- topic/p p">color</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__2">
+                            <p class="- topic/p p optional">Optional</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Max 100 alphanumeric characters (max 40 characters per color)</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">Turquoise</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-product-basic__entry__3"><p class="- topic/p p">The product color</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__1"><p class="- topic/p p">size</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__2">
+                            <p class="- topic/p p optional">Optional</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Max 100 characters</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">XS</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-product-basic__entry__3"><p class="- topic/p p">The product size</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__1"><p class="- topic/p p">item group id</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-basic__entry__2">
+                            <p class="- topic/p p"><span class="- topic/ph ph required">Required</span> when variants are intended
+                                to roll-up on a single product page.</p>
+                            <p class="- topic/p p"><span class="- topic/ph ph optional">Optional</span> when variants are intended
+                                to display on a separate product pages.</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Max 50 alphanumeric characters</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">AB12345</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-product-basic__entry__3"><p class="- topic/p p">ID for a group of products that come in different versions
+                                (variants)</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-0" headers="data-product-basic__entry__1"><p class="- topic/p p">weight</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-0" headers="data-product-basic__entry__2">
+                            <p class="- topic/p p"><span class="- topic/ph ph required">Required</span> when weight-based shipping
+                                will be calculated by the <span class="- topic/ph ph">Shop with Points®</span>
+                                site.</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Number + unit</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">12 oz</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="data-product-basic__entry__3"><p class="- topic/p p">The product weight</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Supported units</strong></p>
+                            <ul class="- topic/ul ul">
+                                <li class="- topic/li li">
+                                    <p class="- topic/p p">lb</p>
+                                </li>
+                                <li class="- topic/li li">
+                                    <p class="- topic/p p">oz</p>
+                                </li>
+                                <li class="- topic/li li">
+                                    <p class="- topic/p p">g</p>
+                                </li>
+                                <li class="- topic/li li">
+                                    <p class="- topic/p p">kg</p>
+                                </li>
+                            </ul></td>
+                    </tr>
+                </tbody></table></div>
+    </div>
+</article><article class="- topic/topic topic nested1" aria-labelledby="ariaid-title3" id="data-price-availability">
+    <h2 class="- topic/title title topictitle2" id="ariaid-title3">Price and availability</h2>
+    <div class="- topic/body body">
+
+        <p class="- topic/p p">These attributes define product price and availability. This information is visible to
+            potential customers.</p>
+        <div class="table-container"><table class="- topic/table table frame-all" data-cols="3"><caption></caption><colgroup><col style="width:5cm"/><col style="width:10cm"/><col style="width:10cm"/></colgroup><thead class="- topic/thead thead">
+                    <tr class="- topic/row">
+                        <th class="- topic/entry entry align-left colsep-1 rowsep-1" id="data-price-availability__entry__1">Field</th>
+                        <th class="- topic/entry entry align-left colsep-1 rowsep-1" id="data-price-availability__entry__2">Format</th>
+                        <th class="- topic/entry entry align-left colsep-0 rowsep-1" id="data-price-availability__entry__3">Description</th>
+                    </tr>
+                </thead><tbody class="- topic/tbody tbody">
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-price-availability__entry__1"><p class="- topic/p p">availability</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-price-availability__entry__2">
+                            <p class="- topic/p p required">Required</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p">
+                                <code class="+ topic/ph pr-d/codeph ph codeph">in stock</code>
+                            </p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-price-availability__entry__3"><p class="- topic/p p">The product availability</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Typical values</strong></p>
+                            <ul class="- topic/ul ul">
+                                <li class="- topic/li li">
+                                    <p class="- topic/p p">in stock</p>
+                                </li>
+                                <li class="- topic/li li">
+                                    <p class="- topic/p p">out of stock</p>
+                                </li>
+                                <li class="- topic/li li">
+                                    <p class="- topic/p p">yes</p>
+                                </li>
+                                <li class="- topic/li li">
+                                    <p class="- topic/p p">no</p>
+                                </li>
+                            </ul></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-price-availability__entry__1"><p class="- topic/p p">availability date</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-price-availability__entry__2">
+                            <p class="- topic/p p"><span class="- topic/ph ph required">Required</span> when products will be made
+                                available for pre-order.</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Max 25 alphanumeric characters</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p">
+                                <code class="+ topic/ph pr-d/codeph ph codeph">YYYY-MM-DDThh:mm [+hhmm]</code>
+                            </p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-price-availability__entry__3"><p class="- topic/p p">The product availability date (when the product can ship)</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-price-availability__entry__1"><p class="- topic/p p">price</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-price-availability__entry__2">
+                            <p class="- topic/p p required">Required</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Numeric</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">27.00</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-price-availability__entry__3"><p class="- topic/p p">The product price</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-price-availability__entry__1"><p class="- topic/p p">sale price</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-price-availability__entry__2">
+                            <p class="- topic/p p required">Required</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Numeric</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">19.00</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-price-availability__entry__3"><p class="- topic/p p">The product sale price</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-0" headers="data-price-availability__entry__1"><p class="- topic/p p">minimum price</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-0" headers="data-price-availability__entry__2">
+                            <p class="- topic/p p"><span class="- topic/ph ph required">Required </span> if limiting sale price
+                                suggestions to a minimum price e.g. to comply with local pricing
+                                laws or to indicate a MAP (minimum advertised price).</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">19.00</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="data-price-availability__entry__3"><p class="- topic/p p">The product minimum price</p></td>
+                    </tr>
+                </tbody></table></div>
+
+    </div>
+</article><article class="- topic/topic topic nested1" aria-labelledby="ariaid-title4" id="data-product-identifiers">
+    <h2 class="- topic/title title topictitle2" id="ariaid-title4">Product identifiers</h2>
+    <div class="- topic/body body">
+
+        <p class="- topic/p p">These attributes define the products you're selling in the global marketplace.</p>
+        <div class="table-container"><table class="- topic/table table frame-all" data-cols="3"><caption></caption><colgroup><col style="width:5cm"/><col style="width:10cm"/><col style="width:10cm"/></colgroup><thead class="- topic/thead thead">
+                    <tr class="- topic/row">
+                        <th class="- topic/entry entry align-left colsep-1 rowsep-1" id="data-product-identifiers__entry__1">Field</th>
+                        <th class="- topic/entry entry align-left colsep-1 rowsep-1" id="data-product-identifiers__entry__2">Format</th>
+                        <th class="- topic/entry entry align-left colsep-0 rowsep-1" id="data-product-identifiers__entry__3">Description</th>
+                    </tr>
+                </thead><tbody class="- topic/tbody tbody">
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-identifiers__entry__1"><p class="- topic/p p">brand</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-identifiers__entry__2">
+                            <p class="- topic/p p required">Required</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Max 70 characters</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">Good Clean</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-product-identifiers__entry__3"><p class="- topic/p p">The product brand name</p></td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-identifiers__entry__1"><p class="- topic/p p">gtin</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-1" headers="data-product-identifiers__entry__2">
+                            <p class="- topic/p p required">Required</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Max 50 numeric characters</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p"><code class="+ topic/ph pr-d/codeph ph codeph">3234567890126</code></p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-1" headers="data-product-identifiers__entry__3"><p class="- topic/p p">The product Global Trade Item Number (GTIN)</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Supported formats</strong></p>
+                            <ul class="- topic/ul ul">
+                                <li class="- topic/li li">
+                                    <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">UPC (in North America / GTIN-12)</strong> 12-digit number like
+                                        323456789012, 8-digit UPC-E codes should be converted to
+                                        12-digit codes</p>
+                                </li>
+                                <li class="- topic/li li">
+                                    <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">EAN (in Europe / GTIN-13)</strong> 13-digit number like
+                                        3001234567892</p>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="- topic/row">
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-0" headers="data-product-identifiers__entry__1"><p class="- topic/p p">mpn</p></td>
+                        <td class="- topic/entry entry align-left colsep-1 rowsep-0" headers="data-product-identifiers__entry__2">
+                            <p class="- topic/p p"><span class="- topic/ph ph required">Required</span> if your product does not
+                                have a manufacturer assigned GTIN</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Format</strong></p>
+                            <p class="- topic/p p">Plain Text. Max 5000 characters</p>
+                            <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">Example</strong></p>
+                            <p class="- topic/p p">
+                                <code class="+ topic/ph pr-d/codeph ph codeph">ACME010000123</code>
+                            </p>
+                        </td>
+                        <td class="- topic/entry entry align-left colsep-0 rowsep-0" headers="data-product-identifiers__entry__3"><p class="- topic/p p">The product Manufacturer Part Number (MPN)</p></td>
+                    </tr>
+                </tbody></table></div>
+
+    </div>
+</article></article></article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                        <nav role="navigation" id="wh_topic_toc" aria-label="On this page" class="col-lg-2 d-none d-lg-block navbar d-print-none"> 
+                            <div id="wh_topic_toc_content">
+		                        
+	                            <div class=" wh_topic_toc "><div class="wh_topic_label">On this page</div><ul><li class="topic-item"><a href="#data-product-basic" data-tocid="data-product-basic">Product data</a></li><li class="topic-item"><a href="#data-price-availability" data-tocid="data-price-availability">Price and availability</a></li><li class="topic-item"><a href="#data-product-identifiers" data-tocid="data-product-identifiers">Product identifiers</a></li></ul></div>
+	                        	
+                        	</div>
+                        </nav>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container mx-auto ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank" rel="noopener">&lt;oXygen/&gt; XML WebHelp</a> - Evaluation Version
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

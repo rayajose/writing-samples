@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="data-product-basic">
+    <title>Product data</title>
+    <body>
+
+        <p>This is the primary information for product display and order placement on the site. </p>
+        <table colsep="1" rowsep="1" frame="all">
+            <tgroup cols="3" align="left">
+                <colspec colname="c1" colnum="1" colwidth="5cm" align="left"/>
+                <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                <colspec colname="c4" colnum="3" colwidth="10cm" align="left"/>
+                <thead>
+                    <row>
+                        <entry>Field</entry>
+                        <entry>Format</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><p>id</p></entry>
+                        <entry>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Max 50 characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>GC001</codeph></p>
+                        </entry>
+                        <entry><p>The product unique product identifier</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>title</p></entry>
+                        <entry>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Max 50 characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>Good Clean Skin Care Lotion</codeph></p>
+                        </entry>
+                        <entry><p>The product name</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>description</p></entry>
+                        <entry>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Plain Text. Max 5000 characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeblock>Certified organic &amp; water-based 
+lotion is pH-balanced
+while helping you enhance your 
+skin's health. Made with aloe
+vera and infused with lemon 
+and vanilla. 1.5FL OZ</codeblock></p>
+                        </entry>
+                        <entry><p>The product's description</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>formatted description</p></entry>
+                        <entry>
+                            <p outputclass="optional">Optional</p>
+                            <p><b>Format</b></p>
+                            <p>Plain Text. Max 5000 characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeblock>&lt;p&gt;Certified organic &amp; water-based 
+lotion is pH-balanced 
+while helping you enhance your 
+skin's health. Made
+with aloe vera and infused with 
+lemon and vanilla.&lt;/p&gt;
+&lt;p&gt;1.5FL OZ&lt;/p&gt;</codeblock></p>
+                        </entry>
+                        <entry><p>The formatted product description</p><p>This is the preferred format if it can be provided in the feed. It will help our product pages
+                                mirror partner product pages more closely.</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>product url</p></entry>
+                        <entry>
+                            <p outputclass="required">Required</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>http://www.example.com/products/id</codeph></p>
+                        </entry>
+                        <entry><p>The URL to the website product details page</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>image url</p></entry>
+                        <entry>
+                            <p outputclass="required">Required</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>http:// www.example.com/images/image-main.jpg</codeph></p>
+                        </entry>
+                        <entry><p>The URL to the main product image</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>additional image url</p></entry>
+                        <entry>
+                            <p outputclass="optional">Optional</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>http://
+                                    www.example.com/images/image-additional-01.jpg</codeph></p>
+                        </entry>
+                        <entry><p>The URL to additional product images</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>color</p></entry>
+                        <entry>
+                            <p outputclass="optional">Optional</p>
+                            <p><b>Format</b></p>
+                            <p>Max 100 alphanumeric characters (max 40 characters per color)</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>Turquoise</codeph></p>
+                        </entry>
+                        <entry><p>The product color</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>size</p></entry>
+                        <entry>
+                            <p outputclass="optional">Optional</p>
+                            <p><b>Format</b></p>
+                            <p>Max 100 characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>XS</codeph></p>
+                        </entry>
+                        <entry><p>The product size</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>item group id</p></entry>
+                        <entry>
+                            <p><ph outputclass="required">Required</ph> when variants are intended
+                                to roll-up on a single product page.</p>
+                            <p><ph outputclass="optional">Optional</ph> when variants are intended
+                                to display on a separate product pages.</p>
+                            <p><b>Format</b></p>
+                            <p>Max 50 alphanumeric characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>AB12345</codeph></p>
+                        </entry>
+                        <entry><p>ID for a group of products that come in different versions
+                                (variants)</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>weight</p></entry>
+                        <entry>
+                            <p><ph outputclass="required">Required</ph> when weight-based shipping
+                                will be calculated by the <ph conkeyref="gen/shop-with-points"/>
+                                site.</p>
+                            <p><b>Format</b></p>
+                            <p>Number + unit</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>12 oz</codeph></p>
+                        </entry>
+                        <entry><p>The product weight</p>
+                            <p><b>Supported units</b></p>
+                            <ul>
+                                <li>
+                                    <p>lb</p>
+                                </li>
+                                <li>
+                                    <p>oz</p>
+                                </li>
+                                <li>
+                                    <p>g</p>
+                                </li>
+                                <li>
+                                    <p>kg</p>
+                                </li>
+                            </ul></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>
+<!-- 
+<row>
+<entry>foo</entry>
+<entry>
+<p outputclass="required">Required</p>
+<p outputclass="optional">Optional</p>
+<p><b>Format</b></p>
+<p>foo</p>
+<p><b>Example</b></p>
+<p><codeph>foo</codeph></p>
+</entry>
+<entry><p>foo</p></entry>
+</row>
+
+-->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="spec-product-data">
+    <title>Product data specification</title>
+    <body>
+        <p>Use this specification to format product catalog data for the <ph
+                conkeyref="gen/shop-with-points"/> shopping site. The <ph
+                conkeyref="gen/shop-with-points"/> system will import this data for display and
+            order placement on the site. Card members will directly interact with this data to make
+            purchase decisions.</p>
+    </body>
+</topic>

@@ -1,15 +1,23 @@
 pre {
-    background-color: #686262;
-    color: #b7ef9b;
+    background-color: #e8e8e8;
+    color: #24609c;
     font-size: 10pt;
 }
 
 code {
-    background-color: #686262;
+    background-color: #e8e8e8;
 }
 
 .codeph {
-    background-color: transparent;
-    color: #686262;
+    background-color: #e8e8e8;
+    color: #24609c;
     font-size: 10pt;
+}
+.required{
+    color: red;
+    font-weight: bold;
+}
+.optional{
+    color:orange;
+    font-weight: bold;
 }

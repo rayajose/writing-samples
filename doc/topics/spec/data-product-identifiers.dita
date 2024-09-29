@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="data-product-identifiers">
+    <title>Product identifiers</title>
+    <body>
+
+        <p>These attributes define the products you're selling in the global marketplace.</p>
+        <table colsep="1" rowsep="1" frame="all">
+            <tgroup cols="3" align="left">
+                <colspec colname="c1" colnum="1" colwidth="5cm" align="left"/>
+                <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                <colspec colname="c4" colnum="3" colwidth="10cm" align="left"/>
+                <thead>
+                    <row>
+                        <entry>Field</entry>
+                        <entry>Format</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><p>brand</p></entry>
+                        <entry>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Max 70 characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>Good Clean</codeph></p>
+                        </entry>
+                        <entry><p>The product brand name</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>gtin</p></entry>
+                        <entry>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Max 50 numeric characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>3234567890126</codeph></p>
+                        </entry>
+                        <entry><p>The product Global Trade Item Number (GTIN)</p>
+                            <p><b>Supported formats</b></p>
+                            <ul>
+                                <li>
+                                    <p><b>UPC (in North America / GTIN-12)</b> 12-digit number like
+                                        323456789012, 8-digit UPC-E codes should be converted to
+                                        12-digit codes</p>
+                                </li>
+                                <li>
+                                    <p><b>EAN (in Europe / GTIN-13)</b> 13-digit number like
+                                        3001234567892</p>
+                                </li>
+                            </ul>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>mpn</p></entry>
+                        <entry>
+                            <p><ph outputclass="required">Required</ph> if your product does not
+                                have a manufacturer assigned GTIN</p>
+                            <p><b>Format</b></p>
+                            <p>Plain Text. Max 5000 characters</p>
+                            <p><b>Example</b></p>
+                            <p>
+                                <codeph>ACME010000123</codeph>
+                            </p>
+                        </entry>
+                        <entry><p>The product Manufacturer Part Number (MPN)</p></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+
+    </body>
+</topic>

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="sdk-xmen" path="topics/reference/sdk/sdk-xmen.html"/>
-   <appContext helpID="sdk-xmen-classes"
-               path="topics/reference/sdk/sdk-xmen-classes.html"/>
-   <appContext helpID="sdk-xmen-classes-xmenController"
-               path="topics/reference/sdk/sdk-xmen-classes-xmenController.html"/>
-   <appContext helpID="sdk-xmen-classes-xmenController-methodSummary"
-               path="topics/reference/sdk/sdk-xmen-classes-xmenController-methodSummary.html"/>
-   <appContext helpID="sdk-xmen-classes-xmenController-methodDetails"
-               path="topics/reference/sdk/sdk-xmen-classes-xmenController-methodDetails.html"/>
+   <appContext helpID="spec-product-data" path="topics/spec/spec-product-data.html"/>
+   <appContext helpID="data-product-basic"
+               path="topics/spec/spec-product-data.html#data-product-basic"/>
+   <appContext helpID="data-price-availability"
+               path="topics/spec/spec-product-data.html#data-price-availability"/>
+   <appContext helpID="data-product-identifiers"
+               path="topics/spec/spec-product-data.html#data-product-identifiers"/>
 </map>

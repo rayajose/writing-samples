@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="data-price-availability">
+    <title>Price and availability</title>
+    <body>
+
+        <p>These attributes define product price and availability. This information is visible to
+            potential customers.</p>
+        <table colsep="1" rowsep="1" frame="all">
+            <tgroup cols="3" align="left">
+                <colspec colname="c1" colnum="1" colwidth="5cm" align="left"/>
+                <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                <colspec colname="c4" colnum="3" colwidth="10cm" align="left"/>
+                <thead>
+                    <row>
+                        <entry>Field</entry>
+                        <entry>Format</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><p>availability</p></entry>
+                        <entry>
+                            <p outputclass="required">Required</p>
+                            <p><b>Example</b></p>
+                            <p>
+                                <codeph>in stock</codeph>
+                            </p>
+                        </entry>
+                        <entry><p>The product availability</p>
+                            <p><b>Typical values</b></p>
+                            <ul>
+                                <li>
+                                    <p>in stock</p>
+                                </li>
+                                <li>
+                                    <p>out of stock</p>
+                                </li>
+                                <li>
+                                    <p>yes</p>
+                                </li>
+                                <li>
+                                    <p>no</p>
+                                </li>
+                            </ul></entry>
+                    </row>
+                    <row>
+                        <entry><p>availability date</p></entry>
+                        <entry>
+                            <p><ph outputclass="required">Required</ph> when products will be made
+                                available for pre-order.</p>
+                            <p><b>Format</b></p>
+                            <p>Max 25 alphanumeric characters</p>
+                            <p><b>Example</b></p>
+                            <p>
+                                <codeph>YYYY-MM-DDThh:mm [+hhmm]</codeph>
+                            </p>
+                        </entry>
+                        <entry><p>The product availability date (when the product can ship)</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>price</p></entry>
+                        <entry>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Numeric</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>27.00</codeph></p>
+                        </entry>
+                        <entry><p>The product price</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>sale price</p></entry>
+                        <entry>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Numeric</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>19.00</codeph></p>
+                        </entry>
+                        <entry><p>The product sale price</p></entry>
+                    </row>
+                    <row>
+                        <entry><p>minimum price</p></entry>
+                        <entry>
+                            <p><ph outputclass="required">Required </ph> if limiting sale price
+                                suggestions to a minimum price e.g. to comply with local pricing
+                                laws or to indicate a MAP (minimum advertised price).</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>19.00</codeph></p>
+                        </entry>
+                        <entry><p>The product minimum price</p></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+
+    </body>
+</topic>

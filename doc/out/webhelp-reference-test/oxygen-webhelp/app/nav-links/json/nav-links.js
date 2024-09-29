@@ -1,1 +1,1 @@
-define({"title":"<span class=\"title\">Reference Doc<\/span>","topics":[{"title":"SDK Reference","href":"topics\/reference\/sdk\/sdk-xmen.html","attributes":{"data-id":"sdk-xmen"},"menu":{"hasChildren":true},"tocID":"sdk-xmen-d219e62","next":"sdk-xmen-d219e62"}]});
+define({"title":"<span class=\"title\">Policy Doc<\/span>","topics":[{"title":"Product data specification","href":"topics\/spec\/spec-product-data.html","attributes":{"data-id":"spec-product-data"},"menu":{"hasChildren":true},"tocID":"spec-product-data-d220e70","next":"spec-product-data-d220e70"}]});

@@ -13,3 +13,11 @@ code {
     color: #24609c;
     font-size: 10pt;
 }
+.required{
+    color: red;
+    font-weight: bold;
+}
+.optional{
+    color:orange;
+    font-weight: bold;
+}
