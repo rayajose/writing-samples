@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="sdk-xmen-classes-herosApplication">
-    <title>HerosApplication Class</title>
+    <title>HerosApplication class</title>
     <body>
         <p>The <codeph>HerosApplication</codeph> class is the entry point for the Xmen REST
             resource. It must be running to make requests to the API.</p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="chg-mgt-partner-onboarding-proc-sys-init">
-    <title>Initialize the System</title>
+    <title>Initialize the system</title>
     <body>
         <p>After business and system requirements have been confirmed, the <ph
                 conkeyref="gen/merchant"/> must be initialized into our system. System
@@ -11,7 +11,7 @@
             <note conkeyref="gen/note-do-to-all-env" id="note_jqc_25x_tcc"/>
         </p>
         <section>
-            <title>Import Product Data</title>
+            <title>Import product data</title>
             <p>Product data review cycle is complete and file delivery method is in place.</p>
             <ul>
                 <li>
@@ -20,7 +20,7 @@
             </ul>
         </section>
         <section>
-            <title>Implement the Order Placement Controller</title>
+            <title>Implement the order placement controller</title>
             <p>The development team has determined the <ph conkeyref="gen/merchant"/> order
                 placement service can be integrated. </p>
             <ul>
@@ -31,7 +31,7 @@
             </ul>
         </section>
         <section>
-            <title>Run a System Build</title>
+            <title>Run a system build</title>
             <p>The <ph conkeyref="gen/merchant"/> product data has been successfully loaded into the
                 system.</p>
             <ul>

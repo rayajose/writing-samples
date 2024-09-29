@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="chg-mgt-partner-onboarding-proc">
-    <title><ph conkeyref="gen/shop-with-points"/> Partner Onboarding</title>
+    <title><ph conkeyref="gen/shop-with-points"/> partner onboarding</title>
     <shortdesc>Process</shortdesc>
     <body>
         <section>
@@ -13,11 +13,29 @@
                 our system include the following:<ul>
                     <li>
                         <p>daily import of product catalog data from the <ph
-                                conkeyref="gen/merchant"/> system</p>
+                                conkeyref="gen/merchant"/> system<ul id="ul_pth_hfr_wcc">
+                                <li>
+                                    <p>partner products available on <ph
+                                            conkeyref="gen/shop-with-points"/> website for
+                                        purchase</p>
+                                </li>
+                                <li>
+                                    <p>enables monitoring of partner product pricing and
+                                        availability</p>
+                                </li>
+                            </ul></p>
                     </li>
                     <li>
                         <p>automated order placement into the <ph conkeyref="gen/merchant"/> system
-                        </p>
+                                <ul id="ul_ys4_rfr_wcc">
+                                <li>
+                                    <p>enables automated order placement with the partner system</p>
+                                </li>
+                                <li>
+                                    <p>establishes a sales channel with the partner for commission
+                                        tracking </p>
+                                </li>
+                            </ul></p>
                     </li>
                 </ul></p>
         </section>
@@ -28,12 +46,12 @@
                 onboardings are scheduled simultaneously, they are managed as separate projects. The
                     <ph conkeyref="gen/engagement-manager"/> will drive each project to completion.
                 Completion of an onboarding results in the <ph conkeyref="gen/merchant"/>'s product
-                catalog available on the shopping site for purchase. </p>
+                catalog available on the <ph conkeyref="gen/shop-with-points"/> site for purchase. </p>
         </section>
         <section>
             <title>Stakeholders</title>
-            <p>Members of these groups share a stake in this process and will also own the tasks
-                involved.</p>
+            <p>Members of these groups share a stake in this process and will also own corresponding
+                tasks.</p>
             <simpletable frame="all" relcolwidth="1.0* 5.67*" id="simpletable_fqx_bxw_tcc">
                 <strow>
                     <stentry><b>Client</b></stentry>

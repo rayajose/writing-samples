@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="participants">
-    <title>Management Team</title>
+    <title>Management team</title>
     <body>
         <section>
             <title>Members</title>
@@ -11,19 +11,19 @@
                     <p>Management</p>
                     <ul>
                         <li>
-                            <p><ph conkeyref = "gen/it-director"/></p>
+                            <p><ph conkeyref="gen/it-director"/></p>
                         </li>
                         <li>
-                            <p><ph conkeyref = "gen/marketing-director"/></p>
+                            <p><ph conkeyref="gen/marketing-director"/></p>
                         </li>
                         <li>
-                            <p><ph conkeyref = "gen/project-manager"/></p>
+                            <p><ph conkeyref="gen/project-manager"/></p>
                         </li>
                         <li>
-                            <p><ph conkeyref = "gen/engagement-manager"/></p>
+                            <p><ph conkeyref="gen/engagement-manager"/></p>
                         </li>
                         <li>
-                            <p><ph conkeyref = "gen/release-manager"/></p>
+                            <p><ph conkeyref="gen/release-manager"/></p>
                         </li>
                     </ul>
                 </li>
@@ -31,13 +31,13 @@
                     <p>Functional Areas</p>
                     <ul>
                         <li>
-                            <p><ph conkeyref = "gen/dev-lead"/></p>
+                            <p><ph conkeyref="gen/dev-lead"/></p>
                         </li>
                         <li>
-                            <p><ph conkeyref = "gen/test-lead"/></p>
+                            <p><ph conkeyref="gen/test-lead"/></p>
                         </li>
                         <li>
-                            <p><ph conkeyref = "gen/ops-lead"/></p>
+                            <p><ph conkeyref="gen/ops-lead"/></p>
                         </li>
                     </ul>
                 </li>
@@ -46,8 +46,9 @@
         <section>
             <title>Roles</title> 
             <p>Any team member can make a change request and provide input in the approval process.
-                However, official approval comes from the <ph conkeyref = "gen/client"/> and/or the <ph conkeyref = "gen/it-director"/>. Changes are
-                implemented by functional area team members.</p>
+                However, official approval comes from the <ph conkeyref="gen/client"/> and/or the
+                    <ph conkeyref="gen/it-director"/>. Changes are implemented by functional area
+                team members.</p>
             <note type="important">The Approver and Implementer of a change request cannot be the
                 same person.</note>
             <ul id="ul_bxt_1gw_tcc">
@@ -91,7 +92,7 @@
                             <entry/>
                         </row>
                         <row>
-                            <entry><ph conkeyref = "gen/it-director"/></entry>
+                            <entry><ph conkeyref="gen/it-director"/></entry>
                             <entry/>
                             <entry align="center">X</entry>
                             <entry/>

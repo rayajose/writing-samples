@@ -72,7 +72,7 @@
                         <row>
                             <entry>power</entry>
                             <entry>String</entry>
-                            <entry>The character’s power(s).</entry>
+                            <entry>The character’s powers.</entry>
                         </row>
                         <row>
                             <entry>debut</entry>
@@ -86,7 +86,7 @@
                         <row>
                             <entry>creator</entry>
                             <entry>String</entry>
-                            <entry>The character’s creator(s). Use commas to delimit multiple
+                            <entry>The character’s creators. Use commas to delimit multiple
                                 creators.</entry>
                         </row>
                     </tbody>

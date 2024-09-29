@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="sdk-xmen-classes-xmenController">
-    <title>XmenController Class</title>
+    <title>XmenController class</title>
     <body>
         <p>The <codeph>XmenController</codeph> class implements methods to perform operations on
             database entities through the <codeph>XmenRepository</codeph> interface. The methods in

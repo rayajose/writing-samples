@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="crypto-key-rotate-hashicorp-java">
-    <title>Rotating Keys</title>
+    <title>Rotating keys with Vault</title>
     <abstract><cite>PCI-DSS-V4-3.7.5 </cite></abstract>
     <taskbody>
         <prereq>

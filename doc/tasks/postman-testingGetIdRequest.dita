@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="postman-testingGetIdRequest">
-    <title>Testing GET/{id} Request</title>
+    <title>Testing the GET/{id} request</title>
     <taskbody>
         <prereq>
             <p

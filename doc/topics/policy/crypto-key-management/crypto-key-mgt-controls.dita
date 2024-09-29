@@ -4,17 +4,17 @@
     <title>Controls</title>
     <body>
         <section>
-            <title>Technical Controls</title>
+            <title>Technical controls</title>
             <!--<p>Description of controls like firewalls, encryption, access control mechanisms, and
         intrusion detection systems.</p>-->
         </section>
         <section>
-            <title>Administrative Controls</title>
+            <title>Administrative controls</title>
             <!--<p>Policies and procedures to manage security, such as employee training, incident response
         plans, and regular audits.</p>-->
         </section>
         <section>
-            <title>Physical Controls</title>
+            <title>Physical controls</title>
             <!--<p>Security of physical infrastructure, such as access to data centers, surveillance, and
         locks.</p>-->
         </section>

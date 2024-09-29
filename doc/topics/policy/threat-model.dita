@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="threat-model">
-    <title>Threat Model</title>
+    <title>Threat model</title>
     <body>
         <section>
             <title>Assets</title>
@@ -16,11 +16,11 @@
             <title>Risks</title>
             <p>In order of business risk: </p>
             <ol>
-                <li><xref href="infosec-threat-obtain-cc-data.dita">Obtain credit card account data</xref></li>
-                <li><xref href="infosec-threat-fraudelent-transactions.dita">Ability to make fraudulent transactions</xref></li>
-                <li><xref href="infosec-threat-obtain-pii.dita">Obtain other sensitive personal information</xref></li>
-                <li><xref href="infosec-threat-access-client-network.dita">Access to client network</xref></li>
-                <li><xref href="infosec-threat-denial-of-service.dita">Denial of service</xref></li>
+                <li><xref href="threat-model-obtain-cc-data.dita">Obtain credit card account data</xref></li>
+                <li><xref href="threat-model-fraudelent-transactions.dita">Ability to make fraudulent transactions</xref></li>
+                <li><xref href="threat-model-obtain-pii.dita">Obtain other sensitive personal information</xref></li>
+                <li><xref href="threat-model-access-client-network.dita">Access to client network</xref></li>
+                <li><xref href="threat-model-denial-of-service.dita">Denial of service</xref></li>
             </ol>
         </section>        
     </body>

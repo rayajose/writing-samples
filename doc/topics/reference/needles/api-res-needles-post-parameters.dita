@@ -55,7 +55,7 @@
                         <row>
                             <entry>needles</entry>
                             <entry>string array</entry>
-                            <entry>The word(s) to match.</entry>
+                            <entry>The words to match.</entry>
                         </row>
                     </tbody>
                 </tgroup>

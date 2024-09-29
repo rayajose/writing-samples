@@ -44,7 +44,7 @@
                     <row>
                         <entry><codeph>creator</codeph></entry>
                         <entry><codeph>String</codeph></entry>
-                        <entry>Name of the creator(s) of the X-men entity.</entry>
+                        <entry>Name of the creators of the X-men entity.</entry>
                     </row>
                 </tbody>
             </tgroup>

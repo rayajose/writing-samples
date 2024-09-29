@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="crypto-key-mgt-cryptoperiod">
-    <title>Cryptoperiod</title>
+    <title>Key cryptoperiod</title>
     <body>
         <section>
             <title><ph conkeyref="gen/pol-desc"/></title>

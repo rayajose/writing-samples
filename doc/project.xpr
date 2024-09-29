@@ -107,7 +107,7 @@
                     </entry>
                     <entry>
                         <String>keys.context</String>
-                        <String>${pdu}/samp-howto.ditamap</String>
+                        <String>${pdu}/samp-all.ditamap</String>
                     </entry>
                     <entry>
                         <String>scenario.associations</String>

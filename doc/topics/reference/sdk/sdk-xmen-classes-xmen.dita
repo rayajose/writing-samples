@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="sdk-xmen-classes-xmen">
-    <title>Xmen Class</title>
+    <title>Xmen class</title>
     <body>
         <p>The <codeph>Xmen</codeph> class provides methods for creating X-men entities in the
             database. An X-men entity has following properties:</p>

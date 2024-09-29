@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="chg-mgt-partner-onboarding-proc">
-    <title>Onboarding Process</title>
+    <title>Onboarding process</title>
     <body>
-        <p><b>Task Owner(s)</b>:<ul>
+        <p><b>Task Owners</b>:<ul>
                 <li>
                     <p><ph conkeyref="gen/engagement-manager"/></p>
                 </li>

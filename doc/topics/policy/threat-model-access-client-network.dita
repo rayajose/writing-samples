@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="access-client-network">
-    <title>Access to Client Network</title>
+    <title>Access to client network</title>
     <body>
          
         <section>
@@ -10,7 +10,7 @@
                 network through the company production environment.</p>
         </section>
         <section>
-            <title><ph conref="../reuse/reuse-content.dita#reuse-content/attack-vectors"/></title>
+            <title><ph conkeyref="gen/attack-vectors"/></title>
             <p><i>In order of risk: </i></p>
             <ul>
                 <li>Manipulation of data through Shop application (code vulnerability leading to
@@ -19,7 +19,7 @@
             <p> Manipulation of data sent through the Client Webservices </p>
         </section>
         <section>
-            <title><ph conref="../reuse/reuse-content.dita#reuse-content/counter-measures"/></title>
+            <title><ph conkeyref="gen/counter-measures"/></title>
             <p>This vector is largely mitigated by design. The list of operations that are allowed
                 through the Web Service Manager is very limited. Each operation requires a session
                 token which implicitly identifies a particular user - you can't just request a web

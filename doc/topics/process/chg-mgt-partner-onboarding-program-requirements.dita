@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq-partner-prog-req">
+    <title><ph conkeyref="gen/shop-with-points"/> program requirements</title>
+    <body>
+        <p>To join the <ph conkeyref="gen/shop-with-points"/> program, the <ph
+                conkeyref="gen/merchant"/> must meet the following requirements:</p>
+        <ul>
+            <li><p>Accept the <ph conkeyref="gen/shop-with-points"/> Card.</p></li>
+            <li><p>Have an existing e-Commerce web site.</p></li>
+            <li><p>Provide a nightly catalog feed file.</p></li>
+            <li><p>Pay commission on orders coming from the <ph conkeyref="gen/shop-with-points"/>
+                site.</p></li>
+        </ul>
+    </body>
+</topic>

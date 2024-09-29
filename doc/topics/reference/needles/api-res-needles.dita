@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-needles">
-    <title>REST Resource: needles</title>
+    <title>REST resource: needles</title>
     <body>
         <p>The needles resource matches the specified words in a block of text. Send up to
             five different words (needles) and a single text block (haystack). Find the needles in

@@ -5,7 +5,7 @@
 
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>  
     
-    <topicref navtitle="Ray Jose's Resume" href="resume/rjose-resume.pdf" format="pdf" deliveryTarget="pdf" scope="local"/>
+    <topicref navtitle="Resume" href="resume/rjose-resume.pdf" format="pdf" deliveryTarget="pdf" scope="local"/>
     
     <topicref href="topics/aboutTheSamples.dita"/>
 

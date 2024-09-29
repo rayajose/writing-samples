@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="chg-mgt-partner-onboarding-process-confirm-reqs">
-    <title>Confirm Partner Requirements</title>
+    <title>Confirm partner requirements</title>
     <body>
         <section>
-            <title>Business Requirements</title>
+            <title>Business requirements</title>
             <p>Gather information about the prospective <ph conkeyref="gen/merchant"/>. The <ph
                     conkeyref="gen/merchant"/> must meet business requirements to join the program
                 and have policies in place for supporting sale of their products on the site.</p>
             <ol>
                 <li>
                     <p>Verify the <ph conkeyref="gen/merchant"/> meets minimum program requirements
-                        to join the program.</p>
+                        to join the program. <ph conkeyref="gen/ref-leadin"/>
+                        <xref href="chg-mgt-partner-onboarding-program-requirements.dita"/>. </p>
                 </li>
                 <li>
                     <p>Gather <ph conkeyref="gen/merchant"/> contact information along with their
@@ -20,7 +21,7 @@
             </ol>
         </section>
         <section>
-            <title>System Requirements</title>
+            <title>System requirements</title>
             <p>The <ph conkeyref="gen/merchant"/>'s system must support B2B backend integration with
                 our system.</p>
             <ul>

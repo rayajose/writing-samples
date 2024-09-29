@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="obtain-cc-data">
-    <title>Obtain Credit Card Account Data </title>
+    <title>Obtain credit card account data </title>
     <body>
         <p>Natural risk factor for any organization carrying PCI data. Serious reputational risk
             for Client, and existential risk for The Company. </p>
         <section>
-            <title><ph conref="../reuse/reuse-content.dita#reuse-content/attack-vectors"/></title>
+            <title><ph conkeyref="gen/attack-vectors"/></title>
             <p><i>In order of risk: </i></p>
             <ol>
                 <li>Breach of network through employee workstations (malware, phishing). </li>
@@ -18,7 +18,7 @@
             </ol>
         </section>     
         <section>
-            <title><ph conref="../reuse/reuse-content.dita#reuse-content/counter-measures"/></title>
+            <title><ph conkeyref="gen/counter-measures"/></title>
             <p>Overall, risk of card data loss is significantly reduced as card data is destroyed after
                 two weeks - only the last four digits remain. </p>
             <ol>

@@ -4,7 +4,7 @@
     <title>Validation</title>
     <body>
         <section>
-            <title>Validate Internal Tools and Shopping Site</title>
+            <title>Validate internal tools and shopping site</title>
             <p>The <ph conkeyref="gen/merchant"/> product data has been successfully loaded into the
                 system.</p>
             <ul>
@@ -16,13 +16,13 @@
         </section>
 
         <section>
-            <title>Setup Store Branding and Landing Page</title>
+            <title>Setup store branding and landing page</title>
             <p>Once the <ph conkeyref="gen/merchant"/> information and product data displays and
                 function as expected on the site, set up the store branding and landing pages.</p>
         </section>
 
         <section>
-            <title>Place a Test Order</title>
+            <title>Place a test order</title>
             <p>Confirm a successful system integration by placing a test order.</p>
         </section>
 

@@ -82,7 +82,7 @@
                     <colspec colname="c2" colnum="2" colwidth="5.25*"/>
                     <tbody>
                         <row>
-                            <entry valign="top"><b>Parameter(s)</b></entry>
+                            <entry valign="top"><b>Parameters</b></entry>
                             <entry valign="top">haystack <p><i>required</i></p></entry>
                         </row>
                         <row>

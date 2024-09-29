@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="fraudelent-transactions">
-    <title>Ability to Make Fraudulent Transactions </title>
+    <title>Ability to make fraudulent transactions </title>
     <body>
         <p>Not as valuable as card account data, but names, contact information and addresses
             would still be a target for attackers. </p>
         <section>
-            <title><ph conref="../reuse/reuse-content.dita#reuse-content/attack-vectors"/></title>
+            <title><ph conkeyref="gen/attack-vectors"/></title>
             <p><i>In order of risk: </i></p>
             <ol>
                 <li>Breach of network through employee workstations (malware, phishing) </li>
@@ -18,7 +18,7 @@
             </ol>
         </section>      
         <section>
-            <title><ph conref="../reuse/reuse-content.dita#reuse-content/counter-measures"/></title>
+            <title><ph conkeyref="gen/counter-measures"/></title>
             
                 <ol>
                     <li>EndPoint security programs, network separation, education, least privilege

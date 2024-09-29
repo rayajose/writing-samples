@@ -5,11 +5,11 @@
     <body>
         <simpletable frame="all" relcolwidth="1.15* 1.0*">
             <strow>
-                <stentry><ph id="shop-with-points">Shop with Points</ph></stentry>
+                <stentry><ph id="shop-with-points">Shop with Points®</ph></stentry>
                 <stentry>program name general</stentry>
             </strow>
             <strow>
-                <stentry><ph id="shop-with-points-site"><i>Shop with Points site</i></ph></stentry>
+                <stentry><ph id="shop-with-points-site">Shop with Points site®</ph></stentry>
                 <stentry>program shopping site name</stentry>
             </strow>
             <strow>
@@ -78,11 +78,11 @@
                 <stentry/>
             </strow>
             <strow>
-                <stentry><ph id="attack-vectors">Attack Vectors</ph></stentry>
+                <stentry><ph id="attack-vectors">Attack vectors</ph></stentry>
                 <stentry/>
             </strow>
             <strow>
-                <stentry><ph id="counter-measures">Counter Measures</ph></stentry>
+                <stentry><ph id="counter-measures">Counter measures</ph></stentry>
                 <stentry/>
             </strow>
             <strow>
@@ -129,7 +129,7 @@
                 <stentry/>
             </strow>
             <strow>
-                <stentry><ph id="pol-cont">Control and Implementation</ph></stentry>
+                <stentry><ph id="pol-cont">Control and implementation</ph></stentry>
                 <stentry/>
             </strow>
             <strow>
@@ -150,27 +150,27 @@
                 <stentry>reference lead in</stentry>
             </strow>
             <strow>
-                <stentry><ph id="ex-req-api">Example Request(s)</ph></stentry>
-                <stentry>resource: example request heading</stentry>
+                <stentry><ph id="ex-req-api">Example requests</ph></stentry>
+                <stentry>heading: resource: example request</stentry>
             </strow>
             <strow>
-                <stentry><ph id="ex-res-api">Example Response(s)</ph></stentry>
-                <stentry>resource: example response heading</stentry>
+                <stentry><ph id="ex-res-api">Example responses</ph></stentry>
+                <stentry>heading: resource: example response</stentry>
             </strow>
             <strow>
-                <stentry><ph id="req-params">Required Parameter(s)</ph></stentry>
-                <stentry>resource: required parameters</stentry>
+                <stentry><ph id="req-params">Required parameters</ph></stentry>
+                <stentry>heading: resource: required parameters</stentry>
             </strow>
             <strow>
-                <stentry><ph id="ex-res-api-leadin">Example response(s) for the</ph></stentry>
+                <stentry><ph id="ex-res-api-leadin">Example responses for the</ph></stentry>
                 <stentry>api general response lead in</stentry>
             </strow>
             <strow>
-                <stentry><ph id="api-params-leadin">Required parameter(s) for the</ph></stentry>
+                <stentry><ph id="api-params-leadin">Required parameters for the</ph></stentry>
                 <stentry>api parameters lead in</stentry>
             </strow>
             <strow>
-                <stentry><ph id="ex-req-api-leadin">Example(s) for the</ph></stentry>
+                <stentry><ph id="ex-req-api-leadin">Examples for the</ph></stentry>
                 <stentry>api example request lead in</stentry>
             </strow>
             <strow>

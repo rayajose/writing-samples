@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="merchant-onboarding">
-    <title>Merchant Partner Integration</title>
+    <title>Merchant partner integration</title>
     <taskbody>      
         <prereq>
             <note>Merchant partners must have their product data and shopping site reviewed to
@@ -11,8 +11,8 @@
            </context>
         <steps>
             <step>
-                <cmd><u><ph conkeyref = "gen/engagement-manager"/></u>: Identify and establish communication with the new partner or
-                    affiliate network point(s) of contact.</cmd>
+                <cmd><u><ph conkeyref="gen/engagement-manager"/></u>: Identify and establish
+                    communication with the new partner or affiliate network points of contact.</cmd>
                 <info>
                     <p>New partners can be identified by the Company, Client or requested through an
                         affiliate marketing network.</p>

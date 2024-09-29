@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="sdk-xmen-interface-xmenRepository">
-    <title>XmenRepository Interface</title>
+    <title>XmenRepository interface</title>
     <body>
         <p>The <codeph>XmenRepository</codeph> interface provides a way to interact with the
             database. As it extends the <codeph>JpaRepository</codeph>, it offers a set of built-in

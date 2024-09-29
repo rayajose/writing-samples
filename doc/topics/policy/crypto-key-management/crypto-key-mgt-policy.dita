@@ -4,16 +4,16 @@
     <title>Policy</title>
     <body>
         <section>
-            <title>Policy Statement</title>
+            <title>Policy statement</title>
             <!--<p>A high-level overview of the organization’s commitment to security.</p>-->
         </section>
         <section>
-            <title>Roles and Responsibilities</title>
+            <title>Roles and responsibilities</title>
             <!--<p>Details on who is responsible for different aspects of security 
                 (e.g., system administrators, security officers).</p>-->
         </section>
         <section>
-            <title>Security Objectives</title>
+            <title>Security objectives</title>
             <!--<p>Describes the goals of the organization’s 
                 information security measures.</p>-->
         </section>

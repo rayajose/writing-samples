@@ -3,8 +3,8 @@
 <topic id="faq-partner-test-acct">
     <title>Is there a test account we can use?</title>
     <body>
-        <p>There is no such thing as a test account for <ph
-                conref="../reuse/reuse-content.dita#reuse-content/shop-with-points"/>. You must log
-            on using a actual Client card account that is also eligible for rewards points.</p>
+        <p>There is no such thing as a test account for <ph conkeyref="gen/shop-with-points"/>. You
+            must log on using a actual Client card account that is also eligible for rewards
+            points.</p>
     </body>
 </topic>
