@@ -101,6 +101,15 @@
                             /></entry>
                         <entry align="left" valign="top">internal employees: semi-technical</entry>
                     </row>
+                    <row valign="top">
+                        <entry align="left" valign="top"><xref href="spec/spec-product-data.dita"
+                        /></entry>
+                        <entry align="left" valign="top">This specification contains  the
+                            requirements for submitting catalog feed data to the <ph
+                                conkeyref="gen/shop-with-points"/> system for display and checkout
+                            on the shopping site.</entry>
+                        <entry align="left" valign="top">internal/external: technical</entry>
+                    </row>
                 </tbody>
             </tgroup>
         </table>
