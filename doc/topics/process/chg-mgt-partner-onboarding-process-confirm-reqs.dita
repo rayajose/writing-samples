@@ -27,7 +27,9 @@
             <ul>
                 <li>
                     <p>Analyze the <ph conkeyref="gen/merchant"/>'s product data to confirm required
-                        specifications.</p>
+                        specifications. This task involves a feed review cycle with the partner. <ph
+                            conkeyref="gen/ref-leadin"/>
+                        <xref href="../spec/spec-product-data-field-description.dita"/>.</p>
                 </li>
                 <li>
                     <p>Analyze the <ph conkeyref="gen/merchant"/>'s order placement system to

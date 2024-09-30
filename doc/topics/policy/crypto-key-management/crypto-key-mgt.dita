@@ -2,7 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="wpr-encryption">
     <title>Cryptographic key management</title>
-    <shortdesc>Information Security Policy</shortdesc>
+    <shortdesc>Information security policy</shortdesc>
     <body>
 
         <p>Cryptographic Key management refers to the comprehensive processes and infrastructure required to

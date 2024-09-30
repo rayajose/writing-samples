@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title>Policy Doc</title>
+    <title>Specifications</title>
 
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
     <mapref href="glossary.ditamap" processing-role="resource-only"/>
 
     <topicref href="topics/spec/spec-product-data.dita" chunk="to-content">
-        <topicref href="topics/spec/data-product-basic.dita"/>
+        <topicref href="topics/spec/spec-product-data-field-description.dita"/>
+        <topicref href="topics/spec/spec-product-data-delivery.dita"/>
+        <!--<topicref href="topics/spec/data-product-basic.dita"/>
         <topicref href="topics/spec/data-price-availability.dita"/>
-        <topicref href="topics/spec/data-product-identifiers.dita"/>
+        <topicref href="topics/spec/data-product-identifiers.dita"/>-->
     </topicref>
 
 

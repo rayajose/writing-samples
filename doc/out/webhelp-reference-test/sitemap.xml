@@ -2,18 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>topics/spec/spec-product-data.html</loc>
-      <lastmod>2024-09-29T07:26:30Z</lastmod>
+      <lastmod>2024-09-30T03:06:19Z</lastmod>
    </url>
    <url>
       <loc>topics/spec/spec-product-data.html#data-product-basic</loc>
-      <lastmod>2024-09-29T07:26:30Z</lastmod>
+      <lastmod>2024-09-30T03:06:19Z</lastmod>
    </url>
    <url>
-      <loc>topics/spec/spec-product-data.html#data-price-availability</loc>
-      <lastmod>2024-09-29T07:26:30Z</lastmod>
-   </url>
-   <url>
-      <loc>topics/spec/spec-product-data.html#data-product-identifiers</loc>
-      <lastmod>2024-09-29T07:26:30Z</lastmod>
+      <loc>topics/spec/spec-product-data.html#spec-product-data-delivery</loc>
+      <lastmod>2024-09-30T03:06:19Z</lastmod>
    </url>
 </urlset>

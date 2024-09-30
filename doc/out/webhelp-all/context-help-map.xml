@@ -123,8 +123,8 @@
                path="topics/reference/sdk/sdk-xmen.html#sdk-xmen-classes-herosApplication"/>
    <appContext helpID="sdk-xmen-classes-xmen"
                path="topics/reference/sdk/sdk-xmen.html#sdk-xmen-classes-xmen"/>
-   <appContext helpID="unique_2112793417"
-               path="topics/reference/sdk/sdk-xmen.html#unique_2112793417"/>
+   <appContext helpID="unique_2050564481"
+               path="topics/reference/sdk/sdk-xmen.html#unique_2050564481"/>
    <appContext helpID="sdk-xmen-classes-xmen-methodSummary"
                path="topics/reference/sdk/sdk-xmen.html#sdk-xmen-classes-xmen-methodSummary"/>
    <appContext helpID="sdk-xmen-classes-xmen-methodDetails"
@@ -174,8 +174,13 @@
                path="topics/process/chg-mgt-partner-onboarding-intro.html#chg-mgt-partner-onboarding-process-confirm-reqs"/>
    <appContext helpID="chg-mgt-partner-onboarding-proc-sys-init"
                path="topics/process/chg-mgt-partner-onboarding-intro.html#chg-mgt-partner-onboarding-proc-sys-init"/>
-   <appContext helpID="unique_2026908782"
-               path="topics/process/chg-mgt-partner-onboarding-intro.html#unique_2026908782"/>
+   <appContext helpID="unique_1260046613"
+               path="topics/process/chg-mgt-partner-onboarding-intro.html#unique_1260046613"/>
    <appContext helpID="faq-partner-prog-req"
                path="topics/process/chg-mgt-partner-onboarding-intro.html#faq-partner-prog-req"/>
+   <appContext helpID="spec-product-data" path="topics/spec/spec-product-data.html"/>
+   <appContext helpID="data-product-basic"
+               path="topics/spec/spec-product-data.html#data-product-basic"/>
+   <appContext helpID="spec-product-data-delivery"
+               path="topics/spec/spec-product-data.html#spec-product-data-delivery"/>
 </map>

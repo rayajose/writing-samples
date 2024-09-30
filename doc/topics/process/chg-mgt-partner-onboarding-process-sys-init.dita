@@ -12,7 +12,9 @@
         </p>
         <section>
             <title>Import product data</title>
-            <p>Product data review cycle is complete and file delivery method is in place.</p>
+            <p>Product data review cycle is complete and file delivery method is in place. <ph
+                    conkeyref="gen/ref-leadin"/>
+<xref href="../spec/spec-product-data-delivery.dita"/>.</p>
             <ul>
                 <li>
                     <p>Import <ph conkeyref="gen/merchant"/> product data.</p>

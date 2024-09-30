@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="data-product-basic">
+    <title>Product catalog data requirements</title>
+    <body>
+        <p>Product attribute (field) names in the data feed do not have to match the <b>Field</b>
+            column in Table 1. However, follow general requirements for the product attribute
+            names:</p>
+        <ul>
+            <li>
+                <p>Must be descriptive</p>
+            </li>
+            <li>
+                <p>Must be unique</p>
+            </li>
+            <li>
+                <p>Must not contain spaces or special characters</p>
+            </li>
+        </ul>
+        <table colsep="1" rowsep="1" frame="all">
+            <title>Field Description Table</title>
+            <tgroup cols="3" align="left">
+                <colspec colname="c1" colnum="1" colwidth="5cm" align="left"/>
+                <colspec colname="c3" colnum="2" colwidth="10cm" align="left"/>
+                <colspec colname="c4" colnum="3" colwidth="10cm" align="left"/>
+                <thead>
+                    <row>
+                        <entry>Field</entry>
+                        <entry>Format</entry>
+                        <entry>Additional rules and information</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><p>ID</p></entry>
+                        <entry>
+                            <p>The product unique product identifier</p>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Max 50 characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>GC001</codeph></p>
+                        </entry>
+                        <entry><p>
+                                <ul>
+                                    <li> Use the store SKU if possible </li>
+                                    <li> The ID should persist </li>
+                                    <li> Should not be used later for a different product </li>
+                                </ul>
+                            </p></entry>
+                    </row>
+                    <row>
+                        <entry><p>name</p></entry>
+                        <entry>
+                            <p>The product name</p>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Max 50 characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>Good Clean Skin Care Lotion</codeph></p>
+                        </entry>
+                        <entry><p>
+                                <ul>
+                                    <li>Include option values such as color or size when variants
+                                        are intended to display on separate product pages</li>
+                                    <li>Do not include option values such as color or size when
+                                        variants are intended to roll up on a single product
+                                        page</li>
+                                    <li>Do not format with HTML </li>
+                                </ul>
+                            </p></entry>
+                    </row>
+                    <row>
+                        <entry><p>description</p></entry>
+                        <entry>
+                            <p>The product description</p>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Plain Text. Max 5000 characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeblock>Certified organic &amp; water-based 
+lotion is pH-balanced
+while helping you enhance your 
+skin's health. Made with aloe
+vera and infused with lemon 
+and vanilla. 1.5FL OZ</codeblock></p>
+                        </entry>
+                        <entry><ul>
+                                <li>Promotional text like "free shipping" should not be
+                                    included</li>
+                                <li>Include option values such as color or size when variants are
+                                    intended to display on separate product pages</li>
+                                <li>Do not include option values such as color or size when variants
+                                    are intended to roll up on a single product page</li>
+                                <li>Do not format with HTML </li>
+                            </ul></entry>
+                    </row>
+                    <!--<row>
+                        <entry><p>formatted description</p></entry>
+                        <entry>
+                            <p>The formatted product description</p>
+                            <p outputclass="optional">Optional</p>
+                            <p><b>Format</b></p>
+                            <p>Plain Text. Max 5000 characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeblock>&lt;p&gt;Certified organic &amp; water-based 
+lotion is pH-balanced 
+while helping you enhance your 
+skin's health. Made
+with aloe vera and infused with 
+lemon and vanilla.&lt;/p&gt;
+&lt;p&gt;1.5FL OZ&lt;/p&gt;</codeblock></p>
+                        </entry>
+                        <entry><p/><p>This is the preferred format if it can be provided in the
+                                feed. It will help our product pages mirror partner product pages
+                                more closely</p></entry>
+                    </row>-->
+                    <row>
+                        <entry><p>URL</p></entry>
+                        <entry>
+                            <p>The URL to the website product page</p>
+                            <p outputclass="required">Required</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>https://www.example.com/products/id</codeph></p>
+                        </entry>
+                        <entry>
+                            <p>
+                                <ul>
+                                    <li>Start with <codeph>https</codeph></li>
+                                    <li>This URL can be the landing page URL using store domain
+                                        name, or a tracking URL which will redirect to store landing
+                                        page URL</li>
+                                </ul>
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>image URL</p></entry>
+                        <entry>
+                            <p>The URL to the main product image</p>
+                            <p outputclass="required">Required</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>https:// www.example.com/images/image-main.jpg</codeph></p>
+                        </entry>
+                        <entry>
+                            <p>
+                                <ul>
+                                    <li>Start with <codeph>https</codeph></li>
+                                    <li>Link to the main product image</li>
+                                </ul>
+                            </p>
+                            <p><b>For the image:</b></p>
+                            <ul>
+                                <li>Accurately display the product</li>
+                                <li>Use an accepted format: JPEG (.jpg/.jpeg), WebP (.webp), PNG
+                                    (.png), non-animated GIF (.gif), BMP (.bmp), and TIFF
+                                    (.tif/.tiff)</li>
+                                <li>Don't scale up an image or submit a thumbnail</li>
+                                <li>Don't include promotional text, watermarks, or borders</li>
+                                <li>Don't submit a placeholder or a generic image</li>
+                                <li>Favor images on a white background</li>
+                                <li>Use an image of at least 300 x 300 pixels</li>
+                                <li>Don't submit an image larger than 20 megapixels</li>
+                            </ul>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>additional image URL</p></entry>
+                        <entry>
+                            <p>The URL to additional product images</p>
+                            <p outputclass="optional">Optional</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>https://
+                                    www.example.com/images/image-additional-01.jpg</codeph></p>
+                        </entry>
+                        <entry>
+                            <p>
+                                <ul>
+                                    <li>Meet requirements of image url</li>
+                                    <li>Use different image than main product image e.g. different
+                                        angle or example of the product in use</li>
+                                    <li> Recommended if available for improved card member purchase
+                                        decision </li>
+                                </ul>
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>color</p></entry>
+                        <entry>
+                            <p>The product color</p>
+                            <p outputclass="optional">Optional</p>
+                            <p><b>Format</b></p>
+                            <p>Max 100 alphanumeric characters (max 40 characters per color)</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>Turquoise</codeph></p>
+                        </entry>
+                        <entry>
+                            <p>
+                                <ul>
+                                    <li>Do not use only one letter such as R for "Red"</li>
+                                    <li>Do not reference the product or image</li>
+                                    <li>Do not use a value that is not a color, such as
+                                        "multicolor"</li>
+                                    <li>If the product features multiple colors, list the primary
+                                        color first</li>
+                                    <li>For variants: Include the same value for item group ID and
+                                        different values for color</li>
+                                </ul>
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>size</p></entry>
+                        <entry>
+                            <p>The product size</p>
+                            <p outputclass="optional">Optional</p>
+                            <p><b>Format</b></p>
+                            <p>Max 100 characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>XS</codeph></p>
+                        </entry>
+                        <entry>
+                            <p>
+                                <ul>
+                                    <li>For variants: Include this with the same value for item
+                                        group ID and different values for size</li>
+                                    <li>If sizes contain multiple dimensions, condense them into one
+                                        value. For example, "16/34 Tall" is for neck size of 16
+                                        inches, sleeve length of 34 inches, and “Tall” fit</li>
+                                </ul>
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>item group ID</p></entry>
+                        <entry>
+                            <p>The ID for a group of products that come in different versions
+                                (variants)</p>
+                            <p><ph outputclass="required">Required</ph> when variants are intended
+                                to roll up on a single product page</p>
+                            <p><ph outputclass="optional">Optional</ph> when variants are intended
+                                to display on a separate product pages.</p>
+                            <p><b>Format</b></p>
+                            <p>Max 50 alphanumeric characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>AB12345</codeph></p>
+                        </entry>
+                        <entry>
+                            <p>
+                                <ul>
+                                    <li>Use a unique value for each group of variants</li>
+                                    <li>Use the parent SKU where possible</li>
+                                    <li>Keep the value the same when updating your product data</li>
+                                    <li>Use only valid unicode characters</li>
+                                    <li>Use an item group ID for a set of products that differ by
+                                        one or more of these attributes:<ul>
+                                            <li>Color</li>
+                                            <li>Size</li>
+                                        </ul></li>
+                                    <li>Include the same attributes for each product in the item
+                                        group. For example, if a product varies by size and color,
+                                        submit size and color for every product that share the same
+                                        value for item group ID.</li>
+                                </ul>
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>shipping weight</p></entry>
+                        <entry>
+                            <p>The weight of the product used to calculate the shipping cost</p>
+                            <p><ph outputclass="required">Required</ph> when weight-based shipping
+                                will be calculated by the <ph conkeyref="gen/shop-with-points"/>
+                                site</p>
+                            <p><b>Format</b></p>
+                            <p>Number + unit</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>12 oz</codeph></p>
+                        </entry>
+                        <entry>
+                            <p><b>Supported weights</b></p>
+                            <ul>
+                                <li>0–2000 lbs for imperial</li>
+                                <li>0–1000 kgs for metric</li>
+                            </ul>
+                            <p><b>Supported units</b></p>
+                            <ul>
+                                <li>lb</li>
+                                <li>oz</li>
+                                <li>g</li>
+                                <li>kg</li>
+                            </ul></entry>
+                    </row>
+                    <row>
+                        <entry><p>brand</p></entry>
+                        <entry>
+                            <p>The product brand name</p>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Max 70 characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>Good Clean</codeph></p>
+                        </entry>
+                        <entry>
+                            <p>
+                                <ul id="ul_mcc_swy_wcc">
+                                    <li>Provide the brand name of the product generally recognized
+                                        by consumers</li>
+                                    <li>Providing the correct brand for a product will ensure the
+                                        best user experience and result in the best performance</li>
+                                </ul>
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>GTIN</p></entry>
+                        <entry>
+                            <p>The product Global Trade Item Number (GTIN)</p>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Max 50 numeric characters</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>3234567890126</codeph></p>
+                        </entry>
+                        <entry>
+                            <p><b>Supported formats</b></p>
+                            <ul>
+                                <li>
+                                    <b>UPC (in North America / GTIN-12)</b> 12-digit number like
+                                    323456789012, 8-digit UPC-E codes should be converted to
+                                    12-digit codes </li>
+                                <li>
+                                    <b>EAN (in Europe / GTIN-13)</b> 13-digit number like
+                                    3001234567892 </li>
+                            </ul>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>MPN</p></entry>
+                        <entry>
+                            <p>The product Manufacturer Part Number (MPN)</p>
+                            <p><ph outputclass="required">Required</ph> if your product does not
+                                have a manufacturer assigned GTIN</p>
+                            <p><b>Format</b></p>
+                            <p>Plain Text. Max 5000 characters</p>
+                            <p><b>Example</b></p>
+                            <p>
+                                <codeph>ACME010000123</codeph>
+                            </p>
+                        </entry>
+                        <entry>
+                            <p>
+                                <ul>
+                                    <li>Only submit MPNs assigned by a manufacturer</li>
+                                    <li>Use the most specific MPN possible.<ul>
+                                            <li>For example, different colors of a product should
+                                                have different MPNs</li>
+                                        </ul></li>
+                                    <li>Providing the correct MPN for a product (when required) will
+                                        ensure the best user experience and result in the best
+                                        performance</li>
+                                    <li>Only provide an MPN if verified correct</li>
+                                    <li>Products with incorrect MPNs will be flagged by the <ph
+                                            conkeyref="gen/shop-with-points"/> system and will not
+                                        appear on the site </li>
+                                </ul>
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>availability</p></entry>
+                        <entry>
+                            <p>The product availability</p>
+                            <p outputclass="required">Required</p>
+                            <p><b>Example</b></p>
+                            <p>
+                                <codeph>in stock</codeph>
+                            </p>
+                        </entry>
+                        <entry>
+                            <p><b>Typical values</b></p>
+                            <ul>
+                                <li>"in stock" or "out of stock"</li>
+                                <li>"yes" or "no"</li>
+                                <li>"available" or "not available"</li>
+                                <li>"0" or "1"</li>
+                                <li>"pre-order"</li>
+                                <li>"backorder"</li>
+                            </ul></entry>
+                    </row>
+                    <row>
+                        <entry><p>availability date</p></entry>
+                        <entry>
+                            <p>The product availability date (when the product can ship)</p>
+                            <p><ph outputclass="required">Required</ph> when products availability
+                                is pre-order</p>
+                            <p><b>Format</b></p>
+                            <p>Max 25 alphanumeric characters</p>
+                            <p><b>Example</b></p>
+                            <p>
+                                <codeph>YYYY-MM-DDThh:mm [+hhmm]</codeph>
+                            </p>
+                        </entry>
+                        <entry>
+                            <p>
+                                <ul>
+                                    <li>Provide a value up to one year in the future</li>
+                                    <li>The availability date should also be added to the product
+                                        description and be clear to card members (for example, “May
+                                        6, 2023”)</li>
+                                    <li>If an exact date can’t be provided, use an estimated date
+                                        (for example, “May 2023”).</li>
+                                </ul>
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>price</p></entry>
+                        <entry>
+                            <p>The product price</p>
+                            <p outputclass="required">Required</p>
+                            <p><b>Format</b></p>
+                            <p>Numeric</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>27.00</codeph></p>
+                        </entry>
+                        <entry>
+                            <p>
+                                <ul>
+                                    <li>Accurately submit the price and currency, and match with the
+                                        price from product page</li>
+                                    <li>Ensure the product can be purchased online for the submitted
+                                        price</li>
+                                </ul>
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>sale price</p></entry>
+                        <entry>
+                            <p>The product sale price</p>
+                            <p><ph outputclass="required">Required </ph> when the product goes on
+                                sale</p>
+                            <p><b>Format</b></p>
+                            <p>Numeric</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>19.00</codeph></p>
+                        </entry>
+                        <entry>
+                            <p>
+                                <ul>
+                                    <li>Meet the requirements for the price attribute</li>
+                                    <li>Submit this attribute (sale price) in addition to the price
+                                        attribute set to the non-sale price</li>
+                                    <li>Accurately submit the product sale price, and match the sale
+                                        price with product page</li>
+                                </ul>
+                            </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><p>minimum price</p></entry>
+                        <entry>
+                            <p>The lowest to which a product's price can be reduced.</p>
+                            <p><ph outputclass="required">Required </ph> when limiting sale price
+                                suggestions to a minimum price e.g. to comply with local pricing
+                                laws or to indicate a MAP (minimum advertised price)</p>
+                            <p><b>Example</b></p>
+                            <p><codeph>19.00</codeph></p>
+                        </entry>
+                        <entry>
+                            <p>
+                                <ul>
+                                    <li>Meet the requirements for the price attribute</li>
+                                </ul>
+                            </p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>
+<!-- 
+<row>
+<entry>foo</entry>
+<entry>
+<p outputclass="required">Required</p>
+<p outputclass="optional">Optional</p>
+<p><b>Format</b></p>
+<p>foo</p>
+<p><b>Example</b></p>
+<p><codeph>foo</codeph></p>
+</entry>
+<entry><p>foo</p></entry>
+</row>
+
+-->

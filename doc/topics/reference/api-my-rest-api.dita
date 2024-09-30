@@ -2,7 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="my-rest-api">
     <title>My REST API</title>
-    <shortdesc>Reference Documentation</shortdesc>
+    <shortdesc>Reference documentation</shortdesc>
     <body>
         <section>
             <title>Context</title>

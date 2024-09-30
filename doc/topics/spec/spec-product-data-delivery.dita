@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="spec-product-data-delivery">
+    <title>Product catalog data feed file delivery options</title>
+    <body>
+        <section>
+            <title>HTTP / HTTPS / API / Web service</title>
+            <ul>
+                <li><p>Feed file is hosted on merchant servers, and <ph
+                            conkeyref="gen/shop-with-points"/> will fetch them on a pre-determined
+                        schedule (daily is most common).</p></li>
+                <li><p>You must provide a URL where <ph conkeyref="gen/shop-with-points"/> can find
+                        the complete product data feed:</p>
+                    <ul>
+                        <li>
+                            <p><codeph>https://www.merchant.com/feeds/feed.xml</codeph></p>
+                        </li>
+                        <li>
+                            <p><codeph>https://www.merchant.com/feeds/feed.txt</codeph></p>
+                        </li>
+                    </ul></li>
+                <li><p>If the URL is password protected, provide username and password for
+                        access.</p></li>
+                <li><p>If access restrictions apply:</p><ul>
+                        <li>
+                            <p><ph conkeyref="gen/shop-with-points"/> public IP addresses must be
+                                whitelisted (provided upon request)</p>
+                        </li>
+                        <li>
+                            <p>Provide <ph conkeyref="gen/shop-with-points"/> API key or other
+                                required secret</p>
+                        </li>
+                    </ul></li>
+                <li><p>Feed file name should not change. A change in file name will break
+                        integration. If a feed file name change is planned, notify <ph
+                            conkeyref="gen/shop-with-points"/> ahead of time so the appropriate
+                        system updates can be made.</p></li>
+            </ul>
+        </section>
+        <section>
+            <title>Retrieve from FTP</title>
+            <ul>
+                <li><p>Feed file hosted on merchant FTP server, and <ph
+                            conkeyref="gen/shop-with-points"/> will fetch on a pre-determined
+                        schedule (daily is most common).</p></li>
+                <li><p>Provide to <ph conkeyref="gen/shop-with-points"/>:<ul>
+                            <li><p>The address / URL of FTP server</p></li>
+                            <li><p>The name(s) of the feed file(s)</p></li>
+                            <li><p>Login (username and password)</p></li>
+                        </ul></p></li>
+            </ul>
+        </section>
+        <section>
+            <title>Upload to <ph conkeyref="gen/shop-with-points"/> FTP</title>
+            <ul>
+                <li><p>Feed file hosted on <ph conkeyref="gen/shop-with-points"/> FTP
+                    server.</p></li>
+                <li><p>The <ph conkeyref="gen/shop-with-points"/> team will communicate merchant
+                        login details once the merchant FTP server account has been
+                    created.</p></li>
+            </ul>
+        </section>
+
+    </body>
+</topic>

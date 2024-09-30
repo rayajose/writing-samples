@@ -2,7 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-testing-postman">
     <title>API testing with Postman</title>
-    <shortdesc>How-To</shortdesc>
+    <shortdesc>How-to</shortdesc>
     <body>
         <p>This is a how-to document describing how I configured and tested the requests in My REST
             API using Postman.</p>

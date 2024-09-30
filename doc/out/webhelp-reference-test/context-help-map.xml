@@ -3,8 +3,6 @@
    <appContext helpID="spec-product-data" path="topics/spec/spec-product-data.html"/>
    <appContext helpID="data-product-basic"
                path="topics/spec/spec-product-data.html#data-product-basic"/>
-   <appContext helpID="data-price-availability"
-               path="topics/spec/spec-product-data.html#data-price-availability"/>
-   <appContext helpID="data-product-identifiers"
-               path="topics/spec/spec-product-data.html#data-product-identifiers"/>
+   <appContext helpID="spec-product-data-delivery"
+               path="topics/spec/spec-product-data.html#spec-product-data-delivery"/>
 </map>
