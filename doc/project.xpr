@@ -118,7 +118,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map WebHelp Responsive - myWay  - TEST</String>
+                                        <String>DITA Map WebHelp Responsive - myWay - ALL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -496,7 +496,7 @@
                                     <list>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>args.copycss</String>
+                                                <String>clean.output</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
@@ -522,29 +522,6 @@
                                                     <String></String>
                                                     <String></String>
                                                 </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>args.css</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>C:\Users\pdidd\OneDrive\Documents\OxygenXMLEditor\custom\webhelp.css</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>2</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -613,7 +590,37 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>clean.output</String>
+                                                <String>force-unique</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>true</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>false</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>true</String>
+                                                    <String>false</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.copycss</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
@@ -643,32 +650,25 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>force-unique</String>
+                                                <String>args.css</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>true</String>
+                                                <String>C:\Users\pdidd\OneDrive\Documents\OxygenXMLEditor\custom\webhelp.css</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <String>false</String>
+                                                <null/>
                                             </field>
                                             <field name="type">
-                                                <Integer>4</Integer>
+                                                <Integer>2</Integer>
                                             </field>
                                             <field name="possibleValues">
-                                                <String-array>
-                                                    <String>true</String>
-                                                    <String>false</String>
-                                                    <null/>
-                                                </String-array>
+                                                <null/>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                    <String></String>
-                                                </String-array>
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                     </list>
@@ -829,10 +829,10 @@
                                 <field name="publishingTemplateDataPO">
                                     <publishingTemplate>
                                         <field name="templateRoot">
-                                            <String>${configured.ditaot.dir}/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen-gray</String>
+                                            <String>${configured.ditaot.dir}/plugins/com.oxygenxml.webhelp.responsive/templates/light</String>
                                         </field>
                                         <field name="descriptorRelativePath">
-                                            <String>oxygen-gray-tree.opt</String>
+                                            <String>light-tiles.opt</String>
                                         </field>
                                         <field name="isCustomTemplate">
                                             <Boolean>false</Boolean>
@@ -855,7 +855,7 @@
                                     <list>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>clean.output</String>
+                                                <String>args.copycss</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
@@ -881,6 +881,29 @@
                                                     <String></String>
                                                     <String></String>
                                                 </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.css</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>C:\Users\pdidd\OneDrive\Documents\OxygenXMLEditor\custom\webhelp.css</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>2</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -949,37 +972,7 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>force-unique</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>true</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <String>false</String>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <String>true</String>
-                                                    <String>false</String>
-                                                    <null/>
-                                                </String-array>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                    <String></String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>args.copycss</String>
+                                                <String>clean.output</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
@@ -1009,25 +1002,32 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>args.css</String>
+                                                <String>force-unique</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>C:\Users\pdidd\OneDrive\Documents\OxygenXMLEditor\custom\webhelp.css</String>
+                                                <String>true</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <null/>
+                                                <String>false</String>
                                             </field>
                                             <field name="type">
-                                                <Integer>2</Integer>
+                                                <Integer>4</Integer>
                                             </field>
                                             <field name="possibleValues">
-                                                <null/>
+                                                <String-array>
+                                                    <String>true</String>
+                                                    <String>false</String>
+                                                    <null/>
+                                                </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <null/>
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                     </list>
