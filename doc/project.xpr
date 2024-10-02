@@ -431,10 +431,10 @@
                                     <String>${cfd}</String>
                                 </field>
                                 <field name="outputDir">
-                                    <String>${cfd}/out/webhelp-reference</String>
+                                    <String>${cfd}/out/webhelp-test</String>
                                 </field>
                                 <field name="tempDir">
-                                    <String>${cfd}/temp/webhelp-reference</String>
+                                    <String>${cfd}/temp/webhelp-test</String>
                                 </field>
                                 <field name="transtype">
                                     <String>webhelp-responsive</String>
