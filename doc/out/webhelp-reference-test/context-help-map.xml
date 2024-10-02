@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map>
-   <appContext helpID="spec-product-data" path="topics/spec/spec-product-data.html"/>
-   <appContext helpID="data-product-basic"
-               path="topics/spec/spec-product-data.html#data-product-basic"/>
-   <appContext helpID="spec-product-data-delivery"
-               path="topics/spec/spec-product-data.html#spec-product-data-delivery"/>
-</map>

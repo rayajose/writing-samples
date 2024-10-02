@@ -6,22 +6,22 @@
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
     <mapref href="glossary.ditamap" processing-role="resource-only"/>
 
-<topicref href="topics/api-testing-postman.dita">
-    
-    <topicref href="tasks/postman-createCollection.dita"/>
-    
-    <topicref href="tasks/postman-testingPostRequest.dita"/>
-    
-    <topicref href="tasks/postman-testingGetRequest.dita"/>
-    
-    <topicref href="tasks/postman-testingGetIdRequest.dita"/>
-       
-    <topicref href="tasks/postman-testingPutRequest.dita"/>
-    
-    <topicref href="tasks/postman-testingDeleteIdRequest.dita"/>
-    
-    
-</topicref>
+    <topicref href="topics/api-testing-postman.dita" chunk="to-content">
+
+        <topicref href="tasks/postman-createCollection.dita"/>
+
+        <topicref href="tasks/postman-testingPostRequest.dita"/>
+
+        <topicref href="tasks/postman-testingGetRequest.dita"/>
+
+        <topicref href="tasks/postman-testingGetIdRequest.dita"/>
+
+        <topicref href="tasks/postman-testingPutRequest.dita"/>
+
+        <topicref href="tasks/postman-testingDeleteIdRequest.dita"/>
+
+
+    </topicref>
 
 
 

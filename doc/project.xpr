@@ -114,6 +114,46 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>samp-all.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map WebHelp Responsive - myWay  - TEST</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>topics/aboutTheSamples.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Project to WebHelp Responsive</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>samp-spec.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -134,11 +174,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>samp-all.ditamap</String>
+                                    <String>samp-pol.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map WebHelp Responsive - myWay - ALL</String>
+                                        <String>DITA Map WebHelp Responsive - myWay - POLICY</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -154,11 +194,31 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>samp-pol.ditamap</String>
+                                    <String>samp-howto.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map WebHelp Responsive - myWay - POLICY</String>
+                                        <String>DITA Map WebHelp Responsive - myWay - HOWTO</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samp-ref.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map WebHelp Responsive - myWay - REFERENCE</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -234,71 +294,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>topics/aboutTheSamples.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Project to WebHelp Responsive</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>tasks/postman-createCollection.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Project to WebHelp Responsive</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>samp-ref.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA Map WebHelp Responsive - myWay - REFERENCE</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>samp-howto.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA Map WebHelp Responsive - myWay - HOWTO</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -431,10 +431,10 @@
                                     <String>${cfd}</String>
                                 </field>
                                 <field name="outputDir">
-                                    <String>${cfd}/out/webhelp-reference-test</String>
+                                    <String>${cfd}/out/webhelp-reference</String>
                                 </field>
                                 <field name="tempDir">
-                                    <String>${cfd}/temp/webhelp-reference-test</String>
+                                    <String>${cfd}/temp/webhelp-reference</String>
                                 </field>
                                 <field name="transtype">
                                     <String>webhelp-responsive</String>
@@ -470,10 +470,10 @@
                                 <field name="publishingTemplateDataPO">
                                     <publishingTemplate>
                                         <field name="templateRoot">
-                                            <String>${configured.ditaot.dir}/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen</String>
+                                            <String>${configured.ditaot.dir}/plugins/com.oxygenxml.webhelp.responsive/templates/light</String>
                                         </field>
                                         <field name="descriptorRelativePath">
-                                            <String>oxygen-tiles.opt</String>
+                                            <String>light-tiles.opt</String>
                                         </field>
                                         <field name="isCustomTemplate">
                                             <Boolean>false</Boolean>
@@ -496,7 +496,7 @@
                                     <list>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>clean.output</String>
+                                                <String>args.copycss</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
@@ -522,6 +522,29 @@
                                                     <String></String>
                                                     <String></String>
                                                 </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.css</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>C:\Users\pdidd\OneDrive\Documents\OxygenXMLEditor\custom\webhelp.css</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>2</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -590,37 +613,7 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>force-unique</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>true</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <String>false</String>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <String>true</String>
-                                                    <String>false</String>
-                                                    <null/>
-                                                </String-array>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                    <String></String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>args.copycss</String>
+                                                <String>clean.output</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
@@ -650,25 +643,32 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>args.css</String>
+                                                <String>force-unique</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>C:\Users\pdidd\OneDrive\Documents\OxygenXMLEditor\custom\webhelp.css</String>
+                                                <String>true</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <null/>
+                                                <String>false</String>
                                             </field>
                                             <field name="type">
-                                                <Integer>2</Integer>
+                                                <Integer>4</Integer>
                                             </field>
                                             <field name="possibleValues">
-                                                <null/>
+                                                <String-array>
+                                                    <String>true</String>
+                                                    <String>false</String>
+                                                    <null/>
+                                                </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <null/>
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                     </list>

@@ -6,7 +6,7 @@
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
     <mapref href="glossary.ditamap" processing-role="resource-only"/>
 
-    <topicref href="topics/policy/crypto-key-management/crypto-key-mgt.dita">
+    <topicref href="topics/policy/crypto-key-management/crypto-key-mgt.dita"  chunk="to-content">
         <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-strong-encryption.dita"/>
         <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-secure-distribution.dita"/>
         <topicref href="topics/policy/crypto-key-management/crypto-key-mgt-secure-storage.dita"/>
