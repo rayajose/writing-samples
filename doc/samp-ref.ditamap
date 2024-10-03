@@ -6,7 +6,7 @@
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
     <mapref href="glossary.ditamap" processing-role="resource-only"/>
 
-    <topicref href="topics/reference/api-my-rest-api.dita"  chunk="to-content">
+    <!--<topicref href="topics/reference/api-my-rest-api.dita"  chunk="to-content">
         
         <topicref href="topics/reference/api-ref-doc-authentication.dita"/>
         
@@ -18,15 +18,15 @@
             
             <topicref href="topics/reference/xmen/api-res-xmen-endpoints.dita">
                 
-                <topicref href="topics/reference/xmen/api-res-xmen-post.dita">
-                    <topicref href="topics/reference/xmen/api-res-xmen-post-parameters.dita"/>
-                    <topicref href="topics/reference/xmen/api-res-xmen-post-request.dita">
-                        <topicref href="topics/reference/xmen/api-res-xmen-post-request-curl.dita"/>
-                        <topicref href="topics/reference/xmen/api-res-xmen-post-request-nodejs.dita"/>
-                        <topicref href="topics/reference/xmen/api-res-xmen-post-request-python.dita"
-                        />
-                    </topicref>
-                    <topicref href="topics/reference/xmen/api-res-xmen-post-response.dita"/>
+                <topicref href="topics/reference/xmen/api-res-xmen-post.dita">      
+                        <topicref href="topics/reference/xmen/api-res-xmen-post-parameters.dita"/>
+                        <topicref href="topics/reference/xmen/api-res-xmen-post-request.dita">
+                            <topicref href="topics/reference/xmen/api-res-xmen-post-request-curl.dita"/>
+                            <topicref href="topics/reference/xmen/api-res-xmen-post-request-nodejs.dita"/>
+                            <topicref href="topics/reference/xmen/api-res-xmen-post-request-python.dita"
+                            />
+                        </topicref>
+                        <topicref href="topics/reference/xmen/api-res-xmen-post-response.dita"/>
                 </topicref>
                 
                 <topicref href="topics/reference/xmen/api-res-xmen-get.dita">
@@ -54,7 +54,7 @@
                 
                 <topicref href="topics/reference/xmen/api-res-xmen-put-id.dita">
                     <topicref href="topics/reference/xmen/api-res-xmen-put-id-parameters.dita"/>
-                    <topicref href="topics/reference/xmen/api-res-xmen-put-id-request.dita" chunk="to-content">
+                    <topicref href="topics/reference/xmen/api-res-xmen-put-id-request.dita">
                         <topicref href="topics/reference/xmen/api-res-xmen-put-id-request-curl.dita"/>
                         <topicref
                             href="topics/reference/xmen/api-res-xmen-put-id-request-nodejs.dita"/>
@@ -125,7 +125,7 @@
             <topicref href="topics/reference/500-http-response-status-code.dita"/>
         </topicref>
 
-    </topicref>
+    </topicref>-->
 
     <topicref href="topics/reference/sdk/sdk-xmen.dita" chunk="to-content">
         <topicref href="topics/reference/sdk/sdk-xmen-classes-herosApplication.dita"/>
