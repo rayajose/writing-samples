@@ -150,15 +150,15 @@
                 <stentry>reference lead in</stentry>
             </strow>
             <strow>
-                <stentry><ph id="ex-req-api">Example requests</ph></stentry>
+                <stentry><ph id="ex-req-api">requests</ph></stentry>
                 <stentry>heading: resource: example request</stentry>
             </strow>
             <strow>
-                <stentry><ph id="ex-res-api">Example responses</ph></stentry>
+                <stentry><ph id="ex-res-api">responses</ph></stentry>
                 <stentry>heading: resource: example response</stentry>
             </strow>
             <strow>
-                <stentry><ph id="req-params">Required parameters</ph></stentry>
+                <stentry><ph id="req-params">parameters</ph></stentry>
                 <stentry>heading: resource: required parameters</stentry>
             </strow>
             <strow>

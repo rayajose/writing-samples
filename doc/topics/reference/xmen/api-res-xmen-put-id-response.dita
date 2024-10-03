@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-put-id-response">
-    <title><ph conkeyref="gen/ex-res-api"/></title>
+    <title>PUT {id} <ph conkeyref="gen/ex-res-api"/></title>
     <shortdesc><ph conkeyref="gen/ex-res-api-leadin"/> xmen PUT/{id} request.</shortdesc>
     <body>
        

@@ -23,13 +23,13 @@
 
         <topicref href="wrapper/wpr-ref.dita">
             
-            <topicref href="topics/reference/xmen/api-res-xmen-put-id-parameters.dita"/>
-            <topicref href="topics/reference/xmen/api-res-xmen-put-id-request.dita">
-                <topicref href="topics/reference/xmen/api-res-xmen-put-id-request-curl.dita"/>
-                <topicref href="topics/reference/xmen/api-res-xmen-put-id-request-nodejs.dita"/>
-                <topicref href="topics/reference/xmen/api-res-xmen-put-id-request-python.dita"/>
+            <topicref href="topics/reference/xmen/api-res-xmen-post-parameters.dita"/>
+            <topicref href="topics/reference/xmen/api-res-xmen-post-request.dita">
+                <topicref href="topics/reference/xmen/api-res-xmen-post-request-curl.dita"/>
+                <topicref href="topics/reference/xmen/api-res-xmen-post-request-nodejs.dita"/>
+                <topicref href="topics/reference/xmen/api-res-xmen-post-request-python.dita"/>
             </topicref>
-            <topicref href="topics/reference/xmen/api-res-xmen-put-id-response.dita"/>
+            <topicref href="topics/reference/xmen/api-res-xmen-post-response.dita"/>
             
             <topicref href="topics/reference/xmen/api-res-xmen-get-parameters.dita"/>
             <topicref href="topics/reference/xmen/api-res-xmen-get-request.dita">

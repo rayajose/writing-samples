@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-get-id-parameters">
-    <title><ph conkeyref="gen/req-params"/></title>
+    <title>DELETE {id} <ph conkeyref="gen/req-params"/></title>
     <shortdesc><ph conkeyref="gen/api-params-leadin"/> xmen DELETE/{id} request.</shortdesc>
     <body>
         <section>
