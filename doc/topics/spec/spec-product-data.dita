@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="spec-product-data">
-    <title>Product catalog feed specification</title>
+    <title>Product catalog data specification</title>
     <shortdesc>Technical specification</shortdesc>
     <body>
         <p>Use this specification to develop the product catalog data feed for partnership in the
