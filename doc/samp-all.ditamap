@@ -11,7 +11,9 @@
 
     <mapref href="samp-ref.ditamap"/>
     
-    <mapref href="samp-userguide.ditamap"/>
+    <!--<mapref href="samp-userguide.ditamap"/>-->
+    
+    <mapref href="samp-howto.ditamap"/>
     
     <mapref href="samp-pol.ditamap"/>
     

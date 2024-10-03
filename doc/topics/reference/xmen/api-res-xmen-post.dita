@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-post">
-    <title><image conkeyref="gen/post"/> Create X-Men</title>
+    <title><image conkeyref="gen/post"/> create</title>
     <body>
         <p>Creates a new X-Men entity.</p>
  

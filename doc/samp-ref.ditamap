@@ -6,7 +6,7 @@
     <keydef keys="gen" href="reusables/reusable_gen.dita"/>
     <mapref href="glossary.ditamap" processing-role="resource-only"/>
 
-    <!--<topicref href="topics/reference/api-my-rest-api.dita"  chunk="to-content">
+    <topicref id="restapi" href="topics/reference/api-my-rest-api.dita"  chunk="to-content">
         
         <topicref href="topics/reference/api-ref-doc-authentication.dita"/>
         
@@ -125,7 +125,7 @@
             <topicref href="topics/reference/500-http-response-status-code.dita"/>
         </topicref>
 
-    </topicref>-->
+    </topicref>
 
     <topicref href="topics/reference/sdk/sdk-xmen.dita" chunk="to-content">
         <topicref href="topics/reference/sdk/sdk-xmen-classes-herosApplication.dita"/>

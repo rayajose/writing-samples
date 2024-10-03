@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="api-res-xmen-get">
-    <title><image conkeyref="gen/get"/> / Retrieve all X-Men</title>
+    <title><image conkeyref="gen/get"/> all</title>
     <body>
         <p>Retrieves a list of all X-Men entities.</p>
  
