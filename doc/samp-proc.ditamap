@@ -11,7 +11,11 @@
         <topicref href="topics/process/chg-mgt-partner-onboarding-process-sys-init.dita"/>
         <topicref href="topics/process/chg-mgt-partner-onboarding-process-validation.dita"/>
         <topicref href="topics/process/chg-mgt-partner-onboarding-program-requirements.dita"/>
+        <topichead navtitle="Reference">
+            <topicref href="topics/spec/spec-product-data-field-description.dita"/>
+            <topicref href="topics/spec/spec-product-data-delivery.dita"/>
+        </topichead>
     </topicref>
 
-    
+
 </map>
